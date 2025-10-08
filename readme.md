@@ -5,301 +5,23 @@ Credits to Noor-Al-Shawa, Dr Jac Fredo A.R. from IIT BHU school of biomedical en
 
 ## Overview
 
-This repository contains code and notebooks for EEG seizure detection using various deep learning models. The project focuses on analyzing EEG spectrograms (MEL, CWT, STFT) to classify seizure events. It includes hyperparameter optimization using Optuna, model training notebooks for different architectures (LSTM, Transformers, Vision Transformers, Swin Transformers, Transformer-CNN hybrids), and visualization tools for interpretability (e.g., saliency maps, Grad-CAM).
+This repository contains code and notebooks for EEG seizure detection using various deep learning models. The project focuses on analyzing EEG spectrograms (MEL, CWT, STFT) to classify seizure events. It includes hyperparameter optimization using Optuna, model training notebooks for different architectures (LSTM, Transformers, Vision Transformers, Swin Transformers, Transformer-CNN hybrids, EEGNet), and visualization tools for interpretability (e.g., saliency maps, Grad-CAM).
 
 The repository is structured to support both 2-class and 3-class classification tasks, with cross-validation across multiple folds. Models are trained on preprocessed EEG data stored in numpy arrays and pickle files.
-
-## Repository Structure
-
-```
-eeg_seizure/
-├── readme.md                           # This README file
-├── optuna_hyperparameter_tuning/       # Hyperparameter optimization notebooks using Optuna
-│   ├── lstm/                           # LSTM models with attention
-│   │   ├── CWT LSTMAT CONCATENATED SPECTROGRAMS OPTUNA.ipynb
-│   │   ├── STFT LSTMAT CONCATENATED SPECTROGRAMS OPTUNA copy.ipynb
-│   │   ├── cwtlogs.txt                 # Logs for CWT LSTM optimization
-│   │   └── stftlogslstmat.txt          # Logs for STFT LSTM optimization
-│   ├── Swin Transformer/               # Swin Transformer models
-│   │   ├── opt1fold_swinCWT.ipynb      # 1-fold optimization for CWT
-│   │   ├── opt1fold_swinSTFT.ipynb     # 1-fold optimization for STFT
-│   │   ├── opt5fold_swin.ipynb         # 5-fold optimization
-│   │   ├── optunalogCWT.txt            # CWT logs
-│   │   ├── optunalogMEL.txt            # MEL logs
-│   │   └── optunalogSTFT.txt           # STFT logs
-│   ├── Transformer/                    # Standard Transformer models
-│   │   ├── optunaconcatenated.ipynb    # Concatenated spectrograms
-│   │   ├── templog                     # Temporary log file
-│   │   ├── transformer STFT logs.txt   # STFT logs
-│   │   ├── Transformer3class copy.ipynb
-│   │   ├── Transformer3class.ipynb     # 3-class classification
-│   │   ├── transformercwtlogs.txt      # CWT logs
-│   │   ├── transformermellogs.txt      # MEL logs
-│   │   ├── TRANSFORMERopt5foldssCWT.ipynb  # 5-fold CWT
-│   │   ├── TRANSFORMERopt5foldssMEL.ipynb  # 5-fold MEL
-│   │   └── TRANSFORMERopt5foldssSTFT.ipynb  # 5-fold STFT
-│   ├── Transformer-CNN/                # Transformer-CNN hybrid models
-│   │   ├── cwtlog1                     # CWT log
-│   │   ├── meloptunalog                # MEL log
-│   │   ├── opt10folds.ipynb            # 10-fold optimization
-│   │   ├── opt5foldssINDIVID.ipynb     # Individual fold optimization
-│   │   ├── optunacustommodel copy.ipynb
-│   │   ├── optunaincpetionv3.ipynb     # InceptionV3 based
-│   │   ├── stft optuna log.txt         # STFT log
-│   │   ├── TRANS-CNN_opt5foldss copy.ipynb
-│   │   ├── TRANS-CNN_opt5foldss.ipynb # 5-fold TRANS-CNN
-│   │   ├── TRANS-CNN_opt5foldsSTFT.ipynb # STFT variant
-│   │   ├── 10FOLDS/                    # 10-fold results
-│   │   │   ├── 2class.ipynb            # 2-class
-│   │   │   └── 3class.ipynb            # 3-class
-│   │   ├── custom/                     # Custom models
-│   │   │   ├── 2class.ipynb
-│   │   │   ├── 3class copy 2.ipynb
-│   │   │   ├── 3class copy.ipynb
-│   │   │   ├── 3class experiment.ipynb
-│   │   │   ├── 3class.ipynb
-│   │   │   ├── mel3class.ipynb         # MEL 3-class
-│   │   │   ├── normalized2class.ipynb  # Normalized data
-│   │   │   └── normalized3class.ipynb
-│   │   ├── inceptionv3/                # InceptionV3 models
-│   │   │   ├── 2class.ipynb
-│   │   │   └── 3class.ipynb
-│   └── ViT/                            # Vision Transformer models
-│       ├── MELViT3classtop5.ipynb      # MEL top 5 params
-│       ├── optunaconcatenated.ipynb    # Concatenated
-│       ├── params.csv                  # Parameter file
-│       ├── ViT3class.ipynb             # 3-class ViT
-│       ├── vitcwtlogs                  # CWT logs
-│       ├── vitmellogs                  # MEL logs
-│       ├── ViTopt5foldssCWT.ipynb      # 5-fold CWT
-│       ├── ViTopt5foldssMEL copy.ipynb # MEL copy
-│       ├── ViTopt5foldssSTFT.ipynb     # 5-fold STFT
-│       └── vitstftlogs.txt             # STFT logs
-├── training_notebooks/                 # Training notebooks with top hyperparameters
-│   ├── 2 class/                        # 2-class classification
-│   │   ├── LSTMAT CWT top5 CONCATENATED 2 CLASS.ipynb
-│   │   ├── LSTMAT MEL top5 CONCATENATED 2 CLASS.ipynb
-│   ├── LSTMAT STFT top5 CONCATENATED 2 CLASS.ipynb
-│   │   ├── TRANS-CNN 2 cls mel top5.ipynb
-│   │   ├── TRANS-CNN 2 cls STFT top5.ipynb
-│   │   ├── TRANS-CNN 2cls cwt top5.ipynb
-│   │   ├── Transformer CWT 2class top5.ipynb
-│   │   ├── Transformer MEL 2class top5 copy.ipynb
-│   │   ├── Transformer STFT 2class top5 copy 2.ipynb
-│   │   ├── ViT CWT 2class.ipynb
-│   │   ├── ViT MEL 2class copy.ipynb
-│   │   └── ViT STFT 2class.ipynb
-│   └── 3 class/                        # 3-class classification
-│       ├── LSTMAT cwt 3CLASS.ipynb
-│       ├── LSTMAT mel 3CLASS.ipynb
-│       ├── LSTMAT STFT 3CLASS.ipynb
-│       ├── SWIN CWT 3class copy 2.ipynb
-│       ├── SWIN CWT 3class set1.ipynb
-│       ├── SWIN MEL 3class.ipynb
-│       ├── SWIN STFT 3class copy.ipynb
-│       ├── TRANS-CNN cwt top5params.ipynb
-│       ├── TRANS-CNN mel top5params.ipynb
-│       ├── TRANS-CNN STFT top5params.ipynb
-│       ├── Transformer STFTtop5.ipynb
-│       ├── TransformerCWTtop5.ipynb
-│       ├── TransformerMELtop5.ipynb
-│       ├── ViT CWT 3classtop5.ipynb
-│       ├── ViT MEL 3classtop5.ipynb
-│       └── ViT STFT 3classtop5.ipynb
-└── visualization_notebooks/            # Notebooks for model interpretability
-    ├── trysaliency.ipynb               # Saliency map generation for ViT
-    └── GRADCAM/                        # Grad-CAM visualizations
-        └── ViTGradcam.ipynb            # Grad-CAM for ViT
-```
-
-## Detailed Description of Folders and Files
-
-### optuna_hyperparameter_tuning/
-This folder contains Jupyter notebooks for hyperparameter optimization using the Optuna library. Each subfolder corresponds to a different model architecture, and notebooks perform optimization on different spectrogram types (CWT, MEL, STFT) and fold configurations.
-
-- **lstm/**: Focuses on LSTM with attention mechanisms. Notebooks optimize for concatenated spectrograms.
-- **Swin Transformer/**: Optimizes Swin Transformer models for various spectrograms and folds.
-- **Transformer/**: Standard Transformer models, including 3-class variants and 5-fold cross-validation.
-- **Transformer-CNN/**: Hybrid models combining Transformers and CNNs, with subfolders for different configurations (10FOLDS, custom, inceptionv3).
-- **ViT/**: Vision Transformer optimizations, including parameter CSV and logs.
-
-Log files (.txt) store optimization results and can be used to track performance metrics.
-
-### training_notebooks/
-These notebooks use the top hyperparameters found via Optuna to train final models. Divided into 2-class and 3-class subfolders.
-
-- **2 class/**: Notebooks for binary classification (e.g., seizure vs. non-seizure).
-- **3 class/**: Notebooks for multi-class classification (e.g., different seizure types).
-
-Each notebook specifies the model type, spectrogram (CWT, MEL, STFT), and often includes "top5" indicating use of optimized parameters.
-
-### visualization_notebooks/
-Contains notebooks for interpreting model predictions.
-
-- **trysaliency.ipynb**: Generates saliency maps for Vision Transformer models to highlight important regions in EEG spectrograms.
-- **GRADCAM/ViTGradcam.ipynb**: Implements Grad-CAM for ViT to visualize class activation maps.
 
 ## Data
 The notebooks load data from external paths (e.g., D:\PYTHONIG\newwindow\numpy\ORIGINAL DATA\MEL), which include numpy arrays for EEG folds (eeg_fold_1.npy to eeg_fold_5.npy), labels, and patient IDs. Data is preprocessed into spectrograms.
 
-## Models
-- **LSTM with Attention**: Sequence modeling for time-series EEG data.
-- **Transformers**: Attention-based models for spectrogram patches.
-- **Vision Transformers (ViT)**: Treats spectrograms as images, patches them, and applies self-attention.
-- **Swin Transformers**: Hierarchical vision transformer for efficient processing.
-- **Transformer-CNN Hybrids**: Combines convolutional features with transformer attention.
+### Spectrograms
+EEG signals are transformed into spectrograms for analysis, as raw time-series data is challenging for image-based models. The repository uses three main types:
 
-## Usage
-1. Run Optuna notebooks to find optimal hyperparameters.
-2. Use training notebooks with top parameters for final model training.
-3. Visualize results with saliency and Grad-CAM notebooks.
+- **MEL Spectrograms**: Based on the Mel scale, which approximates human auditory perception. MEL spectrograms emphasize lower frequencies and are computed using a filterbank that warps frequencies to match human hearing. Useful for capturing harmonic structures in EEG signals related to seizures.
 
-## Dependencies
-- PyTorch
-- Optuna
-- NumPy, Matplotlib, Scikit-learn
-- Torchvision, Torcheval
-- Jupyter Notebook
+- **CWT (Continuous Wavelet Transform) Spectrograms**: Decomposes signals into time-frequency representations using wavelets. CWT provides high resolution in both time and frequency domains, ideal for detecting transient events like seizures. It uses mother wavelets (e.g., Morlet) to analyze signal variations.
 
-Install via pip: `pip install torch optuna numpy matplotlib scikit-learn torchvision torcheval`
+- **STFT (Short-Time Fourier Transform) Spectrograms**: Divides the signal into short segments and applies FFT to each, creating a time-frequency matrix. STFT balances time and frequency resolution, commonly used for stationary signal analysis but adapted here for EEG dynamics.
 
-## Credits
-- Ryan Gabriel (Repository maintainer)
-- Noor-Al-Shawa
-- Dr. Jac Fredo A.R. (IIT BHU School of Biomedical Engineering)
-
-## License
-[Add license if applicable]
-
-## Code Explanations
-
-This section provides detailed explanations of key concepts and code implementations used in the repository, including Optuna for hyperparameter optimization, sample training code, Grad-CAM for visualization, and saliency maps.
-
-### Optuna Code
-**Concept**: Optuna is an open-source hyperparameter optimization framework that automates the search for the best hyperparameters in machine learning models. It uses techniques like Tree-structured Parzen Estimator (TPE) to efficiently explore the hyperparameter space, minimizing the number of trials needed to find optimal settings. In this repository, Optuna is used to tune parameters such as learning rate, batch size, number of layers, and attention heads for various deep learning models.
-
-**Implementation**: The Optuna notebooks (e.g., in `optuna_hyperparameter_tuning/`) define an objective function that trains a model with suggested hyperparameters, evaluates it on validation data, and returns a metric (e.g., accuracy or loss). Optuna then iteratively suggests new parameters to maximize or minimize the objective.
-
-Example pseudocode from an Optuna notebook:
-```python
-import optuna
-
-def objective(trial):
-    # Suggest hyperparameters
-    lr = trial.suggest_float('lr', 1e-5, 1e-1, log=True)
-    batch_size = trial.suggest_categorical('batch_size', [16, 32, 64])
-    
-    # Define and train model
-    model = ViT(input_size, n_patches, hidden_size)
-    optimizer = optim.Adam(model.parameters(), lr=lr)
-    # Training loop...
-    
-    # Return validation accuracy
-    return val_accuracy
-
-study = optuna.create_study(direction='maximize')
-study.optimize(objective, n_trials=100)
-print(study.best_params)
-```
-
-### Sample Training Code
-**Concept**: Training code refers to the process of teaching a machine learning model on a dataset by adjusting its parameters to minimize prediction errors. In deep learning, this involves forward passes to compute predictions, backward passes to calculate gradients, and optimizer updates. The training notebooks in `training_notebooks/` implement this for EEG classification, using cross-validation, early stopping, and evaluation metrics.
-
-**Implementation**: Notebooks load preprocessed data, define models with optimized hyperparameters, and run training loops with loss computation, backpropagation, and validation. They often include data augmentation, patient-wise splitting to avoid data leakage, and metrics like accuracy, F1-score, and balanced accuracy.
-
-Example pseudocode from a training notebook:
-```python
-# Load data
-train_loader = DataLoader(train_dataset, batch_size=32, shuffle=True)
-val_loader = DataLoader(val_dataset, batch_size=32, shuffle=False)
-
-# Define model, loss, optimizer
-model = ViT((20, 100, 100), 10, 256)
-criterion = nn.CrossEntropyLoss()
-optimizer = optim.Adam(model.parameters(), lr=1e-4)
-
-# Training loop
-for epoch in range(epochs):
-    model.train()
-    for inputs, labels in train_loader:
-        optimizer.zero_grad()
-        outputs = model(inputs)
-        loss = criterion(outputs, labels)
-        loss.backward()
-        optimizer.step()
-    
-    # Validation
-    model.eval()
-    val_loss = 0
-    with torch.no_grad():
-        for inputs, labels in val_loader:
-            outputs = model(inputs)
-            val_loss += criterion(outputs, labels).item()
-    
-    # Early stopping check
-    early_stopping(val_loss, model)
-    if early_stopping.early_stop:
-        break
-```
-
-### Grad-CAM Code
-**Concept**: Grad-CAM (Gradient-weighted Class Activation Mapping) is a technique for visualizing which regions of an input image (or spectrogram) are most important for a model's prediction. It computes gradients of the predicted class score with respect to feature maps from the last convolutional layer, then weights and combines them to produce a heatmap. This helps interpret model decisions, especially in medical imaging like EEG spectrograms.
-
-**Implementation**: In `visualization_notebooks/GRADCAM/ViTGradcam.ipynb`, Grad-CAM is adapted for Vision Transformers by using attention weights or gradients from the transformer layers. The code hooks into the model to capture gradients and activations, then generates heatmaps overlaid on spectrograms.
-
-Example pseudocode:
-```python
-class GradCAM:
-    def __init__(self, model, target_layer):
-        self.model = model
-        self.target_layer = target_layer
-        self.gradients = None
-        self.activations = None
-        
-        target_layer.register_forward_hook(self.save_activation)
-        target_layer.register_backward_hook(self.save_gradient)
-    
-    def save_activation(self, module, input, output):
-        self.activations = output
-    
-    def save_gradient(self, module, grad_input, grad_output):
-        self.gradients = grad_output[0]
-    
-    def generate_cam(self, input_image, class_idx):
-        self.model.zero_grad()
-        pred = self.model(input_image)
-        pred[:, class_idx].backward()
-        
-        # Compute Grad-CAM
-        weights = torch.mean(self.gradients, dim=[2, 3], keepdim=True)
-        cam = torch.sum(weights * self.activations, dim=1).squeeze()
-        cam = torch.relu(cam)
-        cam = cam - cam.min()
-        cam = cam / cam.max()
-        return cam
-```
-
-### Saliency Code
-**Concept**: Saliency maps highlight the pixels or regions in an input that have the highest impact on the model's output. They are computed by taking the absolute value of the gradients of the output with respect to the input, showing where small changes would most affect the prediction. This is useful for understanding model focus in tasks like EEG analysis.
-
-**Implementation**: In `visualization_notebooks/trysaliency.ipynb`, saliency is implemented for ViT models by enabling gradients on the input, performing a forward pass, computing the gradient of the predicted class score, and normalizing the absolute gradients. The notebook also averages saliency maps across categories for comparative visualization.
-
-Example pseudocode:
-```python
-def saliency_map(input_tensor, model, class_idx):
-    model.eval()
-    input_tensor.requires_grad_(True)
-    
-    output = model(input_tensor)
-    score = output[0, class_idx]
-    
-    model.zero_grad()
-    score.backward()
-    
-    saliency = torch.abs(input_tensor.grad[0]).sum(dim=0)  # Sum over channels
-    saliency = (saliency - saliency.min()) / (saliency.max() - saliency.min())
-    return saliency.detach().cpu().numpy()
-```
+These spectrograms are 2D representations (e.g., 100x100 pixels) fed into models like ViT or CNNs.
 
 ## Models
 
@@ -547,5 +269,358 @@ Used in custom and InceptionV3 variants.
 **Further Reading**: Hybrid models in vision.
 
 This concludes the extensive model explanations.
+
+### EEGNet
+
+**Definition**: EEGNet is a compact convolutional neural network specifically designed for EEG-based brain-computer interfaces. It uses depthwise and separable convolutions to efficiently model spatial and temporal features in EEG signals.
+
+**Working Principles**: EEGNet employs temporal convolutions to capture frequency-specific responses, followed by depthwise spatial convolutions to learn spatial filters. It includes separable convolutions for efficiency. For spectrograms, it's adapted to process 2D representations with minimal parameters.
+
+**Approximate Number of Parameters**: Typically ~2-5K parameters, making it very lightweight compared to other models.
+
+**Advantages**: Low parameter count, fast training, effective for EEG classification.
+
+**Disadvantages**: May lack depth for complex patterns.
+
+**Code Snippet** (from EEGNET notebooks):
+```python
+class EEGNet(nn.Module):
+    def __init__(self, num_classes=3, num_channels=20, num_timepoints=5120):
+        super().__init__()
+        self.T = num_timepoints
+        self.conv1 = nn.Conv2d(1, 16, (1, num_channels), padding=0)
+        self.batchnorm1 = nn.BatchNorm2d(16, False)
+        self.padding1 = nn.ZeroPad2d((16, 17, 0, 1))
+        self.conv2 = nn.Conv2d(1, 4, (2, 32))
+        self.batchnorm2 = nn.BatchNorm2d(4, False)
+        self.pooling2 = nn.MaxPool2d(2, 4)
+        self.padding2 = nn.ZeroPad2d((2, 1, 4, 3))
+        self.conv3 = nn.Conv2d(4, 4, (8, 4))
+        self.batchnorm3 = nn.BatchNorm2d(4, False)
+        self.pooling3 = nn.MaxPool2d((2, 4))
+        self.fc1 = nn.Linear(2560, num_classes)
+    
+    def forward(self, x):
+        x = F.elu(self.conv1(x))
+        x = self.batchnorm1(x)
+        x = F.dropout(x, 0.25)
+        x = x.permute(0, 3, 1, 2)
+        x = self.padding1(x)
+        x = F.elu(self.conv2(x))
+        x = self.batchnorm2(x)
+        x = F.dropout(x, 0.25)
+        x = self.pooling2(x)
+        x = self.padding2(x)
+        x = F.elu(self.conv3(x))
+        x = self.batchnorm3(x)
+        x = F.dropout(x, 0.25)
+        x = self.pooling3(x)
+        x = x.reshape(-1, 4*2*x.size(3))
+        x = F.sigmoid(self.fc1(x))
+        return x
+```
+
+**Training Insights**: Optimized with Optuna, used for 3-class classification.
+
+**Variations**: 2/3-class.
+
+**Parameter Estimation**: ~4K parameters.
+
+**Use Cases in Repo**: In `EEGNET/` folder.
+
+**Further Reading**: EEGNet paper by Lawhern et al.
+
+This adds EEGNet to the model suite.
+
+## Repository Structure
+
+```
+eeg_seizure/
+├── readme.md                           # This README file
+├── EEGNET/                             # EEGNet model notebooks
+│   ├── EEGNET OPTUNA.ipynb             # Optuna optimization for EEGNet
+│   └── EEGNET3CLASS.ipynb              # 3-class training with EEGNet
+├── optuna_hyperparameter_tuning/       # Hyperparameter optimization notebooks using Optuna
+│   ├── lstm/                           # LSTM models with attention
+│   │   ├── CWT LSTMAT CONCATENATED SPECTROGRAMS OPTUNA.ipynb
+│   │   ├── STFT LSTMAT CONCATENATED SPECTROGRAMS OPTUNA copy.ipynb
+│   │   ├── cwtlogs.txt                 # Logs for CWT LSTM optimization
+│   │   └── stftlogslstmat.txt          # Logs for STFT LSTM optimization
+│   ├── Swin Transformer/               # Swin Transformer models
+│   │   ├── opt1fold_swinCWT.ipynb      # 1-fold optimization for CWT
+│   │   ├── opt1fold_swinSTFT.ipynb     # 1-fold optimization for STFT
+│   │   ├── opt5fold_swin.ipynb         # 5-fold optimization
+│   │   ├── optunalogCWT.txt            # CWT logs
+│   │   ├── optunalogMEL.txt            # MEL logs
+│   │   └── optunalogSTFT.txt           # STFT logs
+│   ├── Transformer/                    # Standard Transformer models
+│   │   ├── optunaconcatenated.ipynb    # Concatenated spectrograms
+│   │   ├── templog                     # Temporary log file
+│   │   ├── transformer STFT logs.txt   # STFT logs
+│   │   ├── Transformer3class copy.ipynb
+│   │   ├── Transformer3class.ipynb     # 3-class classification
+│   │   ├── transformercwtlogs.txt      # CWT logs
+│   │   ├── transformermellogs.txt      # MEL logs
+│   │   ├── TRANSFORMERopt5foldssCWT.ipynb  # 5-fold CWT
+│   │   ├── TRANSFORMERopt5foldssMEL.ipynb  # 5-fold MEL
+│   │   └── TRANSFORMERopt5foldssSTFT.ipynb  # 5-fold STFT
+│   ├── Transformer-CNN/                # Transformer-CNN hybrid models
+│   │   ├── cwtlog1                     # CWT log
+│   │   ├── meloptunalog                # MEL log
+│   │   ├── opt10folds.ipynb            # 10-fold optimization
+│   │   ├── opt5foldssINDIVID.ipynb     # Individual fold optimization
+│   │   ├── optunacustommodel copy.ipynb
+│   │   ├── optunaincpetionv3.ipynb     # InceptionV3 based
+│   │   ├── stft optuna log.txt         # STFT log
+│   │   ├── TRANS-CNN_opt5foldss copy.ipynb
+│   │   ├── TRANS-CNN_opt5foldss.ipynb # 5-fold TRANS-CNN
+│   │   ├── TRANS-CNN_opt5foldsSTFT.ipynb # STFT variant
+│   │   ├── 10FOLDS/                    # 10-fold results
+│   │   │   ├── 2class.ipynb            # 2-class
+│   │   │   └── 3class.ipynb            # 3-class
+│   │   ├── custom/                     # Custom models
+│   │   │   ├── 2class.ipynb
+│   │   │   ├── 3class copy 2.ipynb
+│   │   │   ├── 3class copy.ipynb
+│   │   │   ├── 3class experiment.ipynb
+│   │   │   ├── 3class.ipynb
+│   │   │   ├── mel3class.ipynb         # MEL 3-class
+│   │   │   ├── normalized2class.ipynb  # Normalized data
+│   │   │   └── normalized3class.ipynb
+│   │   ├── inceptionv3/                # InceptionV3 models
+│   │   │   ├── 2class.ipynb
+│   │   │   └── 3class.ipynb
+│   └── ViT/                            # Vision Transformer models
+│       ├── MELViT3classtop5.ipynb      # MEL top 5 params
+│       ├── optunaconcatenated.ipynb    # Concatenated
+│       ├── params.csv                  # Parameter file
+│       ├── ViT3class.ipynb             # 3-class ViT
+│       ├── vitcwtlogs                  # CWT logs
+│       ├── vitmellogs                  # MEL logs
+│       ├── ViTopt5foldssCWT.ipynb      # 5-fold CWT
+│       ├── ViTopt5foldssMEL copy.ipynb # MEL copy
+│       ├── ViTopt5foldssSTFT.ipynb     # 5-fold STFT
+│       └── vitstftlogs.txt             # STFT logs
+├── training_notebooks/                 # Training notebooks with top hyperparameters
+│   ├── 2 class/                        # 2-class classification
+│   │   ├── LSTMAT CWT top5 CONCATENATED 2 CLASS.ipynb
+│   │   ├── LSTMAT MEL top5 CONCATENATED 2 CLASS.ipynb
+│   ├── LSTMAT STFT top5 CONCATENATED 2 CLASS.ipynb
+│   │   ├── TRANS-CNN 2 cls mel top5.ipynb
+│   │   ├── TRANS-CNN 2 cls STFT top5.ipynb
+│   │   ├── TRANS-CNN 2cls cwt top5.ipynb
+│   │   ├── Transformer CWT 2class top5.ipynb
+│   │   ├── Transformer MEL 2class top5 copy.ipynb
+│   │   ├── Transformer STFT 2class top5 copy 2.ipynb
+│   │   ├── ViT CWT 2class.ipynb
+│   │   ├── ViT MEL 2class copy.ipynb
+│   │   └── ViT STFT 2class.ipynb
+│   └── 3 class/                        # 3-class classification
+│       ├── LSTMAT cwt 3CLASS.ipynb
+│       ├── LSTMAT mel 3CLASS.ipynb
+│       ├── LSTMAT STFT 3CLASS.ipynb
+│       ├── SWIN CWT 3class copy 2.ipynb
+│       ├── SWIN CWT 3class set1.ipynb
+│       ├── SWIN MEL 3class.ipynb
+│       ├── SWIN STFT 3class copy.ipynb
+│       ├── TRANS-CNN cwt top5params.ipynb
+│       ├── TRANS-CNN mel top5params.ipynb
+│       ├── TRANS-CNN STFT top5params.ipynb
+│       ├── Transformer STFTtop5.ipynb
+│       ├── TransformerCWTtop5.ipynb
+│       ├── TransformerMELtop5.ipynb
+│       ├── ViT CWT 3classtop5.ipynb
+│       ├── ViT MEL 3classtop5.ipynb
+│       └── ViT STFT 3classtop5.ipynb
+└── visualization_notebooks/            # Notebooks for model interpretability
+    ├── trysaliency.ipynb               # Saliency map generation for ViT
+    └── GRADCAM/                        # Grad-CAM visualizations
+        └── ViTGradcam.ipynb            # Grad-CAM for ViT
+```
+
+## Detailed Description of Folders and Files
+
+### EEGNET/
+Contains notebooks for the EEGNet model, a lightweight CNN optimized for EEG signals.
+
+- **EEGNET OPTUNA.ipynb**: Hyperparameter optimization using Optuna for EEGNet parameters.
+- **EEGNET3CLASS.ipynb**: Training EEGNet for 3-class seizure classification with cross-validation.
+
+### optuna_hyperparameter_tuning/
+This folder contains Jupyter notebooks for hyperparameter optimization using the Optuna library. Each subfolder corresponds to a different model architecture, and notebooks perform optimization on different spectrogram types (CWT, MEL, STFT) and fold configurations.
+
+- **lstm/**: Focuses on LSTM with attention mechanisms. Notebooks optimize for concatenated spectrograms.
+- **Swin Transformer/**: Optimizes Swin Transformer models for various spectrograms and folds.
+- **Transformer/**: Standard Transformer models, including 3-class variants and 5-fold cross-validation.
+- **Transformer-CNN/**: Hybrid models combining Transformers and CNNs, with subfolders for different configurations (10FOLDS, custom, inceptionv3).
+- **ViT/**: Vision Transformer optimizations, including parameter CSV and logs.
+
+Log files (.txt) store optimization results and can be used to track performance metrics.
+
+### training_notebooks/
+These notebooks use the top hyperparameters found via Optuna to train final models. Divided into 2-class and 3-class subfolders.
+
+- **2 class/**: Notebooks for binary classification (e.g., seizure vs. non-seizure).
+- **3 class/**: Notebooks for multi-class classification (e.g., different seizure types).
+
+Each notebook specifies the model type, spectrogram (CWT, MEL, STFT), and often includes "top5" indicating use of optimized parameters.
+
+### visualization_notebooks/
+Contains notebooks for interpreting model predictions.
+
+- **trysaliency.ipynb**: Generates saliency maps for Vision Transformer models to highlight important regions in EEG spectrograms.
+- **GRADCAM/ViTGradcam.ipynb**: Implements Grad-CAM for ViT to visualize class activation maps.
+
+## Usage
+1. Run Optuna notebooks to find optimal hyperparameters.
+2. Use training notebooks with top parameters for final model training.
+3. Visualize results with saliency and Grad-CAM notebooks.
+
+## Dependencies
+- PyTorch
+- Optuna
+- NumPy, Matplotlib, Scikit-learn
+- Torchvision, Torcheval
+- Jupyter Notebook
+
+Install via pip: `pip install torch optuna numpy matplotlib scikit-learn torchvision torcheval`
+
+## Credits
+- Ryan Gabriel (Repository maintainer)
+- Noor-Al-Shawa
+- Dr. Jac Fredo A.R. (IIT BHU School of Biomedical Engineering)
+
+## License
+[Add license if applicable]
+
+## Code Explanations
+
+This section provides detailed explanations of key concepts and code implementations used in the repository, including Optuna for hyperparameter optimization, sample training code, Grad-CAM for visualization, and saliency maps.
+
+### Optuna Code
+**Concept**: Optuna is an open-source hyperparameter optimization framework that automates the search for the best hyperparameters in machine learning models. It uses techniques like Tree-structured Parzen Estimator (TPE) to efficiently explore the hyperparameter space, minimizing the number of trials needed to find optimal settings. In this repository, Optuna is used to tune parameters such as learning rate, batch size, number of layers, and attention heads for various deep learning models.
+
+**Implementation**: The Optuna notebooks (e.g., in `optuna_hyperparameter_tuning/`) define an objective function that trains a model with suggested hyperparameters, evaluates it on validation data, and returns a metric (e.g., accuracy or loss). Optuna then iteratively suggests new parameters to maximize or minimize the objective.
+
+Example pseudocode from an Optuna notebook:
+```python
+import optuna
+
+def objective(trial):
+    # Suggest hyperparameters
+    lr = trial.suggest_float('lr', 1e-5, 1e-1, log=True)
+    batch_size = trial.suggest_categorical('batch_size', [16, 32, 64])
+    
+    # Define and train model
+    model = ViT(input_size, n_patches, hidden_size)
+    optimizer = optim.Adam(model.parameters(), lr=lr)
+    # Training loop...
+    
+    # Return validation accuracy
+    return val_accuracy
+
+study = optuna.create_study(direction='maximize')
+study.optimize(objective, n_trials=100)
+print(study.best_params)
+```
+
+### Sample Training Code
+**Concept**: Training code refers to the process of teaching a machine learning model on a dataset by adjusting its parameters to minimize prediction errors. In deep learning, this involves forward passes to compute predictions, backward passes to calculate gradients, and optimizer updates. The training notebooks in `training_notebooks/` implement this for EEG classification, using cross-validation, early stopping, and evaluation metrics.
+
+**Implementation**: Notebooks load preprocessed data, define models with optimized hyperparameters, and run training loops with loss computation, backpropagation, and validation. They often include data augmentation, patient-wise splitting to avoid data leakage, and metrics like accuracy, F1-score, and balanced accuracy.
+
+Example pseudocode from a training notebook:
+```python
+# Load data
+train_loader = DataLoader(train_dataset, batch_size=32, shuffle=True)
+val_loader = DataLoader(val_dataset, batch_size=32, shuffle=False)
+
+# Define model, loss, optimizer
+model = ViT((20, 100, 100), 10, 256)
+criterion = nn.CrossEntropyLoss()
+optimizer = optim.Adam(model.parameters(), lr=1e-4)
+
+# Training loop
+for epoch in range(epochs):
+    model.train()
+    for inputs, labels in train_loader:
+        optimizer.zero_grad()
+        outputs = model(inputs)
+        loss = criterion(outputs, labels)
+        loss.backward()
+        optimizer.step()
+    
+    # Validation
+    model.eval()
+    val_loss = 0
+    with torch.no_grad():
+        for inputs, labels in val_loader:
+            outputs = model(inputs)
+            val_loss += criterion(outputs, labels).item()
+    
+    # Early stopping check
+    early_stopping(val_loss, model)
+    if early_stopping.early_stop:
+        break
+```
+
+### Grad-CAM Code
+**Concept**: Grad-CAM (Gradient-weighted Class Activation Mapping) is a technique for visualizing which regions of an input image (or spectrogram) are most important for a model's prediction. It computes gradients of the predicted class score with respect to feature maps from the last convolutional layer, then weights and combines them to produce a heatmap. This helps interpret model decisions, especially in medical imaging like EEG spectrograms.
+
+**Implementation**: In `visualization_notebooks/GRADCAM/ViTGradcam.ipynb`, Grad-CAM is adapted for Vision Transformers by using attention weights or gradients from the transformer layers. The code hooks into the model to capture gradients and activations, then generates heatmaps overlaid on spectrograms.
+
+Example pseudocode:
+```python
+class GradCAM:
+    def __init__(self, model, target_layer):
+        self.model = model
+        self.target_layer = target_layer
+        self.gradients = None
+        self.activations = None
+        
+        target_layer.register_forward_hook(self.save_activation)
+        target_layer.register_backward_hook(self.save_gradient)
+    
+    def save_activation(self, module, input, output):
+        self.activations = output
+    
+    def save_gradient(self, module, grad_input, grad_output):
+        self.gradients = grad_output[0]
+    
+    def generate_cam(self, input_image, class_idx):
+        self.model.zero_grad()
+        pred = self.model(input_image)
+        pred[:, class_idx].backward()
+        
+        # Compute Grad-CAM
+        weights = torch.mean(self.gradients, dim=[2, 3], keepdim=True)
+        cam = torch.sum(weights * self.activations, dim=1).squeeze()
+        cam = torch.relu(cam)
+        cam = cam - cam.min()
+        cam = cam / cam.max()
+        return cam
+```
+
+### Saliency Code
+**Concept**: Saliency maps highlight the pixels or regions in an input that have the highest impact on the model's output. They are computed by taking the absolute value of the gradients of the output with respect to the input, showing where small changes would most affect the prediction. This is useful for understanding model focus in tasks like EEG analysis.
+
+**Implementation**: In `visualization_notebooks/trysaliency.ipynb`, saliency is implemented for ViT models by enabling gradients on the input, performing a forward pass, computing the gradient of the predicted class score, and normalizing the absolute gradients. The notebook also averages saliency maps across categories for comparative visualization.
+
+Example pseudocode:
+```python
+def saliency_map(input_tensor, model, class_idx):
+    model.eval()
+    input_tensor.requires_grad_(True)
+    
+    output = model(input_tensor)
+    score = output[0, class_idx]
+    
+    model.zero_grad()
+    score.backward()
+    
+    saliency = torch.abs(input_tensor.grad[0]).sum(dim=0)  # Sum over channels
+    saliency = (saliency - saliency.min()) / (saliency.max() - saliency.min())
+    return saliency.detach().cpu().numpy()
+```
 
 ## Repository Structure
