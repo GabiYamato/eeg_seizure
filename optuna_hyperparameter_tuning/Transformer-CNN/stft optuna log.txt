@@ -1,0 +1,950 @@
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\tqdm\auto.py:21: TqdmWarning: IProgress not found. Please update jupyter and ipywidgets. See https://ipywidgets.readthedocs.io/en/stable/user_install.html
+  from .autonotebook import tqdm as notebook_tqdm
+[I 2025-06-07 03:20:21,084] A new study created in memory with name: no-name-8a41ab70-25b5-4250-be46-9d3a9cb8c565
+Hyperparameters: num_heads=8, num_transformer_blocks=2, learning_rate=0.002196933770802417, optimizer=Adam, weight_decay=0.00014705767378528348, batch_size=16,factor=1Hyperparameters: num_heads=2, num_transformer_blocks=2, learning_rate=8.669408270891795e-07, optimizer=Adam, weight_decay=3.4221989777190604e-05, batch_size=16,factor=1
+
+Hyperparameters: num_heads=2, num_transformer_blocks=32, learning_rate=0.0008846354118520036, optimizer=Adam, weight_decay=3.971972269808451e-05, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 17
+[I 2025-06-07 03:22:45,973] Trial 0 finished with value: 0.5369047619047619 and parameters: {'num_heads': 8, 'num_transformer_blocks': 2, 'learning_rate': 0.002196933770802417, 'weight_decay': 0.00014705767378528348, 'label_smoothing': 0.25}. Best is trial 0 with value: 0.5369047619047619.
+Trial 0, Fold 1: Test Accuracy = 0.5369
+Hyperparameters: num_heads=16, num_transformer_blocks=2, learning_rate=9.918335556137119e-05, optimizer=Adam, weight_decay=6.432809343163855e-05, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 15
+Trial 2, Fold 1: Test Accuracy = 0.3333
+[I 2025-06-07 03:23:59,296] Trial 2 finished with value: 0.3333333333333333 and parameters: {'num_heads': 2, 'num_transformer_blocks': 32, 'learning_rate': 0.0008846354118520036, 'weight_decay': 3.971972269808451e-05, 'label_smoothing': 0.26}. Best is trial 0 with value: 0.5369047619047619.
+Hyperparameters: num_heads=32, num_transformer_blocks=16, learning_rate=0.0038043042146537003, optimizer=Adam, weight_decay=1.6640049505496345e-05, batch_size=16,factor=1
+[I 2025-06-07 03:24:10,593] Trial 1 finished with value: 0.3205486542443064 and parameters: {'num_heads': 2, 'num_transformer_blocks': 2, 'learning_rate': 8.669408270891795e-07, 'weight_decay': 3.4221989777190604e-05, 'label_smoothing': 0.01}. Best is trial 0 with value: 0.5369047619047619.
+Trial 1, Fold 1: Test Accuracy = 0.3205
+Hyperparameters: num_heads=16, num_transformer_blocks=2, learning_rate=1.6387567996173093e-05, optimizer=Adam, weight_decay=0.0003994529983324474, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 26
+[I 2025-06-07 03:26:04,767] Trial 3 finished with value: 0.5028381642512078 and parameters: {'num_heads': 16, 'num_transformer_blocks': 2, 'learning_rate': 9.918335556137119e-05, 'weight_decay': 6.432809343163855e-05, 'label_smoothing': 0.22}. Best is trial 0 with value: 0.5369047619047619.
+Trial 3, Fold 1: Test Accuracy = 0.5028
+Hyperparameters: num_heads=32, num_transformer_blocks=32, learning_rate=1.0642589897510876e-08, optimizer=Adam, weight_decay=0.0002189140007532373, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 11
+[I 2025-06-07 03:26:25,794] Trial 4 finished with value: 0.3333333333333333 and parameters: {'num_heads': 32, 'num_transformer_blocks': 16, 'learning_rate': 0.0038043042146537003, 'weight_decay': 1.6640049505496345e-05, 'label_smoothing': 0.2}. Best is trial 0 with value: 0.5369047619047619.
+Trial 4, Fold 1: Test Accuracy = 0.3333
+Hyperparameters: num_heads=16, num_transformer_blocks=2, learning_rate=4.036357978549003e-06, optimizer=Adam, weight_decay=0.0001579131078502918, batch_size=16,factor=1
+Trial 5, Fold 1: Test Accuracy = 0.4782
+[I 2025-06-07 03:27:54,145] Trial 5 finished with value: 0.4781746031746032 and parameters: {'num_heads': 16, 'num_transformer_blocks': 2, 'learning_rate': 1.6387567996173093e-05, 'weight_decay': 0.0003994529983324474, 'label_smoothing': 0.24}. Best is trial 0 with value: 0.5369047619047619.
+Hyperparameters: num_heads=2, num_transformer_blocks=32, learning_rate=3.2890269536504596e-08, optimizer=Adam, weight_decay=1.0534162877610741e-05, batch_size=16,factor=1
+[I 2025-06-07 03:29:50,191] Trial 7 finished with value: 0.4390441683919945 and parameters: {'num_heads': 16, 'num_transformer_blocks': 2, 'learning_rate': 4.036357978549003e-06, 'weight_decay': 0.0001579131078502918, 'label_smoothing': 0.3}. Best is trial 0 with value: 0.5369047619047619.
+Trial 7, Fold 1: Test Accuracy = 0.4390
+Hyperparameters: num_heads=16, num_transformer_blocks=4, learning_rate=1.997091865688598e-05, optimizer=Adam, weight_decay=1.337650926581475e-05, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 10
+[I 2025-06-07 03:30:24,513] Trial 8 finished with value: 0.3333333333333333 and parameters: {'num_heads': 2, 'num_transformer_blocks': 32, 'learning_rate': 3.2890269536504596e-08, 'weight_decay': 1.0534162877610741e-05, 'label_smoothing': 0.05}. Best is trial 0 with value: 0.5369047619047619.
+Trial 8, Fold 1: Test Accuracy = 0.3333
+Hyperparameters: num_heads=32, num_transformer_blocks=2, learning_rate=2.282071678869887e-05, optimizer=Adam, weight_decay=0.00010503623925347791, batch_size=16,factor=1
+[I 2025-06-07 03:33:05,361] Trial 6 finished with value: 0.3333333333333333 and parameters: {'num_heads': 32, 'num_transformer_blocks': 32, 'learning_rate': 1.0642589897510876e-08, 'weight_decay': 0.0002189140007532373, 'label_smoothing': 0.25}. Best is trial 0 with value: 0.5369047619047619.
+Trial 6, Fold 1: Test Accuracy = 0.3333
+Hyperparameters: num_heads=8, num_transformer_blocks=2, learning_rate=5.410485470180011e-05, optimizer=Adam, weight_decay=0.00036874701808493817, batch_size=16,factor=1
+Trial 9, Fold 1: Test Accuracy = 0.5227
+[I 2025-06-07 03:33:39,435] Trial 9 finished with value: 0.5226621808143548 and parameters: {'num_heads': 16, 'num_transformer_blocks': 4, 'learning_rate': 1.997091865688598e-05, 'weight_decay': 1.337650926581475e-05, 'label_smoothing': 0.0}. Best is trial 0 with value: 0.5369047619047619.
+Hyperparameters: num_heads=8, num_transformer_blocks=8, learning_rate=0.009402754110838971, optimizer=Adam, weight_decay=1.097449930008217e-06, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 27
+Trial 10, Fold 1: Test Accuracy = 0.5100
+[I 2025-06-07 03:34:02,967] Trial 10 finished with value: 0.5100241545893719 and parameters: {'num_heads': 32, 'num_transformer_blocks': 2, 'learning_rate': 2.282071678869887e-05, 'weight_decay': 0.00010503623925347791, 'label_smoothing': 0.0}. Best is trial 0 with value: 0.5369047619047619.
+Hyperparameters: num_heads=8, num_transformer_blocks=4, learning_rate=0.009291124833456316, optimizer=Adam, weight_decay=1.2213812436475636e-06, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 18
+[I 2025-06-07 03:35:24,894] Trial 11 finished with value: 0.5107746721877157 and parameters: {'num_heads': 8, 'num_transformer_blocks': 2, 'learning_rate': 5.410485470180011e-05, 'weight_decay': 0.00036874701808493817, 'label_smoothing': 0.19}. Best is trial 0 with value: 0.5369047619047619.
+Trial 11, Fold 1: Test Accuracy = 0.5108
+Hyperparameters: num_heads=8, num_transformer_blocks=4, learning_rate=0.0005644029021658649, optimizer=Adam, weight_decay=1.7954813496540649e-06, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 11
+Trial 12, Fold 1: Test Accuracy = 0.3333
+[I 2025-06-07 03:35:32,435] Trial 12 finished with value: 0.3333333333333333 and parameters: {'num_heads': 8, 'num_transformer_blocks': 8, 'learning_rate': 0.009402754110838971, 'weight_decay': 1.097449930008217e-06, 'label_smoothing': 0.13}. Best is trial 0 with value: 0.5369047619047619.
+Hyperparameters: num_heads=4, num_transformer_blocks=4, learning_rate=0.0003590314540472598, optimizer=Adam, weight_decay=4.436016518138766e-06, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 10
+Trial 13, Fold 1: Test Accuracy = 0.3333
+[I 2025-06-07 03:35:41,000] Trial 13 finished with value: 0.3333333333333333 and parameters: {'num_heads': 8, 'num_transformer_blocks': 4, 'learning_rate': 0.009291124833456316, 'weight_decay': 1.2213812436475636e-06, 'label_smoothing': 0.11}. Best is trial 0 with value: 0.5369047619047619.
+Hyperparameters: num_heads=4, num_transformer_blocks=4, learning_rate=0.0004230293430513748, optimizer=Adam, weight_decay=3.5929348863270323e-06, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 13
+Trial 14, Fold 1: Test Accuracy = 0.5750
+[I 2025-06-07 03:37:26,823] Trial 14 finished with value: 0.5749913733609385 and parameters: {'num_heads': 8, 'num_transformer_blocks': 4, 'learning_rate': 0.0005644029021658649, 'weight_decay': 1.7954813496540649e-06, 'label_smoothing': 0.12}. Best is trial 14 with value: 0.5749913733609385.
+Hyperparameters: num_heads=4, num_transformer_blocks=4, learning_rate=0.00041949310721916476, optimizer=Adam, weight_decay=3.705654389021501e-06, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 16
+Trial 16, Fold 1: Test Accuracy = 0.5476
+[I 2025-06-07 03:38:03,693] Trial 16 finished with value: 0.5476276742581091 and parameters: {'num_heads': 4, 'num_transformer_blocks': 4, 'learning_rate': 0.0004230293430513748, 'weight_decay': 3.5929348863270323e-06, 'label_smoothing': 0.09}. Best is trial 14 with value: 0.5749913733609385.
+Hyperparameters: num_heads=4, num_transformer_blocks=4, learning_rate=0.000564182605881582, optimizer=Adam, weight_decay=3.7804820696614333e-06, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 19
+[I 2025-06-07 03:38:14,815] Trial 15 finished with value: 0.5879399585921324 and parameters: {'num_heads': 4, 'num_transformer_blocks': 4, 'learning_rate': 0.0003590314540472598, 'weight_decay': 4.436016518138766e-06, 'label_smoothing': 0.11}. Best is trial 15 with value: 0.5879399585921324.
+Trial 15, Fold 1: Test Accuracy = 0.5879
+Hyperparameters: num_heads=4, num_transformer_blocks=4, learning_rate=0.00020964489011621865, optimizer=Adam, weight_decay=3.6627889715098463e-06, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 14
+Trial 17, Fold 1: Test Accuracy = 0.5607
+[I 2025-06-07 03:39:29,155] Trial 17 finished with value: 0.5607142857142858 and parameters: {'num_heads': 4, 'num_transformer_blocks': 4, 'learning_rate': 0.00041949310721916476, 'weight_decay': 3.705654389021501e-06, 'label_smoothing': 0.09}. Best is trial 15 with value: 0.5879399585921324.
+Hyperparameters: num_heads=4, num_transformer_blocks=4, learning_rate=0.00014281065872193328, optimizer=Adam, weight_decay=3.481487248810668e-06, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 13
+Trial 18, Fold 1: Test Accuracy = 0.5024
+[I 2025-06-07 03:40:04,331] Trial 18 finished with value: 0.502372325741891 and parameters: {'num_heads': 4, 'num_transformer_blocks': 4, 'learning_rate': 0.000564182605881582, 'weight_decay': 3.7804820696614333e-06, 'label_smoothing': 0.08}. Best is trial 15 with value: 0.5879399585921324.
+Hyperparameters: num_heads=4, num_transformer_blocks=8, learning_rate=0.00014762427100203842, optimizer=Adam, weight_decay=6.824422569625226e-06, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 21
+Trial 19, Fold 1: Test Accuracy = 0.5576
+[I 2025-06-07 03:41:15,894] Trial 19 finished with value: 0.5575828157349897 and parameters: {'num_heads': 4, 'num_transformer_blocks': 4, 'learning_rate': 0.00020964489011621865, 'weight_decay': 3.6627889715098463e-06, 'label_smoothing': 0.16}. Best is trial 15 with value: 0.5879399585921324.
+Hyperparameters: num_heads=4, num_transformer_blocks=16, learning_rate=8.032096627685236e-07, optimizer=Adam, weight_decay=2.043993835068582e-06, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 16
+[I 2025-06-07 03:41:41,778] Trial 20 finished with value: 0.5476104209799862 and parameters: {'num_heads': 4, 'num_transformer_blocks': 4, 'learning_rate': 0.00014281065872193328, 'weight_decay': 3.481487248810668e-06, 'label_smoothing': 0.17}. Best is trial 15 with value: 0.5879399585921324.
+Trial 20, Fold 1: Test Accuracy = 0.5476
+Hyperparameters: num_heads=4, num_transformer_blocks=4, learning_rate=0.0012458390745860453, optimizer=Adam, weight_decay=7.387330650283827e-06, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 18
+[I 2025-06-07 03:43:14,997] Trial 21 finished with value: 0.5525534851621808 and parameters: {'num_heads': 4, 'num_transformer_blocks': 8, 'learning_rate': 0.00014762427100203842, 'weight_decay': 6.824422569625226e-06, 'label_smoothing': 0.15}. Best is trial 15 with value: 0.5879399585921324.
+Trial 21, Fold 1: Test Accuracy = 0.5526
+Hyperparameters: num_heads=4, num_transformer_blocks=4, learning_rate=2.226568715227034e-06, optimizer=Adam, weight_decay=1.7988974752442063e-06, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 10
+Trial 22, Fold 1: Test Accuracy = 0.3478
+[I 2025-06-07 03:43:23,493] Trial 22 finished with value: 0.3478088336783989 and parameters: {'num_heads': 4, 'num_transformer_blocks': 16, 'learning_rate': 8.032096627685236e-07, 'weight_decay': 2.043993835068582e-06, 'label_smoothing': 0.16}. Best is trial 15 with value: 0.5879399585921324.
+Hyperparameters: num_heads=4, num_transformer_blocks=4, learning_rate=0.0019439733551506592, optimizer=Adam, weight_decay=1.9015638887461331e-06, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 19
+Trial 23, Fold 1: Test Accuracy = 0.5008
+[I 2025-06-07 03:44:02,060] Trial 23 finished with value: 0.5008454106280193 and parameters: {'num_heads': 4, 'num_transformer_blocks': 4, 'learning_rate': 0.0012458390745860453, 'weight_decay': 7.387330650283827e-06, 'label_smoothing': 0.05}. Best is trial 15 with value: 0.5879399585921324.
+Hyperparameters: num_heads=8, num_transformer_blocks=4, learning_rate=5.628692751817774e-06, optimizer=Adam, weight_decay=2.006763292239556e-06, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 10
+Trial 24, Fold 1: Test Accuracy = 0.3218
+[I 2025-06-07 03:44:48,660] Trial 24 finished with value: 0.321808143547274 and parameters: {'num_heads': 4, 'num_transformer_blocks': 4, 'learning_rate': 2.226568715227034e-06, 'weight_decay': 1.7988974752442063e-06, 'label_smoothing': 0.05}. Best is trial 15 with value: 0.5879399585921324.
+Hyperparameters: num_heads=8, num_transformer_blocks=4, learning_rate=0.00042504501659842704, optimizer=Adam, weight_decay=2.078952919710097e-05, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 14
+[I 2025-06-07 03:45:31,264] Trial 25 finished with value: 0.3333333333333333 and parameters: {'num_heads': 4, 'num_transformer_blocks': 4, 'learning_rate': 0.0019439733551506592, 'weight_decay': 1.9015638887461331e-06, 'label_smoothing': 0.05}. Best is trial 15 with value: 0.5879399585921324.
+Trial 25, Fold 1: Test Accuracy = 0.3333
+Hyperparameters: num_heads=8, num_transformer_blocks=4, learning_rate=0.0004961398716922372, optimizer=Adam, weight_decay=0.000988378869717866, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 14
+Trial 27, Fold 1: Test Accuracy = 0.5782
+[I 2025-06-07 03:46:55,537] Trial 27 finished with value: 0.5781659765355417 and parameters: {'num_heads': 8, 'num_transformer_blocks': 4, 'learning_rate': 0.00042504501659842704, 'weight_decay': 2.078952919710097e-05, 'label_smoothing': 0.12}. Best is trial 15 with value: 0.5879399585921324.
+Hyperparameters: num_heads=8, num_transformer_blocks=4, learning_rate=5.156382655070984e-05, optimizer=Adam, weight_decay=1.6296723393160516e-05, batch_size=16,factor=1
+[I 2025-06-07 03:48:07,324] Trial 26 finished with value: 0.4655969634230504 and parameters: {'num_heads': 8, 'num_transformer_blocks': 4, 'learning_rate': 5.628692751817774e-06, 'weight_decay': 2.006763292239556e-06, 'label_smoothing': 0.12}. Best is trial 15 with value: 0.5879399585921324.
+Trial 26, Fold 1: Test Accuracy = 0.4656
+Hyperparameters: num_heads=8, num_transformer_blocks=16, learning_rate=6.340550961185137e-05, optimizer=Adam, weight_decay=1.738792026169847e-05, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 19
+Trial 28, Fold 1: Test Accuracy = 0.5866
+[I 2025-06-07 03:48:16,877] Trial 28 finished with value: 0.5866459627329192 and parameters: {'num_heads': 8, 'num_transformer_blocks': 4, 'learning_rate': 0.0004961398716922372, 'weight_decay': 0.000988378869717866, 'label_smoothing': 0.12}. Best is trial 15 with value: 0.5879399585921324.
+Hyperparameters: num_heads=8, num_transformer_blocks=8, learning_rate=5.085012200320637e-05, optimizer=Adam, weight_decay=0.0006529275524267692, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 15
+[I 2025-06-07 03:49:16,740] Trial 29 finished with value: 0.5221187025534851 and parameters: {'num_heads': 8, 'num_transformer_blocks': 4, 'learning_rate': 5.156382655070984e-05, 'weight_decay': 1.6296723393160516e-05, 'label_smoothing': 0.12}. Best is trial 15 with value: 0.5879399585921324.
+Trial 29, Fold 1: Test Accuracy = 0.5221
+Hyperparameters: num_heads=8, num_transformer_blocks=16, learning_rate=0.003082197594378404, optimizer=Adam, weight_decay=0.0006551151258517576, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 14
+[I 2025-06-07 03:50:26,074] Trial 30 finished with value: 0.51074016563147 and parameters: {'num_heads': 8, 'num_transformer_blocks': 16, 'learning_rate': 6.340550961185137e-05, 'weight_decay': 1.738792026169847e-05, 'label_smoothing': 0.13}. Best is trial 15 with value: 0.5879399585921324.
+Trial 30, Fold 1: Test Accuracy = 0.5107
+Hyperparameters: num_heads=8, num_transformer_blocks=4, learning_rate=0.0024688213598699884, optimizer=Adam, weight_decay=2.487823924992503e-05, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 11
+[I 2025-06-07 03:51:54,275] Trial 33 finished with value: 0.3333333333333333 and parameters: {'num_heads': 8, 'num_transformer_blocks': 4, 'learning_rate': 0.0024688213598699884, 'weight_decay': 2.487823924992503e-05, 'label_smoothing': 0.08}. Best is trial 15 with value: 0.5879399585921324.
+Trial 33, Fold 1: Test Accuracy = 0.3333
+Hyperparameters: num_heads=8, num_transformer_blocks=8, learning_rate=0.0002850701467255021, optimizer=Adam, weight_decay=0.0009773517427519572, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 16
+[I 2025-06-07 03:52:10,745] Trial 32 finished with value: 0.3333333333333333 and parameters: {'num_heads': 8, 'num_transformer_blocks': 16, 'learning_rate': 0.003082197594378404, 'weight_decay': 0.0006551151258517576, 'label_smoothing': 0.14}. Best is trial 15 with value: 0.5879399585921324.
+Trial 32, Fold 1: Test Accuracy = 0.3333
+Hyperparameters: num_heads=8, num_transformer_blocks=8, learning_rate=0.0003770236053477921, optimizer=Adam, weight_decay=4.113190848762365e-05, batch_size=16,factor=1
+[I 2025-06-07 03:52:38,691] Trial 31 finished with value: 0.5479554865424431 and parameters: {'num_heads': 8, 'num_transformer_blocks': 8, 'learning_rate': 5.085012200320637e-05, 'weight_decay': 0.0006529275524267692, 'label_smoothing': 0.07}. Best is trial 15 with value: 0.5879399585921324.
+Trial 31, Fold 1: Test Accuracy = 0.5480
+Hyperparameters: num_heads=8, num_transformer_blocks=4, learning_rate=0.00035553611922423275, optimizer=Adam, weight_decay=4.708320015876209e-05, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 11
+[I 2025-06-07 03:53:36,305] Trial 34 finished with value: 0.6118616287094548 and parameters: {'num_heads': 8, 'num_transformer_blocks': 8, 'learning_rate': 0.0002850701467255021, 'weight_decay': 0.0009773517427519572, 'label_smoothing': 0.1}. Best is trial 34 with value: 0.6118616287094548.
+Trial 34, Fold 1: Test Accuracy = 0.6119
+Hyperparameters: num_heads=2, num_transformer_blocks=8, learning_rate=0.0002766104192159226, optimizer=Adam, weight_decay=0.0009355824849813596, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 11
+Trial 35, Fold 1: Test Accuracy = 0.5599
+[I 2025-06-07 03:53:52,644] Trial 35 finished with value: 0.5599378881987578 and parameters: {'num_heads': 8, 'num_transformer_blocks': 8, 'learning_rate': 0.0003770236053477921, 'weight_decay': 4.113190848762365e-05, 'label_smoothing': 0.1}. Best is trial 34 with value: 0.6118616287094548.
+Hyperparameters: num_heads=2, num_transformer_blocks=8, learning_rate=0.0010719128869866538, optimizer=Adam, weight_decay=0.0008373757542341069, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 14
+[I 2025-06-07 03:54:51,397] Trial 36 finished with value: 0.5754399585921325 and parameters: {'num_heads': 8, 'num_transformer_blocks': 4, 'learning_rate': 0.00035553611922423275, 'weight_decay': 4.708320015876209e-05, 'label_smoothing': 0.1}. Best is trial 34 with value: 0.6118616287094548.
+Trial 36, Fold 1: Test Accuracy = 0.5754
+Hyperparameters: num_heads=2, num_transformer_blocks=8, learning_rate=0.0012113149113729216, optimizer=Adam, weight_decay=8.052329066574114e-05, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 13
+[I 2025-06-07 03:55:40,013] Trial 37 finished with value: 0.5409851621808144 and parameters: {'num_heads': 2, 'num_transformer_blocks': 8, 'learning_rate': 0.0002766104192159226, 'weight_decay': 0.0009355824849813596, 'label_smoothing': 0.1}. Best is trial 34 with value: 0.6118616287094548.
+Trial 37, Fold 1: Test Accuracy = 0.5410
+Hyperparameters: num_heads=32, num_transformer_blocks=32, learning_rate=0.0010895253658943058, optimizer=Adam, weight_decay=0.0002793700947804259, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 13
+[I 2025-06-07 03:55:48,546] Trial 38 finished with value: 0.5482660455486542 and parameters: {'num_heads': 2, 'num_transformer_blocks': 8, 'learning_rate': 0.0010719128869866538, 'weight_decay': 0.0008373757542341069, 'label_smoothing': 0.07}. Best is trial 34 with value: 0.6118616287094548.
+Trial 38, Fold 1: Test Accuracy = 0.5483
+Hyperparameters: num_heads=32, num_transformer_blocks=32, learning_rate=2.3437052345013164e-07, optimizer=Adam, weight_decay=0.000317478065045504, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 14
+[I 2025-06-07 03:56:56,212] Trial 39 finished with value: 0.6028985507246377 and parameters: {'num_heads': 2, 'num_transformer_blocks': 8, 'learning_rate': 0.0012113149113729216, 'weight_decay': 8.052329066574114e-05, 'label_smoothing': 0.18}. Best is trial 34 with value: 0.6118616287094548.
+Trial 39, Fold 1: Test Accuracy = 0.6029
+Hyperparameters: num_heads=2, num_transformer_blocks=8, learning_rate=0.005273273524437187, optimizer=Adam, weight_decay=0.0002834391183132102, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 10
+[I 2025-06-07 03:57:51,788] Trial 40 finished with value: 0.3333333333333333 and parameters: {'num_heads': 32, 'num_transformer_blocks': 32, 'learning_rate': 0.0010895253658943058, 'weight_decay': 0.0002793700947804259, 'label_smoothing': 0.03}. Best is trial 34 with value: 0.6118616287094548.
+Trial 40, Fold 1: Test Accuracy = 0.3333
+Hyperparameters: num_heads=2, num_transformer_blocks=8, learning_rate=0.00010006448070595301, optimizer=Adam, weight_decay=7.810288021190653e-05, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 10
+[I 2025-06-07 03:58:21,505] Trial 42 finished with value: 0.3333333333333333 and parameters: {'num_heads': 2, 'num_transformer_blocks': 8, 'learning_rate': 0.005273273524437187, 'weight_decay': 0.0002834391183132102, 'label_smoothing': 0.21}. Best is trial 34 with value: 0.6118616287094548.
+Trial 42, Fold 1: Test Accuracy = 0.3333
+Hyperparameters: num_heads=2, num_transformer_blocks=8, learning_rate=0.00012101883543775915, optimizer=Adam, weight_decay=7.589675101073069e-05, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 10
+[I 2025-06-07 03:58:33,373] Trial 41 finished with value: 0.28915631469979297 and parameters: {'num_heads': 32, 'num_transformer_blocks': 32, 'learning_rate': 2.3437052345013164e-07, 'weight_decay': 0.000317478065045504, 'label_smoothing': 0.19}. Best is trial 34 with value: 0.6118616287094548.
+Trial 41, Fold 1: Test Accuracy = 0.2892
+Hyperparameters: num_heads=2, num_transformer_blocks=8, learning_rate=9.111205286994366e-05, optimizer=Adam, weight_decay=0.00011441692669912339, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 15
+[I 2025-06-07 04:00:08,628] Trial 43 finished with value: 0.5041062801932368 and parameters: {'num_heads': 2, 'num_transformer_blocks': 8, 'learning_rate': 0.00010006448070595301, 'weight_decay': 7.810288021190653e-05, 'label_smoothing': 0.19}. Best is trial 34 with value: 0.6118616287094548.
+Trial 43, Fold 1: Test Accuracy = 0.5041
+Hyperparameters: num_heads=16, num_transformer_blocks=8, learning_rate=0.0015797472366093715, optimizer=Adam, weight_decay=0.00013056879229514986, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 19
+[I 2025-06-07 04:01:26,624] Trial 45 finished with value: 0.5541839199447894 and parameters: {'num_heads': 2, 'num_transformer_blocks': 8, 'learning_rate': 9.111205286994366e-05, 'weight_decay': 0.00011441692669912339, 'label_smoothing': 0.18}. Best is trial 34 with value: 0.6118616287094548.
+Trial 45, Fold 1: Test Accuracy = 0.5542
+Hyperparameters: num_heads=16, num_transformer_blocks=8, learning_rate=0.0016411479279561175, optimizer=Adam, weight_decay=0.000499048292285542, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 21
+[I 2025-06-07 04:01:34,278] Trial 44 finished with value: 0.5687888198757763 and parameters: {'num_heads': 2, 'num_transformer_blocks': 8, 'learning_rate': 0.00012101883543775915, 'weight_decay': 7.589675101073069e-05, 'label_smoothing': 0.18}. Best is trial 34 with value: 0.6118616287094548.
+Trial 44, Fold 1: Test Accuracy = 0.5688
+Hyperparameters: num_heads=16, num_transformer_blocks=8, learning_rate=0.0016027088091020924, optimizer=Adam, weight_decay=0.0005793660417232437, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 16
+[I 2025-06-07 04:02:38,452] Trial 46 finished with value: 0.3333333333333333 and parameters: {'num_heads': 16, 'num_transformer_blocks': 8, 'learning_rate': 0.0015797472366093715, 'weight_decay': 0.00013056879229514986, 'label_smoothing': 0.17}. Best is trial 34 with value: 0.6118616287094548.
+Trial 46, Fold 1: Test Accuracy = 0.3333
+Hyperparameters: num_heads=8, num_transformer_blocks=2, learning_rate=0.004556165938009941, optimizer=Adam, weight_decay=0.0005104532914537137, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 19
+[I 2025-06-07 04:04:39,051] Trial 47 finished with value: 0.5686766735679779 and parameters: {'num_heads': 16, 'num_transformer_blocks': 8, 'learning_rate': 0.0016411479279561175, 'weight_decay': 0.000499048292285542, 'label_smoothing': 0.23}. Best is trial 34 with value: 0.6118616287094548.
+Trial 47, Fold 1: Test Accuracy = 0.5687
+Hyperparameters: num_heads=8, num_transformer_blocks=2, learning_rate=0.005554460706255462, optimizer=Adam, weight_decay=0.00017228974072002658, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 21
+[I 2025-06-07 04:04:59,695] Trial 48 finished with value: 0.6074534161490683 and parameters: {'num_heads': 16, 'num_transformer_blocks': 8, 'learning_rate': 0.0016027088091020924, 'weight_decay': 0.0005793660417232437, 'label_smoothing': 0.23}. Best is trial 34 with value: 0.6118616287094548.
+Trial 48, Fold 1: Test Accuracy = 0.6075
+Hyperparameters: num_heads=16, num_transformer_blocks=2, learning_rate=0.004503952402515313, optimizer=Adam, weight_decay=0.00019387123770776775, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 27
+Trial 49, Fold 1: Test Accuracy = 0.5644
+[I 2025-06-07 04:06:04,576] Trial 49 finished with value: 0.5643978605935128 and parameters: {'num_heads': 8, 'num_transformer_blocks': 2, 'learning_rate': 0.004556165938009941, 'weight_decay': 0.0005104532914537137, 'label_smoothing': 0.22}. Best is trial 34 with value: 0.6118616287094548.
+Hyperparameters: num_heads=16, num_transformer_blocks=8, learning_rate=0.0009717468885202335, optimizer=Adam, weight_decay=0.00019960048875707157, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 10
+[I 2025-06-07 04:06:14,291] Trial 50 finished with value: 0.3333333333333333 and parameters: {'num_heads': 8, 'num_transformer_blocks': 2, 'learning_rate': 0.005554460706255462, 'weight_decay': 0.00017228974072002658, 'label_smoothing': 0.14}. Best is trial 34 with value: 0.6118616287094548.
+Trial 50, Fold 1: Test Accuracy = 0.3333
+Hyperparameters: num_heads=16, num_transformer_blocks=8, learning_rate=0.0006750851107437723, optimizer=Adam, weight_decay=0.0009599759058827069, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 14
+Trial 51, Fold 1: Test Accuracy = 0.5630
+[I 2025-06-07 04:06:59,565] Trial 51 finished with value: 0.5629917184265011 and parameters: {'num_heads': 16, 'num_transformer_blocks': 2, 'learning_rate': 0.004503952402515313, 'weight_decay': 0.00019387123770776775, 'label_smoothing': 0.29}. Best is trial 34 with value: 0.6118616287094548.
+Hyperparameters: num_heads=16, num_transformer_blocks=8, learning_rate=0.0008924729479663604, optimizer=Adam, weight_decay=2.519083672994837e-05, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 14
+[I 2025-06-07 04:08:29,405] Trial 53 finished with value: 0.5711093857832988 and parameters: {'num_heads': 16, 'num_transformer_blocks': 8, 'learning_rate': 0.0006750851107437723, 'weight_decay': 0.0009599759058827069, 'label_smoothing': 0.28}. Best is trial 34 with value: 0.6118616287094548.
+Trial 53, Fold 1: Test Accuracy = 0.5711
+Hyperparameters: num_heads=16, num_transformer_blocks=32, learning_rate=0.000702020796401536, optimizer=Adam, weight_decay=0.00045166747356197126, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 17
+[I 2025-06-07 04:08:40,374] Trial 52 finished with value: 0.5723861283643893 and parameters: {'num_heads': 16, 'num_transformer_blocks': 8, 'learning_rate': 0.0009717468885202335, 'weight_decay': 0.00019960048875707157, 'label_smoothing': 0.28}. Best is trial 34 with value: 0.6118616287094548.
+Trial 52, Fold 1: Test Accuracy = 0.5724
+Hyperparameters: num_heads=8, num_transformer_blocks=32, learning_rate=0.00025975133280326944, optimizer=Adam, weight_decay=0.0004408756816541176, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 18
+[I 2025-06-07 04:09:43,753] Trial 54 finished with value: 0.5644409937888198 and parameters: {'num_heads': 16, 'num_transformer_blocks': 8, 'learning_rate': 0.0008924729479663604, 'weight_decay': 2.519083672994837e-05, 'label_smoothing': 0.28}. Best is trial 34 with value: 0.6118616287094548.
+Trial 54, Fold 1: Test Accuracy = 0.5644
+Hyperparameters: num_heads=8, num_transformer_blocks=32, learning_rate=2.898045909375708e-05, optimizer=Adam, weight_decay=0.000458144481524508, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 13
+[I 2025-06-07 04:11:00,872] Trial 56 finished with value: 0.35962732919254664 and parameters: {'num_heads': 8, 'num_transformer_blocks': 32, 'learning_rate': 0.00025975133280326944, 'weight_decay': 0.0004408756816541176, 'label_smoothing': 0.25}. Best is trial 34 with value: 0.6118616287094548.
+Trial 56, Fold 1: Test Accuracy = 0.3596
+Hyperparameters: num_heads=32, num_transformer_blocks=4, learning_rate=2.9794647360037446e-05, optimizer=Adam, weight_decay=0.000648853311788361, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 20
+[I 2025-06-07 04:13:02,221] Trial 55 finished with value: 0.4791407867494824 and parameters: {'num_heads': 16, 'num_transformer_blocks': 32, 'learning_rate': 0.000702020796401536, 'weight_decay': 0.00045166747356197126, 'label_smoothing': 0.25}. Best is trial 34 with value: 0.6118616287094548.
+Trial 55, Fold 1: Test Accuracy = 0.4791
+Hyperparameters: num_heads=32, num_transformer_blocks=4, learning_rate=2.5757551024318328e-05, optimizer=Adam, weight_decay=0.0006825762242840879, batch_size=16,factor=1
+[I 2025-06-07 04:14:27,506] Trial 58 finished with value: 0.5192028985507245 and parameters: {'num_heads': 32, 'num_transformer_blocks': 4, 'learning_rate': 2.9794647360037446e-05, 'weight_decay': 0.000648853311788361, 'label_smoothing': 0.11}. Best is trial 34 with value: 0.6118616287094548.
+Trial 58, Fold 1: Test Accuracy = 0.5192
+Hyperparameters: num_heads=8, num_transformer_blocks=4, learning_rate=0.0025350966327799276, optimizer=Adam, weight_decay=5.533552488273726e-06, batch_size=16,factor=1
+Trial 57, Fold 1: Test Accuracy = 0.5749
+[I 2025-06-07 04:16:05,960] Trial 57 finished with value: 0.574896480331263 and parameters: {'num_heads': 8, 'num_transformer_blocks': 32, 'learning_rate': 2.898045909375708e-05, 'weight_decay': 0.000458144481524508, 'label_smoothing': 0.25}. Best is trial 34 with value: 0.6118616287094548.
+Hyperparameters: num_heads=2, num_transformer_blocks=4, learning_rate=0.00019304902847804082, optimizer=Adam, weight_decay=5.5166937620730906e-06, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 28
+Trial 59, Fold 1: Test Accuracy = 0.5113
+[I 2025-06-07 04:16:54,965] Trial 59 finished with value: 0.5112922705314009 and parameters: {'num_heads': 32, 'num_transformer_blocks': 4, 'learning_rate': 2.5757551024318328e-05, 'weight_decay': 0.0006825762242840879, 'label_smoothing': 0.11}. Best is trial 34 with value: 0.6118616287094548.
+Hyperparameters: num_heads=2, num_transformer_blocks=16, learning_rate=0.00019026876418548218, optimizer=Adam, weight_decay=5.293584664959522e-06, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 19
+[I 2025-06-07 04:17:02,248] Trial 60 finished with value: 0.3333333333333333 and parameters: {'num_heads': 8, 'num_transformer_blocks': 4, 'learning_rate': 0.0025350966327799276, 'weight_decay': 5.533552488273726e-06, 'label_smoothing': 0.15}. Best is trial 34 with value: 0.6118616287094548.
+Trial 60, Fold 1: Test Accuracy = 0.3333
+Hyperparameters: num_heads=8, num_transformer_blocks=4, learning_rate=0.0002360790859669477, optimizer=Adam, weight_decay=4.751914601620292e-05, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 14
+[I 2025-06-07 04:17:57,841] Trial 61 finished with value: 0.5624482401656316 and parameters: {'num_heads': 2, 'num_transformer_blocks': 4, 'learning_rate': 0.00019304902847804082, 'weight_decay': 5.5166937620730906e-06, 'label_smoothing': 0.15}. Best is trial 34 with value: 0.6118616287094548.
+Trial 61, Fold 1: Test Accuracy = 0.5624
+Hyperparameters: num_heads=8, num_transformer_blocks=4, learning_rate=0.0003702299514840808, optimizer=Adam, weight_decay=4.1162653148658154e-05, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 15
+Trial 63, Fold 1: Test Accuracy = 0.5215
+[I 2025-06-07 04:19:00,151] Trial 63 finished with value: 0.5214889579020013 and parameters: {'num_heads': 8, 'num_transformer_blocks': 4, 'learning_rate': 0.0002360790859669477, 'weight_decay': 4.751914601620292e-05, 'label_smoothing': 0.09}. Best is trial 34 with value: 0.6118616287094548.
+Hyperparameters: num_heads=8, num_transformer_blocks=4, learning_rate=0.0003955574842703238, optimizer=Adam, weight_decay=5.797035867079819e-05, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 11
+[I 2025-06-07 04:19:30,044] Trial 64 finished with value: 0.5464113181504485 and parameters: {'num_heads': 8, 'num_transformer_blocks': 4, 'learning_rate': 0.0003702299514840808, 'weight_decay': 4.1162653148658154e-05, 'label_smoothing': 0.13}. Best is trial 34 with value: 0.6118616287094548.
+Trial 64, Fold 1: Test Accuracy = 0.5464
+Hyperparameters: num_heads=8, num_transformer_blocks=4, learning_rate=0.0004579298071287775, optimizer=Adam, weight_decay=5.6222613606728604e-05, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 19
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 15
+Trial 62, Fold 1: Test Accuracy = 0.5235
+[I 2025-06-07 04:20:59,644] Trial 62 finished with value: 0.5234558316080055 and parameters: {'num_heads': 2, 'num_transformer_blocks': 16, 'learning_rate': 0.00019026876418548218, 'weight_decay': 5.293584664959522e-06, 'label_smoothing': 0.15}. Best is trial 34 with value: 0.6118616287094548.
+Hyperparameters: num_heads=8, num_transformer_blocks=4, learning_rate=0.00044600103529455343, optimizer=Adam, weight_decay=1.172020136613905e-05, batch_size=16,factor=1
+[I 2025-06-07 04:21:01,624] Trial 65 finished with value: 0.6025879917184266 and parameters: {'num_heads': 8, 'num_transformer_blocks': 4, 'learning_rate': 0.0003955574842703238, 'weight_decay': 5.797035867079819e-05, 'label_smoothing': 0.13}. Best is trial 34 with value: 0.6118616287094548.
+Trial 65, Fold 1: Test Accuracy = 0.6026
+Hyperparameters: num_heads=4, num_transformer_blocks=4, learning_rate=0.00046744400834229324, optimizer=Adam, weight_decay=5.915913796331742e-05, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 13
+Trial 66, Fold 1: Test Accuracy = 0.5704
+[I 2025-06-07 04:21:17,514] Trial 66 finished with value: 0.5703761214630779 and parameters: {'num_heads': 8, 'num_transformer_blocks': 4, 'learning_rate': 0.0004579298071287775, 'weight_decay': 5.6222613606728604e-05, 'label_smoothing': 0.07}. Best is trial 34 with value: 0.6118616287094548.
+Hyperparameters: num_heads=4, num_transformer_blocks=4, learning_rate=0.008330494828181509, optimizer=Adam, weight_decay=1.1052539811883756e-05, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 14
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 15
+[I 2025-06-07 04:23:06,399] Trial 68 finished with value: 0.5150879917184265 and parameters: {'num_heads': 4, 'num_transformer_blocks': 4, 'learning_rate': 0.00046744400834229324, 'weight_decay': 5.915913796331742e-05, 'label_smoothing': 0.13}. Best is trial 34 with value: 0.6118616287094548.
+Trial 68, Fold 1: Test Accuracy = 0.5151
+Hyperparameters: num_heads=8, num_transformer_blocks=4, learning_rate=1.0538848453623493e-05, optimizer=Adam, weight_decay=9.47783516125397e-06, batch_size=16,factor=1
+Trial 67, Fold 1: Test Accuracy = 0.5602
+[I 2025-06-07 04:23:07,454] Trial 67 finished with value: 0.5602311939268462 and parameters: {'num_heads': 8, 'num_transformer_blocks': 4, 'learning_rate': 0.00044600103529455343, 'weight_decay': 1.172020136613905e-05, 'label_smoothing': 0.07}. Best is trial 34 with value: 0.6118616287094548.
+Hyperparameters: num_heads=4, num_transformer_blocks=8, learning_rate=1.0889140369246654e-05, optimizer=Adam, weight_decay=3.361433641347365e-05, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 17
+[I 2025-06-07 04:23:42,902] Trial 69 finished with value: 0.3333333333333333 and parameters: {'num_heads': 4, 'num_transformer_blocks': 4, 'learning_rate': 0.008330494828181509, 'weight_decay': 1.1052539811883756e-05, 'label_smoothing': 0.12}. Best is trial 34 with value: 0.6118616287094548.
+Trial 69, Fold 1: Test Accuracy = 0.3333
+Hyperparameters: num_heads=8, num_transformer_blocks=8, learning_rate=0.001341440939281883, optimizer=Adam, weight_decay=3.075875814692891e-05, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 10
+Trial 72, Fold 1: Test Accuracy = 0.3333
+[I 2025-06-07 04:25:21,410] Trial 72 finished with value: 0.3333333333333333 and parameters: {'num_heads': 8, 'num_transformer_blocks': 8, 'learning_rate': 0.001341440939281883, 'weight_decay': 3.075875814692891e-05, 'label_smoothing': 0.11}. Best is trial 34 with value: 0.6118616287094548.
+Hyperparameters: num_heads=8, num_transformer_blocks=4, learning_rate=0.0006143905285063188, optimizer=Adam, weight_decay=2.9375746751647605e-05, batch_size=16,factor=1
+Trial 70, Fold 1: Test Accuracy = 0.5127
+[I 2025-06-07 04:27:04,021] Trial 70 finished with value: 0.5127242926155969 and parameters: {'num_heads': 8, 'num_transformer_blocks': 4, 'learning_rate': 1.0538848453623493e-05, 'weight_decay': 9.47783516125397e-06, 'label_smoothing': 0.14}. Best is trial 34 with value: 0.6118616287094548.
+Hyperparameters: num_heads=8, num_transformer_blocks=4, learning_rate=7.630496284641564e-05, optimizer=Adam, weight_decay=9.587380295967513e-05, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 12
+Trial 73, Fold 1: Test Accuracy = 0.5530
+[I 2025-06-07 04:27:10,459] Trial 73 finished with value: 0.5529848171152519 and parameters: {'num_heads': 8, 'num_transformer_blocks': 4, 'learning_rate': 0.0006143905285063188, 'weight_decay': 2.9375746751647605e-05, 'label_smoothing': 0.1}. Best is trial 34 with value: 0.6118616287094548.
+Hyperparameters: num_heads=8, num_transformer_blocks=4, learning_rate=7.834690823374799e-05, optimizer=Adam, weight_decay=9.214240815263158e-05, batch_size=16,factor=1
+[I 2025-06-07 04:27:35,133] Trial 71 finished with value: 0.5025448585231194 and parameters: {'num_heads': 4, 'num_transformer_blocks': 8, 'learning_rate': 1.0889140369246654e-05, 'weight_decay': 3.361433641347365e-05, 'label_smoothing': 0.12}. Best is trial 34 with value: 0.6118616287094548.
+Trial 71, Fold 1: Test Accuracy = 0.5025
+Hyperparameters: num_heads=8, num_transformer_blocks=4, learning_rate=7.518972281097079e-05, optimizer=Adam, weight_decay=7.627531534728272e-05, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 21
+Trial 74, Fold 1: Test Accuracy = 0.5739
+[I 2025-06-07 04:30:03,087] Trial 74 finished with value: 0.5739475500345065 and parameters: {'num_heads': 8, 'num_transformer_blocks': 4, 'learning_rate': 7.630496284641564e-05, 'weight_decay': 9.587380295967513e-05, 'label_smoothing': 0.1}. Best is trial 34 with value: 0.6118616287094548.
+Hyperparameters: num_heads=8, num_transformer_blocks=4, learning_rate=0.0019559961704302955, optimizer=Adam, weight_decay=0.0007819523424665492, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 21
+Trial 75, Fold 1: Test Accuracy = 0.5184
+[I 2025-06-07 04:30:09,669] Trial 75 finished with value: 0.5184351276742581 and parameters: {'num_heads': 8, 'num_transformer_blocks': 4, 'learning_rate': 7.834690823374799e-05, 'weight_decay': 9.214240815263158e-05, 'label_smoothing': 0.09}. Best is trial 34 with value: 0.6118616287094548.
+Hyperparameters: num_heads=8, num_transformer_blocks=16, learning_rate=0.000320646756303432, optimizer=Adam, weight_decay=0.0007444021356146928, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 21
+[I 2025-06-07 04:30:36,963] Trial 76 finished with value: 0.550388198757764 and parameters: {'num_heads': 8, 'num_transformer_blocks': 4, 'learning_rate': 7.518972281097079e-05, 'weight_decay': 7.627531534728272e-05, 'label_smoothing': 0.09}. Best is trial 34 with value: 0.6118616287094548.
+Trial 76, Fold 1: Test Accuracy = 0.5504
+Hyperparameters: num_heads=8, num_transformer_blocks=16, learning_rate=0.0020060938211906416, optimizer=Adam, weight_decay=1.9179602088318127e-05, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 16
+[I 2025-06-07 04:32:16,416] Trial 77 finished with value: 0.5781400966183575 and parameters: {'num_heads': 8, 'num_transformer_blocks': 4, 'learning_rate': 0.0019559961704302955, 'weight_decay': 0.0007819523424665492, 'label_smoothing': 0.08}. Best is trial 34 with value: 0.6118616287094548.
+Trial 77, Fold 1: Test Accuracy = 0.5781
+Hyperparameters: num_heads=8, num_transformer_blocks=8, learning_rate=0.0018973148891251617, optimizer=Adam, weight_decay=0.0007383850556356687, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 10
+[I 2025-06-07 04:32:27,846] Trial 79 finished with value: 0.3333333333333333 and parameters: {'num_heads': 8, 'num_transformer_blocks': 16, 'learning_rate': 0.0020060938211906416, 'weight_decay': 1.9179602088318127e-05, 'label_smoothing': 0.08}. Best is trial 34 with value: 0.6118616287094548.
+Trial 79, Fold 1: Test Accuracy = 0.3333
+Hyperparameters: num_heads=2, num_transformer_blocks=8, learning_rate=0.003103180718741511, optimizer=Adam, weight_decay=0.0007777848938983311, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 17
+[I 2025-06-07 04:32:55,681] Trial 78 finished with value: 0.5206176673567978 and parameters: {'num_heads': 8, 'num_transformer_blocks': 16, 'learning_rate': 0.000320646756303432, 'weight_decay': 0.0007444021356146928, 'label_smoothing': 0.14}. Best is trial 34 with value: 0.6118616287094548.
+Trial 78, Fold 1: Test Accuracy = 0.5206
+Hyperparameters: num_heads=2, num_transformer_blocks=8, learning_rate=0.003099012481348034, optimizer=Adam, weight_decay=0.0005897413494887618, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 16
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 17
+[I 2025-06-07 04:34:52,921] Trial 81 finished with value: 0.5885179434092477 and parameters: {'num_heads': 2, 'num_transformer_blocks': 8, 'learning_rate': 0.003103180718741511, 'weight_decay': 0.0007777848938983311, 'label_smoothing': 0.06}. Best is trial 34 with value: 0.6118616287094548.
+Trial 81, Fold 1: Test Accuracy = 0.5885
+Hyperparameters: num_heads=2, num_transformer_blocks=8, learning_rate=0.006888715984126817, optimizer=Adam, weight_decay=0.0007850626689798364, batch_size=16,factor=1
+[I 2025-06-07 04:34:54,822] Trial 80 finished with value: 0.5894064872325742 and parameters: {'num_heads': 8, 'num_transformer_blocks': 8, 'learning_rate': 0.0018973148891251617, 'weight_decay': 0.0007383850556356687, 'label_smoothing': 0.06}. Best is trial 34 with value: 0.6118616287094548.
+Trial 80, Fold 1: Test Accuracy = 0.5894
+Hyperparameters: num_heads=2, num_transformer_blocks=8, learning_rate=0.003311522961194348, optimizer=Adam, weight_decay=0.0005650200598864694, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 16
+[I 2025-06-07 04:35:26,286] Trial 82 finished with value: 0.33961352657004834 and parameters: {'num_heads': 2, 'num_transformer_blocks': 8, 'learning_rate': 0.003099012481348034, 'weight_decay': 0.0005897413494887618, 'label_smoothing': 0.06}. Best is trial 34 with value: 0.6118616287094548.
+Trial 82, Fold 1: Test Accuracy = 0.3396
+Hyperparameters: num_heads=2, num_transformer_blocks=8, learning_rate=0.0007971606155532714, optimizer=Adam, weight_decay=0.00033776763231264934, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 11
+[I 2025-06-07 04:36:36,980] Trial 83 finished with value: 0.3333333333333333 and parameters: {'num_heads': 2, 'num_transformer_blocks': 8, 'learning_rate': 0.006888715984126817, 'weight_decay': 0.0007850626689798364, 'label_smoothing': 0.06}. Best is trial 34 with value: 0.6118616287094548.
+Trial 83, Fold 1: Test Accuracy = 0.3333
+Hyperparameters: num_heads=2, num_transformer_blocks=8, learning_rate=0.0008196533938204881, optimizer=Adam, weight_decay=0.0009674378890685176, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 13
+[I 2025-06-07 04:37:25,173] Trial 85 finished with value: 0.5726535541752933 and parameters: {'num_heads': 2, 'num_transformer_blocks': 8, 'learning_rate': 0.0007971606155532714, 'weight_decay': 0.00033776763231264934, 'label_smoothing': 0.01}. Best is trial 34 with value: 0.6118616287094548.
+Trial 85, Fold 1: Test Accuracy = 0.5727
+Hyperparameters: num_heads=2, num_transformer_blocks=8, learning_rate=0.003052974333977749, optimizer=Adam, weight_decay=2.7350446809073175e-06, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 10
+[I 2025-06-07 04:39:04,128] Trial 87 finished with value: 0.3333333333333333 and parameters: {'num_heads': 2, 'num_transformer_blocks': 8, 'learning_rate': 0.003052974333977749, 'weight_decay': 2.7350446809073175e-06, 'label_smoothing': 0.03}. Best is trial 34 with value: 0.6118616287094548.
+Trial 87, Fold 1: Test Accuracy = 0.3333
+Hyperparameters: num_heads=16, num_transformer_blocks=8, learning_rate=0.0013696721515052846, optimizer=Adam, weight_decay=0.0009676440016847239, batch_size=16,factor=1
+[I 2025-06-07 04:39:06,199] Trial 84 finished with value: 0.3333333333333333 and parameters: {'num_heads': 2, 'num_transformer_blocks': 8, 'learning_rate': 0.003311522961194348, 'weight_decay': 0.0005650200598864694, 'label_smoothing': 0.04}. Best is trial 34 with value: 0.6118616287094548.
+Trial 84, Fold 1: Test Accuracy = 0.3333
+Hyperparameters: num_heads=16, num_transformer_blocks=8, learning_rate=0.0014330672372184856, optimizer=Adam, weight_decay=0.0009301752830030605, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 23
+[I 2025-06-07 04:40:03,934] Trial 86 finished with value: 0.6113612836438923 and parameters: {'num_heads': 2, 'num_transformer_blocks': 8, 'learning_rate': 0.0008196533938204881, 'weight_decay': 0.0009674378890685176, 'label_smoothing': 0.16}. Best is trial 34 with value: 0.6118616287094548.
+Trial 86, Fold 1: Test Accuracy = 0.6114
+Hyperparameters: num_heads=2, num_transformer_blocks=8, learning_rate=0.0011918903172181614, optimizer=Adam, weight_decay=0.0008675128652544475, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 18
+[I 2025-06-07 04:41:44,565] Trial 88 finished with value: 0.6231193926846101 and parameters: {'num_heads': 16, 'num_transformer_blocks': 8, 'learning_rate': 0.0013696721515052846, 'weight_decay': 0.0009676440016847239, 'label_smoothing': 0.04}. Best is trial 88 with value: 0.6231193926846101.
+Trial 88, Fold 1: Test Accuracy = 0.6231
+Hyperparameters: num_heads=16, num_transformer_blocks=8, learning_rate=0.001788339418467752, optimizer=Adam, weight_decay=0.0003954872839987908, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 19
+[I 2025-06-07 04:42:02,018] Trial 89 finished with value: 0.572420634920635 and parameters: {'num_heads': 16, 'num_transformer_blocks': 8, 'learning_rate': 0.0014330672372184856, 'weight_decay': 0.0009301752830030605, 'label_smoothing': 0.16}. Best is trial 88 with value: 0.6231193926846101.
+Trial 89, Fold 1: Test Accuracy = 0.5724
+Hyperparameters: num_heads=16, num_transformer_blocks=8, learning_rate=0.0009370278022122844, optimizer=Adam, weight_decay=0.0002565007958395215, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 19
+[I 2025-06-07 04:42:57,456] Trial 90 finished with value: 0.582876121463078 and parameters: {'num_heads': 2, 'num_transformer_blocks': 8, 'learning_rate': 0.0011918903172181614, 'weight_decay': 0.0008675128652544475, 'label_smoothing': 0.16}. Best is trial 88 with value: 0.6231193926846101.
+Trial 90, Fold 1: Test Accuracy = 0.5829
+Hyperparameters: num_heads=16, num_transformer_blocks=8, learning_rate=0.0008620862768958992, optimizer=Adam, weight_decay=0.0002480151574183652, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 12
+[I 2025-06-07 04:44:10,743] Trial 92 finished with value: 0.5867753623188406 and parameters: {'num_heads': 16, 'num_transformer_blocks': 8, 'learning_rate': 0.0009370278022122844, 'weight_decay': 0.0002565007958395215, 'label_smoothing': 0.01}. Best is trial 88 with value: 0.6231193926846101.
+Trial 92, Fold 1: Test Accuracy = 0.5868
+Hyperparameters: num_heads=16, num_transformer_blocks=8, learning_rate=0.0007600000630185462, optimizer=Adam, weight_decay=0.0003934872705890018, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 21
+[I 2025-06-07 04:44:54,477] Trial 91 finished with value: 0.5093081435472739 and parameters: {'num_heads': 16, 'num_transformer_blocks': 8, 'learning_rate': 0.001788339418467752, 'weight_decay': 0.0003954872839987908, 'label_smoothing': 0.01}. Best is trial 88 with value: 0.6231193926846101.
+Trial 91, Fold 1: Test Accuracy = 0.5093
+Hyperparameters: num_heads=16, num_transformer_blocks=8, learning_rate=0.0008444256470758107, optimizer=Adam, weight_decay=0.0002463546124930509, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 17
+[I 2025-06-07 04:45:31,437] Trial 93 finished with value: 0.5767080745341615 and parameters: {'num_heads': 16, 'num_transformer_blocks': 8, 'learning_rate': 0.0008620862768958992, 'weight_decay': 0.0002480151574183652, 'label_smoothing': 0.02}. Best is trial 88 with value: 0.6231193926846101.
+Trial 93, Fold 1: Test Accuracy = 0.5767
+Hyperparameters: num_heads=16, num_transformer_blocks=8, learning_rate=3.411040949372564e-08, optimizer=Adam, weight_decay=0.0005161234630801609, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 13
+[I 2025-06-07 04:46:20,906] Trial 94 finished with value: 0.5451604554865425 and parameters: {'num_heads': 16, 'num_transformer_blocks': 8, 'learning_rate': 0.0007600000630185462, 'weight_decay': 0.0003934872705890018, 'label_smoothing': 0.01}. Best is trial 88 with value: 0.6231193926846101.
+Trial 94, Fold 1: Test Accuracy = 0.5452
+Hyperparameters: num_heads=16, num_transformer_blocks=8, learning_rate=0.004128186711992572, optimizer=Adam, weight_decay=0.0005394281562766647, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 11
+[I 2025-06-07 04:46:42,613] Trial 95 finished with value: 0.5456866804692891 and parameters: {'num_heads': 16, 'num_transformer_blocks': 8, 'learning_rate': 0.0008444256470758107, 'weight_decay': 0.0002463546124930509, 'label_smoothing': 0.03}. Best is trial 88 with value: 0.6231193926846101.
+Trial 95, Fold 1: Test Accuracy = 0.5457
+Hyperparameters: num_heads=16, num_transformer_blocks=8, learning_rate=0.004158375843827244, optimizer=Adam, weight_decay=0.000549331813267271, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 18
+[I 2025-06-07 04:49:10,585] Trial 97 finished with value: 0.3333333333333333 and parameters: {'num_heads': 16, 'num_transformer_blocks': 8, 'learning_rate': 0.004128186711992572, 'weight_decay': 0.0005394281562766647, 'label_smoothing': 0.04}. Best is trial 88 with value: 0.6231193926846101.
+Trial 97, Fold 1: Test Accuracy = 0.3333
+Hyperparameters: num_heads=16, num_transformer_blocks=8, learning_rate=2.409101702901767e-08, optimizer=Adam, weight_decay=0.0007039295434497356, batch_size=16,factor=1
+[I 2025-06-07 04:49:50,329] Trial 96 finished with value: 0.3333333333333333 and parameters: {'num_heads': 16, 'num_transformer_blocks': 8, 'learning_rate': 3.411040949372564e-08, 'weight_decay': 0.0005161234630801609, 'label_smoothing': 0.0}. Best is trial 88 with value: 0.6231193926846101.
+Trial 96, Fold 1: Test Accuracy = 0.3333
+Hyperparameters: num_heads=2, num_transformer_blocks=8, learning_rate=0.0022845972079059956, optimizer=Adam, weight_decay=0.000602692326677612, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 21
+[I 2025-06-07 04:49:57,046] Trial 98 finished with value: 0.3333333333333333 and parameters: {'num_heads': 16, 'num_transformer_blocks': 8, 'learning_rate': 0.004158375843827244, 'weight_decay': 0.000549331813267271, 'label_smoothing': 0.04}. Best is trial 88 with value: 0.6231193926846101.
+Trial 98, Fold 1: Test Accuracy = 0.3333
+Hyperparameters: num_heads=2, num_transformer_blocks=8, learning_rate=0.0024163364650114077, optimizer=Adam, weight_decay=0.00014454537741463662, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 14
+Trial 101, Fold 1: Test Accuracy = 0.3333
+[I 2025-06-07 04:52:11,239] Trial 101 finished with value: 0.3333333333333333 and parameters: {'num_heads': 2, 'num_transformer_blocks': 8, 'learning_rate': 0.0024163364650114077, 'weight_decay': 0.00014454537741463662, 'label_smoothing': 0.06}. Best is trial 88 with value: 0.6231193926846101.
+Hyperparameters: num_heads=4, num_transformer_blocks=8, learning_rate=0.00015659602009353686, optimizer=Adam, weight_decay=0.0006947116536473927, batch_size=16,factor=1
+Trial 99, Fold 1: Test Accuracy = 0.3333
+[I 2025-06-07 04:53:27,786] Trial 99 finished with value: 0.3333333333333333 and parameters: {'num_heads': 16, 'num_transformer_blocks': 8, 'learning_rate': 2.409101702901767e-08, 'weight_decay': 0.0007039295434497356, 'label_smoothing': 0.04}. Best is trial 88 with value: 0.6231193926846101.
+Hyperparameters: num_heads=4, num_transformer_blocks=8, learning_rate=0.00014314852666349136, optimizer=Adam, weight_decay=0.0009605283760649961, batch_size=16,factor=1
+[I 2025-06-07 04:54:06,194] Trial 100 finished with value: 0.592883022774327 and parameters: {'num_heads': 2, 'num_transformer_blocks': 8, 'learning_rate': 0.0022845972079059956, 'weight_decay': 0.000602692326677612, 'label_smoothing': 0.21}. Best is trial 88 with value: 0.6231193926846101.
+Trial 100, Fold 1: Test Accuracy = 0.5929
+Hyperparameters: num_heads=2, num_transformer_blocks=8, learning_rate=0.0011948017238790677, optimizer=Adam, weight_decay=0.0006255351574081472, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 22
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 13
+[I 2025-06-07 04:55:27,763] Trial 102 finished with value: 0.5688492063492064 and parameters: {'num_heads': 4, 'num_transformer_blocks': 8, 'learning_rate': 0.00015659602009353686, 'weight_decay': 0.0006947116536473927, 'label_smoothing': 0.17}. Best is trial 88 with value: 0.6231193926846101.
+Trial 102, Fold 1: Test Accuracy = 0.5688
+Hyperparameters: num_heads=2, num_transformer_blocks=8, learning_rate=0.0011496782892071033, optimizer=Adam, weight_decay=0.000990892331425129, batch_size=16,factor=1
+[I 2025-06-07 04:55:29,573] Trial 103 finished with value: 0.5342391304347825 and parameters: {'num_heads': 4, 'num_transformer_blocks': 8, 'learning_rate': 0.00014314852666349136, 'weight_decay': 0.0009605283760649961, 'label_smoothing': 0.13}. Best is trial 88 with value: 0.6231193926846101.
+Trial 103, Fold 1: Test Accuracy = 0.5342
+Hyperparameters: num_heads=2, num_transformer_blocks=8, learning_rate=0.006246098983647171, optimizer=Adam, weight_decay=0.0006216306098361402, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 17
+[I 2025-06-07 04:56:43,084] Trial 104 finished with value: 0.5835144927536232 and parameters: {'num_heads': 2, 'num_transformer_blocks': 8, 'learning_rate': 0.0011948017238790677, 'weight_decay': 0.0006255351574081472, 'label_smoothing': 0.22}. Best is trial 88 with value: 0.6231193926846101.
+Trial 104, Fold 1: Test Accuracy = 0.5835
+Hyperparameters: num_heads=2, num_transformer_blocks=2, learning_rate=0.006283774855701247, optimizer=Adam, weight_decay=1.4072389848906073e-06, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 13
+[I 2025-06-07 04:57:36,682] Trial 106 finished with value: 0.3333333333333333 and parameters: {'num_heads': 2, 'num_transformer_blocks': 8, 'learning_rate': 0.006246098983647171, 'weight_decay': 0.0006216306098361402, 'label_smoothing': 0.21}. Best is trial 88 with value: 0.6231193926846101.
+Trial 106, Fold 1: Test Accuracy = 0.3333
+Hyperparameters: num_heads=2, num_transformer_blocks=2, learning_rate=0.002375204889612184, optimizer=Adam, weight_decay=0.0008305960357720593, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 17
+Trial 105, Fold 1: Test Accuracy = 0.5409
+[I 2025-06-07 04:58:04,706] Trial 105 finished with value: 0.5409161490683231 and parameters: {'num_heads': 2, 'num_transformer_blocks': 8, 'learning_rate': 0.0011496782892071033, 'weight_decay': 0.000990892331425129, 'label_smoothing': 0.21}. Best is trial 88 with value: 0.6231193926846101.
+Hyperparameters: num_heads=2, num_transformer_blocks=2, learning_rate=0.002434686744462289, optimizer=Adam, weight_decay=0.0008130135940309657, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 13
+Trial 107, Fold 1: Test Accuracy = 0.3333
+[I 2025-06-07 04:58:30,429] Trial 107 finished with value: 0.3333333333333333 and parameters: {'num_heads': 2, 'num_transformer_blocks': 2, 'learning_rate': 0.006283774855701247, 'weight_decay': 1.4072389848906073e-06, 'label_smoothing': 0.2}. Best is trial 88 with value: 0.6231193926846101.
+Hyperparameters: num_heads=32, num_transformer_blocks=8, learning_rate=0.0005740396891375217, optimizer=Adam, weight_decay=0.0007863640188002474, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 12
+Trial 108, Fold 1: Test Accuracy = 0.5068
+[I 2025-06-07 04:59:26,906] Trial 108 finished with value: 0.506815044858523 and parameters: {'num_heads': 2, 'num_transformer_blocks': 2, 'learning_rate': 0.002375204889612184, 'weight_decay': 0.0008305960357720593, 'label_smoothing': 0.2}. Best is trial 88 with value: 0.6231193926846101.
+Hyperparameters: num_heads=32, num_transformer_blocks=8, learning_rate=0.0015600659068157766, optimizer=Adam, weight_decay=0.00035614538936708066, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 13
+Trial 109, Fold 1: Test Accuracy = 0.5654
+[I 2025-06-07 04:59:46,563] Trial 109 finished with value: 0.565407177363699 and parameters: {'num_heads': 2, 'num_transformer_blocks': 2, 'learning_rate': 0.002434686744462289, 'weight_decay': 0.0008130135940309657, 'label_smoothing': 0.2}. Best is trial 88 with value: 0.6231193926846101.
+Hyperparameters: num_heads=16, num_transformer_blocks=8, learning_rate=0.000589710153150947, optimizer=Adam, weight_decay=0.0004369599074681486, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 19
+[I 2025-06-07 05:01:42,482] Trial 110 finished with value: 0.6148982056590753 and parameters: {'num_heads': 32, 'num_transformer_blocks': 8, 'learning_rate': 0.0005740396891375217, 'weight_decay': 0.0007863640188002474, 'label_smoothing': 0.23}. Best is trial 88 with value: 0.6231193926846101.
+Trial 110, Fold 1: Test Accuracy = 0.6149
+Hyperparameters: num_heads=32, num_transformer_blocks=8, learning_rate=0.0005234880794064547, optimizer=Adam, weight_decay=0.0003416678897953202, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 15
+Trial 112, Fold 1: Test Accuracy = 0.5619
+[I 2025-06-07 05:02:15,852] Trial 112 finished with value: 0.5618702553485163 and parameters: {'num_heads': 16, 'num_transformer_blocks': 8, 'learning_rate': 0.000589710153150947, 'weight_decay': 0.0004369599074681486, 'label_smoothing': 0.23}. Best is trial 88 with value: 0.6231193926846101.
+Hyperparameters: num_heads=32, num_transformer_blocks=8, learning_rate=0.0003058664710734525, optimizer=Adam, weight_decay=0.0007479094338838283, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 19
+Trial 111, Fold 1: Test Accuracy = 0.5875
+[I 2025-06-07 05:02:25,857] Trial 111 finished with value: 0.5875345065562456 and parameters: {'num_heads': 32, 'num_transformer_blocks': 8, 'learning_rate': 0.0015600659068157766, 'weight_decay': 0.00035614538936708066, 'label_smoothing': 0.18}. Best is trial 88 with value: 0.6231193926846101.
+Hyperparameters: num_heads=32, num_transformer_blocks=8, learning_rate=0.0014268683384269449, optimizer=Adam, weight_decay=0.0003463319958859285, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 18
+Trial 113, Fold 1: Test Accuracy = 0.5736
+[I 2025-06-07 05:04:37,463] Trial 113 finished with value: 0.5736024844720496 and parameters: {'num_heads': 32, 'num_transformer_blocks': 8, 'learning_rate': 0.0005234880794064547, 'weight_decay': 0.0003416678897953202, 'label_smoothing': 0.24}. Best is trial 88 with value: 0.6231193926846101.
+Hyperparameters: num_heads=32, num_transformer_blocks=8, learning_rate=0.0017656653634734094, optimizer=Adam, weight_decay=0.0007498658722780421, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 21
+Trial 114, Fold 1: Test Accuracy = 0.5676
+[I 2025-06-07 05:05:38,800] Trial 114 finished with value: 0.5675552104899931 and parameters: {'num_heads': 32, 'num_transformer_blocks': 8, 'learning_rate': 0.0003058664710734525, 'weight_decay': 0.0007479094338838283, 'label_smoothing': 0.23}. Best is trial 88 with value: 0.6231193926846101.
+Hyperparameters: num_heads=32, num_transformer_blocks=8, learning_rate=0.0016211494516521823, optimizer=Adam, weight_decay=0.0008678244947756975, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 23
+Trial 115, Fold 1: Test Accuracy = 0.6363
+[I 2025-06-07 05:06:06,617] Trial 115 finished with value: 0.6363181504485853 and parameters: {'num_heads': 32, 'num_transformer_blocks': 8, 'learning_rate': 0.0014268683384269449, 'weight_decay': 0.0003463319958859285, 'label_smoothing': 0.18}. Best is trial 115 with value: 0.6363181504485853.
+Hyperparameters: num_heads=32, num_transformer_blocks=8, learning_rate=0.001643384009125399, optimizer=Adam, weight_decay=0.00048037046098270306, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 22
+[I 2025-06-07 05:09:13,229] Trial 117 finished with value: 0.5787957211870255 and parameters: {'num_heads': 32, 'num_transformer_blocks': 8, 'learning_rate': 0.0016211494516521823, 'weight_decay': 0.0008678244947756975, 'label_smoothing': 0.17}. Best is trial 115 with value: 0.6363181504485853.
+Trial 117, Fold 1: Test Accuracy = 0.5788
+Hyperparameters: num_heads=32, num_transformer_blocks=8, learning_rate=0.0019719204727131952, optimizer=Adam, weight_decay=0.00047404572779945, batch_size=16,factor=1
+Trial 116, Fold 1: Test Accuracy = 0.5360
+[I 2025-06-07 05:09:13,378] Trial 116 finished with value: 0.5360334713595583 and parameters: {'num_heads': 32, 'num_transformer_blocks': 8, 'learning_rate': 0.0017656653634734094, 'weight_decay': 0.0007498658722780421, 'label_smoothing': 0.18}. Best is trial 115 with value: 0.6363181504485853.
+Hyperparameters: num_heads=32, num_transformer_blocks=32, learning_rate=0.0006339921747973958, optimizer=Adam, weight_decay=0.00048249846894735733, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 11
+[I 2025-06-07 05:10:50,956] Trial 119 finished with value: 0.4282177363699103 and parameters: {'num_heads': 32, 'num_transformer_blocks': 8, 'learning_rate': 0.0019719204727131952, 'weight_decay': 0.00047404572779945, 'label_smoothing': 0.22}. Best is trial 115 with value: 0.6363181504485853.
+Trial 119, Fold 1: Test Accuracy = 0.4282
+Hyperparameters: num_heads=32, num_transformer_blocks=32, learning_rate=1.4348022824973814e-06, optimizer=Adam, weight_decay=0.0006055358638278887, batch_size=16,factor=1
+[I 2025-06-07 05:10:52,135] Trial 118 finished with value: 0.5499309868875086 and parameters: {'num_heads': 32, 'num_transformer_blocks': 8, 'learning_rate': 0.001643384009125399, 'weight_decay': 0.00048037046098270306, 'label_smoothing': 0.19}. Best is trial 115 with value: 0.6363181504485853.
+Trial 118, Fold 1: Test Accuracy = 0.5499
+Hyperparameters: num_heads=32, num_transformer_blocks=32, learning_rate=2.660216998578444e-06, optimizer=Adam, weight_decay=0.000632042696549062, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 12
+[I 2025-06-07 05:13:19,336] Trial 121 finished with value: 0.3161922015182885 and parameters: {'num_heads': 32, 'num_transformer_blocks': 32, 'learning_rate': 1.4348022824973814e-06, 'weight_decay': 0.0006055358638278887, 'label_smoothing': 0.19}. Best is trial 115 with value: 0.6363181504485853.
+Trial 121, Fold 1: Test Accuracy = 0.3162
+Hyperparameters: num_heads=32, num_transformer_blocks=8, learning_rate=0.0032115355739763267, optimizer=Adam, weight_decay=0.0006884505290687934, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 16
+[I 2025-06-07 05:15:29,570] Trial 120 finished with value: 0.557755348516218 and parameters: {'num_heads': 32, 'num_transformer_blocks': 32, 'learning_rate': 0.0006339921747973958, 'weight_decay': 0.00048249846894735733, 'label_smoothing': 0.24}. Best is trial 115 with value: 0.6363181504485853.
+Trial 120, Fold 1: Test Accuracy = 0.5578
+Hyperparameters: num_heads=32, num_transformer_blocks=8, learning_rate=0.003231315098630607, optimizer=Adam, weight_decay=0.0009987028852522152, batch_size=16,factor=1
+[I 2025-06-07 05:15:30,717] Trial 123 finished with value: 0.5181849551414769 and parameters: {'num_heads': 32, 'num_transformer_blocks': 8, 'learning_rate': 0.0032115355739763267, 'weight_decay': 0.0006884505290687934, 'label_smoothing': 0.18}. Best is trial 115 with value: 0.6363181504485853.
+Trial 123, Fold 1: Test Accuracy = 0.5182
+Hyperparameters: num_heads=32, num_transformer_blocks=8, learning_rate=0.0013510400186761708, optimizer=Adam, weight_decay=0.0003816957003556357, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 11
+[I 2025-06-07 05:17:07,257] Trial 124 finished with value: 0.48715493443754315 and parameters: {'num_heads': 32, 'num_transformer_blocks': 8, 'learning_rate': 0.003231315098630607, 'weight_decay': 0.0009987028852522152, 'label_smoothing': 0.18}. Best is trial 115 with value: 0.6363181504485853.
+Trial 124, Fold 1: Test Accuracy = 0.4872
+Hyperparameters: num_heads=32, num_transformer_blocks=8, learning_rate=0.0010310736291360611, optimizer=Adam, weight_decay=0.0002847020262072877, batch_size=16,factor=1
+Trial 122, Fold 1: Test Accuracy = 0.3568
+[I 2025-06-07 05:18:47,256] Trial 122 finished with value: 0.356832298136646 and parameters: {'num_heads': 32, 'num_transformer_blocks': 32, 'learning_rate': 2.660216998578444e-06, 'weight_decay': 0.000632042696549062, 'label_smoothing': 0.26}. Best is trial 115 with value: 0.6363181504485853.
+Hyperparameters: num_heads=2, num_transformer_blocks=8, learning_rate=0.001339432999303212, optimizer=Adam, weight_decay=0.00037287372215286, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 15
+[I 2025-06-07 05:19:17,857] Trial 126 finished with value: 0.5711093857832988 and parameters: {'num_heads': 32, 'num_transformer_blocks': 8, 'learning_rate': 0.0010310736291360611, 'weight_decay': 0.0002847020262072877, 'label_smoothing': 0.24}. Best is trial 115 with value: 0.6363181504485853.
+Trial 126, Fold 1: Test Accuracy = 0.5711
+Hyperparameters: num_heads=2, num_transformer_blocks=8, learning_rate=0.0003818874213221449, optimizer=Adam, weight_decay=0.0003960814682895306, batch_size=16,factor=1
+Trial 125, Fold 1: Test Accuracy = 0.5806
+[I 2025-06-07 05:19:37,978] Trial 125 finished with value: 0.5805728088336785 and parameters: {'num_heads': 32, 'num_transformer_blocks': 8, 'learning_rate': 0.0013510400186761708, 'weight_decay': 0.0003816957003556357, 'label_smoothing': 0.26}. Best is trial 115 with value: 0.6363181504485853.
+Hyperparameters: num_heads=2, num_transformer_blocks=8, learning_rate=0.009410653461575625, optimizer=Adam, weight_decay=0.00012028062615513761, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 10
+[I 2025-06-07 05:21:16,776] Trial 129 finished with value: 0.3333333333333333 and parameters: {'num_heads': 2, 'num_transformer_blocks': 8, 'learning_rate': 0.009410653461575625, 'weight_decay': 0.00012028062615513761, 'label_smoothing': 0.16}. Best is trial 115 with value: 0.6363181504485853.
+Trial 129, Fold 1: Test Accuracy = 0.3333
+Hyperparameters: num_heads=4, num_transformer_blocks=8, learning_rate=0.00021757725523916479, optimizer=Adam, weight_decay=1.4317552701093831e-05, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 16
+[I 2025-06-07 05:21:39,673] Trial 128 finished with value: 0.5104727398205658 and parameters: {'num_heads': 2, 'num_transformer_blocks': 8, 'learning_rate': 0.0003818874213221449, 'weight_decay': 0.0003960814682895306, 'label_smoothing': 0.05}. Best is trial 115 with value: 0.6363181504485853.
+Trial 128, Fold 1: Test Accuracy = 0.5105
+Hyperparameters: num_heads=4, num_transformer_blocks=16, learning_rate=0.00023597681004269668, optimizer=Adam, weight_decay=0.0008726976596023714, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 29
+[I 2025-06-07 05:23:06,058] Trial 127 finished with value: 0.533756038647343 and parameters: {'num_heads': 2, 'num_transformer_blocks': 8, 'learning_rate': 0.001339432999303212, 'weight_decay': 0.00037287372215286, 'label_smoothing': 0.22}. Best is trial 115 with value: 0.6363181504485853.
+Trial 127, Fold 1: Test Accuracy = 0.5338
+Hyperparameters: num_heads=4, num_transformer_blocks=16, learning_rate=0.0007388076540564359, optimizer=Adam, weight_decay=6.567484084171686e-05, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 12
+[I 2025-06-07 05:23:14,714] Trial 130 finished with value: 0.5479554865424431 and parameters: {'num_heads': 4, 'num_transformer_blocks': 8, 'learning_rate': 0.00021757725523916479, 'weight_decay': 1.4317552701093831e-05, 'label_smoothing': 0.05}. Best is trial 115 with value: 0.6363181504485853.
+Trial 130, Fold 1: Test Accuracy = 0.5480
+Hyperparameters: num_heads=16, num_transformer_blocks=8, learning_rate=0.0009642562330633527, optimizer=Adam, weight_decay=0.00029367003744361174, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 11
+[I 2025-06-07 05:24:56,491] Trial 132 finished with value: 0.3333333333333333 and parameters: {'num_heads': 4, 'num_transformer_blocks': 16, 'learning_rate': 0.0007388076540564359, 'weight_decay': 6.567484084171686e-05, 'label_smoothing': 0.17}. Best is trial 115 with value: 0.6363181504485853.
+Trial 132, Fold 1: Test Accuracy = 0.3333
+Hyperparameters: num_heads=16, num_transformer_blocks=8, learning_rate=0.0009476862100850873, optimizer=Adam, weight_decay=0.00017741895931483323, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 15
+[I 2025-06-07 05:25:39,638] Trial 133 finished with value: 0.5622412008281573 and parameters: {'num_heads': 16, 'num_transformer_blocks': 8, 'learning_rate': 0.0009642562330633527, 'weight_decay': 0.00029367003744361174, 'label_smoothing': 0.17}. Best is trial 115 with value: 0.6363181504485853.
+Trial 133, Fold 1: Test Accuracy = 0.5622
+Hyperparameters: num_heads=16, num_transformer_blocks=8, learning_rate=0.0005222979357079563, optimizer=Adam, weight_decay=0.0008427027145774952, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 26
+Trial 131, Fold 1: Test Accuracy = 0.5455
+[I 2025-06-07 05:25:49,434] Trial 131 finished with value: 0.5455227743271222 and parameters: {'num_heads': 4, 'num_transformer_blocks': 16, 'learning_rate': 0.00023597681004269668, 'weight_decay': 0.0008726976596023714, 'label_smoothing': 0.15}. Best is trial 115 with value: 0.6363181504485853.
+Hyperparameters: num_heads=16, num_transformer_blocks=8, learning_rate=0.0005014026216021724, optimizer=Adam, weight_decay=0.00021943394687670215, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 13
+[I 2025-06-07 05:26:58,342] Trial 134 finished with value: 0.5566338854382332 and parameters: {'num_heads': 16, 'num_transformer_blocks': 8, 'learning_rate': 0.0009476862100850873, 'weight_decay': 0.00017741895931483323, 'label_smoothing': 0.15}. Best is trial 115 with value: 0.6363181504485853.
+Trial 134, Fold 1: Test Accuracy = 0.5566
+Hyperparameters: num_heads=16, num_transformer_blocks=8, learning_rate=0.0006444211704037813, optimizer=Adam, weight_decay=0.00023300939741798923, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 12
+Trial 135, Fold 1: Test Accuracy = 0.5241
+[I 2025-06-07 05:27:31,167] Trial 135 finished with value: 0.5240942028985507 and parameters: {'num_heads': 16, 'num_transformer_blocks': 8, 'learning_rate': 0.0005222979357079563, 'weight_decay': 0.0008427027145774952, 'label_smoothing': 0.15}. Best is trial 115 with value: 0.6363181504485853.
+Hyperparameters: num_heads=2, num_transformer_blocks=8, learning_rate=0.004583673852668746, optimizer=Adam, weight_decay=0.0005779582302236364, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 16
+[I 2025-06-07 05:28:17,398] Trial 136 finished with value: 0.5779071773636991 and parameters: {'num_heads': 16, 'num_transformer_blocks': 8, 'learning_rate': 0.0005014026216021724, 'weight_decay': 0.00021943394687670215, 'label_smoothing': 0.19}. Best is trial 115 with value: 0.6363181504485853.
+Trial 136, Fold 1: Test Accuracy = 0.5779
+Hyperparameters: num_heads=2, num_transformer_blocks=8, learning_rate=0.0024398300634119754, optimizer=Adam, weight_decay=0.0005778091838575165, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 21
+[I 2025-06-07 05:30:17,553] Trial 137 finished with value: 0.5394927536231884 and parameters: {'num_heads': 16, 'num_transformer_blocks': 8, 'learning_rate': 0.0006444211704037813, 'weight_decay': 0.00023300939741798923, 'label_smoothing': 0.21}. Best is trial 115 with value: 0.6363181504485853.
+Trial 137, Fold 1: Test Accuracy = 0.5395
+Hyperparameters: num_heads=2, num_transformer_blocks=8, learning_rate=0.0025385109734462185, optimizer=Adam, weight_decay=0.0005905440182849659, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 20
+Trial 138, Fold 1: Test Accuracy = 0.3333
+[I 2025-06-07 05:30:32,783] Trial 138 finished with value: 0.3333333333333333 and parameters: {'num_heads': 2, 'num_transformer_blocks': 8, 'learning_rate': 0.004583673852668746, 'weight_decay': 0.0005779582302236364, 'label_smoothing': 0.02}. Best is trial 115 with value: 0.6363181504485853.
+Hyperparameters: num_heads=8, num_transformer_blocks=8, learning_rate=0.0024435957513490062, optimizer=Adam, weight_decay=0.00032084463091588435, batch_size=16,factor=1
+[I 2025-06-07 05:32:34,849] Trial 139 finished with value: 0.5517857142857143 and parameters: {'num_heads': 2, 'num_transformer_blocks': 8, 'learning_rate': 0.0024398300634119754, 'weight_decay': 0.0005778091838575165, 'label_smoothing': 0.16}. Best is trial 115 with value: 0.6363181504485853.
+Trial 139, Fold 1: Test Accuracy = 0.5518
+Hyperparameters: num_heads=8, num_transformer_blocks=8, learning_rate=0.0002964294422277012, optimizer=Adam, weight_decay=0.0007090119353904357, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 23
+[I 2025-06-07 05:33:57,819] Trial 141 finished with value: 0.42801932367149753 and parameters: {'num_heads': 8, 'num_transformer_blocks': 8, 'learning_rate': 0.0024435957513490062, 'weight_decay': 0.00032084463091588435, 'label_smoothing': 0.06}. Best is trial 115 with value: 0.6363181504485853.
+Trial 141, Fold 1: Test Accuracy = 0.4280
+Hyperparameters: num_heads=8, num_transformer_blocks=4, learning_rate=0.00031254770456495563, optimizer=Adam, weight_decay=0.000997282862214272, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 10
+Trial 142, Fold 1: Test Accuracy = 0.5797
+[I 2025-06-07 05:34:12,566] Trial 142 finished with value: 0.5796670117322291 and parameters: {'num_heads': 8, 'num_transformer_blocks': 8, 'learning_rate': 0.0002964294422277012, 'weight_decay': 0.0007090119353904357, 'label_smoothing': 0.06}. Best is trial 115 with value: 0.6363181504485853.
+Hyperparameters: num_heads=8, num_transformer_blocks=4, learning_rate=0.0012386226690798176, optimizer=Adam, weight_decay=0.0007853236134369691, batch_size=16,factor=1
+Trial 140, Fold 1: Test Accuracy = 0.5576
+[I 2025-06-07 05:34:32,334] Trial 140 finished with value: 0.5575914423740511 and parameters: {'num_heads': 2, 'num_transformer_blocks': 8, 'learning_rate': 0.0025385109734462185, 'weight_decay': 0.0005905440182849659, 'label_smoothing': 0.02}. Best is trial 115 with value: 0.6363181504485853.
+Hyperparameters: num_heads=8, num_transformer_blocks=4, learning_rate=0.0012727785101787467, optimizer=Adam, weight_decay=0.0007740944429064555, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 12
+Trial 143, Fold 1: Test Accuracy = 0.5327
+[I 2025-06-07 05:35:49,778] Trial 143 finished with value: 0.532651828847481 and parameters: {'num_heads': 8, 'num_transformer_blocks': 4, 'learning_rate': 0.00031254770456495563, 'weight_decay': 0.000997282862214272, 'label_smoothing': 0.11}. Best is trial 115 with value: 0.6363181504485853.
+Hyperparameters: num_heads=8, num_transformer_blocks=4, learning_rate=0.0013960623783174826, optimizer=Adam, weight_decay=0.0007725261928301675, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 13
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 10
+[I 2025-06-07 05:36:04,470] Trial 144 finished with value: 0.5637681159420289 and parameters: {'num_heads': 8, 'num_transformer_blocks': 4, 'learning_rate': 0.0012386226690798176, 'weight_decay': 0.0007853236134369691, 'label_smoothing': 0.13}. Best is trial 115 with value: 0.6363181504485853.
+Trial 144, Fold 1: Test Accuracy = 0.5638
+Hyperparameters: num_heads=8, num_transformer_blocks=8, learning_rate=0.0007228764175955534, optimizer=Adam, weight_decay=0.0007140671314593801, batch_size=16,factor=1
+[I 2025-06-07 05:36:05,148] Trial 145 finished with value: 0.5099465148378192 and parameters: {'num_heads': 8, 'num_transformer_blocks': 4, 'learning_rate': 0.0012727785101787467, 'weight_decay': 0.0007740944429064555, 'label_smoothing': 0.13}. Best is trial 115 with value: 0.6363181504485853.
+Trial 145, Fold 1: Test Accuracy = 0.5099
+Hyperparameters: num_heads=32, num_transformer_blocks=8, learning_rate=0.0007840538058388696, optimizer=Adam, weight_decay=0.0008814977503519273, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 14
+Trial 147, Fold 1: Test Accuracy = 0.5130
+[I 2025-06-07 05:38:13,438] Trial 147 finished with value: 0.5129830917874396 and parameters: {'num_heads': 8, 'num_transformer_blocks': 8, 'learning_rate': 0.0007228764175955534, 'weight_decay': 0.0007140671314593801, 'label_smoothing': 0.12}. Best is trial 115 with value: 0.6363181504485853.
+Hyperparameters: num_heads=32, num_transformer_blocks=8, learning_rate=0.000421190510203952, optimizer=Adam, weight_decay=4.503490958592882e-05, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 20
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 18
+Trial 146, Fold 1: Test Accuracy = 0.5157
+[I 2025-06-07 05:38:45,776] Trial 146 finished with value: 0.5156918564527261 and parameters: {'num_heads': 8, 'num_transformer_blocks': 4, 'learning_rate': 0.0013960623783174826, 'weight_decay': 0.0007725261928301675, 'label_smoothing': 0.12}. Best is trial 115 with value: 0.6363181504485853.
+Hyperparameters: num_heads=32, num_transformer_blocks=8, learning_rate=0.0004289631955027343, optimizer=Adam, weight_decay=0.0009019284606442918, batch_size=16,factor=1
+[I 2025-06-07 05:38:47,640] Trial 148 finished with value: 0.5432194616977225 and parameters: {'num_heads': 32, 'num_transformer_blocks': 8, 'learning_rate': 0.0007840538058388696, 'weight_decay': 0.0008814977503519273, 'label_smoothing': 0.0}. Best is trial 115 with value: 0.6363181504485853.
+Trial 148, Fold 1: Test Accuracy = 0.5432
+Hyperparameters: num_heads=32, num_transformer_blocks=8, learning_rate=4.1472288326995033e-07, optimizer=Adam, weight_decay=0.00044034316353605194, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 13
+[I 2025-06-07 05:40:58,796] Trial 150 finished with value: 0.5609817115251898 and parameters: {'num_heads': 32, 'num_transformer_blocks': 8, 'learning_rate': 0.0004289631955027343, 'weight_decay': 0.0009019284606442918, 'label_smoothing': 0.0}. Best is trial 115 with value: 0.6363181504485853.
+Trial 150, Fold 1: Test Accuracy = 0.5610
+Hyperparameters: num_heads=2, num_transformer_blocks=8, learning_rate=0.0016725059979557505, optimizer=Adam, weight_decay=4.399224417717411e-05, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 18
+[I 2025-06-07 05:41:02,839] Trial 149 finished with value: 0.5252933057280883 and parameters: {'num_heads': 32, 'num_transformer_blocks': 8, 'learning_rate': 0.000421190510203952, 'weight_decay': 4.503490958592882e-05, 'label_smoothing': 0.11}. Best is trial 115 with value: 0.6363181504485853.
+Trial 149, Fold 1: Test Accuracy = 0.5253
+Hyperparameters: num_heads=2, num_transformer_blocks=8, learning_rate=0.0009670992212269853, optimizer=Adam, weight_decay=0.0005080269707581974, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 14
+[I 2025-06-07 05:41:05,080] Trial 151 finished with value: 0.38050379572118703 and parameters: {'num_heads': 32, 'num_transformer_blocks': 8, 'learning_rate': 4.1472288326995033e-07, 'weight_decay': 0.00044034316353605194, 'label_smoothing': 0.1}. Best is trial 115 with value: 0.6363181504485853.
+Trial 151, Fold 1: Test Accuracy = 0.3805
+Hyperparameters: num_heads=2, num_transformer_blocks=8, learning_rate=0.000983719984838618, optimizer=Adam, weight_decay=0.0006557728742907101, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 12
+Trial 152, Fold 1: Test Accuracy = 0.3333
+[I 2025-06-07 05:42:52,281] Trial 152 finished with value: 0.3333333333333333 and parameters: {'num_heads': 2, 'num_transformer_blocks': 8, 'learning_rate': 0.0016725059979557505, 'weight_decay': 4.399224417717411e-05, 'label_smoothing': 0.14}. Best is trial 115 with value: 0.6363181504485853.
+Hyperparameters: num_heads=2, num_transformer_blocks=8, learning_rate=0.0010884156212225297, optimizer=Adam, weight_decay=0.0005298691454737912, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 16
+[I 2025-06-07 05:43:19,792] Trial 153 finished with value: 0.5528467908902691 and parameters: {'num_heads': 2, 'num_transformer_blocks': 8, 'learning_rate': 0.0009670992212269853, 'weight_decay': 0.0005080269707581974, 'label_smoothing': 0.22}. Best is trial 115 with value: 0.6363181504485853.
+Trial 153, Fold 1: Test Accuracy = 0.5528
+Hyperparameters: num_heads=2, num_transformer_blocks=8, learning_rate=0.0011619275357454277, optimizer=Adam, weight_decay=0.0006531659657064784, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 22
+[I 2025-06-07 05:44:13,575] Trial 154 finished with value: 0.5493530020703934 and parameters: {'num_heads': 2, 'num_transformer_blocks': 8, 'learning_rate': 0.000983719984838618, 'weight_decay': 0.0006557728742907101, 'label_smoothing': 0.23}. Best is trial 115 with value: 0.6363181504485853.
+Trial 154, Fold 1: Test Accuracy = 0.5494
+Hyperparameters: num_heads=2, num_transformer_blocks=8, learning_rate=0.0018933226545544764, optimizer=Adam, weight_decay=0.0006474660724554895, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 13
+[I 2025-06-07 05:45:00,610] Trial 155 finished with value: 0.5751293995859214 and parameters: {'num_heads': 2, 'num_transformer_blocks': 8, 'learning_rate': 0.0010884156212225297, 'weight_decay': 0.0005298691454737912, 'label_smoothing': 0.22}. Best is trial 115 with value: 0.6363181504485853.
+Trial 155, Fold 1: Test Accuracy = 0.5751
+Hyperparameters: num_heads=2, num_transformer_blocks=8, learning_rate=0.0032766787403158268, optimizer=Adam, weight_decay=2.4364009956873795e-05, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 24
+[I 2025-06-07 05:46:42,922] Trial 156 finished with value: 0.5662180814354727 and parameters: {'num_heads': 2, 'num_transformer_blocks': 8, 'learning_rate': 0.0011619275357454277, 'weight_decay': 0.0006531659657064784, 'label_smoothing': 0.23}. Best is trial 115 with value: 0.6363181504485853.
+Trial 156, Fold 1: Test Accuracy = 0.5662
+Hyperparameters: num_heads=2, num_transformer_blocks=8, learning_rate=0.0019467639834497993, optimizer=Adam, weight_decay=0.0009898836662036333, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 12
+[I 2025-06-07 05:46:52,857] Trial 158 finished with value: 0.3333333333333333 and parameters: {'num_heads': 2, 'num_transformer_blocks': 8, 'learning_rate': 0.0032766787403158268, 'weight_decay': 2.4364009956873795e-05, 'label_smoothing': 0.08}. Best is trial 115 with value: 0.6363181504485853.
+Trial 158, Fold 1: Test Accuracy = 0.3333
+Hyperparameters: num_heads=16, num_transformer_blocks=4, learning_rate=0.001963281755929174, optimizer=Adam, weight_decay=8.690672904275421e-05, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 21
+Trial 157, Fold 1: Test Accuracy = 0.5254
+[I 2025-06-07 05:47:15,306] Trial 157 finished with value: 0.5253536922015183 and parameters: {'num_heads': 2, 'num_transformer_blocks': 8, 'learning_rate': 0.0018933226545544764, 'weight_decay': 0.0006474660724554895, 'label_smoothing': 0.23}. Best is trial 115 with value: 0.6363181504485853.
+Hyperparameters: num_heads=16, num_transformer_blocks=4, learning_rate=0.0005682400818200053, optimizer=Adam, weight_decay=3.7052839550186895e-05, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 11
+[I 2025-06-07 05:48:53,762] Trial 161 finished with value: 0.5666839199447895 and parameters: {'num_heads': 16, 'num_transformer_blocks': 4, 'learning_rate': 0.0005682400818200053, 'weight_decay': 3.7052839550186895e-05, 'label_smoothing': 0.07}. Best is trial 115 with value: 0.6363181504485853.
+Trial 161, Fold 1: Test Accuracy = 0.5667
+Hyperparameters: num_heads=8, num_transformer_blocks=2, learning_rate=0.0019571424702403487, optimizer=Adam, weight_decay=0.00014744567691054594, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 27
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 26
+Trial 159, Fold 1: Test Accuracy = 0.5206
+[I 2025-06-07 05:50:30,563] Trial 159 finished with value: 0.5206176673567978 and parameters: {'num_heads': 2, 'num_transformer_blocks': 8, 'learning_rate': 0.0019467639834497993, 'weight_decay': 0.0009898836662036333, 'label_smoothing': 0.07}. Best is trial 115 with value: 0.6363181504485853.
+Hyperparameters: num_heads=2, num_transformer_blocks=8, learning_rate=0.0007666257569512293, optimizer=Adam, weight_decay=0.0008602991334273695, batch_size=16,factor=1
+[I 2025-06-07 05:50:31,300] Trial 160 finished with value: 0.551164596273292 and parameters: {'num_heads': 16, 'num_transformer_blocks': 4, 'learning_rate': 0.001963281755929174, 'weight_decay': 8.690672904275421e-05, 'label_smoothing': 0.24}. Best is trial 115 with value: 0.6363181504485853.
+Trial 160, Fold 1: Test Accuracy = 0.5512
+Hyperparameters: num_heads=2, num_transformer_blocks=8, learning_rate=0.0014352951543059641, optimizer=Adam, weight_decay=0.000999403260577826, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 18
+[I 2025-06-07 05:51:21,647] Trial 162 finished with value: 0.5266649413388543 and parameters: {'num_heads': 8, 'num_transformer_blocks': 2, 'learning_rate': 0.0019571424702403487, 'weight_decay': 0.00014744567691054594, 'label_smoothing': 0.03}. Best is trial 115 with value: 0.6363181504485853.
+Trial 162, Fold 1: Test Accuracy = 0.5267
+Hyperparameters: num_heads=2, num_transformer_blocks=8, learning_rate=0.001429688226713615, optimizer=Adam, weight_decay=0.0008404313352636766, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 15
+[I 2025-06-07 05:52:43,092] Trial 163 finished with value: 0.5805210489993099 and parameters: {'num_heads': 2, 'num_transformer_blocks': 8, 'learning_rate': 0.0007666257569512293, 'weight_decay': 0.0008602991334273695, 'label_smoothing': 0.16}. Best is trial 115 with value: 0.6363181504485853.
+Trial 163, Fold 1: Test Accuracy = 0.5805
+Hyperparameters: num_heads=2, num_transformer_blocks=8, learning_rate=0.0014115240582092785, optimizer=Adam, weight_decay=0.0008415832435908093, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 18
+[I 2025-06-07 05:53:08,868] Trial 164 finished with value: 0.5759575569358178 and parameters: {'num_heads': 2, 'num_transformer_blocks': 8, 'learning_rate': 0.0014352951543059641, 'weight_decay': 0.000999403260577826, 'label_smoothing': 0.16}. Best is trial 115 with value: 0.6363181504485853.
+Trial 164, Fold 1: Test Accuracy = 0.5760
+Hyperparameters: num_heads=2, num_transformer_blocks=8, learning_rate=3.8895503019638854e-05, optimizer=Adam, weight_decay=0.0007976560279619839, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 23
+Trial 165, Fold 1: Test Accuracy = 0.5620
+[I 2025-06-07 05:54:43,828] Trial 165 finished with value: 0.5620082815734989 and parameters: {'num_heads': 2, 'num_transformer_blocks': 8, 'learning_rate': 0.001429688226713615, 'weight_decay': 0.0008404313352636766, 'label_smoothing': 0.18}. Best is trial 115 with value: 0.6363181504485853.
+Hyperparameters: num_heads=4, num_transformer_blocks=8, learning_rate=0.004072938428015639, optimizer=Adam, weight_decay=0.0007665441830060402, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 18
+[I 2025-06-07 05:55:22,373] Trial 166 finished with value: 0.5737577639751553 and parameters: {'num_heads': 2, 'num_transformer_blocks': 8, 'learning_rate': 0.0014115240582092785, 'weight_decay': 0.0008415832435908093, 'label_smoothing': 0.18}. Best is trial 115 with value: 0.6363181504485853.
+Trial 166, Fold 1: Test Accuracy = 0.5738
+Hyperparameters: num_heads=4, num_transformer_blocks=8, learning_rate=0.0005500849622453133, optimizer=Adam, weight_decay=5.232677305994526e-05, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 12
+[I 2025-06-07 05:56:37,375] Trial 168 finished with value: 0.3333333333333333 and parameters: {'num_heads': 4, 'num_transformer_blocks': 8, 'learning_rate': 0.004072938428015639, 'weight_decay': 0.0007665441830060402, 'label_smoothing': 0.14}. Best is trial 115 with value: 0.6363181504485853.
+Trial 168, Fold 1: Test Accuracy = 0.3333
+Hyperparameters: num_heads=8, num_transformer_blocks=8, learning_rate=0.0006090561295217357, optimizer=Adam, weight_decay=0.0005578196700955547, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 12
+[I 2025-06-07 05:57:08,289] Trial 169 finished with value: 0.560127674258109 and parameters: {'num_heads': 4, 'num_transformer_blocks': 8, 'learning_rate': 0.0005500849622453133, 'weight_decay': 5.232677305994526e-05, 'label_smoothing': 0.14}. Best is trial 115 with value: 0.6363181504485853.
+Trial 169, Fold 1: Test Accuracy = 0.5601
+Hyperparameters: num_heads=8, num_transformer_blocks=8, learning_rate=3.849949196986085e-05, optimizer=Adam, weight_decay=0.0005388129106689604, batch_size=16,factor=1
+[I 2025-06-07 05:57:17,674] Trial 167 finished with value: 0.5472049689440994 and parameters: {'num_heads': 2, 'num_transformer_blocks': 8, 'learning_rate': 3.8895503019638854e-05, 'weight_decay': 0.0007976560279619839, 'label_smoothing': 0.18}. Best is trial 115 with value: 0.6363181504485853.
+Trial 167, Fold 1: Test Accuracy = 0.5472
+Hyperparameters: num_heads=8, num_transformer_blocks=8, learning_rate=0.0006946910770004934, optimizer=Adam, weight_decay=2.607798771696165e-06, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 10
+[I 2025-06-07 05:58:11,650] Trial 170 finished with value: 0.5669254658385093 and parameters: {'num_heads': 8, 'num_transformer_blocks': 8, 'learning_rate': 0.0006090561295217357, 'weight_decay': 0.0005578196700955547, 'label_smoothing': 0.2}. Best is trial 115 with value: 0.6363181504485853.
+Trial 170, Fold 1: Test Accuracy = 0.5669
+Hyperparameters: num_heads=32, num_transformer_blocks=8, learning_rate=0.0010542722151830337, optimizer=Adam, weight_decay=0.0003509276527144636, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 17
+Trial 171, Fold 1: Test Accuracy = 0.5140
+[I 2025-06-07 05:59:43,654] Trial 171 finished with value: 0.5140441683919944 and parameters: {'num_heads': 8, 'num_transformer_blocks': 8, 'learning_rate': 3.849949196986085e-05, 'weight_decay': 0.0005388129106689604, 'label_smoothing': 0.19}. Best is trial 115 with value: 0.6363181504485853.
+Hyperparameters: num_heads=32, num_transformer_blocks=8, learning_rate=0.0010998812562678136, optimizer=Adam, weight_decay=0.00035278718275024405, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 20
+Trial 172, Fold 1: Test Accuracy = 0.5358
+[I 2025-06-07 06:00:19,917] Trial 172 finished with value: 0.5358436853002071 and parameters: {'num_heads': 8, 'num_transformer_blocks': 8, 'learning_rate': 0.0006946910770004934, 'weight_decay': 2.607798771696165e-06, 'label_smoothing': 0.2}. Best is trial 115 with value: 0.6363181504485853.
+Hyperparameters: num_heads=32, num_transformer_blocks=8, learning_rate=0.001062194356027734, optimizer=Adam, weight_decay=0.00038724120778152444, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 14
+[I 2025-06-07 06:00:27,490] Trial 173 finished with value: 0.5519151138716356 and parameters: {'num_heads': 32, 'num_transformer_blocks': 8, 'learning_rate': 0.0010542722151830337, 'weight_decay': 0.0003509276527144636, 'label_smoothing': 0.26}. Best is trial 115 with value: 0.6363181504485853.
+Trial 173, Fold 1: Test Accuracy = 0.5519
+Hyperparameters: num_heads=32, num_transformer_blocks=8, learning_rate=0.0029810569102276066, optimizer=Adam, weight_decay=0.00044831709557894986, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 22
+[I 2025-06-07 06:03:08,906] Trial 174 finished with value: 0.5368702553485162 and parameters: {'num_heads': 32, 'num_transformer_blocks': 8, 'learning_rate': 0.0010998812562678136, 'weight_decay': 0.00035278718275024405, 'label_smoothing': 0.26}. Best is trial 115 with value: 0.6363181504485853.
+Trial 174, Fold 1: Test Accuracy = 0.5369
+Hyperparameters: num_heads=32, num_transformer_blocks=8, learning_rate=0.0024988518969955302, optimizer=Adam, weight_decay=0.0004214699685870516, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 19
+[I 2025-06-07 06:03:25,315] Trial 176 finished with value: 0.48396307798481714 and parameters: {'num_heads': 32, 'num_transformer_blocks': 8, 'learning_rate': 0.0029810569102276066, 'weight_decay': 0.00044831709557894986, 'label_smoothing': 0.29}. Best is trial 115 with value: 0.6363181504485853.
+Trial 176, Fold 1: Test Accuracy = 0.4840
+Hyperparameters: num_heads=32, num_transformer_blocks=8, learning_rate=0.0008821763293675413, optimizer=Adam, weight_decay=0.00027157849935365946, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 19
+[I 2025-06-07 06:03:35,505] Trial 175 finished with value: 0.5924775707384403 and parameters: {'num_heads': 32, 'num_transformer_blocks': 8, 'learning_rate': 0.001062194356027734, 'weight_decay': 0.00038724120778152444, 'label_smoothing': 0.29}. Best is trial 115 with value: 0.6363181504485853.
+Trial 175, Fold 1: Test Accuracy = 0.5925
+Hyperparameters: num_heads=32, num_transformer_blocks=4, learning_rate=0.00037666138863245687, optimizer=Adam, weight_decay=0.0002591163117028131, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 11
+[I 2025-06-07 06:04:58,188] Trial 177 finished with value: 0.5364648033126295 and parameters: {'num_heads': 32, 'num_transformer_blocks': 8, 'learning_rate': 0.0024988518969955302, 'weight_decay': 0.0004214699685870516, 'label_smoothing': 0.21}. Best is trial 115 with value: 0.6363181504485853.
+Trial 177, Fold 1: Test Accuracy = 0.5365
+Hyperparameters: num_heads=16, num_transformer_blocks=16, learning_rate=0.0003708479999121987, optimizer=Adam, weight_decay=0.0002872963544497455, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 11
+Trial 179, Fold 1: Test Accuracy = 0.5429
+[I 2025-06-07 06:05:17,373] Trial 179 finished with value: 0.5428571428571428 and parameters: {'num_heads': 32, 'num_transformer_blocks': 4, 'learning_rate': 0.00037666138863245687, 'weight_decay': 0.0002591163117028131, 'label_smoothing': 0.17}. Best is trial 115 with value: 0.6363181504485853.
+Hyperparameters: num_heads=16, num_transformer_blocks=16, learning_rate=0.0008367318819960122, optimizer=Adam, weight_decay=0.0006861740873958439, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 19
+[I 2025-06-07 06:06:27,626] Trial 178 finished with value: 0.5591701173222913 and parameters: {'num_heads': 32, 'num_transformer_blocks': 8, 'learning_rate': 0.0008821763293675413, 'weight_decay': 0.00027157849935365946, 'label_smoothing': 0.21}. Best is trial 115 with value: 0.6363181504485853.
+Trial 178, Fold 1: Test Accuracy = 0.5592
+Hyperparameters: num_heads=16, num_transformer_blocks=16, learning_rate=0.0008646843356636554, optimizer=Adam, weight_decay=0.0006712433808213382, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 10
+[I 2025-06-07 06:06:43,188] Trial 180 finished with value: 0.5417960662525879 and parameters: {'num_heads': 16, 'num_transformer_blocks': 16, 'learning_rate': 0.0003708479999121987, 'weight_decay': 0.0002872963544497455, 'label_smoothing': 0.17}. Best is trial 115 with value: 0.6363181504485853.
+Trial 180, Fold 1: Test Accuracy = 0.5418
+Hyperparameters: num_heads=32, num_transformer_blocks=8, learning_rate=0.001342947106136979, optimizer=Adam, weight_decay=0.0006770665277033678, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 10
+[I 2025-06-07 06:08:14,849] Trial 182 finished with value: 0.522851966873706 and parameters: {'num_heads': 16, 'num_transformer_blocks': 16, 'learning_rate': 0.0008646843356636554, 'weight_decay': 0.0006712433808213382, 'label_smoothing': 0.09}. Best is trial 115 with value: 0.6363181504485853.
+Trial 182, Fold 1: Test Accuracy = 0.5229
+Hyperparameters: num_heads=32, num_transformer_blocks=8, learning_rate=0.0015290565547656624, optimizer=Adam, weight_decay=0.00030926574230936705, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 17
+[I 2025-06-07 06:09:03,919] Trial 183 finished with value: 0.545212215320911 and parameters: {'num_heads': 32, 'num_transformer_blocks': 8, 'learning_rate': 0.001342947106136979, 'weight_decay': 0.0006770665277033678, 'label_smoothing': 0.3}. Best is trial 115 with value: 0.6363181504485853.
+Trial 183, Fold 1: Test Accuracy = 0.5452
+Hyperparameters: num_heads=32, num_transformer_blocks=8, learning_rate=0.0016341940120100094, optimizer=Adam, weight_decay=0.0003567804635224313, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 11
+[I 2025-06-07 06:09:58,222] Trial 184 finished with value: 0.5069703243616287 and parameters: {'num_heads': 32, 'num_transformer_blocks': 8, 'learning_rate': 0.0015290565547656624, 'weight_decay': 0.00030926574230936705, 'label_smoothing': 0.29}. Best is trial 115 with value: 0.6363181504485853.
+Trial 184, Fold 1: Test Accuracy = 0.5070
+Hyperparameters: num_heads=32, num_transformer_blocks=8, learning_rate=0.001168227615104485, optimizer=Adam, weight_decay=0.0005996054923122027, batch_size=16,factor=1
+[I 2025-06-07 06:10:34,771] Trial 181 finished with value: 0.5255262249827467 and parameters: {'num_heads': 16, 'num_transformer_blocks': 16, 'learning_rate': 0.0008367318819960122, 'weight_decay': 0.0006861740873958439, 'label_smoothing': 0.09}. Best is trial 115 with value: 0.6363181504485853.
+Trial 181, Fold 1: Test Accuracy = 0.5255
+Hyperparameters: num_heads=32, num_transformer_blocks=8, learning_rate=0.0011675152698642653, optimizer=Adam, weight_decay=7.881532665215719e-06, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 19
+[I 2025-06-07 06:12:57,822] Trial 186 finished with value: 0.5147429261559696 and parameters: {'num_heads': 32, 'num_transformer_blocks': 8, 'learning_rate': 0.001168227615104485, 'weight_decay': 0.0005996054923122027, 'label_smoothing': 0.27}. Best is trial 115 with value: 0.6363181504485853.
+Trial 186, Fold 1: Test Accuracy = 0.5147
+Hyperparameters: num_heads=32, num_transformer_blocks=8, learning_rate=0.001803702408085901, optimizer=Adam, weight_decay=0.00041736092900608655, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 15
+Trial 187, Fold 1: Test Accuracy = 0.4936
+[I 2025-06-07 06:13:07,340] Trial 187 finished with value: 0.49359903381642517 and parameters: {'num_heads': 32, 'num_transformer_blocks': 8, 'learning_rate': 0.0011675152698642653, 'weight_decay': 7.881532665215719e-06, 'label_smoothing': 0.27}. Best is trial 115 with value: 0.6363181504485853.
+Hyperparameters: num_heads=2, num_transformer_blocks=8, learning_rate=0.0021432071801159446, optimizer=Adam, weight_decay=0.00036292123053318807, batch_size=16,factor=1
+[I 2025-06-07 06:13:19,963] Trial 185 finished with value: 0.589544513457557 and parameters: {'num_heads': 32, 'num_transformer_blocks': 8, 'learning_rate': 0.0016341940120100094, 'weight_decay': 0.0003567804635224313, 'label_smoothing': 0.28}. Best is trial 115 with value: 0.6363181504485853.
+Trial 185, Fold 1: Test Accuracy = 0.5895
+Hyperparameters: num_heads=2, num_transformer_blocks=8, learning_rate=0.002324964992049731, optimizer=Adam, weight_decay=4.461556323383362e-06, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 10
+[I 2025-06-07 06:14:38,406] Trial 188 finished with value: 0.513052104899931 and parameters: {'num_heads': 32, 'num_transformer_blocks': 8, 'learning_rate': 0.001803702408085901, 'weight_decay': 0.00041736092900608655, 'label_smoothing': 0.11}. Best is trial 115 with value: 0.6363181504485853.
+Trial 188, Fold 1: Test Accuracy = 0.5131
+Hyperparameters: num_heads=2, num_transformer_blocks=32, learning_rate=5.103685731664199e-06, optimizer=Adam, weight_decay=0.0001979051349759669, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 15
+[I 2025-06-07 06:15:27,116] Trial 190 finished with value: 0.3333333333333333 and parameters: {'num_heads': 2, 'num_transformer_blocks': 8, 'learning_rate': 0.002324964992049731, 'weight_decay': 4.461556323383362e-06, 'label_smoothing': 0.28}. Best is trial 115 with value: 0.6363181504485853.
+Trial 190, Fold 1: Test Accuracy = 0.3333
+Hyperparameters: num_heads=2, num_transformer_blocks=32, learning_rate=0.0005176098708671592, optimizer=Adam, weight_decay=0.000886789491948557, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 18
+[I 2025-06-07 06:15:58,549] Trial 189 finished with value: 0.5939872325741891 and parameters: {'num_heads': 2, 'num_transformer_blocks': 8, 'learning_rate': 0.0021432071801159446, 'weight_decay': 0.00036292123053318807, 'label_smoothing': 0.25}. Best is trial 115 with value: 0.6363181504485853.
+Trial 189, Fold 1: Test Accuracy = 0.5940
+Hyperparameters: num_heads=2, num_transformer_blocks=8, learning_rate=0.004010687238191057, optimizer=Adam, weight_decay=0.00020613622257913575, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 10
+[I 2025-06-07 06:17:12,371] Trial 192 finished with value: 0.42355935127674255 and parameters: {'num_heads': 2, 'num_transformer_blocks': 32, 'learning_rate': 0.0005176098708671592, 'weight_decay': 0.000886789491948557, 'label_smoothing': 0.04}. Best is trial 115 with value: 0.6363181504485853.
+Trial 192, Fold 1: Test Accuracy = 0.4236
+Hyperparameters: num_heads=2, num_transformer_blocks=8, learning_rate=0.003737795954812682, optimizer=Adam, weight_decay=0.00020133336932888778, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 12
+[I 2025-06-07 06:17:49,242] Trial 193 finished with value: 0.3333333333333333 and parameters: {'num_heads': 2, 'num_transformer_blocks': 8, 'learning_rate': 0.004010687238191057, 'weight_decay': 0.00020613622257913575, 'label_smoothing': 0.22}. Best is trial 115 with value: 0.6363181504485853.
+Trial 193, Fold 1: Test Accuracy = 0.3333
+Hyperparameters: num_heads=2, num_transformer_blocks=8, learning_rate=0.003006765287849993, optimizer=Adam, weight_decay=0.0003442086041928429, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 10
+[I 2025-06-07 06:18:29,899] Trial 194 finished with value: 0.3333333333333333 and parameters: {'num_heads': 2, 'num_transformer_blocks': 8, 'learning_rate': 0.003737795954812682, 'weight_decay': 0.00020133336932888778, 'label_smoothing': 0.25}. Best is trial 115 with value: 0.6363181504485853.
+Trial 194, Fold 1: Test Accuracy = 0.3333
+Hyperparameters: num_heads=2, num_transformer_blocks=8, learning_rate=0.0017213084124924475, optimizer=Adam, weight_decay=0.0003346035079097658, batch_size=16,factor=1
+[I 2025-06-07 06:20:21,788] Trial 191 finished with value: 0.4478002070393375 and parameters: {'num_heads': 2, 'num_transformer_blocks': 32, 'learning_rate': 5.103685731664199e-06, 'weight_decay': 0.0001979051349759669, 'label_smoothing': 0.13}. Best is trial 115 with value: 0.6363181504485853.
+Trial 191, Fold 1: Test Accuracy = 0.4478
+Hyperparameters: num_heads=2, num_transformer_blocks=8, learning_rate=0.00269537705201316, optimizer=Adam, weight_decay=0.00032954071320403513, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 21
+[I 2025-06-07 06:20:59,546] Trial 195 finished with value: 0.5169168391994479 and parameters: {'num_heads': 2, 'num_transformer_blocks': 8, 'learning_rate': 0.003006765287849993, 'weight_decay': 0.0003442086041928429, 'label_smoothing': 0.25}. Best is trial 115 with value: 0.6363181504485853.
+Trial 195, Fold 1: Test Accuracy = 0.5169
+Hyperparameters: num_heads=8, num_transformer_blocks=4, learning_rate=0.001834928318696754, optimizer=Adam, weight_decay=0.00046299162072857374, batch_size=16,factor=1
+[I 2025-06-07 06:22:16,936] Trial 196 finished with value: 0.5183143547273983 and parameters: {'num_heads': 2, 'num_transformer_blocks': 8, 'learning_rate': 0.0017213084124924475, 'weight_decay': 0.0003346035079097658, 'label_smoothing': 0.29}. Best is trial 115 with value: 0.6363181504485853.
+Trial 196, Fold 1: Test Accuracy = 0.5183
+Hyperparameters: num_heads=8, num_transformer_blocks=4, learning_rate=0.00548141241435487, optimizer=Adam, weight_decay=0.0004905413489935276, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 29
+Trial 197, Fold 1: Test Accuracy = 0.5569
+[I 2025-06-07 06:24:31,437] Trial 197 finished with value: 0.5568840579710145 and parameters: {'num_heads': 2, 'num_transformer_blocks': 8, 'learning_rate': 0.00269537705201316, 'weight_decay': 0.00032954071320403513, 'label_smoothing': 0.23}. Best is trial 115 with value: 0.6363181504485853.
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 27
+Trial 198, Fold 1: Test Accuracy = 0.5492
+[I 2025-06-07 06:24:49,664] Trial 198 finished with value: 0.5491890959282263 and parameters: {'num_heads': 8, 'num_transformer_blocks': 4, 'learning_rate': 0.001834928318696754, 'weight_decay': 0.00046299162072857374, 'label_smoothing': 0.27}. Best is trial 115 with value: 0.6363181504485853.
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 21
+[I 2025-06-07 06:24:58,171] Trial 199 finished with value: 0.4540113871635611 and parameters: {'num_heads': 8, 'num_transformer_blocks': 4, 'learning_rate': 0.00548141241435487, 'weight_decay': 0.0004905413489935276, 'label_smoothing': 0.3}. Best is trial 115 with value: 0.6363181504485853.
+Trial 199, Fold 1: Test Accuracy = 0.4540
+Best hyperparameters: {'num_heads': 32, 'num_transformer_blocks': 8, 'learning_rate': 0.0014268683384269449, 'weight_decay': 0.0003463319958859285, 'label_smoothing': 0.18}
