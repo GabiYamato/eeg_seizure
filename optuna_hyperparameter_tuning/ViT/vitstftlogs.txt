@@ -1,0 +1,793 @@
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\tqdm\auto.py:21: TqdmWarning: IProgress not found. Please update jupyter and ipywidgets. See https://ipywidgets.readthedocs.io/en/stable/user_install.html
+  from .autonotebook import tqdm as notebook_tqdm
+[I 2025-06-07 06:31:17,619] A new study created in memory with name: no-name-87050d75-70b4-4ea4-aca0-9e208195b271
+Trial 0 params: n_patches=28, embed_dim=256, lr=3.6878931034059156e-05, blocks=6, heads=8, batch_size=16
+Trial 1 params: n_patches=14, embed_dim=256, lr=4.855161167566422e-05, blocks=2, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 06:33:51,644] Trial 1 finished with value: 0.5494129520605551 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 4.855161167566422e-05, 'weight_decay': 1.3659280738162563e-05, 'num_transformer_blocks': 2, 'num_heads': 8}. Best is trial 1 with value: 0.5494129520605551.
+Trial 1 accuracy: 0.5494
+Trial 2 params: n_patches=14, embed_dim=128, lr=0.00011332430263329345, blocks=6, heads=4, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 06:36:19,588] Trial 2 finished with value: 0.45747518923465097 and parameters: {'n_patches': 14, 'embed_dim': 128, 'learning_rate': 0.00011332430263329345, 'weight_decay': 4.889786326323391e-05, 'num_transformer_blocks': 6, 'num_heads': 4}. Best is trial 1 with value: 0.5494129520605551.
+Trial 2 accuracy: 0.4575
+Trial 3 params: n_patches=14, embed_dim=64, lr=0.0003775372688835796, blocks=6, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 06:37:50,259] Trial 3 finished with value: 0.3333333333333333 and parameters: {'n_patches': 14, 'embed_dim': 64, 'learning_rate': 0.0003775372688835796, 'weight_decay': 6.966849130775072e-05, 'num_transformer_blocks': 6, 'num_heads': 8}. Best is trial 1 with value: 0.5494129520605551.
+Trial 3 accuracy: 0.3333
+Trial 4 params: n_patches=14, embed_dim=256, lr=0.00025146971574168216, blocks=6, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 06:41:13,873] Trial 4 finished with value: 0.3333333333333333 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 0.00025146971574168216, 'weight_decay': 7.759090980799833e-05, 'num_transformer_blocks': 6, 'num_heads': 8}. Best is trial 1 with value: 0.5494129520605551.
+Trial 4 accuracy: 0.3333
+Trial 5 params: n_patches=14, embed_dim=64, lr=0.0003479421303511703, blocks=6, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 06:43:45,182] Trial 0 finished with value: 0.5853587515185498 and parameters: {'n_patches': 28, 'embed_dim': 256, 'learning_rate': 3.6878931034059156e-05, 'weight_decay': 2.2533362618240833e-05, 'num_transformer_blocks': 6, 'num_heads': 8}. Best is trial 0 with value: 0.5853587515185498.
+Trial 0 accuracy: 0.5854
+Trial 6 params: n_patches=28, embed_dim=64, lr=8.105709670534173e-05, blocks=2, heads=4, batch_size=16
+[I 2025-06-07 06:43:47,001] Trial 5 finished with value: 0.3333333333333333 and parameters: {'n_patches': 14, 'embed_dim': 64, 'learning_rate': 0.0003479421303511703, 'weight_decay': 6.934431158865258e-05, 'num_transformer_blocks': 6, 'num_heads': 8}. Best is trial 0 with value: 0.5853587515185498.
+Trial 5 accuracy: 0.3333
+Trial 7 params: n_patches=14, embed_dim=256, lr=0.0007730722085744539, blocks=2, heads=4, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 06:44:54,922] Trial 7 finished with value: 0.3333333333333333 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 0.0007730722085744539, 'weight_decay': 1.1071315138777642e-05, 'num_transformer_blocks': 2, 'num_heads': 4}. Best is trial 0 with value: 0.5853587515185498.
+Trial 7 accuracy: 0.3333
+Trial 8 params: n_patches=14, embed_dim=64, lr=8.967815983611421e-05, blocks=6, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 06:47:44,571] Trial 8 finished with value: 0.4999025324736006 and parameters: {'n_patches': 14, 'embed_dim': 64, 'learning_rate': 8.967815983611421e-05, 'weight_decay': 6.14308007276155e-05, 'num_transformer_blocks': 6, 'num_heads': 8}. Best is trial 0 with value: 0.5853587515185498.
+Trial 8 accuracy: 0.4999
+Trial 9 params: n_patches=28, embed_dim=64, lr=2.4373989893977306e-05, blocks=6, heads=4, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 06:58:38,064] Trial 9 finished with value: 0.516462012895991 and parameters: {'n_patches': 28, 'embed_dim': 64, 'learning_rate': 2.4373989893977306e-05, 'weight_decay': 5.948416156211761e-05, 'num_transformer_blocks': 6, 'num_heads': 4}. Best is trial 0 with value: 0.5853587515185498.
+Trial 9 accuracy: 0.5165
+Trial 10 params: n_patches=28, embed_dim=64, lr=0.00024282448542715834, blocks=2, heads=4, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 06:59:02,706] Trial 6 finished with value: 0.5067974021119521 and parameters: {'n_patches': 28, 'embed_dim': 64, 'learning_rate': 8.105709670534173e-05, 'weight_decay': 2.951125404378134e-05, 'num_transformer_blocks': 2, 'num_heads': 4}. Best is trial 0 with value: 0.5853587515185498.
+Trial 6 accuracy: 0.5068
+Trial 11 params: n_patches=28, embed_dim=128, lr=1.0129132512567558e-05, blocks=8, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 07:05:53,187] Trial 10 finished with value: 0.44515877020839173 and parameters: {'n_patches': 28, 'embed_dim': 64, 'learning_rate': 0.00024282448542715834, 'weight_decay': 8.036502481941527e-05, 'num_transformer_blocks': 2, 'num_heads': 4}. Best is trial 0 with value: 0.5853587515185498.
+Trial 10 accuracy: 0.4452
+Trial 12 params: n_patches=28, embed_dim=256, lr=2.3349923837210717e-05, blocks=8, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 07:19:16,645] Trial 11 finished with value: 0.48527193720213063 and parameters: {'n_patches': 28, 'embed_dim': 128, 'learning_rate': 1.0129132512567558e-05, 'weight_decay': 2.1552606133886057e-05, 'num_transformer_blocks': 8, 'num_heads': 8}. Best is trial 0 with value: 0.5853587515185498.
+Trial 11 accuracy: 0.4853
+Trial 13 params: n_patches=28, embed_dim=256, lr=3.4775573246023416e-05, blocks=4, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 07:22:01,062] Trial 12 finished with value: 0.5306842351182132 and parameters: {'n_patches': 28, 'embed_dim': 256, 'learning_rate': 2.3349923837210717e-05, 'weight_decay': 1.64656149801019e-05, 'num_transformer_blocks': 8, 'num_heads': 8}. Best is trial 0 with value: 0.5853587515185498.
+Trial 12 accuracy: 0.5307
+Trial 14 params: n_patches=28, embed_dim=256, lr=3.765178020331265e-05, blocks=4, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 07:30:36,651] Trial 14 finished with value: 0.4872687599289786 and parameters: {'n_patches': 28, 'embed_dim': 256, 'learning_rate': 3.765178020331265e-05, 'weight_decay': 1.0236379410069714e-05, 'num_transformer_blocks': 4, 'num_heads': 8}. Best is trial 0 with value: 0.5853587515185498.
+Trial 14 accuracy: 0.4873
+Trial 15 params: n_patches=14, embed_dim=256, lr=3.988511602394067e-05, blocks=4, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 07:31:54,563] Trial 13 finished with value: 0.5317753480983086 and parameters: {'n_patches': 28, 'embed_dim': 256, 'learning_rate': 3.4775573246023416e-05, 'weight_decay': 1.4108057602649246e-05, 'num_transformer_blocks': 4, 'num_heads': 8}. Best is trial 0 with value: 0.5853587515185498.
+Trial 13 accuracy: 0.5318
+Trial 16 params: n_patches=14, embed_dim=256, lr=1.1938160212469634e-05, blocks=4, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 07:32:26,633] Trial 15 finished with value: 0.5252861414821045 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 3.988511602394067e-05, 'weight_decay': 1.61648151004369e-05, 'num_transformer_blocks': 4, 'num_heads': 8}. Best is trial 0 with value: 0.5853587515185498.
+Trial 15 accuracy: 0.5253
+Trial 17 params: n_patches=28, embed_dim=256, lr=1.0281981299736893e-05, blocks=4, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 07:35:57,855] Trial 16 finished with value: 0.5481210167274086 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 1.1938160212469634e-05, 'weight_decay': 2.538879493181131e-05, 'num_transformer_blocks': 4, 'num_heads': 8}. Best is trial 0 with value: 0.5853587515185498.
+Trial 16 accuracy: 0.5481
+Trial 18 params: n_patches=28, embed_dim=256, lr=6.565033311401559e-05, blocks=8, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 07:47:09,722] Trial 17 finished with value: 0.4845731240071021 and parameters: {'n_patches': 28, 'embed_dim': 256, 'learning_rate': 1.0281981299736893e-05, 'weight_decay': 2.6613416000970983e-05, 'num_transformer_blocks': 4, 'num_heads': 8}. Best is trial 0 with value: 0.5853587515185498.
+Trial 17 accuracy: 0.4846
+Trial 19 params: n_patches=14, embed_dim=128, lr=6.055902663829286e-05, blocks=8, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 07:48:57,718] Trial 18 finished with value: 0.4437597420801794 and parameters: {'n_patches': 28, 'embed_dim': 256, 'learning_rate': 6.565033311401559e-05, 'weight_decay': 4.103524582774988e-05, 'num_transformer_blocks': 8, 'num_heads': 8}. Best is trial 0 with value: 0.5853587515185498.
+Trial 18 accuracy: 0.4438
+Trial 20 params: n_patches=14, embed_dim=128, lr=0.0001269980991321311, blocks=2, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 07:49:46,093] Trial 19 finished with value: 0.448986543313709 and parameters: {'n_patches': 14, 'embed_dim': 128, 'learning_rate': 6.055902663829286e-05, 'weight_decay': 3.926909203804371e-05, 'num_transformer_blocks': 8, 'num_heads': 8}. Best is trial 0 with value: 0.5853587515185498.
+Trial 19 accuracy: 0.4490
+Trial 21 params: n_patches=14, embed_dim=256, lr=0.00012862978034842187, blocks=2, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 07:51:06,968] Trial 21 finished with value: 0.4700130828894496 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 0.00012862978034842187, 'weight_decay': 1.9334099157245594e-05, 'num_transformer_blocks': 2, 'num_heads': 8}. Best is trial 0 with value: 0.5853587515185498.
+Trial 21 accuracy: 0.4700
+Trial 22 params: n_patches=14, embed_dim=256, lr=1.7498925695820278e-05, blocks=4, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 07:51:22,802] Trial 20 finished with value: 0.4161631623212784 and parameters: {'n_patches': 14, 'embed_dim': 128, 'learning_rate': 0.0001269980991321311, 'weight_decay': 2.0027377981500987e-05, 'num_transformer_blocks': 2, 'num_heads': 8}. Best is trial 0 with value: 0.5853587515185498.
+Trial 20 accuracy: 0.4162
+Trial 23 params: n_patches=14, embed_dim=256, lr=2.0463654082364643e-05, blocks=4, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 07:52:20,601] Trial 22 finished with value: 0.42011354079058033 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 1.7498925695820278e-05, 'weight_decay': 2.1451416372991138e-05, 'num_transformer_blocks': 4, 'num_heads': 8}. Best is trial 0 with value: 0.5853587515185498.
+Trial 22 accuracy: 0.4201
+Trial 24 params: n_patches=14, embed_dim=256, lr=1.669266063557874e-05, blocks=4, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 07:55:01,765] Trial 24 finished with value: 0.5599292589477619 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 1.669266063557874e-05, 'weight_decay': 2.5949116292253935e-05, 'num_transformer_blocks': 4, 'num_heads': 8}. Best is trial 0 with value: 0.5853587515185498.
+Trial 24 accuracy: 0.5599
+Trial 25 params: n_patches=14, embed_dim=256, lr=1.7455744679889613e-05, blocks=2, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 07:55:44,071] Trial 23 finished with value: 0.45676404074385574 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 2.0463654082364643e-05, 'weight_decay': 2.5208904909163555e-05, 'num_transformer_blocks': 4, 'num_heads': 8}. Best is trial 0 with value: 0.5853587515185498.
+Trial 23 accuracy: 0.4568
+Trial 26 params: n_patches=14, embed_dim=256, lr=4.9731148782779325e-05, blocks=2, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 07:57:24,328] Trial 25 finished with value: 0.4678299224371554 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 1.7455744679889613e-05, 'weight_decay': 1.2194303328041203e-05, 'num_transformer_blocks': 2, 'num_heads': 8}. Best is trial 0 with value: 0.5853587515185498.
+Trial 25 accuracy: 0.4678
+Trial 27 params: n_patches=28, embed_dim=256, lr=3.0375461280931952e-05, blocks=6, heads=4, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 07:59:01,946] Trial 26 finished with value: 0.46362732454910754 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 4.9731148782779325e-05, 'weight_decay': 1.2785578452387195e-05, 'num_transformer_blocks': 2, 'num_heads': 8}. Best is trial 0 with value: 0.5853587515185498.
+Trial 26 accuracy: 0.4636
+Trial 28 params: n_patches=28, embed_dim=256, lr=2.8204992285553312e-05, blocks=6, heads=4, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 08:04:30,896] Trial 27 finished with value: 0.4869635548079619 and parameters: {'n_patches': 28, 'embed_dim': 256, 'learning_rate': 3.0375461280931952e-05, 'weight_decay': 3.512847189621172e-05, 'num_transformer_blocks': 6, 'num_heads': 4}. Best is trial 0 with value: 0.5853587515185498.
+Trial 27 accuracy: 0.4870
+Trial 29 params: n_patches=28, embed_dim=256, lr=4.796011417241805e-05, blocks=4, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 08:11:15,845] Trial 28 finished with value: 0.44250817680590604 and parameters: {'n_patches': 28, 'embed_dim': 256, 'learning_rate': 2.8204992285553312e-05, 'weight_decay': 3.344385447663331e-05, 'num_transformer_blocks': 6, 'num_heads': 4}. Best is trial 0 with value: 0.5853587515185498.
+Trial 28 accuracy: 0.4425
+Trial 30 params: n_patches=14, embed_dim=128, lr=1.4003084965862269e-05, blocks=4, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 08:15:29,541] Trial 30 finished with value: 0.5305972339033735 and parameters: {'n_patches': 14, 'embed_dim': 128, 'learning_rate': 1.4003084965862269e-05, 'weight_decay': 1.5114104862005116e-05, 'num_transformer_blocks': 4, 'num_heads': 8}. Best is trial 0 with value: 0.5853587515185498.
+Trial 30 accuracy: 0.5306
+Trial 31 params: n_patches=14, embed_dim=256, lr=4.794932884442376e-05, blocks=4, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 08:17:35,913] Trial 29 finished with value: 0.5169121577422671 and parameters: {'n_patches': 28, 'embed_dim': 256, 'learning_rate': 4.796011417241805e-05, 'weight_decay': 1.6446035929461823e-05, 'num_transformer_blocks': 4, 'num_heads': 8}. Best is trial 0 with value: 0.5853587515185498.
+Trial 29 accuracy: 0.5169
+Trial 32 params: n_patches=14, embed_dim=256, lr=1.4008438577725718e-05, blocks=4, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 08:18:40,879] Trial 31 finished with value: 0.47293262311933465 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 4.794932884442376e-05, 'weight_decay': 4.726584615876564e-05, 'num_transformer_blocks': 4, 'num_heads': 8}. Best is trial 0 with value: 0.5853587515185498.
+Trial 31 accuracy: 0.4729
+Trial 33 params: n_patches=14, embed_dim=256, lr=1.3911592536880298e-05, blocks=4, heads=8, batch_size=16
+[I 2025-06-07 08:21:46,939] Trial 32 finished with value: 0.4567107746939538 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 1.4008438577725718e-05, 'weight_decay': 2.4959119393649897e-05, 'num_transformer_blocks': 4, 'num_heads': 8}. Best is trial 0 with value: 0.5853587515185498.
+Trial 32 accuracy: 0.4567
+Trial 34 params: n_patches=14, embed_dim=256, lr=1.3754705897896767e-05, blocks=6, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 08:22:50,589] Trial 33 finished with value: 0.5218236613400616 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 1.3911592536880298e-05, 'weight_decay': 2.478044464443923e-05, 'num_transformer_blocks': 4, 'num_heads': 8}. Best is trial 0 with value: 0.5853587515185498.
+Trial 33 accuracy: 0.5218
+Trial 35 params: n_patches=14, embed_dim=256, lr=2.0006001428679184e-05, blocks=6, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 08:24:55,145] Trial 34 finished with value: 0.49306363891225113 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 1.3754705897896767e-05, 'weight_decay': 2.7447604325354166e-05, 'num_transformer_blocks': 6, 'num_heads': 8}. Best is trial 0 with value: 0.5853587515185498.
+Trial 34 accuracy: 0.4931
+Trial 36 params: n_patches=14, embed_dim=256, lr=1.908247924830904e-05, blocks=6, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 08:26:19,739] Trial 35 finished with value: 0.48611101766190074 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 2.0006001428679184e-05, 'weight_decay': 2.9810248625536792e-05, 'num_transformer_blocks': 6, 'num_heads': 8}. Best is trial 0 with value: 0.5853587515185498.
+Trial 35 accuracy: 0.4861
+Trial 37 params: n_patches=14, embed_dim=128, lr=2.759258952509188e-05, blocks=2, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 08:27:38,137] Trial 36 finished with value: 0.5535353705261191 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 1.908247924830904e-05, 'weight_decay': 1.824581791580331e-05, 'num_transformer_blocks': 6, 'num_heads': 8}. Best is trial 0 with value: 0.5853587515185498.
+Trial 36 accuracy: 0.5535
+Trial 38 params: n_patches=14, embed_dim=128, lr=3.051428043536495e-05, blocks=6, heads=4, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 08:28:40,534] Trial 37 finished with value: 0.5252510980282217 and parameters: {'n_patches': 14, 'embed_dim': 128, 'learning_rate': 2.759258952509188e-05, 'weight_decay': 1.9145009879830847e-05, 'num_transformer_blocks': 2, 'num_heads': 8}. Best is trial 0 with value: 0.5853587515185498.
+Trial 37 accuracy: 0.5253
+Trial 39 params: n_patches=14, embed_dim=64, lr=0.0001672579468577945, blocks=6, heads=4, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 08:29:23,166] Trial 38 finished with value: 0.44925885431268103 and parameters: {'n_patches': 14, 'embed_dim': 128, 'learning_rate': 3.051428043536495e-05, 'weight_decay': 1.835935375997897e-05, 'num_transformer_blocks': 6, 'num_heads': 4}. Best is trial 0 with value: 0.5853587515185498.
+Trial 38 accuracy: 0.4493
+Trial 40 params: n_patches=14, embed_dim=64, lr=6.707543277072769e-05, blocks=6, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 08:32:29,583] Trial 40 finished with value: 0.577309503784693 and parameters: {'n_patches': 14, 'embed_dim': 64, 'learning_rate': 6.707543277072769e-05, 'weight_decay': 1.3093427469345206e-05, 'num_transformer_blocks': 6, 'num_heads': 8}. Best is trial 0 with value: 0.5853587515185498.
+Trial 40 accuracy: 0.5773
+Trial 41 params: n_patches=14, embed_dim=64, lr=0.00016619041865886043, blocks=6, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 08:32:40,333] Trial 39 finished with value: 0.6009261751238202 and parameters: {'n_patches': 14, 'embed_dim': 64, 'learning_rate': 0.0001672579468577945, 'weight_decay': 1.8129496285151885e-05, 'num_transformer_blocks': 6, 'num_heads': 4}. Best is trial 39 with value: 0.6009261751238202.
+Trial 39 accuracy: 0.6009
+Trial 42 params: n_patches=14, embed_dim=64, lr=0.0001709218540909921, blocks=6, heads=4, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 08:33:30,404] Trial 41 finished with value: 0.3333333333333333 and parameters: {'n_patches': 14, 'embed_dim': 64, 'learning_rate': 0.00016619041865886043, 'weight_decay': 2.244521987745317e-05, 'num_transformer_blocks': 6, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 41 accuracy: 0.3333
+Trial 43 params: n_patches=14, embed_dim=64, lr=0.0007192389124776561, blocks=6, heads=4, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 08:34:29,004] Trial 42 finished with value: 0.3333333333333333 and parameters: {'n_patches': 14, 'embed_dim': 64, 'learning_rate': 0.0001709218540909921, 'weight_decay': 1.4016299118414597e-05, 'num_transformer_blocks': 6, 'num_heads': 4}. Best is trial 39 with value: 0.6009261751238202.
+Trial 42 accuracy: 0.3333
+Trial 44 params: n_patches=14, embed_dim=64, lr=0.0007338754250832351, blocks=6, heads=4, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 08:34:58,061] Trial 43 finished with value: 0.3333333333333333 and parameters: {'n_patches': 14, 'embed_dim': 64, 'learning_rate': 0.0007192389124776561, 'weight_decay': 1.7406950506413055e-05, 'num_transformer_blocks': 6, 'num_heads': 4}. Best is trial 39 with value: 0.6009261751238202.
+Trial 43 accuracy: 0.3333
+Trial 45 params: n_patches=14, embed_dim=64, lr=8.280801715685693e-05, blocks=6, heads=4, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 08:36:16,921] Trial 44 finished with value: 0.3333333333333333 and parameters: {'n_patches': 14, 'embed_dim': 64, 'learning_rate': 0.0007338754250832351, 'weight_decay': 1.7652438576836425e-05, 'num_transformer_blocks': 6, 'num_heads': 4}. Best is trial 39 with value: 0.6009261751238202.
+Trial 44 accuracy: 0.3333
+Trial 46 params: n_patches=14, embed_dim=64, lr=8.304399003424909e-05, blocks=8, heads=4, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 08:38:08,847] Trial 45 finished with value: 0.5057466591907299 and parameters: {'n_patches': 14, 'embed_dim': 64, 'learning_rate': 8.280801715685693e-05, 'weight_decay': 9.111746706685867e-05, 'num_transformer_blocks': 6, 'num_heads': 4}. Best is trial 39 with value: 0.6009261751238202.
+Trial 45 accuracy: 0.5057
+Trial 47 params: n_patches=28, embed_dim=64, lr=0.0002723266356411292, blocks=8, heads=4, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 08:39:43,733] Trial 46 finished with value: 0.5833323053920195 and parameters: {'n_patches': 14, 'embed_dim': 64, 'learning_rate': 8.304399003424909e-05, 'weight_decay': 1.10000875087108e-05, 'num_transformer_blocks': 8, 'num_heads': 4}. Best is trial 39 with value: 0.6009261751238202.
+Trial 46 accuracy: 0.5833
+Trial 48 params: n_patches=28, embed_dim=64, lr=0.0002926713294678206, blocks=8, heads=4, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 08:45:32,534] Trial 47 finished with value: 0.3333333333333333 and parameters: {'n_patches': 28, 'embed_dim': 64, 'learning_rate': 0.0002723266356411292, 'weight_decay': 1.5173724231197434e-05, 'num_transformer_blocks': 8, 'num_heads': 4}. Best is trial 39 with value: 0.6009261751238202.
+Trial 47 accuracy: 0.3333
+Trial 49 params: n_patches=28, embed_dim=64, lr=6.36749606977233e-05, blocks=8, heads=4, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 08:46:18,125] Trial 48 finished with value: 0.3333333333333333 and parameters: {'n_patches': 28, 'embed_dim': 64, 'learning_rate': 0.0002926713294678206, 'weight_decay': 1.1642201992186647e-05, 'num_transformer_blocks': 8, 'num_heads': 4}. Best is trial 39 with value: 0.6009261751238202.
+Trial 48 accuracy: 0.3333
+Trial 50 params: n_patches=14, embed_dim=64, lr=9.936255116065629e-05, blocks=8, heads=4, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 08:49:57,391] Trial 50 finished with value: 0.5027289972899728 and parameters: {'n_patches': 14, 'embed_dim': 64, 'learning_rate': 9.936255116065629e-05, 'weight_decay': 1.3248747307155103e-05, 'num_transformer_blocks': 8, 'num_heads': 4}. Best is trial 39 with value: 0.6009261751238202.
+Trial 50 accuracy: 0.5027
+Trial 51 params: n_patches=28, embed_dim=64, lr=6.87467686324968e-05, blocks=8, heads=4, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 08:56:55,162] Trial 49 finished with value: 0.48991795159330903 and parameters: {'n_patches': 28, 'embed_dim': 64, 'learning_rate': 6.36749606977233e-05, 'weight_decay': 1.09556821493081e-05, 'num_transformer_blocks': 8, 'num_heads': 4}. Best is trial 39 with value: 0.6009261751238202.
+Trial 49 accuracy: 0.4899
+Trial 52 params: n_patches=14, embed_dim=64, lr=0.00016916036736103966, blocks=6, heads=4, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 08:59:17,007] Trial 52 finished with value: 0.3333333333333333 and parameters: {'n_patches': 14, 'embed_dim': 64, 'learning_rate': 0.00016916036736103966, 'weight_decay': 2.1436890004134883e-05, 'num_transformer_blocks': 6, 'num_heads': 4}. Best is trial 39 with value: 0.6009261751238202.
+Trial 52 accuracy: 0.3333
+Trial 53 params: n_patches=14, embed_dim=64, lr=7.195779065538382e-05, blocks=6, heads=4, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 09:01:38,896] Trial 53 finished with value: 0.5073332398841229 and parameters: {'n_patches': 14, 'embed_dim': 64, 'learning_rate': 7.195779065538382e-05, 'weight_decay': 2.288395948019227e-05, 'num_transformer_blocks': 6, 'num_heads': 4}. Best is trial 39 with value: 0.6009261751238202.
+Trial 53 accuracy: 0.5073
+Trial 54 params: n_patches=14, embed_dim=64, lr=0.0002029302212011053, blocks=6, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 09:05:10,163] Trial 54 finished with value: 0.5057602093262312 and parameters: {'n_patches': 14, 'embed_dim': 64, 'learning_rate': 0.0002029302212011053, 'weight_decay': 1.0263163147027844e-05, 'num_transformer_blocks': 6, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 54 accuracy: 0.5058
+Trial 55 params: n_patches=14, embed_dim=64, lr=0.0005222849497741259, blocks=8, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 09:06:34,543] Trial 55 finished with value: 0.3333333333333333 and parameters: {'n_patches': 14, 'embed_dim': 64, 'learning_rate': 0.0005222849497741259, 'weight_decay': 1.495512241820273e-05, 'num_transformer_blocks': 8, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 55 accuracy: 0.3333
+Trial 56 params: n_patches=14, embed_dim=64, lr=0.0001263566199398881, blocks=6, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 09:07:25,611] Trial 51 finished with value: 0.5001014858424446 and parameters: {'n_patches': 28, 'embed_dim': 64, 'learning_rate': 6.87467686324968e-05, 'weight_decay': 1.1220413770355028e-05, 'num_transformer_blocks': 8, 'num_heads': 4}. Best is trial 39 with value: 0.6009261751238202.
+Trial 51 accuracy: 0.5001
+Trial 57 params: n_patches=14, embed_dim=64, lr=0.00010977685519120481, blocks=6, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 09:08:17,665] Trial 56 finished with value: 0.3333333333333333 and parameters: {'n_patches': 14, 'embed_dim': 64, 'learning_rate': 0.0001263566199398881, 'weight_decay': 2.8747924376880637e-05, 'num_transformer_blocks': 6, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 56 accuracy: 0.3333
+Trial 58 params: n_patches=14, embed_dim=64, lr=3.951698044532639e-05, blocks=6, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 09:08:42,988] Trial 57 finished with value: 0.3928888888888889 and parameters: {'n_patches': 14, 'embed_dim': 64, 'learning_rate': 0.00010977685519120481, 'weight_decay': 3.058188551372336e-05, 'num_transformer_blocks': 6, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 57 accuracy: 0.3929
+Trial 59 params: n_patches=14, embed_dim=256, lr=2.2856541027390246e-05, blocks=6, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 09:10:03,225] Trial 58 finished with value: 0.4539249602840856 and parameters: {'n_patches': 14, 'embed_dim': 64, 'learning_rate': 3.951698044532639e-05, 'weight_decay': 2.0195117459071138e-05, 'num_transformer_blocks': 6, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 58 accuracy: 0.4539
+Trial 60 params: n_patches=14, embed_dim=256, lr=2.2724266712024995e-05, blocks=6, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 09:12:18,245] Trial 59 finished with value: 0.5493549201009252 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 2.2856541027390246e-05, 'weight_decay': 1.2942256305184456e-05, 'num_transformer_blocks': 6, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 59 accuracy: 0.5494
+Trial 61 params: n_patches=14, embed_dim=256, lr=1.7678094234876164e-05, blocks=4, heads=4, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 09:14:14,307] Trial 60 finished with value: 0.5274265956452667 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 2.2724266712024995e-05, 'weight_decay': 1.2765746191627485e-05, 'num_transformer_blocks': 6, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 60 accuracy: 0.5274
+Trial 62 params: n_patches=14, embed_dim=256, lr=5.3643243419401844e-05, blocks=2, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 09:14:52,828] Trial 61 finished with value: 0.566862536211569 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 1.7678094234876164e-05, 'weight_decay': 1.635489716521004e-05, 'num_transformer_blocks': 4, 'num_heads': 4}. Best is trial 39 with value: 0.6009261751238202.
+Trial 61 accuracy: 0.5669
+Trial 63 params: n_patches=14, embed_dim=256, lr=5.474657269463485e-05, blocks=4, heads=4, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 09:16:26,540] Trial 62 finished with value: 0.505886272310999 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 5.3643243419401844e-05, 'weight_decay': 1.3860627839845522e-05, 'num_transformer_blocks': 2, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 62 accuracy: 0.5059
+Trial 64 params: n_patches=14, embed_dim=256, lr=1.7134152763564713e-05, blocks=4, heads=4, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 09:16:54,859] Trial 63 finished with value: 0.49033641715727505 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 5.474657269463485e-05, 'weight_decay': 1.6887717296426384e-05, 'num_transformer_blocks': 4, 'num_heads': 4}. Best is trial 39 with value: 0.6009261751238202.
+Trial 63 accuracy: 0.4903
+Trial 65 params: n_patches=14, embed_dim=256, lr=1.7192442014229194e-05, blocks=4, heads=4, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 09:18:27,974] Trial 64 finished with value: 0.47789814036071393 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 1.7134152763564713e-05, 'weight_decay': 1.622272939744544e-05, 'num_transformer_blocks': 4, 'num_heads': 4}. Best is trial 39 with value: 0.6009261751238202.
+Trial 64 accuracy: 0.4779
+Trial 66 params: n_patches=28, embed_dim=256, lr=9.34321926673332e-05, blocks=4, heads=4, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 09:19:30,776] Trial 65 finished with value: 0.4635120082235305 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 1.7192442014229194e-05, 'weight_decay': 1.605078869695948e-05, 'num_transformer_blocks': 4, 'num_heads': 4}. Best is trial 39 with value: 0.6009261751238202.
+Trial 65 accuracy: 0.4635
+Trial 67 params: n_patches=28, embed_dim=256, lr=3.434916197791371e-05, blocks=4, heads=4, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 09:27:54,233] Trial 66 finished with value: 0.45556929258947765 and parameters: {'n_patches': 28, 'embed_dim': 256, 'learning_rate': 9.34321926673332e-05, 'weight_decay': 2.3735452427725474e-05, 'num_transformer_blocks': 4, 'num_heads': 4}. Best is trial 39 with value: 0.6009261751238202.
+Trial 66 accuracy: 0.4556
+Trial 68 params: n_patches=14, embed_dim=128, lr=1.2030391221379546e-05, blocks=4, heads=4, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 09:30:02,680] Trial 67 finished with value: 0.4461164377161013 and parameters: {'n_patches': 28, 'embed_dim': 256, 'learning_rate': 3.434916197791371e-05, 'weight_decay': 2.058024581286527e-05, 'num_transformer_blocks': 4, 'num_heads': 4}. Best is trial 39 with value: 0.6009261751238202.
+Trial 67 accuracy: 0.4461
+Trial 69 params: n_patches=14, embed_dim=128, lr=1.1708422139628177e-05, blocks=4, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 09:30:55,592] Trial 68 finished with value: 0.5354656574151949 and parameters: {'n_patches': 14, 'embed_dim': 128, 'learning_rate': 1.2030391221379546e-05, 'weight_decay': 2.116391355590451e-05, 'num_transformer_blocks': 4, 'num_heads': 4}. Best is trial 39 with value: 0.6009261751238202.
+Trial 68 accuracy: 0.5355
+Trial 70 params: n_patches=14, embed_dim=256, lr=2.591485227180497e-05, blocks=6, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 09:31:17,387] Trial 69 finished with value: 0.5047211475563032 and parameters: {'n_patches': 14, 'embed_dim': 128, 'learning_rate': 1.1708422139628177e-05, 'weight_decay': 1.008127672391292e-05, 'num_transformer_blocks': 4, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 69 accuracy: 0.5047
+Trial 71 params: n_patches=14, embed_dim=256, lr=1.927589498172152e-05, blocks=6, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 09:33:03,003] Trial 70 finished with value: 0.5357809550509298 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 2.591485227180497e-05, 'weight_decay': 1.1855877445590244e-05, 'num_transformer_blocks': 6, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 70 accuracy: 0.5358
+Trial 72 params: n_patches=14, embed_dim=256, lr=4.5440683995562106e-05, blocks=2, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 09:35:00,850] Trial 71 finished with value: 0.40963947294645364 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 1.927589498172152e-05, 'weight_decay': 1.891436137958816e-05, 'num_transformer_blocks': 6, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 71 accuracy: 0.4096
+Trial 73 params: n_patches=14, embed_dim=256, lr=4.3271294952391774e-05, blocks=2, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 09:35:46,134] Trial 72 finished with value: 0.5448384263152977 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 4.5440683995562106e-05, 'weight_decay': 1.8561026105181338e-05, 'num_transformer_blocks': 2, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 72 accuracy: 0.5448
+Trial 74 params: n_patches=14, embed_dim=256, lr=3.883512149544712e-05, blocks=2, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 09:37:21,803] Trial 73 finished with value: 0.580558545930287 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 4.3271294952391774e-05, 'weight_decay': 1.4747298280634858e-05, 'num_transformer_blocks': 2, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 73 accuracy: 0.5806
+Trial 75 params: n_patches=14, embed_dim=256, lr=3.3930357796144263e-05, blocks=2, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 09:37:52,781] Trial 74 finished with value: 0.5143330529857023 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 3.883512149544712e-05, 'weight_decay': 1.47794432042861e-05, 'num_transformer_blocks': 2, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 74 accuracy: 0.5143
+Trial 76 params: n_patches=14, embed_dim=256, lr=7.677787553973518e-05, blocks=8, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 09:40:11,079] Trial 75 finished with value: 0.47709064573404353 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 3.3930357796144263e-05, 'weight_decay': 1.417792887825325e-05, 'num_transformer_blocks': 2, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 75 accuracy: 0.4771
+Trial 77 params: n_patches=14, embed_dim=256, lr=7.680734631698964e-05, blocks=6, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 09:41:08,639] Trial 76 finished with value: 0.4992818428184282 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 7.677787553973518e-05, 'weight_decay': 2.727790015120267e-05, 'num_transformer_blocks': 8, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 76 accuracy: 0.4993
+Trial 78 params: n_patches=14, embed_dim=256, lr=4.393303148263641e-05, blocks=6, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 09:42:45,437] Trial 77 finished with value: 0.5195322867021773 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 7.680734631698964e-05, 'weight_decay': 1.76453072353276e-05, 'num_transformer_blocks': 6, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 77 accuracy: 0.5195
+Trial 79 params: n_patches=28, embed_dim=256, lr=0.00014354453503215907, blocks=6, heads=4, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 09:43:08,960] Trial 78 finished with value: 0.5876851696103168 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 4.393303148263641e-05, 'weight_decay': 3.294398897308617e-05, 'num_transformer_blocks': 6, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 78 accuracy: 0.5877
+Trial 80 params: n_patches=28, embed_dim=64, lr=4.642300304441316e-05, blocks=6, heads=4, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 09:48:33,483] Trial 80 finished with value: 0.3742638071208298 and parameters: {'n_patches': 28, 'embed_dim': 64, 'learning_rate': 4.642300304441316e-05, 'weight_decay': 3.645021207088552e-05, 'num_transformer_blocks': 6, 'num_heads': 4}. Best is trial 39 with value: 0.6009261751238202.
+Trial 80 accuracy: 0.3743
+Trial 81 params: n_patches=14, embed_dim=256, lr=8.684676295990424e-05, blocks=4, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 09:50:24,995] Trial 81 finished with value: 0.5267903934211756 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 8.684676295990424e-05, 'weight_decay': 3.9635970703002166e-05, 'num_transformer_blocks': 4, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 81 accuracy: 0.5268
+Trial 82 params: n_patches=14, embed_dim=256, lr=6.067247688861164e-05, blocks=6, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 09:52:39,592] Trial 82 finished with value: 0.5199010372862348 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 6.067247688861164e-05, 'weight_decay': 3.176504021959902e-05, 'num_transformer_blocks': 6, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 82 accuracy: 0.5199
+Trial 83 params: n_patches=14, embed_dim=256, lr=5.727322346349887e-05, blocks=6, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 09:55:12,650] Trial 83 finished with value: 0.4417845061209233 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 5.727322346349887e-05, 'weight_decay': 4.295962857445907e-05, 'num_transformer_blocks': 6, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 83 accuracy: 0.4418
+Trial 84 params: n_patches=14, embed_dim=256, lr=2.986896382345815e-05, blocks=6, heads=8, batch_size=16
+[I 2025-06-07 09:55:22,685] Trial 79 finished with value: 0.4292325950845715 and parameters: {'n_patches': 28, 'embed_dim': 256, 'learning_rate': 0.00014354453503215907, 'weight_decay': 1.231123877904813e-05, 'num_transformer_blocks': 6, 'num_heads': 4}. Best is trial 39 with value: 0.6009261751238202.
+Trial 79 accuracy: 0.4292
+Trial 85 params: n_patches=14, embed_dim=256, lr=1.5543281590348553e-05, blocks=6, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 09:57:44,837] Trial 84 finished with value: 0.5436805905990094 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 2.986896382345815e-05, 'weight_decay': 2.350373634676374e-05, 'num_transformer_blocks': 6, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 84 accuracy: 0.5437
+Trial 86 params: n_patches=14, embed_dim=64, lr=1.5428949837834584e-05, blocks=6, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 09:59:12,639] Trial 86 finished with value: 0.42829268292682926 and parameters: {'n_patches': 14, 'embed_dim': 64, 'learning_rate': 1.5428949837834584e-05, 'weight_decay': 1.540837934956132e-05, 'num_transformer_blocks': 6, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 86 accuracy: 0.4283
+Trial 87 params: n_patches=14, embed_dim=256, lr=2.2077564530536727e-05, blocks=8, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 09:59:22,884] Trial 85 finished with value: 0.5190869077656294 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 1.5543281590348553e-05, 'weight_decay': 1.5520870929726213e-05, 'num_transformer_blocks': 6, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 85 accuracy: 0.5191
+Trial 88 params: n_patches=14, embed_dim=64, lr=2.0917431596776133e-05, blocks=8, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 10:02:20,439] Trial 87 finished with value: 0.44321577422670777 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 2.2077564530536727e-05, 'weight_decay': 3.268084406536454e-05, 'num_transformer_blocks': 8, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 87 accuracy: 0.4432
+Trial 89 params: n_patches=14, embed_dim=64, lr=4.306445823846853e-05, blocks=6, heads=4, batch_size=16
+[I 2025-06-07 10:04:45,159] Trial 88 finished with value: 0.5018070273806187 and parameters: {'n_patches': 14, 'embed_dim': 64, 'learning_rate': 2.0917431596776133e-05, 'weight_decay': 3.241615554610111e-05, 'num_transformer_blocks': 8, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 88 accuracy: 0.5018
+Trial 90 params: n_patches=14, embed_dim=64, lr=0.00011435706611491656, blocks=6, heads=4, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 10:04:57,209] Trial 89 finished with value: 0.49125707877768426 and parameters: {'n_patches': 14, 'embed_dim': 64, 'learning_rate': 4.306445823846853e-05, 'weight_decay': 1.1172369801053624e-05, 'num_transformer_blocks': 6, 'num_heads': 4}. Best is trial 39 with value: 0.6009261751238202.
+Trial 89 accuracy: 0.4913
+Trial 91 params: n_patches=14, embed_dim=128, lr=2.5724485832379822e-05, blocks=2, heads=4, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 10:05:57,368] Trial 90 finished with value: 0.37897738529109426 and parameters: {'n_patches': 14, 'embed_dim': 64, 'learning_rate': 0.00011435706611491656, 'weight_decay': 2.00299019436516e-05, 'num_transformer_blocks': 6, 'num_heads': 4}. Best is trial 39 with value: 0.6009261751238202.
+Trial 90 accuracy: 0.3790
+Trial 92 params: n_patches=14, embed_dim=256, lr=2.5234294524534724e-05, blocks=2, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 10:06:42,360] Trial 91 finished with value: 0.5503328660872816 and parameters: {'n_patches': 14, 'embed_dim': 128, 'learning_rate': 2.5724485832379822e-05, 'weight_decay': 2.6609597169614565e-05, 'num_transformer_blocks': 2, 'num_heads': 4}. Best is trial 39 with value: 0.6009261751238202.
+Trial 91 accuracy: 0.5503
+Trial 93 params: n_patches=14, embed_dim=128, lr=2.7507592517816674e-05, blocks=2, heads=4, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 10:08:59,188] Trial 93 finished with value: 0.5054886459209419 and parameters: {'n_patches': 14, 'embed_dim': 128, 'learning_rate': 2.7507592517816674e-05, 'weight_decay': 2.6460654107788974e-05, 'num_transformer_blocks': 2, 'num_heads': 4}. Best is trial 39 with value: 0.6009261751238202.
+Trial 93 accuracy: 0.5055
+Trial 94 params: n_patches=14, embed_dim=128, lr=3.227324303349713e-05, blocks=2, heads=4, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 10:09:36,529] Trial 92 finished with value: 0.5872976357349781 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 2.5234294524534724e-05, 'weight_decay': 1.3153631900557693e-05, 'num_transformer_blocks': 2, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 92 accuracy: 0.5873
+Trial 95 params: n_patches=14, embed_dim=256, lr=4.199374653980093e-05, blocks=2, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 10:10:27,416] Trial 94 finished with value: 0.468410802728717 and parameters: {'n_patches': 14, 'embed_dim': 128, 'learning_rate': 3.227324303349713e-05, 'weight_decay': 2.5723832838493375e-05, 'num_transformer_blocks': 2, 'num_heads': 4}. Best is trial 39 with value: 0.6009261751238202.
+Trial 94 accuracy: 0.4684
+Trial 96 params: n_patches=14, embed_dim=256, lr=3.7657740084638114e-05, blocks=2, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 10:11:41,499] Trial 95 finished with value: 0.49743949163629564 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 4.199374653980093e-05, 'weight_decay': 1.383658831249928e-05, 'num_transformer_blocks': 2, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 95 accuracy: 0.4974
+Trial 97 params: n_patches=28, embed_dim=256, lr=3.6736137350477375e-05, blocks=2, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 10:13:08,147] Trial 96 finished with value: 0.46138987010559757 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 3.7657740084638114e-05, 'weight_decay': 1.3408415983901382e-05, 'num_transformer_blocks': 2, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 96 accuracy: 0.4614
+Trial 98 params: n_patches=28, embed_dim=256, lr=1.8506161426107736e-05, blocks=4, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 10:21:45,950] Trial 98 finished with value: 0.5079834594897673 and parameters: {'n_patches': 28, 'embed_dim': 256, 'learning_rate': 1.8506161426107736e-05, 'weight_decay': 5.9833838276480784e-05, 'num_transformer_blocks': 4, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 98 accuracy: 0.5080
+Trial 99 params: n_patches=14, embed_dim=256, lr=5.133075459423188e-05, blocks=6, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 10:24:06,207] Trial 99 finished with value: 0.5170307447902065 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 5.133075459423188e-05, 'weight_decay': 1.0710414631666028e-05, 'num_transformer_blocks': 6, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 99 accuracy: 0.5170
+Trial 100 params: n_patches=14, embed_dim=256, lr=6.606908257445625e-05, blocks=2, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 10:26:36,281] Trial 100 finished with value: 0.42539753294084665 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 6.606908257445625e-05, 'weight_decay': 2.8430300147199816e-05, 'num_transformer_blocks': 2, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 100 accuracy: 0.4254
+Trial 101 params: n_patches=14, embed_dim=256, lr=3.542143958687099e-05, blocks=6, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 10:29:23,710] Trial 101 finished with value: 0.5086633024950938 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 3.542143958687099e-05, 'weight_decay': 1.4469244977733257e-05, 'num_transformer_blocks': 6, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 101 accuracy: 0.5087
+Trial 102 params: n_patches=14, embed_dim=128, lr=2.6309898156308548e-05, blocks=2, heads=4, batch_size=16
+[I 2025-06-07 10:29:31,660] Trial 97 finished with value: 0.5005288290813943 and parameters: {'n_patches': 28, 'embed_dim': 256, 'learning_rate': 3.6736137350477375e-05, 'weight_decay': 1.325617980779418e-05, 'num_transformer_blocks': 2, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 97 accuracy: 0.5005
+Trial 103 params: n_patches=14, embed_dim=128, lr=2.318632946732292e-05, blocks=2, heads=4, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 10:31:06,445] Trial 102 finished with value: 0.49198682366134006 and parameters: {'n_patches': 14, 'embed_dim': 128, 'learning_rate': 2.6309898156308548e-05, 'weight_decay': 3.5445837558231006e-05, 'num_transformer_blocks': 2, 'num_heads': 4}. Best is trial 39 with value: 0.6009261751238202.
+Trial 102 accuracy: 0.4920
+Trial 104 params: n_patches=14, embed_dim=128, lr=2.55874871789742e-05, blocks=2, heads=4, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 10:31:47,041] Trial 103 finished with value: 0.4171213905242501 and parameters: {'n_patches': 14, 'embed_dim': 128, 'learning_rate': 2.318632946732292e-05, 'weight_decay': 1.2403262592056968e-05, 'num_transformer_blocks': 2, 'num_heads': 4}. Best is trial 39 with value: 0.6009261751238202.
+Trial 103 accuracy: 0.4171
+Trial 105 params: n_patches=14, embed_dim=128, lr=2.500613033414047e-05, blocks=2, heads=4, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 10:33:13,698] Trial 104 finished with value: 0.4844753761330716 and parameters: {'n_patches': 14, 'embed_dim': 128, 'learning_rate': 2.55874871789742e-05, 'weight_decay': 2.2364473721836814e-05, 'num_transformer_blocks': 2, 'num_heads': 4}. Best is trial 39 with value: 0.6009261751238202.
+Trial 104 accuracy: 0.4845
+Trial 106 params: n_patches=14, embed_dim=64, lr=1.579576791730583e-05, blocks=2, heads=4, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 10:34:14,646] Trial 106 finished with value: 0.4710309316886272 and parameters: {'n_patches': 14, 'embed_dim': 64, 'learning_rate': 1.579576791730583e-05, 'weight_decay': 1.1617275199666679e-05, 'num_transformer_blocks': 2, 'num_heads': 4}. Best is trial 39 with value: 0.6009261751238202.
+Trial 106 accuracy: 0.4710
+Trial 107 params: n_patches=14, embed_dim=256, lr=1.2633049865200366e-05, blocks=4, heads=8, batch_size=16
+[I 2025-06-07 10:36:09,450] Trial 105 finished with value: 0.5382995047191851 and parameters: {'n_patches': 14, 'embed_dim': 128, 'learning_rate': 2.500613033414047e-05, 'weight_decay': 2.4266759423655645e-05, 'num_transformer_blocks': 2, 'num_heads': 4}. Best is trial 39 with value: 0.6009261751238202.
+Trial 105 accuracy: 0.5383
+Trial 108 params: n_patches=14, embed_dim=256, lr=2.0481779100518376e-05, blocks=4, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 10:36:21,178] Trial 107 finished with value: 0.5580316792823101 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 1.2633049865200366e-05, 'weight_decay': 1.802725666594851e-05, 'num_transformer_blocks': 4, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 107 accuracy: 0.5580
+Trial 109 params: n_patches=14, embed_dim=256, lr=1.1372046529113052e-05, blocks=4, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 10:38:15,674] Trial 108 finished with value: 0.5393116531165312 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 2.0481779100518376e-05, 'weight_decay': 1.7218679764795997e-05, 'num_transformer_blocks': 4, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 108 accuracy: 0.5393
+Trial 110 params: n_patches=14, embed_dim=256, lr=1.0773786921287672e-05, blocks=4, heads=8, batch_size=16
+[I 2025-06-07 10:40:33,195] Trial 109 finished with value: 0.469135875151855 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 1.1372046529113052e-05, 'weight_decay': 1.7016302435119623e-05, 'num_transformer_blocks': 4, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 109 accuracy: 0.4691
+Trial 111 params: n_patches=14, embed_dim=256, lr=1.468981938100174e-05, blocks=4, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 10:42:56,660] Trial 110 finished with value: 0.5553500607419867 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 1.0773786921287672e-05, 'weight_decay': 1.7820981754412865e-05, 'num_transformer_blocks': 4, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 110 accuracy: 0.5554
+Trial 112 params: n_patches=14, embed_dim=256, lr=1.2096882646803063e-05, blocks=4, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 10:43:46,012] Trial 111 finished with value: 0.49955546210634516 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 1.468981938100174e-05, 'weight_decay': 1.8194951107957565e-05, 'num_transformer_blocks': 4, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 111 accuracy: 0.4996
+Trial 113 params: n_patches=14, embed_dim=256, lr=1.0679975934274579e-05, blocks=4, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 10:46:10,063] Trial 113 finished with value: 0.48963152976357344 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 1.0679975934274579e-05, 'weight_decay': 1.9648349863613594e-05, 'num_transformer_blocks': 4, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 113 accuracy: 0.4896
+Trial 114 params: n_patches=14, embed_dim=256, lr=1.2930922241381244e-05, blocks=4, heads=8, batch_size=16
+[I 2025-06-07 10:48:03,466] Trial 112 finished with value: 0.524840108401084 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 1.2096882646803063e-05, 'weight_decay': 1.948080358705338e-05, 'num_transformer_blocks': 4, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 112 accuracy: 0.5248
+Trial 115 params: n_patches=14, embed_dim=256, lr=1.0013648305236029e-05, blocks=4, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 10:49:11,513] Trial 114 finished with value: 0.4002096065788244 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 1.2930922241381244e-05, 'weight_decay': 1.5823253584610227e-05, 'num_transformer_blocks': 4, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 114 accuracy: 0.4002
+Trial 116 params: n_patches=14, embed_dim=256, lr=1.056744836855605e-05, blocks=4, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 10:51:57,911] Trial 115 finished with value: 0.5793252032520325 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 1.0013648305236029e-05, 'weight_decay': 1.59398911207308e-05, 'num_transformer_blocks': 4, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 115 accuracy: 0.5793
+Trial 117 params: n_patches=28, embed_dim=256, lr=1.307138074311458e-05, blocks=4, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 10:52:04,352] Trial 116 finished with value: 0.5375096719932716 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 1.056744836855605e-05, 'weight_decay': 1.8189347532042025e-05, 'num_transformer_blocks': 4, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 116 accuracy: 0.5375
+Trial 118 params: n_patches=28, embed_dim=256, lr=1.3237952915614786e-05, blocks=4, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 10:58:04,675] Trial 117 finished with value: 0.4223560414914494 and parameters: {'n_patches': 28, 'embed_dim': 256, 'learning_rate': 1.307138074311458e-05, 'weight_decay': 1.4612756424092754e-05, 'num_transformer_blocks': 4, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 117 accuracy: 0.4224
+Trial 119 params: n_patches=14, embed_dim=256, lr=0.00033785088738548703, blocks=4, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 10:59:52,511] Trial 119 finished with value: 0.3333333333333333 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 0.00033785088738548703, 'weight_decay': 1.6413349226809275e-05, 'num_transformer_blocks': 4, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 119 accuracy: 0.3333
+Trial 120 params: n_patches=14, embed_dim=64, lr=1.0317573002600968e-05, blocks=4, heads=8, batch_size=16
+[I 2025-06-07 11:05:41,623] Trial 120 finished with value: 0.4625388281469022 and parameters: {'n_patches': 14, 'embed_dim': 64, 'learning_rate': 1.0317573002600968e-05, 'weight_decay': 2.1827823960292224e-05, 'num_transformer_blocks': 4, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 120 accuracy: 0.4625
+Trial 121 params: n_patches=14, embed_dim=256, lr=1.6700271007802594e-05, blocks=4, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 11:06:46,775] Trial 118 finished with value: 0.518040370058873 and parameters: {'n_patches': 28, 'embed_dim': 256, 'learning_rate': 1.3237952915614786e-05, 'weight_decay': 1.6571338014618168e-05, 'num_transformer_blocks': 4, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 118 accuracy: 0.5180
+Trial 122 params: n_patches=14, embed_dim=256, lr=1.755942741789272e-05, blocks=4, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 11:09:47,587] Trial 122 finished with value: 0.482756191010186 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 1.755942741789272e-05, 'weight_decay': 1.765338725834871e-05, 'num_transformer_blocks': 4, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 122 accuracy: 0.4828
+Trial 123 params: n_patches=14, embed_dim=256, lr=0.0002061405650456697, blocks=6, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 11:10:34,994] Trial 121 finished with value: 0.5700466311559667 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 1.6700271007802594e-05, 'weight_decay': 1.275322898326184e-05, 'num_transformer_blocks': 4, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 121 accuracy: 0.5700
+Trial 124 params: n_patches=14, embed_dim=256, lr=1.4140916716219985e-05, blocks=4, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 11:10:57,290] Trial 123 finished with value: 0.3333333333333333 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 0.0002061405650456697, 'weight_decay': 1.5589915938045017e-05, 'num_transformer_blocks': 6, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 123 accuracy: 0.3333
+Trial 125 params: n_patches=14, embed_dim=256, lr=1.646749009642934e-05, blocks=4, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 11:11:54,923] Trial 124 finished with value: 0.3413548266517148 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 1.4140916716219985e-05, 'weight_decay': 1.269454499133147e-05, 'num_transformer_blocks': 4, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 124 accuracy: 0.3414
+Trial 126 params: n_patches=14, embed_dim=256, lr=1.1265369775364506e-05, blocks=4, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 11:13:11,253] Trial 125 finished with value: 0.4991431641902626 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 1.646749009642934e-05, 'weight_decay': 1.2761997989583606e-05, 'num_transformer_blocks': 4, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 125 accuracy: 0.4991
+Trial 127 params: n_patches=14, embed_dim=64, lr=1.0060570379448102e-05, blocks=4, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 11:15:40,399] Trial 126 finished with value: 0.4935882627791795 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 1.1265369775364506e-05, 'weight_decay': 6.972302572627275e-05, 'num_transformer_blocks': 4, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 126 accuracy: 0.4936
+Trial 128 params: n_patches=14, embed_dim=64, lr=1.0034095824849443e-05, blocks=4, heads=8, batch_size=16
+[I 2025-06-07 11:17:04,598] Trial 127 finished with value: 0.44727137650686855 and parameters: {'n_patches': 14, 'embed_dim': 64, 'learning_rate': 1.0060570379448102e-05, 'weight_decay': 1.0661393599860558e-05, 'num_transformer_blocks': 4, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 127 accuracy: 0.4473
+Trial 129 params: n_patches=14, embed_dim=256, lr=1.2148194260197547e-05, blocks=4, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 11:19:58,822] Trial 128 finished with value: 0.53459629941127 and parameters: {'n_patches': 14, 'embed_dim': 64, 'learning_rate': 1.0034095824849443e-05, 'weight_decay': 1.1813932823883784e-05, 'num_transformer_blocks': 4, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 128 accuracy: 0.5346
+Trial 130 params: n_patches=14, embed_dim=256, lr=1.8624174196030355e-05, blocks=4, heads=8, batch_size=16
+[I 2025-06-07 11:20:00,661] Trial 129 finished with value: 0.6005461171853098 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 1.2148194260197547e-05, 'weight_decay': 1.3849124915372121e-05, 'num_transformer_blocks': 4, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 129 accuracy: 0.6005
+Trial 131 params: n_patches=14, embed_dim=256, lr=0.00010614301558547419, blocks=4, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 11:21:24,201] Trial 131 finished with value: 0.43196290066348936 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 0.00010614301558547419, 'weight_decay': 1.354274485838639e-05, 'num_transformer_blocks': 4, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 131 accuracy: 0.4320
+Trial 132 params: n_patches=14, embed_dim=256, lr=1.1746306193411325e-05, blocks=4, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 11:23:57,654] Trial 132 finished with value: 0.5669420614895805 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 1.1746306193411325e-05, 'weight_decay': 1.4128119123759404e-05, 'num_transformer_blocks': 4, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 132 accuracy: 0.5669
+Trial 133 params: n_patches=14, embed_dim=256, lr=1.2421182851922006e-05, blocks=4, heads=8, batch_size=16
+[I 2025-06-07 11:25:04,258] Trial 130 finished with value: 0.5789869171105504 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 1.8624174196030355e-05, 'weight_decay': 1.3861372035933134e-05, 'num_transformer_blocks': 4, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 130 accuracy: 0.5790
+Trial 134 params: n_patches=14, embed_dim=256, lr=1.8309220761036015e-05, blocks=4, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 11:26:31,282] Trial 133 finished with value: 0.46298570227081576 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 1.2421182851922006e-05, 'weight_decay': 1.477373224809443e-05, 'num_transformer_blocks': 4, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 133 accuracy: 0.4630
+Trial 135 params: n_patches=14, embed_dim=256, lr=1.7786489293226814e-05, blocks=4, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 11:27:48,020] Trial 134 finished with value: 0.5194083730492477 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 1.8309220761036015e-05, 'weight_decay': 1.422040321459915e-05, 'num_transformer_blocks': 4, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 134 accuracy: 0.5194
+Trial 136 params: n_patches=14, embed_dim=256, lr=1.5260393036605025e-05, blocks=4, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 11:29:21,876] Trial 135 finished with value: 0.4645963928604803 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 1.7786489293226814e-05, 'weight_decay': 1.3921260207974905e-05, 'num_transformer_blocks': 4, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 135 accuracy: 0.4646
+Trial 137 params: n_patches=14, embed_dim=256, lr=1.4906870359670795e-05, blocks=4, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 11:30:43,314] Trial 136 finished with value: 0.44380291561536306 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 1.5260393036605025e-05, 'weight_decay': 1.3654962452737536e-05, 'num_transformer_blocks': 4, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 136 accuracy: 0.4438
+Trial 138 params: n_patches=14, embed_dim=64, lr=9.537003332094398e-05, blocks=8, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 11:31:42,054] Trial 137 finished with value: 0.537546677880572 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 1.4906870359670795e-05, 'weight_decay': 1.212873872877515e-05, 'num_transformer_blocks': 4, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 137 accuracy: 0.5375
+Trial 139 params: n_patches=28, embed_dim=64, lr=7.438118141246454e-05, blocks=8, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 11:32:59,805] Trial 138 finished with value: 0.3333333333333333 and parameters: {'n_patches': 14, 'embed_dim': 64, 'learning_rate': 9.537003332094398e-05, 'weight_decay': 1.2232085092679469e-05, 'num_transformer_blocks': 8, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 138 accuracy: 0.3333
+Trial 140 params: n_patches=28, embed_dim=256, lr=2.0627986194919494e-05, blocks=4, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 11:43:07,950] Trial 139 finished with value: 0.5071661526960097 and parameters: {'n_patches': 28, 'embed_dim': 64, 'learning_rate': 7.438118141246454e-05, 'weight_decay': 1.1487260605262271e-05, 'num_transformer_blocks': 8, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 139 accuracy: 0.5072
+Trial 141 params: n_patches=14, embed_dim=256, lr=2.9964831778842905e-05, blocks=4, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 11:45:50,236] Trial 141 finished with value: 0.569887860947575 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 2.9964831778842905e-05, 'weight_decay': 1.306033187574259e-05, 'num_transformer_blocks': 4, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 141 accuracy: 0.5699
+Trial 142 params: n_patches=14, embed_dim=256, lr=3.299339400128727e-05, blocks=4, heads=8, batch_size=16
+[I 2025-06-07 11:45:57,309] Trial 140 finished with value: 0.5163912718437529 and parameters: {'n_patches': 28, 'embed_dim': 256, 'learning_rate': 2.0627986194919494e-05, 'weight_decay': 1.3069948783613791e-05, 'num_transformer_blocks': 4, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 140 accuracy: 0.5164
+Trial 143 params: n_patches=14, embed_dim=256, lr=3.0336286803197875e-05, blocks=4, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 11:48:39,342] Trial 143 finished with value: 0.5190437342304458 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 3.0336286803197875e-05, 'weight_decay': 1.5119316586969057e-05, 'num_transformer_blocks': 4, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 143 accuracy: 0.5190
+Trial 144 params: n_patches=14, embed_dim=256, lr=4.4808509067989574e-05, blocks=4, heads=8, batch_size=16
+[I 2025-06-07 11:48:42,799] Trial 142 finished with value: 0.4530353238015139 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 3.299339400128727e-05, 'weight_decay': 1.3147952998323501e-05, 'num_transformer_blocks': 4, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 142 accuracy: 0.4530
+Trial 145 params: n_patches=14, embed_dim=256, lr=2.974662820548997e-05, blocks=4, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 11:50:33,904] Trial 144 finished with value: 0.5368404821979255 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 4.4808509067989574e-05, 'weight_decay': 1.3109532152238122e-05, 'num_transformer_blocks': 4, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 144 accuracy: 0.5368
+Trial 146 params: n_patches=14, embed_dim=256, lr=2.8724547989967312e-05, blocks=6, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 11:51:08,365] Trial 145 finished with value: 0.514754882721241 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 2.974662820548997e-05, 'weight_decay': 1.4613082998688885e-05, 'num_transformer_blocks': 4, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 145 accuracy: 0.5148
+Trial 147 params: n_patches=14, embed_dim=256, lr=4.13974211974711e-05, blocks=6, heads=4, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 11:54:35,266] Trial 146 finished with value: 0.5220966264835062 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 2.8724547989967312e-05, 'weight_decay': 1.3852752022316566e-05, 'num_transformer_blocks': 6, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 146 accuracy: 0.5221
+Trial 148 params: n_patches=14, embed_dim=256, lr=8.362513336151533e-05, blocks=4, heads=4, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 11:54:53,812] Trial 147 finished with value: 0.49983169797215216 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 4.13974211974711e-05, 'weight_decay': 1.5632950670977733e-05, 'num_transformer_blocks': 6, 'num_heads': 4}. Best is trial 39 with value: 0.6009261751238202.
+Trial 147 accuracy: 0.4998
+Trial 149 params: n_patches=14, embed_dim=256, lr=5.878541126936126e-05, blocks=4, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 11:56:46,019] Trial 149 finished with value: 0.49467769367348846 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 5.878541126936126e-05, 'weight_decay': 1.0571201879894247e-05, 'num_transformer_blocks': 4, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 149 accuracy: 0.4947
+Trial 150 params: n_patches=14, embed_dim=256, lr=2.1890300373811458e-05, blocks=4, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 11:56:53,471] Trial 148 finished with value: 0.487342211008317 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 8.362513336151533e-05, 'weight_decay': 1.5646882809242777e-05, 'num_transformer_blocks': 4, 'num_heads': 4}. Best is trial 39 with value: 0.6009261751238202.
+Trial 148 accuracy: 0.4873
+Trial 151 params: n_patches=14, embed_dim=64, lr=4.92722377866108e-05, blocks=6, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 11:59:28,174] Trial 150 finished with value: 0.49955620970002795 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 2.1890300373811458e-05, 'weight_decay': 1.1219336968096576e-05, 'num_transformer_blocks': 4, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 150 accuracy: 0.4996
+Trial 152 params: n_patches=14, embed_dim=256, lr=1.3734463186506866e-05, blocks=4, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 12:00:34,681] Trial 151 finished with value: 0.43749088870199043 and parameters: {'n_patches': 14, 'embed_dim': 64, 'learning_rate': 4.92722377866108e-05, 'weight_decay': 1.2469559557836627e-05, 'num_transformer_blocks': 6, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 151 accuracy: 0.4375
+Trial 153 params: n_patches=14, embed_dim=256, lr=1.3178041585838383e-05, blocks=4, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 12:03:17,186] Trial 152 finished with value: 0.5088749649565462 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 1.3734463186506866e-05, 'weight_decay': 3.429596214534842e-05, 'num_transformer_blocks': 4, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 152 accuracy: 0.5089
+Trial 154 params: n_patches=14, embed_dim=256, lr=1.2667633479968576e-05, blocks=4, heads=8, batch_size=16
+[I 2025-06-07 12:03:18,609] Trial 153 finished with value: 0.5325192972619381 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 1.3178041585838383e-05, 'weight_decay': 3.0641522616303796e-05, 'num_transformer_blocks': 4, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 153 accuracy: 0.5325
+Trial 155 params: n_patches=14, embed_dim=256, lr=1.6230508111369252e-05, blocks=4, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 12:06:09,042] Trial 154 finished with value: 0.5547152602560509 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 1.2667633479968576e-05, 'weight_decay': 2.982293934174185e-05, 'num_transformer_blocks': 4, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 154 accuracy: 0.5547
+Trial 156 params: n_patches=14, embed_dim=256, lr=1.9160230288916127e-05, blocks=4, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 12:06:35,184] Trial 155 finished with value: 0.5242396037753481 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 1.6230508111369252e-05, 'weight_decay': 3.729187900091097e-05, 'num_transformer_blocks': 4, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 155 accuracy: 0.5242
+Trial 157 params: n_patches=14, embed_dim=256, lr=0.00014190638384360988, blocks=4, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 12:08:48,231] Trial 156 finished with value: 0.5212703485655547 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 1.9160230288916127e-05, 'weight_decay': 3.7596685900192455e-05, 'num_transformer_blocks': 4, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 156 accuracy: 0.5213
+Trial 158 params: n_patches=14, embed_dim=256, lr=0.00014519557236047266, blocks=4, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 12:09:22,078] Trial 157 finished with value: 0.49327614241659656 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 0.00014190638384360988, 'weight_decay': 1.642015614519338e-05, 'num_transformer_blocks': 4, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 157 accuracy: 0.4933
+Trial 159 params: n_patches=14, embed_dim=256, lr=1.1212894940314381e-05, blocks=4, heads=4, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 12:10:38,350] Trial 159 finished with value: 0.4467462853938884 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 1.1212894940314381e-05, 'weight_decay': 1.4739676276139571e-05, 'num_transformer_blocks': 4, 'num_heads': 4}. Best is trial 39 with value: 0.6009261751238202.
+Trial 159 accuracy: 0.4467
+Trial 160 params: n_patches=14, embed_dim=64, lr=1.442563713540402e-05, blocks=6, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 12:10:49,670] Trial 158 finished with value: 0.5348342211008318 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 0.00014519557236047266, 'weight_decay': 1.4232937578703603e-05, 'num_transformer_blocks': 4, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 158 accuracy: 0.5348
+Trial 161 params: n_patches=14, embed_dim=64, lr=1.1847773468395318e-05, blocks=4, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 12:13:59,730] Trial 161 finished with value: 0.4621177460050463 and parameters: {'n_patches': 14, 'embed_dim': 64, 'learning_rate': 1.1847773468395318e-05, 'weight_decay': 1.1996001012601205e-05, 'num_transformer_blocks': 4, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 161 accuracy: 0.4621
+Trial 162 params: n_patches=14, embed_dim=256, lr=1.1028155829059515e-05, blocks=4, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 12:14:44,410] Trial 160 finished with value: 0.5023569759835529 and parameters: {'n_patches': 14, 'embed_dim': 64, 'learning_rate': 1.442563713540402e-05, 'weight_decay': 1.4134834613725049e-05, 'num_transformer_blocks': 6, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 160 accuracy: 0.5024
+Trial 163 params: n_patches=14, embed_dim=256, lr=3.6569599602017067e-05, blocks=4, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 12:16:23,164] Trial 162 finished with value: 0.5027532006354546 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 1.1028155829059515e-05, 'weight_decay': 1.7162841896269803e-05, 'num_transformer_blocks': 4, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 162 accuracy: 0.5028
+Trial 164 params: n_patches=14, embed_dim=256, lr=1.2045967794401467e-05, blocks=4, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 12:17:38,709] Trial 163 finished with value: 0.5084276235865807 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 3.6569599602017067e-05, 'weight_decay': 1.7398636407334327e-05, 'num_transformer_blocks': 4, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 163 accuracy: 0.5084
+Trial 165 params: n_patches=14, embed_dim=256, lr=1.2105130187841537e-05, blocks=4, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 12:18:57,281] Trial 164 finished with value: 0.5627004952808149 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 1.2045967794401467e-05, 'weight_decay': 1.838756527481579e-05, 'num_transformer_blocks': 4, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 164 accuracy: 0.5627
+Trial 166 params: n_patches=14, embed_dim=256, lr=1.6702244626190114e-05, blocks=4, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 12:20:45,446] Trial 165 finished with value: 0.5676928324455659 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 1.2105130187841537e-05, 'weight_decay': 1.8686539417915324e-05, 'num_transformer_blocks': 4, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 165 accuracy: 0.5677
+Trial 167 params: n_patches=14, embed_dim=256, lr=1.4288475476198713e-05, blocks=4, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 12:21:18,936] Trial 166 finished with value: 0.530752266143351 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 1.6702244626190114e-05, 'weight_decay': 1.6262802991393747e-05, 'num_transformer_blocks': 4, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 166 accuracy: 0.5308
+Trial 168 params: n_patches=14, embed_dim=256, lr=0.00044762412779468974, blocks=6, heads=4, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 12:22:42,005] Trial 167 finished with value: 0.48471946547051675 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 1.4288475476198713e-05, 'weight_decay': 2.113258592537699e-05, 'num_transformer_blocks': 4, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 167 accuracy: 0.4847
+Trial 169 params: n_patches=28, embed_dim=256, lr=0.00045867439170959115, blocks=6, heads=4, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 12:22:49,337] Trial 168 finished with value: 0.3333333333333333 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 0.00044762412779468974, 'weight_decay': 2.0144340377808186e-05, 'num_transformer_blocks': 6, 'num_heads': 4}. Best is trial 39 with value: 0.6009261751238202.
+Trial 168 accuracy: 0.3333
+Trial 170 params: n_patches=28, embed_dim=256, lr=2.3814816152096158e-05, blocks=4, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 12:37:31,150] Trial 169 finished with value: 0.3333333333333333 and parameters: {'n_patches': 28, 'embed_dim': 256, 'learning_rate': 0.00045867439170959115, 'weight_decay': 1.8820232057774495e-05, 'num_transformer_blocks': 6, 'num_heads': 4}. Best is trial 39 with value: 0.6009261751238202.
+Trial 169 accuracy: 0.3333
+Trial 171 params: n_patches=14, embed_dim=256, lr=2.303743883282024e-05, blocks=4, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 12:40:16,692] Trial 170 finished with value: 0.5059725259321559 and parameters: {'n_patches': 28, 'embed_dim': 256, 'learning_rate': 2.3814816152096158e-05, 'weight_decay': 1.8897769466625405e-05, 'num_transformer_blocks': 4, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 170 accuracy: 0.5060
+Trial 172 params: n_patches=14, embed_dim=256, lr=1.2098648680548189e-05, blocks=4, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 12:40:37,837] Trial 171 finished with value: 0.5546689094477152 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 2.303743883282024e-05, 'weight_decay': 1.3554712163690291e-05, 'num_transformer_blocks': 4, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 171 accuracy: 0.5547
+Trial 173 params: n_patches=14, embed_dim=256, lr=1.2485420673402393e-05, blocks=4, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 12:43:57,617] Trial 172 finished with value: 0.4656038687973087 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 1.2098648680548189e-05, 'weight_decay': 1.5304079931148795e-05, 'num_transformer_blocks': 4, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 172 accuracy: 0.4656
+Trial 174 params: n_patches=14, embed_dim=256, lr=1.2662195418185704e-05, blocks=4, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 12:45:44,640] Trial 173 finished with value: 0.5032593215587329 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 1.2485420673402393e-05, 'weight_decay': 1.5172285263148318e-05, 'num_transformer_blocks': 4, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 173 accuracy: 0.5033
+Trial 175 params: n_patches=14, embed_dim=256, lr=0.0009514131163341434, blocks=4, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 12:46:20,889] Trial 174 finished with value: 0.5310947574992991 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 1.2662195418185704e-05, 'weight_decay': 5.4255893281329184e-05, 'num_transformer_blocks': 4, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 174 accuracy: 0.5311
+Trial 176 params: n_patches=14, embed_dim=256, lr=1.5662713034952534e-05, blocks=4, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 12:47:03,362] Trial 175 finished with value: 0.3333333333333333 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 0.0009514131163341434, 'weight_decay': 1.2620726484960796e-05, 'num_transformer_blocks': 4, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 175 accuracy: 0.3333
+Trial 177 params: n_patches=14, embed_dim=256, lr=1.6501974217483222e-05, blocks=8, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 12:47:28,270] Trial 176 finished with value: 0.4402384823848238 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 1.5662713034952534e-05, 'weight_decay': 1.6802313241931474e-05, 'num_transformer_blocks': 4, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 176 accuracy: 0.4402
+Trial 178 params: n_patches=14, embed_dim=64, lr=6.9519039250496e-05, blocks=8, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 12:48:41,221] Trial 178 finished with value: 0.3333333333333333 and parameters: {'n_patches': 14, 'embed_dim': 64, 'learning_rate': 6.9519039250496e-05, 'weight_decay': 2.058898464729547e-05, 'num_transformer_blocks': 8, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 178 accuracy: 0.3333
+Trial 179 params: n_patches=14, embed_dim=256, lr=1.9682697340133902e-05, blocks=2, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 12:50:39,458] Trial 177 finished with value: 0.5246554527614241 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 1.6501974217483222e-05, 'weight_decay': 1.8109170012642076e-05, 'num_transformer_blocks': 8, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 177 accuracy: 0.5247
+Trial 180 params: n_patches=14, embed_dim=256, lr=1.9898469322925793e-05, blocks=2, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 12:51:28,890] Trial 179 finished with value: 0.5006217175964863 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 1.9682697340133902e-05, 'weight_decay': 2.3137977630587394e-05, 'num_transformer_blocks': 2, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 179 accuracy: 0.5006
+Trial 181 params: n_patches=14, embed_dim=256, lr=1.4016303278619555e-05, blocks=4, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 12:53:47,438] Trial 181 finished with value: 0.4956401270909261 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 1.4016303278619555e-05, 'weight_decay': 1.6035644390927304e-05, 'num_transformer_blocks': 4, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 181 accuracy: 0.4956
+Trial 182 params: n_patches=14, embed_dim=256, lr=1.0448955478953997e-05, blocks=4, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 12:54:06,876] Trial 180 finished with value: 0.5623581908232875 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 1.9898469322925793e-05, 'weight_decay': 1.5967315306842903e-05, 'num_transformer_blocks': 2, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 180 accuracy: 0.5624
+Trial 183 params: n_patches=14, embed_dim=256, lr=0.00022315420571666084, blocks=2, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 12:56:06,675] Trial 183 finished with value: 0.4466655452761424 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 0.00022315420571666084, 'weight_decay': 1.329674351313285e-05, 'num_transformer_blocks': 2, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 183 accuracy: 0.4467
+Trial 184 params: n_patches=14, embed_dim=256, lr=1.740590955256165e-05, blocks=2, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 12:56:42,926] Trial 182 finished with value: 0.5651730679375758 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 1.0448955478953997e-05, 'weight_decay': 1.799399270082006e-05, 'num_transformer_blocks': 4, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 182 accuracy: 0.5652
+Trial 185 params: n_patches=14, embed_dim=256, lr=1.1133749858886215e-05, blocks=2, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 12:58:08,116] Trial 184 finished with value: 0.48694598635641534 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 1.740590955256165e-05, 'weight_decay': 1.4631646954152035e-05, 'num_transformer_blocks': 2, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 184 accuracy: 0.4869
+Trial 186 params: n_patches=14, embed_dim=256, lr=1.0200711444919567e-05, blocks=2, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 12:59:07,556] Trial 185 finished with value: 0.5394282777310532 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 1.1133749858886215e-05, 'weight_decay': 1.9287261994844358e-05, 'num_transformer_blocks': 2, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 185 accuracy: 0.5394
+Trial 187 params: n_patches=14, embed_dim=64, lr=1.0057759073649786e-05, blocks=2, heads=4, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 13:00:24,699] Trial 187 finished with value: 0.4376446126530231 and parameters: {'n_patches': 14, 'embed_dim': 64, 'learning_rate': 1.0057759073649786e-05, 'weight_decay': 1.7040740769079638e-05, 'num_transformer_blocks': 2, 'num_heads': 4}. Best is trial 39 with value: 0.6009261751238202.
+Trial 187 accuracy: 0.4376
+Trial 188 params: n_patches=14, embed_dim=256, lr=2.0993358767608135e-05, blocks=2, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 13:01:48,760] Trial 188 finished with value: 0.5007719839267358 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 2.0993358767608135e-05, 'weight_decay': 1.3778486155108479e-05, 'num_transformer_blocks': 2, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 188 accuracy: 0.5008
+Trial 189 params: n_patches=14, embed_dim=256, lr=3.946000616154198e-05, blocks=6, heads=8, batch_size=16
+[I 2025-06-07 13:02:37,595] Trial 186 finished with value: 0.5673167928231008 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 1.0200711444919567e-05, 'weight_decay': 1.6441347799274983e-05, 'num_transformer_blocks': 2, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 186 accuracy: 0.5673
+Trial 190 params: n_patches=14, embed_dim=256, lr=1.1697673554461466e-05, blocks=2, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 13:04:21,291] Trial 189 finished with value: 0.562496308756191 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 3.946000616154198e-05, 'weight_decay': 2.8325266240577156e-05, 'num_transformer_blocks': 6, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 189 accuracy: 0.5625
+Trial 191 params: n_patches=14, embed_dim=256, lr=3.317457088612425e-05, blocks=6, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 13:06:41,603] Trial 191 finished with value: 0.5528094570600879 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 3.317457088612425e-05, 'weight_decay': 1.2722822021250732e-05, 'num_transformer_blocks': 6, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 191 accuracy: 0.5528
+Trial 192 params: n_patches=14, embed_dim=256, lr=3.9929662863693815e-05, blocks=2, heads=8, batch_size=16
+[I 2025-06-07 13:07:30,845] Trial 190 finished with value: 0.52715830296234 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 1.1697673554461466e-05, 'weight_decay': 1.5981477701183862e-05, 'num_transformer_blocks': 2, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 190 accuracy: 0.5272
+Trial 193 params: n_patches=14, embed_dim=256, lr=3.8124899022519044e-05, blocks=2, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 13:08:41,264] Trial 192 finished with value: 0.5406419026259228 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 3.9929662863693815e-05, 'weight_decay': 1.616623428841362e-05, 'num_transformer_blocks': 2, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 192 accuracy: 0.5406
+Trial 194 params: n_patches=14, embed_dim=256, lr=5.3043949518801666e-05, blocks=6, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 13:10:17,348] Trial 193 finished with value: 0.4891887674049154 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 3.8124899022519044e-05, 'weight_decay': 1.5098728053246173e-05, 'num_transformer_blocks': 2, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 193 accuracy: 0.4892
+Trial 195 params: n_patches=14, embed_dim=256, lr=4.5627906625257936e-05, blocks=6, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 13:10:30,739] Trial 194 finished with value: 0.5360721427903935 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 5.3043949518801666e-05, 'weight_decay': 1.5262622104834936e-05, 'num_transformer_blocks': 6, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 194 accuracy: 0.5361
+Trial 196 params: n_patches=14, embed_dim=256, lr=4.50518093673292e-05, blocks=6, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 13:13:24,521] Trial 196 finished with value: 0.46026520885898514 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 4.50518093673292e-05, 'weight_decay': 1.4494440640252871e-05, 'num_transformer_blocks': 6, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 196 accuracy: 0.4603
+Trial 197 params: n_patches=14, embed_dim=256, lr=3.141183605629521e-05, blocks=6, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 13:14:36,123] Trial 195 finished with value: 0.47267517054480884 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 4.5627906625257936e-05, 'weight_decay': 1.4350707624871329e-05, 'num_transformer_blocks': 6, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 195 accuracy: 0.4727
+Trial 198 params: n_patches=14, embed_dim=64, lr=1.1044837817023667e-05, blocks=2, heads=4, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-06-07 13:15:47,490] Trial 197 finished with value: 0.5183981870853192 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 3.141183605629521e-05, 'weight_decay': 2.8303536643323735e-05, 'num_transformer_blocks': 6, 'num_heads': 8}. Best is trial 39 with value: 0.6009261751238202.
+Trial 197 accuracy: 0.5184
+Trial 199 params: n_patches=14, embed_dim=64, lr=1.0947386168997813e-05, blocks=2, heads=4, batch_size=16
+[I 2025-06-07 13:18:55,138] Trial 198 finished with value: 0.42588879543967856 and parameters: {'n_patches': 14, 'embed_dim': 64, 'learning_rate': 1.1044837817023667e-05, 'weight_decay': 3.3714108102987556e-05, 'num_transformer_blocks': 2, 'num_heads': 4}. Best is trial 39 with value: 0.6009261751238202.
+Trial 198 accuracy: 0.4259
+[I 2025-06-07 13:19:05,442] Trial 199 finished with value: 0.40802756751705455 and parameters: {'n_patches': 14, 'embed_dim': 64, 'learning_rate': 1.0947386168997813e-05, 'weight_decay': 1.6925348172913533e-05, 'num_transformer_blocks': 2, 'num_heads': 4}. Best is trial 39 with value: 0.6009261751238202.
+Trial 199 accuracy: 0.4080
+Best hyperparameters: {'n_patches': 14, 'embed_dim': 64, 'learning_rate': 0.0001672579468577945, 'weight_decay': 1.8129496285151885e-05, 'num_transformer_blocks': 6, 'num_heads': 4}
+Best accuracy: 0.6009

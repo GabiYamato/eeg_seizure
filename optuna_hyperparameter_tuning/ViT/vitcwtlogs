@@ -1,0 +1,1302 @@
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\tqdm\auto.py:21: TqdmWarning: IProgress not found. Please update jupyter and ipywidgets. See https://ipywidgets.readthedocs.io/en/stable/user_install.html
+  from .autonotebook import tqdm as notebook_tqdm
+[I 2025-05-05 12:28:14,669] A new study created in memory with name: no-name-b98b833d-82cb-4e84-b5e3-eda44cc0675b
+Trial 0 params: n_patches=28, embed_dim=64, lr=0.00024109179122706715, blocks=2, heads=8, batch_size=16Trial 1 params: n_patches=28, embed_dim=256, lr=0.00022144681752434854, blocks=2, heads=4, batch_size=16
+
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.4406
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.3989
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.3612
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.4214
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.3734
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.4518
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.5052
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.4789
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-05 13:01:17,532] Trial 0 finished with value: 0.4008513562255051 and parameters: {'n_patches': 28, 'embed_dim': 64, 'learning_rate': 0.00024109179122706715, 'weight_decay': 4.3079103399536544e-05, 'batch_size': 16, 'num_transformer_blocks': 2, 'num_heads': 8}. Best is trial 0 with value: 0.4008513562255051.
+Fold 5: Accuracy = 0.3656
+Trial 0 mean accuracy: 0.4009
+Trial 2 params: n_patches=14, embed_dim=128, lr=3.202182339757166e-05, blocks=2, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.4422
+[I 2025-05-05 13:02:28,218] Trial 1 finished with value: 0.44684862621653665 and parameters: {'n_patches': 28, 'embed_dim': 256, 'learning_rate': 0.00022144681752434854, 'weight_decay': 2.76473698063652e-05, 'batch_size': 16, 'num_transformer_blocks': 2, 'num_heads': 4}. Best is trial 1 with value: 0.44684862621653665.
+Fold 5: Accuracy = 0.4416
+Trial 1 mean accuracy: 0.4468
+Trial 3 params: n_patches=14, embed_dim=256, lr=2.5269851423659276e-05, blocks=4, heads=4, batch_size=32
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.4664
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.4504
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.4164
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.5201
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.4363
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-05 13:08:12,691] Trial 2 finished with value: 0.4271525076783319 and parameters: {'n_patches': 14, 'embed_dim': 128, 'learning_rate': 3.202182339757166e-05, 'weight_decay': 5.933525357122377e-05, 'batch_size': 16, 'num_transformer_blocks': 2, 'num_heads': 8}. Best is trial 1 with value: 0.44684862621653665.
+Fold 5: Accuracy = 0.3744
+Trial 2 mean accuracy: 0.4272
+Trial 4 params: n_patches=28, embed_dim=256, lr=8.869667926378683e-05, blocks=6, heads=8, batch_size=32
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.4517
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.4126
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-05 13:11:53,922] Trial 3 finished with value: 0.44546074422859877 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 2.5269851423659276e-05, 'weight_decay': 2.6208063952869493e-05, 'batch_size': 32, 'num_transformer_blocks': 4, 'num_heads': 4}. Best is trial 1 with value: 0.44684862621653665.
+Fold 5: Accuracy = 0.3924
+Trial 3 mean accuracy: 0.4455
+Trial 5 params: n_patches=28, embed_dim=128, lr=6.93245435067876e-05, blocks=8, heads=4, batch_size=32
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.4272
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.3516
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.4596
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.4253
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.4361
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.3616
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.4875
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.4748
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-05 14:51:19,382] Trial 4 finished with value: 0.42887252195871345 and parameters: {'n_patches': 28, 'embed_dim': 256, 'learning_rate': 8.869667926378683e-05, 'weight_decay': 4.9636234557183494e-05, 'batch_size': 32, 'num_transformer_blocks': 6, 'num_heads': 8}. Best is trial 1 with value: 0.44684862621653665.
+Fold 5: Accuracy = 0.3447
+Trial 4 mean accuracy: 0.4289
+Trial 6 params: n_patches=14, embed_dim=128, lr=0.0004877503680721462, blocks=4, heads=8, batch_size=32
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.3333
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.3333
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.3333
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.3333
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-05 14:57:12,351] Trial 5 finished with value: 0.3971261604432675 and parameters: {'n_patches': 28, 'embed_dim': 128, 'learning_rate': 6.93245435067876e-05, 'weight_decay': 1.3523989089531245e-05, 'batch_size': 32, 'num_transformer_blocks': 8, 'num_heads': 4}. Best is trial 1 with value: 0.44684862621653665.
+Fold 5: Accuracy = 0.3616
+Trial 5 mean accuracy: 0.3971
+Trial 7 params: n_patches=28, embed_dim=64, lr=1.8463820327522466e-05, blocks=2, heads=4, batch_size=32
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-05 14:59:15,468] Trial 6 finished with value: 0.3333333333333333 and parameters: {'n_patches': 14, 'embed_dim': 128, 'learning_rate': 0.0004877503680721462, 'weight_decay': 7.686651064402699e-05, 'batch_size': 32, 'num_transformer_blocks': 4, 'num_heads': 8}. Best is trial 1 with value: 0.44684862621653665.
+Fold 5: Accuracy = 0.3333
+Trial 6 mean accuracy: 0.3333
+Trial 8 params: n_patches=28, embed_dim=64, lr=0.0008870756392423518, blocks=2, heads=8, batch_size=32
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.3877
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.3657
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.4269
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.3970
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.4868
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.3333
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.4242
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-05 15:23:02,410] Trial 7 finished with value: 0.3877131111111907 and parameters: {'n_patches': 28, 'embed_dim': 64, 'learning_rate': 1.8463820327522466e-05, 'weight_decay': 8.210210062883992e-05, 'batch_size': 32, 'num_transformer_blocks': 2, 'num_heads': 4}. Best is trial 1 with value: 0.44684862621653665.
+Fold 5: Accuracy = 0.3640
+Trial 7 mean accuracy: 0.3877
+Trial 9 params: n_patches=28, embed_dim=128, lr=1.8274907806358672e-05, blocks=6, heads=8, batch_size=32
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.4913
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-05 15:29:22,681] Trial 8 finished with value: 0.4188487946649597 and parameters: {'n_patches': 28, 'embed_dim': 64, 'learning_rate': 0.0008870756392423518, 'weight_decay': 2.6348139711753836e-05, 'batch_size': 32, 'num_transformer_blocks': 2, 'num_heads': 8}. Best is trial 1 with value: 0.44684862621653665.
+Fold 5: Accuracy = 0.3558
+Trial 8 mean accuracy: 0.4188
+Trial 10 params: n_patches=28, embed_dim=64, lr=2.542467583545316e-05, blocks=4, heads=4, batch_size=32
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.4374
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.4294
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.4429
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.4149
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.4926
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.5111
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-05 16:00:09,291] Trial 9 finished with value: 0.43947956338504435 and parameters: {'n_patches': 28, 'embed_dim': 128, 'learning_rate': 1.8274907806358672e-05, 'weight_decay': 1.5604708337155503e-05, 'batch_size': 32, 'num_transformer_blocks': 6, 'num_heads': 8}. Best is trial 1 with value: 0.44684862621653665.
+Fold 5: Accuracy = 0.4045
+Trial 9 mean accuracy: 0.4395
+Trial 11 params: n_patches=14, embed_dim=256, lr=0.00021684724873318164, blocks=4, heads=4, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.4300
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.3333
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.4829
+Divergence detected. Stopping training after 5 epochs.
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.3218
+Fold 4: Accuracy = 0.4251
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.4754
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-05 16:09:29,969] Trial 11 finished with value: 0.4063104462464918 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 0.00021684724873318164, 'weight_decay': 2.0129063254539478e-05, 'batch_size': 16, 'num_transformer_blocks': 4, 'num_heads': 4}. Best is trial 1 with value: 0.44684862621653665.
+Fold 5: Accuracy = 0.4181
+Trial 11 mean accuracy: 0.4063
+Trial 12 params: n_patches=14, embed_dim=256, lr=1.0212468114329766e-05, blocks=4, heads=4, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.4167
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.4231
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.4002
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-05 16:15:46,805] Trial 10 finished with value: 0.4331928279803191 and parameters: {'n_patches': 28, 'embed_dim': 64, 'learning_rate': 2.542467583545316e-05, 'weight_decay': 1.0603121888544891e-05, 'batch_size': 32, 'num_transformer_blocks': 4, 'num_heads': 4}. Best is trial 1 with value: 0.44684862621653665.
+Fold 5: Accuracy = 0.3753
+Trial 10 mean accuracy: 0.4332
+Trial 13 params: n_patches=14, embed_dim=256, lr=4.592243576200923e-05, blocks=4, heads=4, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.4739
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.4672
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-05 16:18:49,024] Trial 12 finished with value: 0.40762186673666106 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 1.0212468114329766e-05, 'weight_decay': 2.7858958472776776e-05, 'batch_size': 16, 'num_transformer_blocks': 4, 'num_heads': 4}. Best is trial 1 with value: 0.44684862621653665.
+Fold 5: Accuracy = 0.3242
+Trial 12 mean accuracy: 0.4076
+Trial 14 params: n_patches=14, embed_dim=256, lr=0.00019807138512665097, blocks=6, heads=4, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.3333
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.4396
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.3333
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.4025
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.3450
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.3333
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-05 16:26:32,552] Trial 13 finished with value: 0.40125285216965 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 4.592243576200923e-05, 'weight_decay': 3.1218862555649e-05, 'batch_size': 16, 'num_transformer_blocks': 4, 'num_heads': 4}. Best is trial 1 with value: 0.44684862621653665.
+Fold 5: Accuracy = 0.3519
+Trial 13 mean accuracy: 0.4013
+Trial 15 params: n_patches=14, embed_dim=256, lr=0.00016025004619930455, blocks=6, heads=4, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.3333
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.3333
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-05 16:28:15,945] Trial 14 finished with value: 0.3333333333333333 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 0.00019807138512665097, 'weight_decay': 3.3307601766854234e-05, 'batch_size': 16, 'num_transformer_blocks': 6, 'num_heads': 4}. Best is trial 1 with value: 0.44684862621653665.
+Fold 5: Accuracy = 0.3333
+Trial 14 mean accuracy: 0.3333
+Trial 16 params: n_patches=14, embed_dim=256, lr=0.00015743496906896523, blocks=2, heads=4, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.3521
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.3491
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.3322
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.4086
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.4048
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.4380
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-05 16:34:49,374] Trial 15 finished with value: 0.3505635402347601 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 0.00016025004619930455, 'weight_decay': 2.0340263147660334e-05, 'batch_size': 16, 'num_transformer_blocks': 6, 'num_heads': 4}. Best is trial 1 with value: 0.44684862621653665.
+Fold 5: Accuracy = 0.3333
+Trial 15 mean accuracy: 0.3506
+Trial 17 params: n_patches=28, embed_dim=256, lr=0.0004360437852050326, blocks=2, heads=4, batch_size=32
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.4056
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-05 16:36:07,495] Trial 16 finished with value: 0.38517650505713036 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 0.00015743496906896523, 'weight_decay': 1.9905706685682127e-05, 'batch_size': 16, 'num_transformer_blocks': 2, 'num_heads': 4}. Best is trial 1 with value: 0.44684862621653665.
+Fold 5: Accuracy = 0.3216
+Trial 16 mean accuracy: 0.3852
+Trial 18 params: n_patches=28, embed_dim=256, lr=0.0003866929190541784, blocks=8, heads=4, batch_size=32
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.4166
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.3333
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.4310
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.3333
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.3333
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.4135
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.3333
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-05 17:50:59,602] Trial 18 finished with value: 0.3333333333333333 and parameters: {'n_patches': 28, 'embed_dim': 256, 'learning_rate': 0.0003866929190541784, 'weight_decay': 3.91721156103235e-05, 'batch_size': 32, 'num_transformer_blocks': 8, 'num_heads': 4}. Best is trial 1 with value: 0.44684862621653665.
+Fold 5: Accuracy = 0.3333
+Trial 18 mean accuracy: 0.3333
+Trial 19 params: n_patches=14, embed_dim=256, lr=5.2531420677629344e-05, blocks=2, heads=4, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.4440
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.4080
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.4425
+Divergence detected. Stopping training after 5 epochs.
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-05 17:56:35,367] Trial 17 finished with value: 0.4137599192554572 and parameters: {'n_patches': 28, 'embed_dim': 256, 'learning_rate': 0.0004360437852050326, 'weight_decay': 2.082117285554542e-05, 'batch_size': 32, 'num_transformer_blocks': 2, 'num_heads': 4}. Best is trial 1 with value: 0.44684862621653665.
+Fold 5: Accuracy = 0.3638
+Trial 17 mean accuracy: 0.4138
+Trial 20 params: n_patches=14, embed_dim=256, lr=6.210720531291553e-05, blocks=4, heads=4, batch_size=16
+Fold 3: Accuracy = 0.4499
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.4765
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.3902
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-05 17:59:56,570] Trial 19 finished with value: 0.4352313371023889 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 5.2531420677629344e-05, 'weight_decay': 2.44952111040067e-05, 'batch_size': 16, 'num_transformer_blocks': 2, 'num_heads': 4}. Best is trial 1 with value: 0.44684862621653665.
+Fold 5: Accuracy = 0.3992
+Trial 19 mean accuracy: 0.4352
+Trial 21 params: n_patches=14, embed_dim=256, lr=1.040136412492255e-05, blocks=4, heads=4, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.4281
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.4154
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.4855
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.3629
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.3830
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.4548
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.4661
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-05 18:07:18,566] Trial 20 finished with value: 0.39436906840554464 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 6.210720531291553e-05, 'weight_decay': 5.98899033680429e-05, 'batch_size': 16, 'num_transformer_blocks': 4, 'num_heads': 4}. Best is trial 1 with value: 0.44684862621653665.
+Fold 5: Accuracy = 0.3359
+Trial 20 mean accuracy: 0.3944
+Trial 22 params: n_patches=28, embed_dim=128, lr=1.355037027011047e-05, blocks=6, heads=8, batch_size=32
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-05 18:07:57,524] Trial 21 finished with value: 0.4166446680652263 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 1.040136412492255e-05, 'weight_decay': 1.4539062956569944e-05, 'batch_size': 16, 'num_transformer_blocks': 4, 'num_heads': 4}. Best is trial 1 with value: 0.44684862621653665.
+Fold 5: Accuracy = 0.3332
+Trial 21 mean accuracy: 0.4166
+Trial 23 params: n_patches=28, embed_dim=128, lr=1.7090443742384093e-05, blocks=6, heads=8, batch_size=32
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.4222
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.4306
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.4542
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.5096
+Divergence detected. Stopping training after 5 epochs.
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.3810
+Fold 3: Accuracy = 0.4095
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.4183
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.3589
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-05 19:58:07,632] Trial 23 finished with value: 0.41458542849720725 and parameters: {'n_patches': 28, 'embed_dim': 128, 'learning_rate': 1.7090443742384093e-05, 'weight_decay': 1.5226309120810825e-05, 'batch_size': 32, 'num_transformer_blocks': 6, 'num_heads': 8}. Best is trial 1 with value: 0.44684862621653665.
+Fold 5: Accuracy = 0.3687
+Trial 23 mean accuracy: 0.4146
+Trial 24 params: n_patches=28, embed_dim=128, lr=3.6467910524712975e-05, blocks=6, heads=8, batch_size=32
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-05 20:00:25,164] Trial 22 finished with value: 0.414544668580575 and parameters: {'n_patches': 28, 'embed_dim': 128, 'learning_rate': 1.355037027011047e-05, 'weight_decay': 1.4531755897919487e-05, 'batch_size': 32, 'num_transformer_blocks': 6, 'num_heads': 8}. Best is trial 1 with value: 0.44684862621653665.
+Fold 5: Accuracy = 0.3926
+Trial 22 mean accuracy: 0.4145
+Trial 25 params: n_patches=28, embed_dim=128, lr=3.7252386854440865e-05, blocks=8, heads=8, batch_size=32
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.3765
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.4842
+Fold 1: Accuracy = 0.4474
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.3893
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.5076
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.3957
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.4423
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-05 21:13:45,957] Trial 25 finished with value: 0.4006711492333962 and parameters: {'n_patches': 28, 'embed_dim': 128, 'learning_rate': 3.7252386854440865e-05, 'weight_decay': 1.1518137965112881e-05, 'batch_size': 32, 'num_transformer_blocks': 8, 'num_heads': 8}. Best is trial 1 with value: 0.44684862621653665.
+Fold 5: Accuracy = 0.3576
+Trial 25 mean accuracy: 0.4007
+Trial 26 params: n_patches=28, embed_dim=128, lr=0.00010856024198277994, blocks=6, heads=8, batch_size=32
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.5016
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.3532
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-05 21:36:32,007] Trial 24 finished with value: 0.45553976793185547 and parameters: {'n_patches': 28, 'embed_dim': 128, 'learning_rate': 3.6467910524712975e-05, 'weight_decay': 1.1407515349694686e-05, 'batch_size': 32, 'num_transformer_blocks': 6, 'num_heads': 8}. Best is trial 24 with value: 0.45553976793185547.
+Fold 5: Accuracy = 0.3788
+Trial 24 mean accuracy: 0.4555
+Trial 27 params: n_patches=28, embed_dim=128, lr=0.00010482448385154494, blocks=6, heads=8, batch_size=32
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.3405
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.3790
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.3689
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.3338
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.4909
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.4177
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-05 22:02:39,399] Trial 26 finished with value: 0.3896055057029132 and parameters: {'n_patches': 28, 'embed_dim': 128, 'learning_rate': 0.00010856024198277994, 'weight_decay': 1.837561418434991e-05, 'batch_size': 32, 'num_transformer_blocks': 6, 'num_heads': 8}. Best is trial 24 with value: 0.45553976793185547.
+Fold 5: Accuracy = 0.3945
+Trial 26 mean accuracy: 0.3896
+Trial 28 params: n_patches=28, embed_dim=256, lr=2.4012527424474944e-05, blocks=4, heads=4, batch_size=32
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.4018
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.4400
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-05 22:15:38,596] Trial 27 finished with value: 0.3866301142744267 and parameters: {'n_patches': 28, 'embed_dim': 128, 'learning_rate': 0.00010482448385154494, 'weight_decay': 3.652846460631091e-05, 'batch_size': 32, 'num_transformer_blocks': 6, 'num_heads': 8}. Best is trial 24 with value: 0.45553976793185547.
+Fold 5: Accuracy = 0.4008
+Trial 27 mean accuracy: 0.3866
+Trial 29 params: n_patches=28, embed_dim=64, lr=2.5737053066867958e-05, blocks=4, heads=4, batch_size=32
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.5017
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.4264
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.4403
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.3544
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.4927
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-05 22:32:13,338] Trial 28 finished with value: 0.424271658293023 and parameters: {'n_patches': 28, 'embed_dim': 256, 'learning_rate': 2.4012527424474944e-05, 'weight_decay': 9.993118750705299e-05, 'batch_size': 32, 'num_transformer_blocks': 4, 'num_heads': 4}. Best is trial 24 with value: 0.45553976793185547.
+Fold 5: Accuracy = 0.3988
+Trial 28 mean accuracy: 0.4243
+Trial 30 params: n_patches=28, embed_dim=64, lr=0.0003245706252578721, blocks=2, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.2838
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.3854
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.4722
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-05 22:42:43,528] Trial 29 finished with value: 0.42133627531180873 and parameters: {'n_patches': 28, 'embed_dim': 64, 'learning_rate': 2.5737053066867958e-05, 'weight_decay': 2.5221796644089063e-05, 'batch_size': 32, 'num_transformer_blocks': 4, 'num_heads': 4}. Best is trial 24 with value: 0.45553976793185547.
+Fold 5: Accuracy = 0.4177
+Trial 29 mean accuracy: 0.4213
+Trial 31 params: n_patches=28, embed_dim=64, lr=0.000322424400914185, blocks=2, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.4590
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.3897
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.4002
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.4751
+Fold 4: Accuracy = 0.4642
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.4685
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.4096
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-05 23:10:16,666] Trial 30 finished with value: 0.4192468095687499 and parameters: {'n_patches': 28, 'embed_dim': 64, 'learning_rate': 0.0003245706252578721, 'weight_decay': 4.481968840535867e-05, 'batch_size': 16, 'num_transformer_blocks': 2, 'num_heads': 8}. Best is trial 24 with value: 0.45553976793185547.
+Fold 5: Accuracy = 0.3874
+Trial 30 mean accuracy: 0.4192
+Trial 32 params: n_patches=28, embed_dim=128, lr=1.643909556460266e-05, blocks=6, heads=8, batch_size=32
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-05 23:10:42,681] Trial 31 finished with value: 0.4217667816316145 and parameters: {'n_patches': 28, 'embed_dim': 64, 'learning_rate': 0.000322424400914185, 'weight_decay': 4.431761343088002e-05, 'batch_size': 16, 'num_transformer_blocks': 2, 'num_heads': 8}. Best is trial 24 with value: 0.45553976793185547.
+Fold 5: Accuracy = 0.3659
+Trial 31 mean accuracy: 0.4218
+Trial 33 params: n_patches=28, embed_dim=128, lr=3.7252850925212916e-05, blocks=6, heads=8, batch_size=32
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.4962
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.4411
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.4873
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.5062
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.4077
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.4155
+Divergence detected. Stopping training after 5 epochs.
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.4309
+Fold 4: Accuracy = 0.4162
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-06 00:54:49,116] Trial 33 finished with value: 0.4220654866114845 and parameters: {'n_patches': 28, 'embed_dim': 128, 'learning_rate': 3.7252850925212916e-05, 'weight_decay': 1.658722150541791e-05, 'batch_size': 32, 'num_transformer_blocks': 6, 'num_heads': 8}. Best is trial 24 with value: 0.45553976793185547.
+Fold 5: Accuracy = 0.3166
+Trial 33 mean accuracy: 0.4221
+Trial 34 params: n_patches=28, embed_dim=128, lr=1.6605916871248345e-05, blocks=8, heads=8, batch_size=32
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-06 00:56:05,575] Trial 32 finished with value: 0.43806136296669684 and parameters: {'n_patches': 28, 'embed_dim': 128, 'learning_rate': 1.643909556460266e-05, 'weight_decay': 1.2612288721859882e-05, 'batch_size': 32, 'num_transformer_blocks': 6, 'num_heads': 8}. Best is trial 24 with value: 0.45553976793185547.
+Fold 5: Accuracy = 0.3830
+Trial 32 mean accuracy: 0.4381
+Trial 35 params: n_patches=28, embed_dim=128, lr=7.993037669067511e-05, blocks=8, heads=8, batch_size=32
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.3900
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.3997
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.4362
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.4673
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.4247
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.4007
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.3232
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-06 03:00:19,264] Trial 34 finished with value: 0.399350938632992 and parameters: {'n_patches': 28, 'embed_dim': 128, 'learning_rate': 1.6605916871248345e-05, 'weight_decay': 1.1871764181932191e-05, 'batch_size': 32, 'num_transformer_blocks': 8, 'num_heads': 8}. Best is trial 24 with value: 0.45553976793185547.
+Fold 5: Accuracy = 0.3452
+Trial 34 mean accuracy: 0.3994
+Trial 36 params: n_patches=28, embed_dim=128, lr=8.38392285698327e-05, blocks=6, heads=8, batch_size=32
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.4614
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.4522
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.5062
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-06 03:34:45,821] Trial 35 finished with value: 0.41076707248633626 and parameters: {'n_patches': 28, 'embed_dim': 128, 'learning_rate': 7.993037669067511e-05, 'weight_decay': 1.0241768842906585e-05, 'batch_size': 32, 'num_transformer_blocks': 8, 'num_heads': 8}. Best is trial 24 with value: 0.45553976793185547.
+Fold 5: Accuracy = 0.4023
+Trial 35 mean accuracy: 0.4108
+Trial 37 params: n_patches=28, embed_dim=128, lr=3.0710002331213316e-05, blocks=6, heads=8, batch_size=32
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.4138
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.4567
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.4814
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.5066
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.4269
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.3653
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-06 04:44:58,473] Trial 37 finished with value: 0.43068998142474363 and parameters: {'n_patches': 28, 'embed_dim': 128, 'learning_rate': 3.0710002331213316e-05, 'weight_decay': 1.6937278075543173e-05, 'batch_size': 32, 'num_transformer_blocks': 6, 'num_heads': 8}. Best is trial 24 with value: 0.45553976793185547.
+Fold 5: Accuracy = 0.4232
+Trial 37 mean accuracy: 0.4307
+Trial 38 params: n_patches=14, embed_dim=128, lr=0.0009018906416065101, blocks=6, heads=8, batch_size=32
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.3333
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.3333
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-06 04:49:15,392] Trial 36 finished with value: 0.44444005436702944 and parameters: {'n_patches': 28, 'embed_dim': 128, 'learning_rate': 8.38392285698327e-05, 'weight_decay': 1.702821394879826e-05, 'batch_size': 32, 'num_transformer_blocks': 6, 'num_heads': 8}. Best is trial 24 with value: 0.45553976793185547.
+Fold 5: Accuracy = 0.3434
+Trial 36 mean accuracy: 0.4444
+Trial 39 params: n_patches=14, embed_dim=128, lr=0.00013976664393249933, blocks=6, heads=8, batch_size=32
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.3333
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.4303
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.3333
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-06 04:52:13,163] Trial 38 finished with value: 0.3333333333333333 and parameters: {'n_patches': 14, 'embed_dim': 128, 'learning_rate': 0.0009018906416065101, 'weight_decay': 2.3019592819369966e-05, 'batch_size': 32, 'num_transformer_blocks': 6, 'num_heads': 8}. Best is trial 24 with value: 0.45553976793185547.
+Fold 5: Accuracy = 0.3333
+Trial 38 mean accuracy: 0.3333
+Trial 40 params: n_patches=28, embed_dim=256, lr=0.0006124949470605994, blocks=4, heads=4, batch_size=32
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.4609
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.4572
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.4074
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-06 04:58:53,167] Trial 39 finished with value: 0.42439087321098673 and parameters: {'n_patches': 14, 'embed_dim': 128, 'learning_rate': 0.00013976664393249933, 'weight_decay': 5.634317648057783e-05, 'batch_size': 32, 'num_transformer_blocks': 6, 'num_heads': 8}. Best is trial 24 with value: 0.45553976793185547.
+Fold 5: Accuracy = 0.3661
+Trial 39 mean accuracy: 0.4244
+Trial 41 params: n_patches=28, embed_dim=256, lr=0.000583566323078532, blocks=4, heads=4, batch_size=32
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.3333
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.3333
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.3333
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.3333
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.3333
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.3333
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.3333
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.3333
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-06 05:22:09,931] Trial 40 finished with value: 0.3333333333333333 and parameters: {'n_patches': 28, 'embed_dim': 256, 'learning_rate': 0.0006124949470605994, 'weight_decay': 3.139250115001249e-05, 'batch_size': 32, 'num_transformer_blocks': 4, 'num_heads': 4}. Best is trial 24 with value: 0.45553976793185547.
+Fold 5: Accuracy = 0.3333
+Trial 40 mean accuracy: 0.3333
+Trial 42 params: n_patches=28, embed_dim=128, lr=2.2158627890185578e-05, blocks=6, heads=8, batch_size=32
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-06 05:23:44,193] Trial 41 finished with value: 0.3333333333333333 and parameters: {'n_patches': 28, 'embed_dim': 256, 'learning_rate': 0.000583566323078532, 'weight_decay': 3.054941325433209e-05, 'batch_size': 32, 'num_transformer_blocks': 4, 'num_heads': 4}. Best is trial 24 with value: 0.45553976793185547.
+Fold 5: Accuracy = 0.3333
+Trial 41 mean accuracy: 0.3333
+Trial 43 params: n_patches=28, embed_dim=128, lr=2.0283059326266825e-05, blocks=6, heads=8, batch_size=32
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.4071
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.4067
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.4115
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.4104
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.5203
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.4169
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.4843
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.4687
+Divergence detected. Stopping training after 5 epochs.
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-06 06:33:07,444] Trial 43 finished with value: 0.43928027529648717 and parameters: {'n_patches': 28, 'embed_dim': 128, 'learning_rate': 2.0283059326266825e-05, 'weight_decay': 1.704275910515804e-05, 'batch_size': 32, 'num_transformer_blocks': 6, 'num_heads': 8}. Best is trial 24 with value: 0.45553976793185547.
+Fold 5: Accuracy = 0.3839
+Trial 43 mean accuracy: 0.4393
+Trial 44 params: n_patches=28, embed_dim=128, lr=5.2314923481080154e-05, blocks=8, heads=8, batch_size=32
+[I 2025-05-06 06:33:09,919] Trial 42 finished with value: 0.41910863115071406 and parameters: {'n_patches': 28, 'embed_dim': 128, 'learning_rate': 2.2158627890185578e-05, 'weight_decay': 1.2933244605507996e-05, 'batch_size': 32, 'num_transformer_blocks': 6, 'num_heads': 8}. Best is trial 24 with value: 0.45553976793185547.
+Fold 5: Accuracy = 0.3822
+Trial 42 mean accuracy: 0.4191
+Trial 45 params: n_patches=28, embed_dim=128, lr=4.636674161201214e-05, blocks=8, heads=8, batch_size=32
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.3746
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.3626
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.4427
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.5037
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.3536
+Divergence detected. Stopping training after 5 epochs.
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.4241
+Fold 4: Accuracy = 0.4306
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.4800
+Divergence detected. Stopping training after 5 epochs.
+Fold 5: Accuracy = 0.3733
+Trial 45 mean accuracy: 0.3926
+[I 2025-05-06 08:30:30,835] Trial 45 finished with value: 0.392570218380225 and parameters: {'n_patches': 28, 'embed_dim': 128, 'learning_rate': 4.636674161201214e-05, 'weight_decay': 2.3113774776082667e-05, 'batch_size': 32, 'num_transformer_blocks': 8, 'num_heads': 8}. Best is trial 24 with value: 0.45553976793185547.
+Trial 46 params: n_patches=28, embed_dim=128, lr=3.287507274975897e-05, blocks=6, heads=8, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-06 08:35:38,279] Trial 44 finished with value: 0.429114503816643 and parameters: {'n_patches': 28, 'embed_dim': 128, 'learning_rate': 5.2314923481080154e-05, 'weight_decay': 1.3341840842364643e-05, 'batch_size': 32, 'num_transformer_blocks': 8, 'num_heads': 8}. Best is trial 24 with value: 0.45553976793185547.
+Fold 5: Accuracy = 0.3631
+Trial 44 mean accuracy: 0.4291
+Trial 47 params: n_patches=14, embed_dim=256, lr=3.149919687012669e-05, blocks=6, heads=4, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.3844
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.4304
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.4023
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.4361
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.4556
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-06 08:45:46,617] Trial 47 finished with value: 0.4103703502830086 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 3.149919687012669e-05, 'weight_decay': 2.7248234934125557e-05, 'batch_size': 16, 'num_transformer_blocks': 6, 'num_heads': 4}. Best is trial 24 with value: 0.45553976793185547.
+Fold 5: Accuracy = 0.3274
+Trial 47 mean accuracy: 0.4104
+Trial 48 params: n_patches=28, embed_dim=64, lr=7.228609166859384e-05, blocks=2, heads=8, batch_size=32
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.4085
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.4477
+Divergence detected. Stopping training after 5 epochs.
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.4087
+Fold 3: Accuracy = 0.4349
+Divergence detected. Stopping training after 5 epochs.
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.4277
+Fold 4: Accuracy = 0.4595
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-06 09:09:54,439] Trial 46 finished with value: 0.4239180255452292 and parameters: {'n_patches': 28, 'embed_dim': 128, 'learning_rate': 3.287507274975897e-05, 'weight_decay': 1.1310795624044443e-05, 'batch_size': 16, 'num_transformer_blocks': 6, 'num_heads': 8}. Best is trial 24 with value: 0.45553976793185547.
+Fold 5: Accuracy = 0.4323
+Trial 46 mean accuracy: 0.4239
+Trial 49 params: n_patches=14, embed_dim=64, lr=1.2819361607509736e-05, blocks=2, heads=4, batch_size=32
+Divergence detected. Stopping training after 5 epochs.
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.4498
+Fold 4: Accuracy = 0.4480
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.4970
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.4254
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-06 09:15:24,977] Trial 48 finished with value: 0.4226649366054101 and parameters: {'n_patches': 28, 'embed_dim': 64, 'learning_rate': 7.228609166859384e-05, 'weight_decay': 1.8395401734416854e-05, 'batch_size': 32, 'num_transformer_blocks': 2, 'num_heads': 8}. Best is trial 24 with value: 0.45553976793185547.
+Fold 5: Accuracy = 0.3812
+Trial 48 mean accuracy: 0.4227
+Trial 50 params: n_patches=14, embed_dim=256, lr=1.3364623240163822e-05, blocks=4, heads=4, batch_size=32
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.4573
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.4897
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.5143
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-06 09:18:37,460] Trial 49 finished with value: 0.4449421930179822 and parameters: {'n_patches': 14, 'embed_dim': 64, 'learning_rate': 1.2819361607509736e-05, 'weight_decay': 1.868601265552523e-05, 'batch_size': 32, 'num_transformer_blocks': 2, 'num_heads': 4}. Best is trial 24 with value: 0.45553976793185547.
+Fold 5: Accuracy = 0.3628
+Trial 49 mean accuracy: 0.4449
+Trial 51 params: n_patches=14, embed_dim=64, lr=1.303548468658277e-05, blocks=2, heads=4, batch_size=32
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.4480
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.4210
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.4654
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.4962
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-06 09:22:40,459] Trial 50 finished with value: 0.4489900370453522 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 1.3364623240163822e-05, 'weight_decay': 2.2322296514555606e-05, 'batch_size': 32, 'num_transformer_blocks': 4, 'num_heads': 4}. Best is trial 24 with value: 0.45553976793185547.
+Fold 5: Accuracy = 0.3869
+Trial 50 mean accuracy: 0.4490
+Trial 52 params: n_patches=14, embed_dim=64, lr=1.315380674560353e-05, blocks=2, heads=4, batch_size=32
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.4320
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.4497
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.4637
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.4876
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-06 09:25:21,186] Trial 51 finished with value: 0.4496852814334737 and parameters: {'n_patches': 14, 'embed_dim': 64, 'learning_rate': 1.303548468658277e-05, 'weight_decay': 2.2203605523088946e-05, 'batch_size': 32, 'num_transformer_blocks': 2, 'num_heads': 4}. Best is trial 24 with value: 0.45553976793185547.
+Fold 5: Accuracy = 0.4085
+Trial 51 mean accuracy: 0.4497
+Trial 53 params: n_patches=14, embed_dim=64, lr=1.2905866035370015e-05, blocks=2, heads=4, batch_size=32
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.3938
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.4365
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.3275
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.4589
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-06 09:28:24,426] Trial 52 finished with value: 0.4290078629350055 and parameters: {'n_patches': 14, 'embed_dim': 64, 'learning_rate': 1.315380674560353e-05, 'weight_decay': 2.1618812843625652e-05, 'batch_size': 32, 'num_transformer_blocks': 2, 'num_heads': 4}. Best is trial 24 with value: 0.45553976793185547.
+Fold 5: Accuracy = 0.3551
+Trial 52 mean accuracy: 0.4290
+Trial 54 params: n_patches=14, embed_dim=64, lr=1.2920325750626868e-05, blocks=2, heads=4, batch_size=32
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.4290
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.4483
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.4860
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.5025
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-06 09:32:23,598] Trial 53 finished with value: 0.3987453633559967 and parameters: {'n_patches': 14, 'embed_dim': 64, 'learning_rate': 1.2905866035370015e-05, 'weight_decay': 2.1972172233231623e-05, 'batch_size': 32, 'num_transformer_blocks': 2, 'num_heads': 4}. Best is trial 24 with value: 0.45553976793185547.
+Fold 5: Accuracy = 0.3147
+Trial 53 mean accuracy: 0.3987
+Trial 55 params: n_patches=14, embed_dim=64, lr=1.0552207115981524e-05, blocks=2, heads=4, batch_size=32
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.4063
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.4200
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.4722
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.5021
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-06 09:36:15,011] Trial 54 finished with value: 0.447120938127539 and parameters: {'n_patches': 14, 'embed_dim': 64, 'learning_rate': 1.2920325750626868e-05, 'weight_decay': 2.2583332026858028e-05, 'batch_size': 32, 'num_transformer_blocks': 2, 'num_heads': 4}. Best is trial 24 with value: 0.45553976793185547.
+Fold 5: Accuracy = 0.4063
+Trial 54 mean accuracy: 0.4471
+Trial 56 params: n_patches=14, embed_dim=64, lr=1.445757242286123e-05, blocks=2, heads=4, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.3087
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.4206
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.4210
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.5197
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-06 09:39:36,915] Trial 55 finished with value: 0.41273263486112854 and parameters: {'n_patches': 14, 'embed_dim': 64, 'learning_rate': 1.0552207115981524e-05, 'weight_decay': 2.9085929151857237e-05, 'batch_size': 32, 'num_transformer_blocks': 2, 'num_heads': 4}. Best is trial 24 with value: 0.45553976793185547.
+Fold 5: Accuracy = 0.4118
+Trial 55 mean accuracy: 0.4127
+Trial 57 params: n_patches=14, embed_dim=256, lr=1.935509203166336e-05, blocks=2, heads=4, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.4393
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.4327
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.4932
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.4585
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.4120
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-06 09:43:14,568] Trial 56 finished with value: 0.4434578382829111 and parameters: {'n_patches': 14, 'embed_dim': 64, 'learning_rate': 1.445757242286123e-05, 'weight_decay': 2.9748640939719576e-05, 'batch_size': 16, 'num_transformer_blocks': 2, 'num_heads': 4}. Best is trial 24 with value: 0.45553976793185547.
+Fold 5: Accuracy = 0.3857
+Trial 56 mean accuracy: 0.4435
+Trial 58 params: n_patches=14, embed_dim=256, lr=1.985109159020941e-05, blocks=4, heads=4, batch_size=32
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.4535
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.4608
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.4635
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-06 09:45:38,555] Trial 57 finished with value: 0.4356433441200799 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 1.935509203166336e-05, 'weight_decay': 3.530732830478272e-05, 'batch_size': 16, 'num_transformer_blocks': 2, 'num_heads': 4}. Best is trial 24 with value: 0.45553976793185547.
+Fold 5: Accuracy = 0.3802
+Trial 57 mean accuracy: 0.4356
+Trial 59 params: n_patches=14, embed_dim=256, lr=2.745743387362987e-05, blocks=4, heads=4, batch_size=32
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.4555
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.4814
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.3880
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.4240
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.4571
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.4931
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-06 09:51:49,842] Trial 58 finished with value: 0.4379538480923064 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 1.985109159020941e-05, 'weight_decay': 3.75312718314791e-05, 'batch_size': 32, 'num_transformer_blocks': 4, 'num_heads': 4}. Best is trial 24 with value: 0.45553976793185547.
+Fold 5: Accuracy = 0.4204
+Trial 58 mean accuracy: 0.4380
+Trial 60 params: n_patches=14, embed_dim=256, lr=1.144307900301085e-05, blocks=4, heads=4, batch_size=32
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-06 09:53:19,396] Trial 59 finished with value: 0.44616322103840494 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 2.745743387362987e-05, 'weight_decay': 2.5826876972597843e-05, 'batch_size': 32, 'num_transformer_blocks': 4, 'num_heads': 4}. Best is trial 24 with value: 0.45553976793185547.
+Fold 5: Accuracy = 0.3768
+Trial 59 mean accuracy: 0.4462
+Trial 61 params: n_patches=14, embed_dim=256, lr=1.123989416689388e-05, blocks=4, heads=4, batch_size=32
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.4357
+Divergence detected. Stopping training after 5 epochs.
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.4181
+Fold 2: Accuracy = 0.5169
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.4710
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.4215
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.4230
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.4008
+Divergence detected. Stopping training after 5 epochs.
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.4750
+[I 2025-05-06 10:01:13,162] Trial 60 finished with value: 0.43741748369696776 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 1.144307900301085e-05, 'weight_decay': 2.686520532883228e-05, 'batch_size': 32, 'num_transformer_blocks': 4, 'num_heads': 4}. Best is trial 24 with value: 0.45553976793185547.
+Fold 5: Accuracy = 0.4122
+Trial 60 mean accuracy: 0.4374
+Trial 62 params: n_patches=14, embed_dim=256, lr=2.5647497039169402e-05, blocks=4, heads=4, batch_size=32
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-06 10:02:29,977] Trial 61 finished with value: 0.4356228717862246 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 1.123989416689388e-05, 'weight_decay': 2.4323095627359883e-05, 'batch_size': 32, 'num_transformer_blocks': 4, 'num_heads': 4}. Best is trial 24 with value: 0.45553976793185547.
+Fold 5: Accuracy = 0.3910
+Trial 61 mean accuracy: 0.4356
+Trial 63 params: n_patches=14, embed_dim=256, lr=2.5893793649076787e-05, blocks=4, heads=4, batch_size=32
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.4692
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.4467
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.4401
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.5130
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.3355
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.4545
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.4439
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.4522
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-06 10:08:49,660] Trial 62 finished with value: 0.42508145122613594 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 2.5647497039169402e-05, 'weight_decay': 2.353327668095525e-05, 'batch_size': 32, 'num_transformer_blocks': 4, 'num_heads': 4}. Best is trial 24 with value: 0.45553976793185547.
+Fold 5: Accuracy = 0.4367
+Trial 62 mean accuracy: 0.4251
+Trial 64 params: n_patches=14, embed_dim=256, lr=1.54489217598524e-05, blocks=2, heads=4, batch_size=32
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-06 10:09:41,857] Trial 63 finished with value: 0.44979478888749835 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 2.5893793649076787e-05, 'weight_decay': 3.284975130996957e-05, 'batch_size': 32, 'num_transformer_blocks': 4, 'num_heads': 4}. Best is trial 24 with value: 0.45553976793185547.
+Fold 5: Accuracy = 0.3826
+Trial 63 mean accuracy: 0.4498
+Trial 65 params: n_patches=14, embed_dim=256, lr=1.466222083124545e-05, blocks=2, heads=4, batch_size=32
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.4233
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.4799
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.4780
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.5023
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.4558
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.4270
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.4683
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.3947
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-06 10:16:29,174] Trial 64 finished with value: 0.4377789691683106 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 1.54489217598524e-05, 'weight_decay': 2.552340399320031e-05, 'batch_size': 32, 'num_transformer_blocks': 2, 'num_heads': 4}. Best is trial 24 with value: 0.45553976793185547.
+Fold 5: Accuracy = 0.3616
+Trial 64 mean accuracy: 0.4378
+Trial 66 params: n_patches=14, embed_dim=256, lr=2.847031288887643e-05, blocks=4, heads=4, batch_size=32
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-06 10:17:42,017] Trial 65 finished with value: 0.43266054832838413 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 1.466222083124545e-05, 'weight_decay': 3.4896825506718036e-05, 'batch_size': 32, 'num_transformer_blocks': 2, 'num_heads': 4}. Best is trial 24 with value: 0.45553976793185547.
+Fold 5: Accuracy = 0.3612
+Trial 65 mean accuracy: 0.4327
+Trial 67 params: n_patches=14, embed_dim=64, lr=2.837953676897551e-05, blocks=4, heads=4, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.4600
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.4200
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.4854
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.4674
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.4144
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.3649
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.4700
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.4550
+Divergence detected. Stopping training after 5 epochs.
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-06 10:25:17,713] Trial 66 finished with value: 0.43835964472661537 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 2.847031288887643e-05, 'weight_decay': 3.378226964473561e-05, 'batch_size': 32, 'num_transformer_blocks': 4, 'num_heads': 4}. Best is trial 24 with value: 0.45553976793185547.
+Fold 5: Accuracy = 0.4265
+Trial 66 mean accuracy: 0.4384
+Trial 68 params: n_patches=14, embed_dim=64, lr=3.669445763792138e-05, blocks=4, heads=4, batch_size=16
+[I 2025-05-06 10:25:18,565] Trial 67 finished with value: 0.4454917899886116 and parameters: {'n_patches': 14, 'embed_dim': 64, 'learning_rate': 2.837953676897551e-05, 'weight_decay': 4.093898664502236e-05, 'batch_size': 16, 'num_transformer_blocks': 4, 'num_heads': 4}. Best is trial 24 with value: 0.45553976793185547.
+Fold 5: Accuracy = 0.4556
+Trial 67 mean accuracy: 0.4455
+Trial 69 params: n_patches=14, embed_dim=256, lr=3.8817595650035085e-05, blocks=2, heads=4, batch_size=32
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.4339
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.4343
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.3980
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.4923
+Divergence detected. Stopping training after 5 epochs.
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.3434
+Fold 3: Accuracy = 0.3665
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.4141
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.5048
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-06 10:30:30,563] Trial 69 finished with value: 0.4082622385743019 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 3.8817595650035085e-05, 'weight_decay': 2.0031446672412794e-05, 'batch_size': 32, 'num_transformer_blocks': 2, 'num_heads': 4}. Best is trial 24 with value: 0.45553976793185547.
+Fold 5: Accuracy = 0.3572
+Trial 69 mean accuracy: 0.4083
+Trial 70 params: n_patches=14, embed_dim=64, lr=2.2586635735092052e-05, blocks=4, heads=4, batch_size=32
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-06 10:31:37,112] Trial 68 finished with value: 0.41539590720613306 and parameters: {'n_patches': 14, 'embed_dim': 64, 'learning_rate': 3.669445763792138e-05, 'weight_decay': 1.9665239923610353e-05, 'batch_size': 16, 'num_transformer_blocks': 4, 'num_heads': 4}. Best is trial 24 with value: 0.45553976793185547.
+Fold 5: Accuracy = 0.3738
+Trial 68 mean accuracy: 0.4154
+Trial 71 params: n_patches=14, embed_dim=256, lr=0.00025447292860775834, blocks=2, heads=4, batch_size=32
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.4359
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.4275
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.4154
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.4262
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.3924
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.4217
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.3993
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-06 10:37:50,192] Trial 70 finished with value: 0.4226344696082339 and parameters: {'n_patches': 14, 'embed_dim': 64, 'learning_rate': 2.2586635735092052e-05, 'weight_decay': 3.20760148787362e-05, 'batch_size': 32, 'num_transformer_blocks': 4, 'num_heads': 4}. Best is trial 24 with value: 0.45553976793185547.
+Fold 5: Accuracy = 0.4141
+Trial 70 mean accuracy: 0.4226
+Trial 72 params: n_patches=14, embed_dim=64, lr=1.8001486702930443e-05, blocks=4, heads=4, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.4531
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-06 10:39:10,025] Trial 71 finished with value: 0.4112634825426902 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 0.00025447292860775834, 'weight_decay': 2.8159632097514385e-05, 'batch_size': 32, 'num_transformer_blocks': 2, 'num_heads': 4}. Best is trial 24 with value: 0.45553976793185547.
+Fold 5: Accuracy = 0.3840
+Trial 71 mean accuracy: 0.4113
+Trial 73 params: n_patches=14, embed_dim=64, lr=1.8028708062457314e-05, blocks=4, heads=4, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.4235
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.4200
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.4361
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.5043
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.3486
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.4276
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.4750
+Divergence detected. Stopping training after 5 epochs.
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-06 10:46:43,564] Trial 72 finished with value: 0.4123509924527621 and parameters: {'n_patches': 14, 'embed_dim': 64, 'learning_rate': 1.8001486702930443e-05, 'weight_decay': 4.10353724345227e-05, 'batch_size': 16, 'num_transformer_blocks': 4, 'num_heads': 4}. Best is trial 24 with value: 0.45553976793185547.
+Fold 5: Accuracy = 0.3785
+Trial 72 mean accuracy: 0.4124
+Trial 74 params: n_patches=14, embed_dim=64, lr=4.277019672310624e-05, blocks=4, heads=4, batch_size=16
+Fold 4: Accuracy = 0.4562
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-06 10:48:10,895] Trial 73 finished with value: 0.43983952636272183 and parameters: {'n_patches': 14, 'embed_dim': 64, 'learning_rate': 1.8028708062457314e-05, 'weight_decay': 4.1285196537544494e-05, 'batch_size': 16, 'num_transformer_blocks': 4, 'num_heads': 4}. Best is trial 24 with value: 0.45553976793185547.
+Fold 5: Accuracy = 0.3911
+Trial 73 mean accuracy: 0.4398
+Trial 75 params: n_patches=14, embed_dim=64, lr=2.783956730840186e-05, blocks=4, heads=4, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.4261
+Fold 1: Accuracy = 0.4355
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.4508
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.3458
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.4104
+Fold 2: Accuracy = 0.4736
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-06 10:53:46,249] Trial 74 finished with value: 0.40535082294931213 and parameters: {'n_patches': 14, 'embed_dim': 64, 'learning_rate': 4.277019672310624e-05, 'weight_decay': 4.65215219102111e-05, 'batch_size': 16, 'num_transformer_blocks': 4, 'num_heads': 4}. Best is trial 24 with value: 0.45553976793185547.
+Fold 5: Accuracy = 0.3936
+Trial 74 mean accuracy: 0.4054
+Trial 76 params: n_patches=14, embed_dim=64, lr=2.9195609817654728e-05, blocks=4, heads=4, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.4294
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.4592
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.4516
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-06 10:56:44,659] Trial 75 finished with value: 0.4309675620502407 and parameters: {'n_patches': 14, 'embed_dim': 64, 'learning_rate': 2.783956730840186e-05, 'weight_decay': 5.8848646204853966e-05, 'batch_size': 16, 'num_transformer_blocks': 4, 'num_heads': 4}. Best is trial 24 with value: 0.45553976793185547.
+Fold 5: Accuracy = 0.3572
+Trial 75 mean accuracy: 0.4310
+Trial 77 params: n_patches=14, embed_dim=256, lr=2.2321854637773496e-05, blocks=4, heads=4, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.5251
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.4378
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.4541
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.4371
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-06 11:00:53,782] Trial 76 finished with value: 0.45485005771798603 and parameters: {'n_patches': 14, 'embed_dim': 64, 'learning_rate': 2.9195609817654728e-05, 'weight_decay': 6.40075182717267e-05, 'batch_size': 16, 'num_transformer_blocks': 4, 'num_heads': 4}. Best is trial 24 with value: 0.45553976793185547.
+Fold 5: Accuracy = 0.4057
+Trial 76 mean accuracy: 0.4549
+Trial 78 params: n_patches=14, embed_dim=256, lr=5.865571906681462e-05, blocks=2, heads=4, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.5147
+Fold 1: Accuracy = 0.4309
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.4262
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.4282
+Divergence detected. Stopping training after 5 epochs.
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.4711
+Fold 3: Accuracy = 0.3933
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-06 11:07:17,190] Trial 77 finished with value: 0.4445011938051916 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 2.2321854637773496e-05, 'weight_decay': 3.807208685087628e-05, 'batch_size': 16, 'num_transformer_blocks': 4, 'num_heads': 4}. Best is trial 24 with value: 0.45553976793185547.
+Fold 5: Accuracy = 0.3734
+Trial 77 mean accuracy: 0.4445
+Trial 79 params: n_patches=14, embed_dim=256, lr=5.473307483152039e-05, blocks=2, heads=4, batch_size=32
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.4279
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-06 11:08:56,654] Trial 78 finished with value: 0.4100858947644908 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 5.865571906681462e-05, 'weight_decay': 7.571674642549629e-05, 'batch_size': 16, 'num_transformer_blocks': 2, 'num_heads': 4}. Best is trial 24 with value: 0.45553976793185547.
+Fold 5: Accuracy = 0.3701
+Trial 78 mean accuracy: 0.4101
+Trial 80 params: n_patches=14, embed_dim=256, lr=0.0001335937014180811, blocks=2, heads=4, batch_size=32
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.4620
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.3942
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.4078
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.3603
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.3719
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.5583
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.4157
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.4272
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-06 11:14:47,030] Trial 79 finished with value: 0.41279044304407053 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 5.473307483152039e-05, 'weight_decay': 9.092076031384104e-05, 'batch_size': 32, 'num_transformer_blocks': 2, 'num_heads': 4}. Best is trial 24 with value: 0.45553976793185547.
+Fold 5: Accuracy = 0.4065
+Trial 79 mean accuracy: 0.4128
+Trial 81 params: n_patches=14, embed_dim=64, lr=0.00012683626393680708, blocks=2, heads=4, batch_size=32
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-06 11:16:06,515] Trial 80 finished with value: 0.4240148695244838 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 0.0001335937014180811, 'weight_decay': 8.005933126581968e-05, 'batch_size': 32, 'num_transformer_blocks': 2, 'num_heads': 4}. Best is trial 24 with value: 0.45553976793185547.
+Fold 5: Accuracy = 0.3800
+Trial 80 mean accuracy: 0.4240
+Trial 82 params: n_patches=14, embed_dim=64, lr=3.4185665824526636e-05, blocks=4, heads=4, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.4026
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.4000
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.5073
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.3548
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.4276
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.3392
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.4098
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.4504
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-06 11:23:03,722] Trial 82 finished with value: 0.3848253844451707 and parameters: {'n_patches': 14, 'embed_dim': 64, 'learning_rate': 3.4185665824526636e-05, 'weight_decay': 5.392504051245643e-05, 'batch_size': 16, 'num_transformer_blocks': 4, 'num_heads': 4}. Best is trial 24 with value: 0.45553976793185547.
+Fold 5: Accuracy = 0.3797
+Trial 82 mean accuracy: 0.3848
+Trial 83 params: n_patches=14, embed_dim=64, lr=2.8111962197534216e-05, blocks=4, heads=4, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-06 11:23:11,626] Trial 81 finished with value: 0.426380324185102 and parameters: {'n_patches': 14, 'embed_dim': 64, 'learning_rate': 0.00012683626393680708, 'weight_decay': 5.290888431954077e-05, 'batch_size': 32, 'num_transformer_blocks': 2, 'num_heads': 4}. Best is trial 24 with value: 0.45553976793185547.
+Fold 5: Accuracy = 0.3845
+Trial 81 mean accuracy: 0.4264
+Trial 84 params: n_patches=14, embed_dim=64, lr=0.00018112968025135753, blocks=4, heads=4, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.4255
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.4531
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.3333
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.4909
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.4330
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.4148
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.4565
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.5055
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-06 11:30:56,722] Trial 84 finished with value: 0.40859812056900446 and parameters: {'n_patches': 14, 'embed_dim': 64, 'learning_rate': 0.00018112968025135753, 'weight_decay': 2.60509937032022e-05, 'batch_size': 16, 'num_transformer_blocks': 4, 'num_heads': 4}. Best is trial 24 with value: 0.45553976793185547.
+Fold 5: Accuracy = 0.3853
+Trial 84 mean accuracy: 0.4086
+Trial 85 params: n_patches=14, embed_dim=64, lr=2.9050922063115817e-05, blocks=4, heads=4, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-06 11:31:50,302] Trial 83 finished with value: 0.44704673178760307 and parameters: {'n_patches': 14, 'embed_dim': 64, 'learning_rate': 2.8111962197534216e-05, 'weight_decay': 7.012699753044136e-05, 'batch_size': 16, 'num_transformer_blocks': 4, 'num_heads': 4}. Best is trial 24 with value: 0.45553976793185547.
+Fold 5: Accuracy = 0.3803
+Trial 83 mean accuracy: 0.4470
+Trial 86 params: n_patches=14, embed_dim=64, lr=4.123736179065853e-05, blocks=4, heads=4, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.4108
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.4893
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.4613
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.3636
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.3756
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.4165
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.3386
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.4561
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-06 11:40:05,375] Trial 86 finished with value: 0.423860257326319 and parameters: {'n_patches': 14, 'embed_dim': 64, 'learning_rate': 4.123736179065853e-05, 'weight_decay': 6.998524599847983e-05, 'batch_size': 16, 'num_transformer_blocks': 4, 'num_heads': 4}. Best is trial 24 with value: 0.45553976793185547.
+Fold 5: Accuracy = 0.3994
+Trial 86 mean accuracy: 0.4239
+Trial 87 params: n_patches=14, embed_dim=64, lr=1.1616433923473705e-05, blocks=4, heads=4, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-06 11:40:22,367] Trial 85 finished with value: 0.3858937783145856 and parameters: {'n_patches': 14, 'embed_dim': 64, 'learning_rate': 2.9050922063115817e-05, 'weight_decay': 6.684256972853252e-05, 'batch_size': 16, 'num_transformer_blocks': 4, 'num_heads': 4}. Best is trial 24 with value: 0.45553976793185547.
+Fold 5: Accuracy = 0.3376
+Trial 85 mean accuracy: 0.3859
+Trial 88 params: n_patches=14, embed_dim=64, lr=2.4491560630675845e-05, blocks=4, heads=4, batch_size=32
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.3467
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.4465
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.4856
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.4575
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.3928
+Divergence detected. Stopping training after 5 epochs.
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.4258
+Fold 3: Accuracy = 0.3801
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.4642
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-06 11:47:22,073] Trial 88 finished with value: 0.3950001001697751 and parameters: {'n_patches': 14, 'embed_dim': 64, 'learning_rate': 2.4491560630675845e-05, 'weight_decay': 6.81635276585183e-05, 'batch_size': 32, 'num_transformer_blocks': 4, 'num_heads': 4}. Best is trial 24 with value: 0.45553976793185547.
+Fold 5: Accuracy = 0.3242
+Trial 88 mean accuracy: 0.3950
+Trial 89 params: n_patches=14, embed_dim=256, lr=4.658629178609918e-05, blocks=4, heads=4, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-06 11:48:01,426] Trial 87 finished with value: 0.4234803181420057 and parameters: {'n_patches': 14, 'embed_dim': 64, 'learning_rate': 1.1616433923473705e-05, 'weight_decay': 7.063982629837023e-05, 'batch_size': 16, 'num_transformer_blocks': 4, 'num_heads': 4}. Best is trial 24 with value: 0.45553976793185547.
+Fold 5: Accuracy = 0.3691
+Trial 87 mean accuracy: 0.4235
+Trial 90 params: n_patches=14, embed_dim=256, lr=2.0924848122401348e-05, blocks=2, heads=4, batch_size=32
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.4560
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.4522
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.5058
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.4449
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.4686
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.4447
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.4493
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-06 11:54:50,454] Trial 89 finished with value: 0.45157616070664935 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 4.658629178609918e-05, 'weight_decay': 2.145402908576287e-05, 'batch_size': 16, 'num_transformer_blocks': 4, 'num_heads': 4}. Best is trial 24 with value: 0.45553976793185547.
+Fold 5: Accuracy = 0.3828
+Trial 89 mean accuracy: 0.4516
+Trial 91 params: n_patches=14, embed_dim=256, lr=2.0196636740862464e-05, blocks=2, heads=4, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.3822
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.4439
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-06 11:57:28,130] Trial 90 finished with value: 0.41809774910289066 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 2.0924848122401348e-05, 'weight_decay': 1.5569031331528717e-05, 'batch_size': 32, 'num_transformer_blocks': 2, 'num_heads': 4}. Best is trial 24 with value: 0.45553976793185547.
+Fold 5: Accuracy = 0.3618
+Trial 90 mean accuracy: 0.4181
+Trial 92 params: n_patches=14, embed_dim=256, lr=4.643214242351496e-05, blocks=4, heads=4, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.4247
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.4141
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.4458
+Divergence detected. Stopping training after 5 epochs.
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.4713
+Fold 4: Accuracy = 0.4508
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.4800
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-06 12:02:57,124] Trial 91 finished with value: 0.43110501535604107 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 2.0196636740862464e-05, 'weight_decay': 6.367255047282959e-05, 'batch_size': 16, 'num_transformer_blocks': 2, 'num_heads': 4}. Best is trial 24 with value: 0.45553976793185547.
+Fold 5: Accuracy = 0.3903
+Trial 91 mean accuracy: 0.4311
+Trial 93 params: n_patches=14, embed_dim=256, lr=4.95355504467232e-05, blocks=4, heads=4, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.4446
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.4154
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-06 12:05:48,580] Trial 92 finished with value: 0.43013511272990723 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 4.643214242351496e-05, 'weight_decay': 6.31978047694057e-05, 'batch_size': 16, 'num_transformer_blocks': 4, 'num_heads': 4}. Best is trial 24 with value: 0.45553976793185547.
+Fold 5: Accuracy = 0.3407
+Trial 92 mean accuracy: 0.4301
+Trial 94 params: n_patches=14, embed_dim=256, lr=3.3051604084822873e-05, blocks=4, heads=4, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.4972
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.4230
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.3308
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.4481
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.3806
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.4444
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.4478
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-06 12:12:05,036] Trial 93 finished with value: 0.41089768127752635 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 4.95355504467232e-05, 'weight_decay': 2.1404176520931017e-05, 'batch_size': 16, 'num_transformer_blocks': 4, 'num_heads': 4}. Best is trial 24 with value: 0.45553976793185547.
+Fold 5: Accuracy = 0.3667
+Trial 93 mean accuracy: 0.4109
+Trial 95 params: n_patches=14, embed_dim=256, lr=6.755181841795967e-05, blocks=4, heads=4, batch_size=16
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-06 12:12:41,054] Trial 94 finished with value: 0.42007718743520633 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 3.3051604084822873e-05, 'weight_decay': 2.1266475962959007e-05, 'batch_size': 16, 'num_transformer_blocks': 4, 'num_heads': 4}. Best is trial 24 with value: 0.45553976793185547.
+Fold 5: Accuracy = 0.4010
+Trial 94 mean accuracy: 0.4201
+Trial 96 params: n_patches=28, embed_dim=256, lr=9.336872040109744e-05, blocks=4, heads=4, batch_size=32
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.4088
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.4647
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.3333
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.3963
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.4527
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-06 12:19:26,852] Trial 95 finished with value: 0.4092694712725062 and parameters: {'n_patches': 14, 'embed_dim': 256, 'learning_rate': 6.755181841795967e-05, 'weight_decay': 2.459959328094471e-05, 'batch_size': 16, 'num_transformer_blocks': 4, 'num_heads': 4}. Best is trial 24 with value: 0.45553976793185547.
+Fold 5: Accuracy = 0.3868
+Trial 95 mean accuracy: 0.4093
+Trial 97 params: n_patches=28, embed_dim=64, lr=1.6238055978309735e-05, blocks=4, heads=4, batch_size=32
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.5104
+Divergence detected. Stopping training after 5 epochs.
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.4063
+Fold 1: Accuracy = 0.4317
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.4139
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.4951
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-06 12:37:26,034] Trial 96 finished with value: 0.4098318657789523 and parameters: {'n_patches': 28, 'embed_dim': 256, 'learning_rate': 9.336872040109744e-05, 'weight_decay': 2.4270083744540765e-05, 'batch_size': 32, 'num_transformer_blocks': 4, 'num_heads': 4}. Best is trial 24 with value: 0.45553976793185547.
+Fold 5: Accuracy = 0.3222
+Trial 96 mean accuracy: 0.4098
+Trial 98 params: n_patches=14, embed_dim=64, lr=1.5970792368826644e-05, blocks=4, heads=4, batch_size=32
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.4155
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.4568
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.4683
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.3863
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.4110
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.3983
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-06 12:45:23,468] Trial 98 finished with value: 0.4184421074228541 and parameters: {'n_patches': 14, 'embed_dim': 64, 'learning_rate': 1.5970792368826644e-05, 'weight_decay': 2.2176024901458224e-05, 'batch_size': 32, 'num_transformer_blocks': 4, 'num_heads': 4}. Best is trial 24 with value: 0.45553976793185547.
+Fold 5: Accuracy = 0.3826
+Trial 98 mean accuracy: 0.4184
+Trial 99 params: n_patches=28, embed_dim=256, lr=2.6123972495324657e-05, blocks=6, heads=4, batch_size=32
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-06 12:47:59,016] Trial 97 finished with value: 0.43171484619228295 and parameters: {'n_patches': 28, 'embed_dim': 64, 'learning_rate': 1.6238055978309735e-05, 'weight_decay': 1.9199543618932025e-05, 'batch_size': 32, 'num_transformer_blocks': 4, 'num_heads': 4}. Best is trial 24 with value: 0.45553976793185547.
+Fold 5: Accuracy = 0.4052
+Trial 97 mean accuracy: 0.4317
+Divergence detected. Stopping training after 5 epochs.
+Fold 1: Accuracy = 0.3689
+Divergence detected. Stopping training after 5 epochs.
+Fold 2: Accuracy = 0.4034
+Divergence detected. Stopping training after 5 epochs.
+Fold 3: Accuracy = 0.3989
+Divergence detected. Stopping training after 5 epochs.
+Fold 4: Accuracy = 0.4053
+Divergence detected. Stopping training after 5 epochs.
+[I 2025-05-06 13:06:54,920] Trial 99 finished with value: 0.3925258115057134 and parameters: {'n_patches': 28, 'embed_dim': 256, 'learning_rate': 2.6123972495324657e-05, 'weight_decay': 1.9490394403975413e-05, 'batch_size': 32, 'num_transformer_blocks': 6, 'num_heads': 4}. Best is trial 24 with value: 0.45553976793185547.
+Fold 5: Accuracy = 0.3861
+Trial 99 mean accuracy: 0.3925
+Best hyperparameters: {'n_patches': 28, 'embed_dim': 128, 'learning_rate': 3.6467910524712975e-05, 'weight_decay': 1.1407515349694686e-05, 'batch_size': 32, 'num_transformer_blocks': 6, 'num_heads': 8}
+Best accuracy: 0.4555
