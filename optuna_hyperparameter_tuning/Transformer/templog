@@ -1,0 +1,1322 @@
+c:\Users\Gabriel\anaconda3\envs\CUDAENV\Lib\site-packages\tqdm\auto.py:21: TqdmWarning: IProgress not found. Please update jupyter and ipywidgets. See https://ipywidgets.readthedocs.io/en/stable/user_install.html
+  from .autonotebook import tqdm as notebook_tqdm
+[I 2025-04-23 07:36:15,122] A new study created in memory with name: no-name-2236af4b-a62b-41d1-a5ca-ef79b3c8acd3
+Hyperparameters: num_heads=8, num_transformer_blocks=4, learning_rate=1.8283824125863145e-05, optimizer=Adam, weight_decay=9.997287344979877e-05, batch_size=10,factor=1Hyperparameters: num_heads=4, num_transformer_blocks=8, learning_rate=2.069458433103691e-05, optimizer=Adam, weight_decay=3.2822135177505066e-05, batch_size=32,factor=1
+
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 10
+Trial 1, Fold 1: Test Accuracy = 0.4822
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 20
+Trial 0, Fold 1: Test Accuracy = 0.4083
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 23
+Trial 1, Fold 2: Test Accuracy = 0.5218
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 29
+Trial 0, Fold 2: Test Accuracy = 0.5751
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 23
+Trial 1, Fold 3: Test Accuracy = 0.4968
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 15
+Trial 0, Fold 3: Test Accuracy = 0.4660
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 12
+Trial 1, Fold 4: Test Accuracy = 0.4170
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 15
+Trial 0, Fold 4: Test Accuracy = 0.4317
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 16
+Trial 0, Fold 5: Test Accuracy = 0.4696
+Trial 0: Mean Accuracy = 0.4701, Fold Accuracies = [np.float64(0.4082515302812333), np.float64(0.5751260592106293), np.float64(0.46602503058467093), np.float64(0.43170112793625076), np.float64(0.4696420469052048)]
+[I 2025-04-23 07:51:48,873] Trial 0 finished with value: 0.4701491589835978 and parameters: {'ff_dim': 64, 'dropout_rate': 0.2473503655787865, 'embed_dim': 256, 'learning_rate': 1.8283824125863145e-05, 'optimizer': 'Adam', 'weight_decay': 9.997287344979877e-05, 'batch_size': 10, 'num_heads': 8, 'num_transformer_blocks': 4}. Best is trial 0 with value: 0.4701491589835978.
+Hyperparameters: num_heads=2, num_transformer_blocks=16, learning_rate=2.788553790319569e-07, optimizer=AdamW, weight_decay=1.8370914756371888e-06, batch_size=32,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 26
+Trial 1, Fold 5: Test Accuracy = 0.4798
+Trial 1: Mean Accuracy = 0.4795, Fold Accuracies = [np.float64(0.4822268765338073), np.float64(0.5218228995352564), np.float64(0.4968351848277794), np.float64(0.41700183074282055), np.float64(0.47978611810190763)]
+[I 2025-04-23 07:51:54,735] Trial 1 finished with value: 0.4795345819483142 and parameters: {'ff_dim': 2048, 'dropout_rate': 0.23310133579685638, 'embed_dim': 2048, 'learning_rate': 2.069458433103691e-05, 'optimizer': 'Adam', 'weight_decay': 3.2822135177505066e-05, 'batch_size': 32, 'num_heads': 4, 'num_transformer_blocks': 8}. Best is trial 1 with value: 0.4795345819483142.
+Hyperparameters: num_heads=16, num_transformer_blocks=2, learning_rate=0.00012258766126501403, optimizer=Adam, weight_decay=9.190336620772277e-06, batch_size=10,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 16
+Trial 3, Fold 1: Test Accuracy = 0.4250
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 21
+Trial 2, Fold 1: Test Accuracy = 0.3858
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 17
+Trial 3, Fold 2: Test Accuracy = 0.5399
+Trial 2, Fold 2: Test Accuracy = 0.4458
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 25
+Trial 3, Fold 3: Test Accuracy = 0.5139
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 10
+Trial 2, Fold 3: Test Accuracy = 0.3548
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 13
+Trial 3, Fold 4: Test Accuracy = 0.4965
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 10
+Trial 2, Fold 4: Test Accuracy = 0.3062
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 10
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 16
+Trial 2, Fold 5: Test Accuracy = 0.3663
+Trial 2: Mean Accuracy = 0.3718, Fold Accuracies = [np.float64(0.38576626893458577), np.float64(0.4458494997907871), np.float64(0.3547811233608642), np.float64(0.3062183170514408), np.float64(0.3662705620600358)]
+[I 2025-04-23 07:59:34,529] Trial 2 finished with value: 0.3717771542395427 and parameters: {'ff_dim': 32, 'dropout_rate': 0.2829762511196685, 'embed_dim': 64, 'learning_rate': 2.788553790319569e-07, 'optimizer': 'AdamW', 'weight_decay': 1.8370914756371888e-06, 'batch_size': 32, 'num_heads': 2, 'num_transformer_blocks': 16}. Best is trial 1 with value: 0.4795345819483142.
+Hyperparameters: num_heads=8, num_transformer_blocks=8, learning_rate=3.872098720389553e-06, optimizer=AdamW, weight_decay=0.0009072019271699699, batch_size=32,factor=1
+Trial 3, Fold 5: Test Accuracy = 0.5252
+Trial 3: Mean Accuracy = 0.5001, Fold Accuracies = [np.float64(0.42498942201912504), np.float64(0.5398519958023149), np.float64(0.5139282101461419), np.float64(0.49651885300353577), np.float64(0.5252428785060363)]
+[I 2025-04-23 07:59:35,547] Trial 3 finished with value: 0.5001062718954308 and parameters: {'ff_dim': 256, 'dropout_rate': 0.16452368240097198, 'embed_dim': 32, 'learning_rate': 0.00012258766126501403, 'optimizer': 'Adam', 'weight_decay': 9.190336620772277e-06, 'batch_size': 10, 'num_heads': 16, 'num_transformer_blocks': 2}. Best is trial 3 with value: 0.5001062718954308.
+Hyperparameters: num_heads=16, num_transformer_blocks=32, learning_rate=1.464087804473956e-05, optimizer=AdamW, weight_decay=9.508392573789285e-06, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 16
+Trial 4, Fold 1: Test Accuracy = 0.4423
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 11
+Trial 5, Fold 1: Test Accuracy = 0.4575
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 27
+Trial 4, Fold 2: Test Accuracy = 0.5091
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 17
+Trial 4, Fold 3: Test Accuracy = 0.4602
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 11
+Trial 4, Fold 4: Test Accuracy = 0.4297
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 15
+Trial 4, Fold 5: Test Accuracy = 0.4875
+Trial 4: Mean Accuracy = 0.4658, Fold Accuracies = [np.float64(0.4423274378719923), np.float64(0.5090535657946849), np.float64(0.4601817104065187), np.float64(0.4297236113827347), np.float64(0.4875366378524273)]
+[I 2025-04-23 08:06:27,060] Trial 4 finished with value: 0.46576459266167164 and parameters: {'ff_dim': 512, 'dropout_rate': 0.2539449052350844, 'embed_dim': 512, 'learning_rate': 3.872098720389553e-06, 'optimizer': 'AdamW', 'weight_decay': 0.0009072019271699699, 'batch_size': 32, 'num_heads': 8, 'num_transformer_blocks': 8}. Best is trial 3 with value: 0.5001062718954308.
+Hyperparameters: num_heads=8, num_transformer_blocks=4, learning_rate=4.714188462164739e-05, optimizer=Adam, weight_decay=0.00031479202457711713, batch_size=16,factor=1
+Trial 5, Fold 2: Test Accuracy = 0.4306
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 27
+Trial 6, Fold 1: Test Accuracy = 0.5067
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 10
+Trial 5, Fold 3: Test Accuracy = 0.3665
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 25
+Trial 6, Fold 2: Test Accuracy = 0.5640
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 13
+Trial 6, Fold 3: Test Accuracy = 0.4079
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 20
+Trial 6, Fold 4: Test Accuracy = 0.4934
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 18
+Trial 6, Fold 5: Test Accuracy = 0.4225
+Trial 6: Mean Accuracy = 0.4789, Fold Accuracies = [np.float64(0.5066683591436066), np.float64(0.5640343450514976), np.float64(0.4079371357604629), np.float64(0.49338974954755277), np.float64(0.4225217930481089)]
+[I 2025-04-23 08:15:09,750] Trial 6 finished with value: 0.47891027651024576 and parameters: {'ff_dim': 2048, 'dropout_rate': 0.23637060698001347, 'embed_dim': 128, 'learning_rate': 4.714188462164739e-05, 'optimizer': 'Adam', 'weight_decay': 0.00031479202457711713, 'batch_size': 16, 'num_heads': 8, 'num_transformer_blocks': 4}. Best is trial 3 with value: 0.5001062718954308.
+Hyperparameters: num_heads=4, num_transformer_blocks=32, learning_rate=1.1300532205898714e-07, optimizer=AdamW, weight_decay=1.1158908717192549e-06, batch_size=10,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 25
+Trial 5, Fold 4: Test Accuracy = 0.3685
+Trial 5, Fold 5: Test Accuracy = 0.5134
+Trial 5: Mean Accuracy = 0.4273, Fold Accuracies = [np.float64(0.4574765168824575), np.float64(0.430626738313721), np.float64(0.36653069361347596), np.float64(0.36848879513995597), np.float64(0.513407302038881)]
+[I 2025-04-23 08:20:35,297] Trial 5 finished with value: 0.42730600919769834 and parameters: {'ff_dim': 256, 'dropout_rate': 0.1322411188820127, 'embed_dim': 128, 'learning_rate': 1.464087804473956e-05, 'optimizer': 'AdamW', 'weight_decay': 9.508392573789285e-06, 'batch_size': 16, 'num_heads': 16, 'num_transformer_blocks': 32}. Best is trial 3 with value: 0.5001062718954308.
+Hyperparameters: num_heads=4, num_transformer_blocks=8, learning_rate=0.0012069035822977324, optimizer=Adam, weight_decay=0.00016495532346743976, batch_size=32,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 18
+Trial 7, Fold 1: Test Accuracy = 0.3350
+Trial 8, Fold 1: Test Accuracy = 0.3333
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 12
+Trial 8, Fold 2: Test Accuracy = 0.3333
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 10
+Trial 7, Fold 2: Test Accuracy = 0.3691
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 19
+Trial 8, Fold 3: Test Accuracy = 0.3333
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 26
+Trial 8, Fold 4: Test Accuracy = 0.3333
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 11
+Trial 8, Fold 5: Test Accuracy = 0.3333
+Trial 8: Mean Accuracy = 0.3333, Fold Accuracies = [np.float64(0.3333333333333333), np.float64(0.3333333333333333), np.float64(0.3333333333333333), np.float64(0.3333333333333333), np.float64(0.3333333333333333)]
+[I 2025-04-23 08:28:13,196] Trial 8 finished with value: 0.3333333333333333 and parameters: {'ff_dim': 512, 'dropout_rate': 0.15525701264036093, 'embed_dim': 512, 'learning_rate': 0.0012069035822977324, 'optimizer': 'Adam', 'weight_decay': 0.00016495532346743976, 'batch_size': 32, 'num_heads': 4, 'num_transformer_blocks': 8}. Best is trial 3 with value: 0.5001062718954308.
+Hyperparameters: num_heads=2, num_transformer_blocks=2, learning_rate=0.0023825791186337215, optimizer=Adam, weight_decay=4.544984059815047e-05, batch_size=32,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 15
+Trial 7, Fold 3: Test Accuracy = 0.3316
+Trial 9, Fold 1: Test Accuracy = 0.4291
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 15
+Trial 9, Fold 2: Test Accuracy = 0.3699
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 10
+Trial 9, Fold 3: Test Accuracy = 0.3333
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 13
+Trial 7, Fold 4: Test Accuracy = 0.4033
+Trial 9, Fold 4: Test Accuracy = 0.4955
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 10
+Trial 7, Fold 5: Test Accuracy = 0.3447
+Trial 7: Mean Accuracy = 0.3567, Fold Accuracies = [np.float64(0.334984908747285), np.float64(0.3690728816346806), np.float64(0.3316028538456468), np.float64(0.40326805831059453), np.float64(0.34468862384651855)]
+[I 2025-04-23 08:35:27,474] Trial 7 finished with value: 0.3567234652769451 and parameters: {'ff_dim': 2048, 'dropout_rate': 0.1276854686386112, 'embed_dim': 64, 'learning_rate': 1.1300532205898714e-07, 'optimizer': 'AdamW', 'weight_decay': 1.1158908717192549e-06, 'batch_size': 10, 'num_heads': 4, 'num_transformer_blocks': 32}. Best is trial 3 with value: 0.5001062718954308.
+Hyperparameters: num_heads=1, num_transformer_blocks=2, learning_rate=0.07308273614132964, optimizer=Adam, weight_decay=1.9896906561865664e-05, batch_size=32,factor=1
+Trial 9, Fold 5: Test Accuracy = 0.4533
+Trial 9: Mean Accuracy = 0.4162, Fold Accuracies = [np.float64(0.4291007305858791), np.float64(0.3698760301221939), np.float64(0.3333333333333333), np.float64(0.4954666997271347), np.float64(0.45331611773717034)]
+[I 2025-04-23 08:36:10,485] Trial 9 finished with value: 0.4162185823011423 and parameters: {'ff_dim': 32, 'dropout_rate': 0.3603024717217307, 'embed_dim': 128, 'learning_rate': 0.0023825791186337215, 'optimizer': 'Adam', 'weight_decay': 4.544984059815047e-05, 'batch_size': 32, 'num_heads': 2, 'num_transformer_blocks': 2}. Best is trial 3 with value: 0.5001062718954308.
+Hyperparameters: num_heads=16, num_transformer_blocks=2, learning_rate=0.08816982927030116, optimizer=Adam, weight_decay=6.6796111169415665e-06, batch_size=10,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 15
+Trial 10, Fold 1: Test Accuracy = 0.3333
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 17
+Trial 11, Fold 1: Test Accuracy = 0.3333
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 17
+Trial 10, Fold 2: Test Accuracy = 0.3333
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 13
+Trial 11, Fold 2: Test Accuracy = 0.3333
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 19
+Trial 10, Fold 3: Test Accuracy = 0.3333
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 22
+Trial 11, Fold 3: Test Accuracy = 0.3333
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 15
+Trial 10, Fold 4: Test Accuracy = 0.3333
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 15
+Trial 11, Fold 4: Test Accuracy = 0.3333
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 19
+Trial 11, Fold 5: Test Accuracy = 0.3333
+Trial 11: Mean Accuracy = 0.3333, Fold Accuracies = [np.float64(0.3333333333333333), np.float64(0.3333333333333333), np.float64(0.3333333333333333), np.float64(0.3333333333333333), np.float64(0.3333333333333333)]
+[I 2025-04-23 08:45:30,139] Trial 11 finished with value: 0.3333333333333333 and parameters: {'ff_dim': 256, 'dropout_rate': 0.473755130985294, 'embed_dim': 32, 'learning_rate': 0.08816982927030116, 'optimizer': 'Adam', 'weight_decay': 6.6796111169415665e-06, 'batch_size': 10, 'num_heads': 16, 'num_transformer_blocks': 2}. Best is trial 3 with value: 0.5001062718954308.
+Hyperparameters: num_heads=1, num_transformer_blocks=1, learning_rate=0.00019379263344299262, optimizer=Adam, weight_decay=1.8388133728476674e-05, batch_size=10,factor=1
+Trial 10, Fold 5: Test Accuracy = 0.3333
+Trial 10: Mean Accuracy = 0.3333, Fold Accuracies = [np.float64(0.3333333333333333), np.float64(0.3333333333333333), np.float64(0.3333333333333333), np.float64(0.3333333333333333), np.float64(0.3333333333333333)]
+[I 2025-04-23 08:45:41,630] Trial 10 finished with value: 0.3333333333333333 and parameters: {'ff_dim': 2048, 'dropout_rate': 0.28458464874904554, 'embed_dim': 2048, 'learning_rate': 0.07308273614132964, 'optimizer': 'Adam', 'weight_decay': 1.9896906561865664e-05, 'batch_size': 32, 'num_heads': 1, 'num_transformer_blocks': 2}. Best is trial 3 with value: 0.5001062718954308.
+Hyperparameters: num_heads=16, num_transformer_blocks=1, learning_rate=0.00028286499895843146, optimizer=Adam, weight_decay=4.057731098014215e-06, batch_size=10,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 20
+Trial 12, Fold 1: Test Accuracy = 0.5525
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 21
+Trial 13, Fold 1: Test Accuracy = 0.4934
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 13
+Trial 13, Fold 2: Test Accuracy = 0.5341
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 19
+Trial 12, Fold 2: Test Accuracy = 0.4992
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 22
+Trial 13, Fold 3: Test Accuracy = 0.3839
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 19
+Trial 12, Fold 3: Test Accuracy = 0.3403
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 23
+Trial 13, Fold 4: Test Accuracy = 0.4684
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 25
+Trial 12, Fold 4: Test Accuracy = 0.4521
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 25
+Trial 13, Fold 5: Test Accuracy = 0.4817
+Trial 13: Mean Accuracy = 0.4723, Fold Accuracies = [np.float64(0.4934289582804434), np.float64(0.5341222732388631), np.float64(0.38393227927742607), np.float64(0.4684410281960781), np.float64(0.4817113469745049)]
+[I 2025-04-23 09:05:42,127] Trial 13 finished with value: 0.47232717719346307 and parameters: {'ff_dim': 1024, 'dropout_rate': 0.1963021871565799, 'embed_dim': 1024, 'learning_rate': 0.00028286499895843146, 'optimizer': 'Adam', 'weight_decay': 4.057731098014215e-06, 'batch_size': 10, 'num_heads': 16, 'num_transformer_blocks': 1}. Best is trial 3 with value: 0.5001062718954308.
+Hyperparameters: num_heads=4, num_transformer_blocks=8, learning_rate=1.7536120058423462e-06, optimizer=Adam, weight_decay=2.4683341687335222e-05, batch_size=10,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 21
+Trial 12, Fold 5: Test Accuracy = 0.3456
+Trial 12: Mean Accuracy = 0.4379, Fold Accuracies = [np.float64(0.5525337790189275), np.float64(0.4991584631684467), np.float64(0.3402674030814734), np.float64(0.452084439229272), np.float64(0.3455855855855856)]
+[I 2025-04-23 09:06:00,622] Trial 12 finished with value: 0.437925934016741 and parameters: {'ff_dim': 128, 'dropout_rate': 0.19570188198520835, 'embed_dim': 2048, 'learning_rate': 0.00019379263344299262, 'optimizer': 'Adam', 'weight_decay': 1.8388133728476674e-05, 'batch_size': 10, 'num_heads': 1, 'num_transformer_blocks': 1}. Best is trial 3 with value: 0.5001062718954308.
+Hyperparameters: num_heads=4, num_transformer_blocks=8, learning_rate=1.7759407652033478e-06, optimizer=Adam, weight_decay=4.433452227775363e-05, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 13
+Trial 14, Fold 1: Test Accuracy = 0.3538
+Trial 15, Fold 1: Test Accuracy = 0.3515
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 21
+Trial 14, Fold 2: Test Accuracy = 0.4297
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 29
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 18
+Trial 15, Fold 2: Test Accuracy = 0.4298
+Trial 14, Fold 3: Test Accuracy = 0.3320
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 12
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 10
+Trial 15, Fold 3: Test Accuracy = 0.3102
+Trial 14, Fold 4: Test Accuracy = 0.3526
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 10
+Trial 14, Fold 5: Test Accuracy = 0.3830
+Trial 14: Mean Accuracy = 0.3702, Fold Accuracies = [np.float64(0.35378268596090373), np.float64(0.42966779887808143), np.float64(0.3320368239172788), np.float64(0.3526109427045015), np.float64(0.3830236714447241)]
+[I 2025-04-23 09:14:40,234] Trial 14 finished with value: 0.3702243845810979 and parameters: {'ff_dim': 128, 'dropout_rate': 0.3905046943509991, 'embed_dim': 32, 'learning_rate': 1.7536120058423462e-06, 'optimizer': 'Adam', 'weight_decay': 2.4683341687335222e-05, 'batch_size': 10, 'num_heads': 4, 'num_transformer_blocks': 8}. Best is trial 3 with value: 0.5001062718954308.
+Hyperparameters: num_heads=16, num_transformer_blocks=16, learning_rate=0.001118689340029803, optimizer=Adam, weight_decay=6.842648098346012e-05, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 17
+Trial 15, Fold 4: Test Accuracy = 0.3608
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 15
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 11
+Trial 15, Fold 5: Test Accuracy = 0.3645
+Trial 15: Mean Accuracy = 0.3634, Fold Accuracies = [np.float64(0.3514710445403515), np.float64(0.4297735241534706), np.float64(0.3102177024948778), np.float64(0.3608230931249748), np.float64(0.3645064011379801)]
+[I 2025-04-23 09:16:31,872] Trial 15 finished with value: 0.36335835309033093 and parameters: {'ff_dim': 256, 'dropout_rate': 0.35592725471147957, 'embed_dim': 32, 'learning_rate': 1.7759407652033478e-06, 'optimizer': 'Adam', 'weight_decay': 4.433452227775363e-05, 'batch_size': 16, 'num_heads': 4, 'num_transformer_blocks': 8}. Best is trial 3 with value: 0.5001062718954308.
+Trial 16, Fold 1: Test Accuracy = 0.3333
+Hyperparameters: num_heads=16, num_transformer_blocks=16, learning_rate=0.003416795230508094, optimizer=Adam, weight_decay=3.6556182140626694e-06, batch_size=32,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 13
+Trial 16, Fold 2: Test Accuracy = 0.3333
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 16
+Trial 17, Fold 1: Test Accuracy = 0.3333
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 18
+Trial 16, Fold 3: Test Accuracy = 0.3333
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 18
+Trial 17, Fold 2: Test Accuracy = 0.3333
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 10
+Trial 16, Fold 4: Test Accuracy = 0.3333
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 10
+Trial 17, Fold 3: Test Accuracy = 0.3333
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 11
+Trial 16, Fold 5: Test Accuracy = 0.3333
+Trial 16: Mean Accuracy = 0.3333, Fold Accuracies = [np.float64(0.3333333333333333), np.float64(0.3333333333333333), np.float64(0.3333333333333333), np.float64(0.3333333333333333), np.float64(0.3333333333333333)]
+[I 2025-04-23 09:36:34,203] Trial 16 finished with value: 0.3333333333333333 and parameters: {'ff_dim': 256, 'dropout_rate': 0.33438422206213847, 'embed_dim': 32, 'learning_rate': 0.001118689340029803, 'optimizer': 'Adam', 'weight_decay': 6.842648098346012e-05, 'batch_size': 16, 'num_heads': 16, 'num_transformer_blocks': 16}. Best is trial 3 with value: 0.5001062718954308.
+Hyperparameters: num_heads=4, num_transformer_blocks=2, learning_rate=0.01352236215570645, optimizer=Adam, weight_decay=4.371624333643005e-06, batch_size=32,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 12
+Trial 18, Fold 1: Test Accuracy = 0.3333
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 15
+Trial 18, Fold 2: Test Accuracy = 0.3333
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 19
+Trial 17, Fold 4: Test Accuracy = 0.3333
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 12
+Trial 18, Fold 3: Test Accuracy = 0.3333
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 14
+Trial 17, Fold 5: Test Accuracy = 0.3333
+Trial 17: Mean Accuracy = 0.3333, Fold Accuracies = [np.float64(0.3333333333333333), np.float64(0.3333333333333333), np.float64(0.3333333333333333), np.float64(0.3333333333333333), np.float64(0.3333333333333333)]
+[I 2025-04-23 10:11:42,124] Trial 17 finished with value: 0.3333333333333333 and parameters: {'ff_dim': 64, 'dropout_rate': 0.17858075802662535, 'embed_dim': 2048, 'learning_rate': 0.003416795230508094, 'optimizer': 'Adam', 'weight_decay': 3.6556182140626694e-06, 'batch_size': 32, 'num_heads': 16, 'num_transformer_blocks': 16}. Best is trial 3 with value: 0.5001062718954308.
+Hyperparameters: num_heads=4, num_transformer_blocks=2, learning_rate=7.675351118570675e-05, optimizer=AdamW, weight_decay=1.0343836322071669e-05, batch_size=10,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 17
+Trial 18, Fold 4: Test Accuracy = 0.3333
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 17
+Trial 19, Fold 1: Test Accuracy = 0.5342
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 21
+Trial 18, Fold 5: Test Accuracy = 0.3333
+Trial 18: Mean Accuracy = 0.3333, Fold Accuracies = [np.float64(0.3333333333333333), np.float64(0.3333333333333333), np.float64(0.3333333333333333), np.float64(0.3333333333333333), np.float64(0.3333333333333333)]
+[I 2025-04-23 10:14:37,901] Trial 18 finished with value: 0.3333333333333333 and parameters: {'ff_dim': 64, 'dropout_rate': 0.2011266562961302, 'embed_dim': 2048, 'learning_rate': 0.01352236215570645, 'optimizer': 'Adam', 'weight_decay': 4.371624333643005e-06, 'batch_size': 32, 'num_heads': 4, 'num_transformer_blocks': 2}. Best is trial 3 with value: 0.5001062718954308.
+Hyperparameters: num_heads=1, num_transformer_blocks=8, learning_rate=7.305988293715165e-05, optimizer=AdamW, weight_decay=1.2670346946266844e-05, batch_size=10,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 14
+Trial 19, Fold 2: Test Accuracy = 0.4639
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 16
+Trial 20, Fold 1: Test Accuracy = 0.4560
+Trial 19, Fold 3: Test Accuracy = 0.4800
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 19
+Trial 20, Fold 2: Test Accuracy = 0.4836
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 17
+Trial 19, Fold 4: Test Accuracy = 0.5262
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 17
+Trial 19, Fold 5: Test Accuracy = 0.5542
+Trial 19: Mean Accuracy = 0.5117, Fold Accuracies = [np.float64(0.5341563002454092), np.float64(0.46388873505581624), np.float64(0.48003454393298345), np.float64(0.5262401943893437), np.float64(0.5542275230696283)]
+[I 2025-04-23 10:20:36,782] Trial 19 finished with value: 0.5117094593386362 and parameters: {'ff_dim': 1024, 'dropout_rate': 0.21212374307436915, 'embed_dim': 256, 'learning_rate': 7.675351118570675e-05, 'optimizer': 'AdamW', 'weight_decay': 1.0343836322071669e-05, 'batch_size': 10, 'num_heads': 4, 'num_transformer_blocks': 2}. Best is trial 19 with value: 0.5117094593386362.
+Hyperparameters: num_heads=1, num_transformer_blocks=2, learning_rate=0.00014226499442852582, optimizer=AdamW, weight_decay=9.760742761225985e-06, batch_size=10,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 19
+Trial 20, Fold 3: Test Accuracy = 0.4456
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 22
+Trial 21, Fold 1: Test Accuracy = 0.4948
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 15
+Trial 20, Fold 4: Test Accuracy = 0.4888
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 15
+Trial 21, Fold 2: Test Accuracy = 0.5645
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 20
+Trial 20, Fold 5: Test Accuracy = 0.5396
+Trial 20: Mean Accuracy = 0.4827, Fold Accuracies = [np.float64(0.456045668669431), np.float64(0.48362467918811936), np.float64(0.4455968531345416), np.float64(0.4888427710880774), np.float64(0.5396237370974213)]
+[I 2025-04-23 10:25:34,370] Trial 20 finished with value: 0.48274674183551813 and parameters: {'ff_dim': 1024, 'dropout_rate': 0.12015192253905788, 'embed_dim': 256, 'learning_rate': 7.305988293715165e-05, 'optimizer': 'AdamW', 'weight_decay': 1.2670346946266844e-05, 'batch_size': 10, 'num_heads': 1, 'num_transformer_blocks': 8}. Best is trial 19 with value: 0.5117094593386362.
+Hyperparameters: num_heads=1, num_transformer_blocks=2, learning_rate=9.946806439424143e-05, optimizer=AdamW, weight_decay=1.0791549440935509e-05, batch_size=10,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 26
+Trial 21, Fold 3: Test Accuracy = 0.4465
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 22
+Trial 22, Fold 1: Test Accuracy = 0.5035
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 28
+Trial 21, Fold 4: Test Accuracy = 0.4923
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 15
+Trial 22, Fold 2: Test Accuracy = 0.5558
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 13
+Trial 21, Fold 5: Test Accuracy = 0.5195
+Trial 21: Mean Accuracy = 0.5035, Fold Accuracies = [np.float64(0.4948189049674198), np.float64(0.5645166117342749), np.float64(0.44654866450687664), np.float64(0.4923339099513561), np.float64(0.5194823649560492)]
+[I 2025-04-23 10:29:30,208] Trial 21 finished with value: 0.5035400912231953 and parameters: {'ff_dim': 1024, 'dropout_rate': 0.11255061144123749, 'embed_dim': 256, 'learning_rate': 0.00014226499442852582, 'optimizer': 'AdamW', 'weight_decay': 9.760742761225985e-06, 'batch_size': 10, 'num_heads': 1, 'num_transformer_blocks': 2}. Best is trial 19 with value: 0.5117094593386362.
+Hyperparameters: num_heads=1, num_transformer_blocks=2, learning_rate=0.00037698625147838044, optimizer=AdamW, weight_decay=8.414266036097707e-06, batch_size=10,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 20
+Trial 22, Fold 3: Test Accuracy = 0.4976
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 14
+Trial 23, Fold 1: Test Accuracy = 0.4827
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 18
+Trial 22, Fold 4: Test Accuracy = 0.5120
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 16
+Trial 23, Fold 2: Test Accuracy = 0.5719
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 22
+Trial 23, Fold 3: Test Accuracy = 0.4882
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 28
+Trial 22, Fold 5: Test Accuracy = 0.5075
+Trial 22: Mean Accuracy = 0.5153, Fold Accuracies = [np.float64(0.5035337508109786), np.float64(0.5558221762401182), np.float64(0.4975573034023179), np.float64(0.5119641449134995), np.float64(0.5075286136338768)]
+[I 2025-04-23 10:34:25,619] Trial 22 finished with value: 0.5152811978001581 and parameters: {'ff_dim': 1024, 'dropout_rate': 0.10252880813301629, 'embed_dim': 256, 'learning_rate': 9.946806439424143e-05, 'optimizer': 'AdamW', 'weight_decay': 1.0791549440935509e-05, 'batch_size': 10, 'num_heads': 1, 'num_transformer_blocks': 2}. Best is trial 22 with value: 0.5152811978001581.
+Hyperparameters: num_heads=1, num_transformer_blocks=2, learning_rate=0.0003604553830162405, optimizer=AdamW, weight_decay=1.9576117683951112e-06, batch_size=10,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 22
+Trial 23, Fold 4: Test Accuracy = 0.4987
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 21
+Trial 24, Fold 1: Test Accuracy = 0.3333
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 21
+Trial 24, Fold 2: Test Accuracy = 0.5382
+Trial 23, Fold 5: Test Accuracy = 0.5182
+Trial 23: Mean Accuracy = 0.5119, Fold Accuracies = [np.float64(0.48274167160305775), np.float64(0.571929897429701), np.float64(0.4881617931075746), np.float64(0.4986777752943623), np.float64(0.518194404931247)]
+[I 2025-04-23 10:38:35,935] Trial 23 finished with value: 0.5119411084731885 and parameters: {'ff_dim': 1024, 'dropout_rate': 0.15776799792753643, 'embed_dim': 256, 'learning_rate': 0.00037698625147838044, 'optimizer': 'AdamW', 'weight_decay': 8.414266036097707e-06, 'batch_size': 10, 'num_heads': 1, 'num_transformer_blocks': 2}. Best is trial 22 with value: 0.5152811978001581.
+Hyperparameters: num_heads=1, num_transformer_blocks=2, learning_rate=0.0004935659486585016, optimizer=AdamW, weight_decay=2.3518747628942767e-06, batch_size=10,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 18
+Trial 24, Fold 3: Test Accuracy = 0.4735
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 14
+Trial 25, Fold 1: Test Accuracy = 0.4482
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 13
+Trial 25, Fold 2: Test Accuracy = 0.5675
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 20
+Trial 24, Fold 4: Test Accuracy = 0.4412
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 16
+Trial 25, Fold 3: Test Accuracy = 0.4490
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 26
+Trial 24, Fold 5: Test Accuracy = 0.4853
+Trial 24: Mean Accuracy = 0.4543, Fold Accuracies = [np.float64(0.3333333333333333), np.float64(0.5382410838351088), np.float64(0.4734508112979417), np.float64(0.4411670151208958), np.float64(0.4853295400663822)]
+[I 2025-04-23 10:43:35,634] Trial 24 finished with value: 0.4543043567307324 and parameters: {'ff_dim': 1024, 'dropout_rate': 0.10245233086774186, 'embed_dim': 256, 'learning_rate': 0.0003604553830162405, 'optimizer': 'AdamW', 'weight_decay': 1.9576117683951112e-06, 'batch_size': 10, 'num_heads': 1, 'num_transformer_blocks': 2}. Best is trial 22 with value: 0.5152811978001581.
+Hyperparameters: num_heads=1, num_transformer_blocks=2, learning_rate=0.0006629806680061919, optimizer=AdamW, weight_decay=6.144113293590712e-06, batch_size=10,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 19
+Trial 25, Fold 4: Test Accuracy = 0.3647
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 18
+Trial 26, Fold 1: Test Accuracy = 0.3325
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 12
+Trial 26, Fold 2: Test Accuracy = 0.3333
+Trial 25, Fold 5: Test Accuracy = 0.3333
+Trial 25: Mean Accuracy = 0.4325, Fold Accuracies = [np.float64(0.44818199768694816), np.float64(0.5674560121321152), np.float64(0.4489520464659316), np.float64(0.36467558833663943), np.float64(0.3333333333333333)]
+[I 2025-04-23 10:46:34,522] Trial 25 finished with value: 0.4325197955909935 and parameters: {'ff_dim': 1024, 'dropout_rate': 0.15842152303974752, 'embed_dim': 256, 'learning_rate': 0.0004935659486585016, 'optimizer': 'AdamW', 'weight_decay': 2.3518747628942767e-06, 'batch_size': 10, 'num_heads': 1, 'num_transformer_blocks': 2}. Best is trial 22 with value: 0.5152811978001581.
+Hyperparameters: num_heads=1, num_transformer_blocks=2, learning_rate=0.012536172710404083, optimizer=AdamW, weight_decay=4.553472968901147e-06, batch_size=10,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 18
+Trial 26, Fold 3: Test Accuracy = 0.4821
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 19
+Trial 27, Fold 1: Test Accuracy = 0.3333
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 11
+Trial 26, Fold 4: Test Accuracy = 0.3333
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 19
+Trial 26, Fold 5: Test Accuracy = 0.3333
+Trial 26: Mean Accuracy = 0.3629, Fold Accuracies = [np.float64(0.3325082508250825), np.float64(0.3333333333333333), np.float64(0.4821227469204195), np.float64(0.3333333333333333), np.float64(0.3333333333333333)]
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 26
+[I 2025-04-23 10:50:29,321] Trial 26 finished with value: 0.3629261995491003 and parameters: {'ff_dim': 1024, 'dropout_rate': 0.15597417735827646, 'embed_dim': 256, 'learning_rate': 0.0006629806680061919, 'optimizer': 'AdamW', 'weight_decay': 6.144113293590712e-06, 'batch_size': 10, 'num_heads': 1, 'num_transformer_blocks': 2}. Best is trial 22 with value: 0.5152811978001581.
+Hyperparameters: num_heads=1, num_transformer_blocks=2, learning_rate=0.009605817865134158, optimizer=AdamW, weight_decay=1.4095975240028338e-05, batch_size=10,factor=1
+Trial 27, Fold 2: Test Accuracy = 0.3333
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 19
+Trial 28, Fold 1: Test Accuracy = 0.3333
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 21
+Trial 27, Fold 3: Test Accuracy = 0.3333
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 19
+Trial 28, Fold 2: Test Accuracy = 0.3333
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 25
+Trial 27, Fold 4: Test Accuracy = 0.3333
+Trial 28, Fold 3: Test Accuracy = 0.3333
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 21
+Trial 27, Fold 5: Test Accuracy = 0.3333
+Trial 27: Mean Accuracy = 0.3333, Fold Accuracies = [np.float64(0.3333333333333333), np.float64(0.3333333333333333), np.float64(0.3333333333333333), np.float64(0.3333333333333333), np.float64(0.3333333333333333)]
+[I 2025-04-23 10:56:16,331] Trial 27 finished with value: 0.3333333333333333 and parameters: {'ff_dim': 1024, 'dropout_rate': 0.2151047941481461, 'embed_dim': 256, 'learning_rate': 0.012536172710404083, 'optimizer': 'AdamW', 'weight_decay': 4.553472968901147e-06, 'batch_size': 10, 'num_heads': 1, 'num_transformer_blocks': 2}. Best is trial 22 with value: 0.5152811978001581.
+Hyperparameters: num_heads=2, num_transformer_blocks=2, learning_rate=6.085527027438838e-06, optimizer=AdamW, weight_decay=1.1149037376408378e-05, batch_size=10,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 13
+Trial 29, Fold 1: Test Accuracy = 0.4390
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 19
+Trial 28, Fold 4: Test Accuracy = 0.3364
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 10
+Trial 28, Fold 5: Test Accuracy = 0.3333
+Trial 28: Mean Accuracy = 0.3340, Fold Accuracies = [np.float64(0.3333333333333333), np.float64(0.3333333333333333), np.float64(0.3333333333333333), np.float64(0.33641975308641975), np.float64(0.3333333333333333)]
+[I 2025-04-23 10:59:36,861] Trial 28 finished with value: 0.3339506172839506 and parameters: {'ff_dim': 1024, 'dropout_rate': 0.21838487274826512, 'embed_dim': 256, 'learning_rate': 0.009605817865134158, 'optimizer': 'AdamW', 'weight_decay': 1.4095975240028338e-05, 'batch_size': 10, 'num_heads': 1, 'num_transformer_blocks': 2}. Best is trial 22 with value: 0.5152811978001581.
+Hyperparameters: num_heads=2, num_transformer_blocks=4, learning_rate=2.1376740062637037e-05, optimizer=AdamW, weight_decay=7.543842998472109e-05, batch_size=10,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 18
+Trial 29, Fold 2: Test Accuracy = 0.5310
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 14
+Trial 29, Fold 3: Test Accuracy = 0.4550
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 19
+Trial 30, Fold 1: Test Accuracy = 0.4680
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 12
+Trial 30, Fold 2: Test Accuracy = 0.5190
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 18
+Trial 29, Fold 4: Test Accuracy = 0.5396
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 11
+Trial 29, Fold 5: Test Accuracy = 0.4277
+Trial 29: Mean Accuracy = 0.4784, Fold Accuracies = [np.float64(0.438991847902739), np.float64(0.5309582765549447), np.float64(0.4550400175367115), np.float64(0.5395758442836434), np.float64(0.42766371229529127)]
+[I 2025-04-23 11:07:26,573] Trial 29 finished with value: 0.478445939714666 and parameters: {'ff_dim': 1024, 'dropout_rate': 0.49942545853373055, 'embed_dim': 1024, 'learning_rate': 6.085527027438838e-06, 'optimizer': 'AdamW', 'weight_decay': 1.1149037376408378e-05, 'batch_size': 10, 'num_heads': 2, 'num_transformer_blocks': 2}. Best is trial 22 with value: 0.5152811978001581.
+Hyperparameters: num_heads=8, num_transformer_blocks=4, learning_rate=2.9887977710041065e-05, optimizer=AdamW, weight_decay=0.00014958050698253043, batch_size=10,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 15
+Trial 30, Fold 3: Test Accuracy = 0.4542
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 15
+Trial 31, Fold 1: Test Accuracy = 0.4346
+Trial 30, Fold 4: Test Accuracy = 0.5221
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 21
+Trial 31, Fold 2: Test Accuracy = 0.5660
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 17
+Trial 30, Fold 5: Test Accuracy = 0.4467
+Trial 30: Mean Accuracy = 0.4820, Fold Accuracies = [np.float64(0.467991735070943), np.float64(0.5189879657785744), np.float64(0.4542114449810826), np.float64(0.5220882341984932), np.float64(0.44665105591421383)]
+[I 2025-04-23 11:14:21,765] Trial 30 finished with value: 0.48198608718866137 and parameters: {'ff_dim': 1024, 'dropout_rate': 0.26120699590655505, 'embed_dim': 1024, 'learning_rate': 2.1376740062637037e-05, 'optimizer': 'AdamW', 'weight_decay': 7.543842998472109e-05, 'batch_size': 10, 'num_heads': 2, 'num_transformer_blocks': 4}. Best is trial 22 with value: 0.5152811978001581.
+Hyperparameters: num_heads=1, num_transformer_blocks=2, learning_rate=8.165372419606142e-05, optimizer=AdamW, weight_decay=7.224607270542794e-06, batch_size=10,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 15
+Trial 31, Fold 3: Test Accuracy = 0.4347
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 15
+Trial 32, Fold 1: Test Accuracy = 0.4264
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 21
+Trial 31, Fold 4: Test Accuracy = 0.5288
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 22
+Trial 32, Fold 2: Test Accuracy = 0.5555
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 10
+Trial 31, Fold 5: Test Accuracy = 0.4482
+Trial 31: Mean Accuracy = 0.4825, Fold Accuracies = [np.float64(0.4346041014357846), np.float64(0.5659815920548295), np.float64(0.43471789695011065), np.float64(0.5287989853695788), np.float64(0.448185286501076)]
+[I 2025-04-23 11:17:47,563] Trial 31 finished with value: 0.48245757246227583 and parameters: {'ff_dim': 1024, 'dropout_rate': 0.26834778136028503, 'embed_dim': 256, 'learning_rate': 2.9887977710041065e-05, 'optimizer': 'AdamW', 'weight_decay': 0.00014958050698253043, 'batch_size': 10, 'num_heads': 8, 'num_transformer_blocks': 4}. Best is trial 22 with value: 0.5152811978001581.
+Hyperparameters: num_heads=1, num_transformer_blocks=2, learning_rate=0.00010565873438544885, optimizer=AdamW, weight_decay=7.277229577358944e-06, batch_size=10,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 10
+Trial 33, Fold 1: Test Accuracy = 0.4153
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 25
+Trial 32, Fold 3: Test Accuracy = 0.5034
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 14
+Trial 33, Fold 2: Test Accuracy = 0.4928
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 12
+Trial 32, Fold 4: Test Accuracy = 0.4979
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 16
+Trial 33, Fold 3: Test Accuracy = 0.4321
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 20
+Trial 32, Fold 5: Test Accuracy = 0.4883
+Trial 32: Mean Accuracy = 0.4943, Fold Accuracies = [np.float64(0.42635257115455133), np.float64(0.5554508092179015), np.float64(0.5033682982109324), np.float64(0.49786164349329637), np.float64(0.4883270963270963)]
+[I 2025-04-23 11:22:17,196] Trial 32 finished with value: 0.4942720836807556 and parameters: {'ff_dim': 1024, 'dropout_rate': 0.10948298131320945, 'embed_dim': 256, 'learning_rate': 8.165372419606142e-05, 'optimizer': 'AdamW', 'weight_decay': 7.224607270542794e-06, 'batch_size': 10, 'num_heads': 1, 'num_transformer_blocks': 2}. Best is trial 22 with value: 0.5152811978001581.
+Hyperparameters: num_heads=1, num_transformer_blocks=2, learning_rate=0.0001627201930741366, optimizer=AdamW, weight_decay=2.9841580366717335e-05, batch_size=10,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 18
+Trial 33, Fold 4: Test Accuracy = 0.5353
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 19
+Trial 34, Fold 1: Test Accuracy = 0.4358
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 18
+Trial 33, Fold 5: Test Accuracy = 0.5533
+Trial 33: Mean Accuracy = 0.4858, Fold Accuracies = [np.float64(0.4153148007108403), np.float64(0.4927893544157364), np.float64(0.4321328734182477), np.float64(0.5353248385003896), np.float64(0.5532768720137141)]
+[I 2025-04-23 11:24:28,097] Trial 33 finished with value: 0.4857677478117856 and parameters: {'ff_dim': 1024, 'dropout_rate': 0.11241256867758775, 'embed_dim': 256, 'learning_rate': 0.00010565873438544885, 'optimizer': 'AdamW', 'weight_decay': 7.277229577358944e-06, 'batch_size': 10, 'num_heads': 1, 'num_transformer_blocks': 2}. Best is trial 22 with value: 0.5152811978001581.
+Hyperparameters: num_heads=1, num_transformer_blocks=1, learning_rate=0.00018976355911903259, optimizer=AdamW, weight_decay=3.2372972585945294e-05, batch_size=10,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 22
+Trial 34, Fold 2: Test Accuracy = 0.5502
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 19
+Trial 35, Fold 1: Test Accuracy = 0.5648
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 16
+Trial 34, Fold 3: Test Accuracy = 0.5117
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 15
+Trial 35, Fold 2: Test Accuracy = 0.5653
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 17
+Trial 34, Fold 4: Test Accuracy = 0.4775
+Trial 35, Fold 3: Test Accuracy = 0.5006
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 17
+Trial 34, Fold 5: Test Accuracy = 0.4870
+Trial 34: Mean Accuracy = 0.4924, Fold Accuracies = [np.float64(0.4357563961524358), np.float64(0.550196780469577), np.float64(0.5116564329470968), np.float64(0.4774883240670895), np.float64(0.48695072400335554)]
+[I 2025-04-23 11:30:08,999] Trial 34 finished with value: 0.4924097315279109 and parameters: {'ff_dim': 1024, 'dropout_rate': 0.13350404039058766, 'embed_dim': 256, 'learning_rate': 0.0001627201930741366, 'optimizer': 'AdamW', 'weight_decay': 2.9841580366717335e-05, 'batch_size': 10, 'num_heads': 1, 'num_transformer_blocks': 2}. Best is trial 22 with value: 0.5152811978001581.
+Hyperparameters: num_heads=4, num_transformer_blocks=1, learning_rate=1.1261591391322177e-05, optimizer=AdamW, weight_decay=2.746631571186093e-06, batch_size=10,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 22
+Trial 35, Fold 4: Test Accuracy = 0.4822
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 26
+Trial 36, Fold 1: Test Accuracy = 0.4203
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 29
+Trial 35, Fold 5: Test Accuracy = 0.5196
+Trial 35: Mean Accuracy = 0.5265, Fold Accuracies = [np.float64(0.5648112888211898), np.float64(0.5652673870529611), np.float64(0.5005923935043216), np.float64(0.4822374680648296), np.float64(0.5195763212605318)]
+[I 2025-04-23 11:33:56,696] Trial 35 finished with value: 0.5264969717407668 and parameters: {'ff_dim': 32, 'dropout_rate': 0.14314115443369435, 'embed_dim': 256, 'learning_rate': 0.00018976355911903259, 'optimizer': 'AdamW', 'weight_decay': 3.2372972585945294e-05, 'batch_size': 10, 'num_heads': 1, 'num_transformer_blocks': 1}. Best is trial 35 with value: 0.5264969717407668.
+Hyperparameters: num_heads=4, num_transformer_blocks=1, learning_rate=3.9894442573799584e-05, optimizer=AdamW, weight_decay=4.267010378709485e-05, batch_size=10,factor=1
+Trial 36, Fold 2: Test Accuracy = 0.4297
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 17
+Trial 37, Fold 1: Test Accuracy = 0.4274
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 11
+Trial 37, Fold 2: Test Accuracy = 0.4806
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 27
+Trial 36, Fold 3: Test Accuracy = 0.4478
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 16
+Trial 37, Fold 3: Test Accuracy = 0.4246
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 20
+Trial 36, Fold 4: Test Accuracy = 0.4970
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 14
+Trial 37, Fold 4: Test Accuracy = 0.4391
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 26
+Trial 36, Fold 5: Test Accuracy = 0.5003
+Trial 36: Mean Accuracy = 0.4590, Fold Accuracies = [np.float64(0.4203393416264703), np.float64(0.4296718544772697), np.float64(0.4477987111681901), np.float64(0.49700011175369485), np.float64(0.5002513768829558)]
+[I 2025-04-23 11:40:34,241] Trial 36 finished with value: 0.4590122791817161 and parameters: {'ff_dim': 512, 'dropout_rate': 0.17675582000690815, 'embed_dim': 256, 'learning_rate': 1.1261591391322177e-05, 'optimizer': 'AdamW', 'weight_decay': 2.746631571186093e-06, 'batch_size': 10, 'num_heads': 4, 'num_transformer_blocks': 1}. Best is trial 35 with value: 0.5264969717407668.
+Hyperparameters: num_heads=8, num_transformer_blocks=1, learning_rate=4.6000976835422155e-05, optimizer=AdamW, weight_decay=4.163556023378834e-05, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 27
+Trial 37, Fold 5: Test Accuracy = 0.5051
+Trial 37: Mean Accuracy = 0.4554, Fold Accuracies = [np.float64(0.4273659417223774), np.float64(0.48062171776162255), np.float64(0.4246454600593717), np.float64(0.43905989532403916), np.float64(0.5051379800853485)]
+[I 2025-04-23 11:40:55,469] Trial 37 finished with value: 0.45536619899055186 and parameters: {'ff_dim': 32, 'dropout_rate': 0.17646987623657534, 'embed_dim': 64, 'learning_rate': 3.9894442573799584e-05, 'optimizer': 'AdamW', 'weight_decay': 4.267010378709485e-05, 'batch_size': 10, 'num_heads': 4, 'num_transformer_blocks': 1}. Best is trial 35 with value: 0.5264969717407668.
+Hyperparameters: num_heads=8, num_transformer_blocks=32, learning_rate=0.000793818125734891, optimizer=AdamW, weight_decay=1.2673188245033402e-06, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 10
+Trial 38, Fold 1: Test Accuracy = 0.3723
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 16
+Trial 38, Fold 2: Test Accuracy = 0.4558
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 11
+Trial 38, Fold 3: Test Accuracy = 0.3821
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 11
+Trial 38, Fold 4: Test Accuracy = 0.4671
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 23
+Trial 39, Fold 1: Test Accuracy = 0.3333
+Trial 38, Fold 5: Test Accuracy = 0.4887
+Trial 38: Mean Accuracy = 0.4332, Fold Accuracies = [np.float64(0.37227158613297223), np.float64(0.45583151810307604), np.float64(0.38210514137517576), np.float64(0.4670934842939494), np.float64(0.4886854141590984)]
+[I 2025-04-23 11:46:01,361] Trial 38 finished with value: 0.4331974288128544 and parameters: {'ff_dim': 32, 'dropout_rate': 0.1392614514356905, 'embed_dim': 64, 'learning_rate': 4.6000976835422155e-05, 'optimizer': 'AdamW', 'weight_decay': 4.163556023378834e-05, 'batch_size': 16, 'num_heads': 8, 'num_transformer_blocks': 1}. Best is trial 35 with value: 0.5264969717407668.
+Hyperparameters: num_heads=1, num_transformer_blocks=32, learning_rate=1.0233067216752892e-05, optimizer=AdamW, weight_decay=1.5065839058212635e-05, batch_size=10,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 10
+Trial 40, Fold 1: Test Accuracy = 0.4622
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 18
+Trial 39, Fold 2: Test Accuracy = 0.3333
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 13
+Trial 39, Fold 3: Test Accuracy = 0.3333
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 19
+Trial 40, Fold 2: Test Accuracy = 0.5422
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 13
+Trial 39, Fold 4: Test Accuracy = 0.3333
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 15
+Trial 40, Fold 3: Test Accuracy = 0.4708
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 18
+Trial 39, Fold 5: Test Accuracy = 0.3333
+Trial 39: Mean Accuracy = 0.3333, Fold Accuracies = [np.float64(0.3333333333333333), np.float64(0.3333333333333333), np.float64(0.3333333333333333), np.float64(0.3333333333333333), np.float64(0.3333333333333333)]
+[I 2025-04-23 12:02:18,797] Trial 39 finished with value: 0.3333333333333333 and parameters: {'ff_dim': 32, 'dropout_rate': 0.14505004195145652, 'embed_dim': 512, 'learning_rate': 0.000793818125734891, 'optimizer': 'AdamW', 'weight_decay': 1.2673188245033402e-06, 'batch_size': 16, 'num_heads': 8, 'num_transformer_blocks': 32}. Best is trial 35 with value: 0.5264969717407668.
+Hyperparameters: num_heads=1, num_transformer_blocks=1, learning_rate=0.003559700501617953, optimizer=AdamW, weight_decay=1.803555639013722e-05, batch_size=10,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 19
+Trial 41, Fold 1: Test Accuracy = 0.5641
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 11
+Trial 41, Fold 2: Test Accuracy = 0.3333
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 20
+Trial 40, Fold 4: Test Accuracy = 0.5163
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 17
+Trial 41, Fold 3: Test Accuracy = 0.4455
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 11
+Trial 41, Fold 4: Test Accuracy = 0.3333
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 19
+Trial 41, Fold 5: Test Accuracy = 0.4384
+Trial 41: Mean Accuracy = 0.4229, Fold Accuracies = [np.float64(0.5641392344362641), np.float64(0.3333333333333333), np.float64(0.44547319072576946), np.float64(0.3333333333333333), np.float64(0.4384433016011963)]
+[I 2025-04-23 12:08:38,144] Trial 41 finished with value: 0.42294447868597923 and parameters: {'ff_dim': 32, 'dropout_rate': 0.22310092889606853, 'embed_dim': 256, 'learning_rate': 0.003559700501617953, 'optimizer': 'AdamW', 'weight_decay': 1.803555639013722e-05, 'batch_size': 10, 'num_heads': 1, 'num_transformer_blocks': 1}. Best is trial 35 with value: 0.5264969717407668.
+Hyperparameters: num_heads=1, num_transformer_blocks=2, learning_rate=0.0002721011257151207, optimizer=AdamW, weight_decay=1.0232708906587359e-05, batch_size=10,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 12
+Trial 40, Fold 5: Test Accuracy = 0.4023
+Trial 40: Mean Accuracy = 0.4788, Fold Accuracies = [np.float64(0.4622105159233872), np.float64(0.5421801894328426), np.float64(0.47083965743050643), np.float64(0.5163322398544719), np.float64(0.4023063063063063)]
+[I 2025-04-23 12:09:14,196] Trial 40 finished with value: 0.4787737817895029 and parameters: {'ff_dim': 32, 'dropout_rate': 0.23607958152737044, 'embed_dim': 512, 'learning_rate': 1.0233067216752892e-05, 'optimizer': 'AdamW', 'weight_decay': 1.5065839058212635e-05, 'batch_size': 10, 'num_heads': 1, 'num_transformer_blocks': 32}. Best is trial 35 with value: 0.5264969717407668.
+Hyperparameters: num_heads=1, num_transformer_blocks=2, learning_rate=0.00023518382693779285, optimizer=AdamW, weight_decay=1.0707013159905295e-05, batch_size=10,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 17
+Trial 42, Fold 1: Test Accuracy = 0.5239
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 11
+Trial 43, Fold 1: Test Accuracy = 0.4833
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 16
+Trial 43, Fold 2: Test Accuracy = 0.5821
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 25
+Trial 42, Fold 2: Test Accuracy = 0.5763
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 19
+Trial 43, Fold 3: Test Accuracy = 0.4665
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 22
+Trial 42, Fold 3: Test Accuracy = 0.4715
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 19
+Trial 43, Fold 4: Test Accuracy = 0.4896
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 23
+Trial 42, Fold 4: Test Accuracy = 0.4416
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 26
+Trial 43, Fold 5: Test Accuracy = 0.5108
+Trial 43: Mean Accuracy = 0.5065, Fold Accuracies = [np.float64(0.4833015993907083), np.float64(0.5820826005285146), np.float64(0.4664732439395227), np.float64(0.4896342627515622), np.float64(0.5108022030127293)]
+[I 2025-04-23 12:16:52,188] Trial 43 finished with value: 0.5064587819246074 and parameters: {'ff_dim': 128, 'dropout_rate': 0.10172480134999679, 'embed_dim': 256, 'learning_rate': 0.00023518382693779285, 'optimizer': 'AdamW', 'weight_decay': 1.0707013159905295e-05, 'batch_size': 10, 'num_heads': 1, 'num_transformer_blocks': 2}. Best is trial 35 with value: 0.5264969717407668.
+Hyperparameters: num_heads=1, num_transformer_blocks=16, learning_rate=0.0003497341460153218, optimizer=AdamW, weight_decay=2.5215161834579647e-05, batch_size=10,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 24
+Trial 42, Fold 5: Test Accuracy = 0.5211
+Trial 42: Mean Accuracy = 0.5069, Fold Accuracies = [np.float64(0.5238533468731489), np.float64(0.5763037213059365), np.float64(0.47151764300666704), np.float64(0.4415740624330642), np.float64(0.5210638654849181)]
+[I 2025-04-23 12:17:52,156] Trial 42 finished with value: 0.5068625278207469 and parameters: {'ff_dim': 128, 'dropout_rate': 0.10336648219158691, 'embed_dim': 256, 'learning_rate': 0.0002721011257151207, 'optimizer': 'AdamW', 'weight_decay': 1.0232708906587359e-05, 'batch_size': 10, 'num_heads': 1, 'num_transformer_blocks': 2}. Best is trial 35 with value: 0.5264969717407668.
+Hyperparameters: num_heads=1, num_transformer_blocks=16, learning_rate=0.0017621251426256652, optimizer=AdamW, weight_decay=2.5315863216221394e-05, batch_size=10,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 10
+Trial 45, Fold 1: Test Accuracy = 0.3333
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 18
+Trial 44, Fold 1: Test Accuracy = 0.3333
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 16
+Trial 44, Fold 2: Test Accuracy = 0.3333
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 19
+Trial 45, Fold 2: Test Accuracy = 0.3333
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 10
+Trial 44, Fold 3: Test Accuracy = 0.3333
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 11
+Trial 45, Fold 3: Test Accuracy = 0.3333
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 12
+Trial 45, Fold 4: Test Accuracy = 0.3333
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 19
+Trial 44, Fold 4: Test Accuracy = 0.3333
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 10
+Trial 44, Fold 5: Test Accuracy = 0.3333
+Trial 44: Mean Accuracy = 0.3333, Fold Accuracies = [np.float64(0.3333333333333333), np.float64(0.3333333333333333), np.float64(0.3333333333333333), np.float64(0.3333333333333333), np.float64(0.3333333333333333)]
+[I 2025-04-23 12:29:53,763] Trial 44 finished with value: 0.3333333333333333 and parameters: {'ff_dim': 128, 'dropout_rate': 0.10055200046065618, 'embed_dim': 256, 'learning_rate': 0.0003497341460153218, 'optimizer': 'AdamW', 'weight_decay': 2.5215161834579647e-05, 'batch_size': 10, 'num_heads': 1, 'num_transformer_blocks': 16}. Best is trial 35 with value: 0.5264969717407668.
+Hyperparameters: num_heads=1, num_transformer_blocks=4, learning_rate=0.0016183855478703372, optimizer=AdamW, weight_decay=5.408925439721246e-06, batch_size=10,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 10
+Trial 45, Fold 5: Test Accuracy = 0.3333
+Trial 45: Mean Accuracy = 0.3333, Fold Accuracies = [np.float64(0.3333333333333333), np.float64(0.3333333333333333), np.float64(0.3333333333333333), np.float64(0.3333333333333333), np.float64(0.3333333333333333)]
+[I 2025-04-23 12:29:58,383] Trial 45 finished with value: 0.3333333333333333 and parameters: {'ff_dim': 128, 'dropout_rate': 0.1325161146981799, 'embed_dim': 128, 'learning_rate': 0.0017621251426256652, 'optimizer': 'AdamW', 'weight_decay': 2.5315863216221394e-05, 'batch_size': 10, 'num_heads': 1, 'num_transformer_blocks': 16}. Best is trial 35 with value: 0.5264969717407668.
+Hyperparameters: num_heads=2, num_transformer_blocks=4, learning_rate=6.912041532977275e-05, optimizer=AdamW, weight_decay=5.577420998492196e-06, batch_size=10,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 14
+Trial 46, Fold 1: Test Accuracy = 0.3333
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 17
+Trial 47, Fold 1: Test Accuracy = 0.5173
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 10
+Trial 46, Fold 2: Test Accuracy = 0.3333
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 18
+Trial 47, Fold 2: Test Accuracy = 0.5657
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 15
+Trial 46, Fold 3: Test Accuracy = 0.3333
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 12
+Trial 46, Fold 4: Test Accuracy = 0.3333
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 19
+Trial 47, Fold 3: Test Accuracy = 0.4821
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 20
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 18
+Trial 46, Fold 5: Test Accuracy = 0.3333
+Trial 46: Mean Accuracy = 0.3333, Fold Accuracies = [np.float64(0.3333333333333333), np.float64(0.3333333333333333), np.float64(0.3333333333333333), np.float64(0.3333333333333333), np.float64(0.3333333333333333)]
+[I 2025-04-23 12:36:38,728] Trial 46 finished with value: 0.3333333333333333 and parameters: {'ff_dim': 128, 'dropout_rate': 0.13307479213595813, 'embed_dim': 256, 'learning_rate': 0.0016183855478703372, 'optimizer': 'AdamW', 'weight_decay': 5.408925439721246e-06, 'batch_size': 10, 'num_heads': 1, 'num_transformer_blocks': 4}. Best is trial 35 with value: 0.5264969717407668.
+Hyperparameters: num_heads=2, num_transformer_blocks=2, learning_rate=9.602210308643173e-05, optimizer=AdamW, weight_decay=0.0004146484177195346, batch_size=32,factor=1
+Trial 47, Fold 4: Test Accuracy = 0.5215
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 16
+Trial 48, Fold 1: Test Accuracy = 0.4828
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 15
+Trial 47, Fold 5: Test Accuracy = 0.5278
+Trial 47: Mean Accuracy = 0.5229, Fold Accuracies = [np.float64(0.5173359002566923), np.float64(0.5657345501249683), np.float64(0.48212494430426195), np.float64(0.5215480913400199), np.float64(0.5277557719662983)]
+[I 2025-04-23 12:38:03,338] Trial 47 finished with value: 0.5228998515984482 and parameters: {'ff_dim': 2048, 'dropout_rate': 0.161022400942511, 'embed_dim': 256, 'learning_rate': 6.912041532977275e-05, 'optimizer': 'AdamW', 'weight_decay': 5.577420998492196e-06, 'batch_size': 10, 'num_heads': 2, 'num_transformer_blocks': 4}. Best is trial 35 with value: 0.5264969717407668.
+Hyperparameters: num_heads=2, num_transformer_blocks=4, learning_rate=6.239041462802021e-05, optimizer=AdamW, weight_decay=0.0004388941414635483, batch_size=32,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 29
+Trial 48, Fold 2: Test Accuracy = 0.5559
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 28
+Trial 49, Fold 1: Test Accuracy = 0.5272
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 21
+Trial 48, Fold 3: Test Accuracy = 0.4719
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 25
+Trial 49, Fold 2: Test Accuracy = 0.6085
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 18
+Trial 49, Fold 3: Test Accuracy = 0.5127
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 26
+Trial 48, Fold 4: Test Accuracy = 0.5185
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 10
+Trial 49, Fold 4: Test Accuracy = 0.5083
+Trial 48, Fold 5: Test Accuracy = 0.5296
+Trial 48: Mean Accuracy = 0.5117, Fold Accuracies = [np.float64(0.4828157174691829), np.float64(0.5558576277709532), np.float64(0.47190869790711104), np.float64(0.518503191188842), np.float64(0.5296401502717293)]
+[I 2025-04-23 12:45:44,241] Trial 48 finished with value: 0.5117450769215637 and parameters: {'ff_dim': 2048, 'dropout_rate': 0.17003470655011474, 'embed_dim': 256, 'learning_rate': 9.602210308643173e-05, 'optimizer': 'AdamW', 'weight_decay': 0.0004146484177195346, 'batch_size': 32, 'num_heads': 2, 'num_transformer_blocks': 2}. Best is trial 35 with value: 0.5264969717407668.
+Hyperparameters: num_heads=2, num_transformer_blocks=4, learning_rate=2.0588679231253206e-05, optimizer=AdamW, weight_decay=0.0007122741704439564, batch_size=32,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 24
+Trial 49, Fold 5: Test Accuracy = 0.5060
+Trial 49: Mean Accuracy = 0.5325, Fold Accuracies = [np.float64(0.5271931680347522), np.float64(0.6084733633839248), np.float64(0.5127097475682506), np.float64(0.5083343810242226), np.float64(0.50595148995149)]
+[I 2025-04-23 12:46:09,410] Trial 49 finished with value: 0.532532429992528 and parameters: {'ff_dim': 2048, 'dropout_rate': 0.1696505706058007, 'embed_dim': 256, 'learning_rate': 6.239041462802021e-05, 'optimizer': 'AdamW', 'weight_decay': 0.0004388941414635483, 'batch_size': 32, 'num_heads': 2, 'num_transformer_blocks': 4}. Best is trial 49 with value: 0.532532429992528.
+Hyperparameters: num_heads=2, num_transformer_blocks=4, learning_rate=3.3444918887251412e-06, optimizer=AdamW, weight_decay=0.0007357856222928108, batch_size=32,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 21
+Trial 50, Fold 1: Test Accuracy = 0.4067
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 18
+Trial 51, Fold 1: Test Accuracy = 0.4249
+Trial 50, Fold 2: Test Accuracy = 0.5706
+Trial 51, Fold 2: Test Accuracy = 0.4977
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 13
+Trial 51, Fold 3: Test Accuracy = 0.4181
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 24
+Trial 50, Fold 3: Test Accuracy = 0.4648
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 25
+Trial 51, Fold 4: Test Accuracy = 0.5223
+Trial 50, Fold 4: Test Accuracy = 0.5206
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 18
+Trial 51, Fold 5: Test Accuracy = 0.4707
+Trial 51: Mean Accuracy = 0.4667, Fold Accuracies = [np.float64(0.42491819694789995), np.float64(0.49774068163154794), np.float64(0.4181011744354775), np.float64(0.5223191142277974), np.float64(0.4706668125615494)]
+[I 2025-04-23 12:54:04,204] Trial 51 finished with value: 0.4667491959608544 and parameters: {'ff_dim': 2048, 'dropout_rate': 0.18904049461108868, 'embed_dim': 128, 'learning_rate': 3.3444918887251412e-06, 'optimizer': 'AdamW', 'weight_decay': 0.0007357856222928108, 'batch_size': 32, 'num_heads': 2, 'num_transformer_blocks': 4}. Best is trial 49 with value: 0.532532429992528.
+Hyperparameters: num_heads=2, num_transformer_blocks=4, learning_rate=2.22679242405182e-05, optimizer=AdamW, weight_decay=0.0004194254773729084, batch_size=32,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 27
+Trial 50, Fold 5: Test Accuracy = 0.5222
+Trial 50: Mean Accuracy = 0.4970, Fold Accuracies = [np.float64(0.4067247750416067), np.float64(0.5705958849932761), np.float64(0.4648057472971517), np.float64(0.5205700524931939), np.float64(0.5222044716781559)]
+[I 2025-04-23 12:55:28,812] Trial 50 finished with value: 0.49698018630067686 and parameters: {'ff_dim': 2048, 'dropout_rate': 0.16899619111635114, 'embed_dim': 128, 'learning_rate': 2.0588679231253206e-05, 'optimizer': 'AdamW', 'weight_decay': 0.0007122741704439564, 'batch_size': 32, 'num_heads': 2, 'num_transformer_blocks': 4}. Best is trial 49 with value: 0.532532429992528.
+Hyperparameters: num_heads=2, num_transformer_blocks=4, learning_rate=5.776228143403907e-05, optimizer=AdamW, weight_decay=0.00042715611858770887, batch_size=32,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 29
+Trial 52, Fold 1: Test Accuracy = 0.5068
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 21
+Trial 53, Fold 1: Test Accuracy = 0.5165
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 14
+Trial 52, Fold 2: Test Accuracy = 0.4959
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 21
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 25
+Trial 52, Fold 3: Test Accuracy = 0.4741
+Trial 53, Fold 2: Test Accuracy = 0.5498
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 17
+Trial 52, Fold 4: Test Accuracy = 0.5423
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 19
+Trial 53, Fold 3: Test Accuracy = 0.4950
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 10
+Trial 52, Fold 5: Test Accuracy = 0.3842
+Trial 52: Mean Accuracy = 0.4806, Fold Accuracies = [np.float64(0.5067656765676567), np.float64(0.4958594430012105), np.float64(0.47412000733873255), np.float64(0.5422690889280027), np.float64(0.38415873363241787)]
+[I 2025-04-23 13:01:11,664] Trial 52 finished with value: 0.4806345898936041 and parameters: {'ff_dim': 2048, 'dropout_rate': 0.16578841235103584, 'embed_dim': 256, 'learning_rate': 2.22679242405182e-05, 'optimizer': 'AdamW', 'weight_decay': 0.0004194254773729084, 'batch_size': 32, 'num_heads': 2, 'num_transformer_blocks': 4}. Best is trial 49 with value: 0.532532429992528.
+Hyperparameters: num_heads=2, num_transformer_blocks=4, learning_rate=6.216415270059321e-05, optimizer=AdamW, weight_decay=0.00030801726703133737, batch_size=32,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 23
+Trial 53, Fold 4: Test Accuracy = 0.5465
+Trial 54, Fold 1: Test Accuracy = 0.5248
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 18
+Trial 53, Fold 5: Test Accuracy = 0.4980
+Trial 53: Mean Accuracy = 0.5212, Fold Accuracies = [np.float64(0.5165298581140165), np.float64(0.549844572657318), np.float64(0.4950231109183767), np.float64(0.5464985588429767), np.float64(0.49795469963891015)]
+[I 2025-04-23 13:03:44,812] Trial 53 finished with value: 0.5211701600343197 and parameters: {'ff_dim': 2048, 'dropout_rate': 0.1555059310430146, 'embed_dim': 256, 'learning_rate': 5.776228143403907e-05, 'optimizer': 'AdamW', 'weight_decay': 0.00042715611858770887, 'batch_size': 32, 'num_heads': 2, 'num_transformer_blocks': 4}. Best is trial 49 with value: 0.532532429992528.
+Hyperparameters: num_heads=2, num_transformer_blocks=4, learning_rate=4.984139627050361e-05, optimizer=AdamW, weight_decay=0.00013538149893196035, batch_size=32,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 18
+Trial 54, Fold 2: Test Accuracy = 0.5353
+Trial 55, Fold 1: Test Accuracy = 0.5728
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 19
+Trial 54, Fold 3: Test Accuracy = 0.4711
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 29
+Trial 55, Fold 2: Test Accuracy = 0.5792
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 25
+Trial 54, Fold 4: Test Accuracy = 0.5056
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 21
+Trial 55, Fold 3: Test Accuracy = 0.4214
+Trial 54, Fold 5: Test Accuracy = 0.5585
+Trial 54: Mean Accuracy = 0.5191, Fold Accuracies = [np.float64(0.5248321627034499), np.float64(0.5352760212837845), np.float64(0.4711235964872569), np.float64(0.5056005868621115), np.float64(0.5585109968267863)]
+[I 2025-04-23 13:10:28,338] Trial 54 finished with value: 0.5190686728326778 and parameters: {'ff_dim': 2048, 'dropout_rate': 0.14590844852471602, 'embed_dim': 256, 'learning_rate': 6.216415270059321e-05, 'optimizer': 'AdamW', 'weight_decay': 0.00030801726703133737, 'batch_size': 32, 'num_heads': 2, 'num_transformer_blocks': 4}. Best is trial 49 with value: 0.532532429992528.
+Hyperparameters: num_heads=2, num_transformer_blocks=4, learning_rate=5.5300653512197166e-05, optimizer=AdamW, weight_decay=0.0002095548991227728, batch_size=32,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 18
+Trial 55, Fold 4: Test Accuracy = 0.5034
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 15
+Trial 56, Fold 1: Test Accuracy = 0.3814
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 23
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 16
+Trial 55, Fold 5: Test Accuracy = 0.5204
+Trial 55: Mean Accuracy = 0.5194, Fold Accuracies = [np.float64(0.5727962539843728), np.float64(0.5792280880171309), np.float64(0.42136540137069095), np.float64(0.5034265312584397), np.float64(0.5204064631433053)]
+[I 2025-04-23 13:12:53,611] Trial 55 finished with value: 0.519444547554788 and parameters: {'ff_dim': 2048, 'dropout_rate': 0.14897672619109176, 'embed_dim': 256, 'learning_rate': 4.984139627050361e-05, 'optimizer': 'AdamW', 'weight_decay': 0.00013538149893196035, 'batch_size': 32, 'num_heads': 2, 'num_transformer_blocks': 4}. Best is trial 49 with value: 0.532532429992528.
+Hyperparameters: num_heads=2, num_transformer_blocks=4, learning_rate=5.44296497456728e-05, optimizer=AdamW, weight_decay=0.00022029446878958327, batch_size=32,factor=1
+Trial 56, Fold 2: Test Accuracy = 0.5516
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 18
+Trial 56, Fold 3: Test Accuracy = 0.4850
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 21
+Trial 57, Fold 1: Test Accuracy = 0.4779
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 12
+Trial 56, Fold 4: Test Accuracy = 0.4353
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 18
+Trial 57, Fold 2: Test Accuracy = 0.4459
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 22
+Trial 56, Fold 5: Test Accuracy = 0.5287
+Trial 56: Mean Accuracy = 0.4764, Fold Accuracies = [np.float64(0.3814081408140814), np.float64(0.5515735864698498), np.float64(0.48502210223976955), np.float64(0.4353297277245396), np.float64(0.5287318087318087)]
+[I 2025-04-23 13:16:54,345] Trial 56 finished with value: 0.4764130731960098 and parameters: {'ff_dim': 2048, 'dropout_rate': 0.415483077676429, 'embed_dim': 64, 'learning_rate': 5.5300653512197166e-05, 'optimizer': 'AdamW', 'weight_decay': 0.0002095548991227728, 'batch_size': 32, 'num_heads': 2, 'num_transformer_blocks': 4}. Best is trial 49 with value: 0.532532429992528.
+Hyperparameters: num_heads=2, num_transformer_blocks=4, learning_rate=3.346768871835303e-05, optimizer=AdamW, weight_decay=0.0002484036843579792, batch_size=32,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 16
+Trial 57, Fold 3: Test Accuracy = 0.4390
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 19
+Trial 57, Fold 4: Test Accuracy = 0.4393
+Trial 58, Fold 1: Test Accuracy = 0.5033
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 13
+Trial 57, Fold 5: Test Accuracy = 0.4631
+Trial 57: Mean Accuracy = 0.4530, Fold Accuracies = [np.float64(0.47790682914445287), np.float64(0.4459327794223931), np.float64(0.4389901141554143), np.float64(0.4393122142132075), np.float64(0.4630656891709523)]
+[I 2025-04-23 13:21:09,016] Trial 57 finished with value: 0.45304152522128405 and parameters: {'ff_dim': 2048, 'dropout_rate': 0.14855367753758741, 'embed_dim': 64, 'learning_rate': 5.44296497456728e-05, 'optimizer': 'AdamW', 'weight_decay': 0.00022029446878958327, 'batch_size': 32, 'num_heads': 2, 'num_transformer_blocks': 4}. Best is trial 49 with value: 0.532532429992528.
+Hyperparameters: num_heads=2, num_transformer_blocks=4, learning_rate=7.284526993920349e-06, optimizer=AdamW, weight_decay=0.00011039485055506353, batch_size=32,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 18
+Trial 58, Fold 2: Test Accuracy = 0.5753
+Trial 59, Fold 1: Test Accuracy = 0.4301
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 17
+Trial 58, Fold 3: Test Accuracy = 0.4816
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 17
+Trial 59, Fold 2: Test Accuracy = 0.4682
+Trial 58, Fold 4: Test Accuracy = 0.4877
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 27
+Trial 59, Fold 3: Test Accuracy = 0.3960
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 18
+Trial 58, Fold 5: Test Accuracy = 0.4978
+Trial 58: Mean Accuracy = 0.5092, Fold Accuracies = [np.float64(0.5033017404304533), np.float64(0.5753052747402738), np.float64(0.48164321422718676), np.float64(0.4877069965573653), np.float64(0.49784498668709193)]
+[I 2025-04-23 13:30:28,775] Trial 58 finished with value: 0.5091604425284741 and parameters: {'ff_dim': 2048, 'dropout_rate': 0.31724538291279003, 'embed_dim': 2048, 'learning_rate': 3.346768871835303e-05, 'optimizer': 'AdamW', 'weight_decay': 0.0002484036843579792, 'batch_size': 32, 'num_heads': 2, 'num_transformer_blocks': 4}. Best is trial 49 with value: 0.532532429992528.
+Hyperparameters: num_heads=2, num_transformer_blocks=4, learning_rate=6.549463381615125e-06, optimizer=AdamW, weight_decay=0.00044488207558891416, batch_size=32,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 23
+Trial 59, Fold 4: Test Accuracy = 0.5146
+Trial 60, Fold 1: Test Accuracy = 0.4500
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 14
+Trial 60, Fold 2: Test Accuracy = 0.5171
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 27
+Trial 59, Fold 5: Test Accuracy = 0.5195
+Trial 59: Mean Accuracy = 0.4657, Fold Accuracies = [np.float64(0.4300901243970552), np.float64(0.46817396506702647), np.float64(0.3959972932466982), np.float64(0.5146036468955755), np.float64(0.5195156289893131)]
+[I 2025-04-23 13:34:10,597] Trial 59 finished with value: 0.4656761317191337 and parameters: {'ff_dim': 2048, 'dropout_rate': 0.19399877053790793, 'embed_dim': 32, 'learning_rate': 7.284526993920349e-06, 'optimizer': 'AdamW', 'weight_decay': 0.00011039485055506353, 'batch_size': 32, 'num_heads': 2, 'num_transformer_blocks': 4}. Best is trial 49 with value: 0.532532429992528.
+Hyperparameters: num_heads=2, num_transformer_blocks=4, learning_rate=0.0001602083486791871, optimizer=Adam, weight_decay=0.0004397531417914412, batch_size=32,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 10
+Trial 61, Fold 1: Test Accuracy = 0.4108
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 28
+Trial 60, Fold 3: Test Accuracy = 0.3486
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 22
+Trial 60, Fold 4: Test Accuracy = 0.5075
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 28
+Trial 61, Fold 2: Test Accuracy = 0.5861
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 12
+Trial 60, Fold 5: Test Accuracy = 0.4057
+Trial 60: Mean Accuracy = 0.4458, Fold Accuracies = [np.float64(0.45001551437195), np.float64(0.5170951896677877), np.float64(0.34860528341089037), np.float64(0.5075067052216914), np.float64(0.4057079913922019)]
+[I 2025-04-23 13:38:14,610] Trial 60 finished with value: 0.4457861368129043 and parameters: {'ff_dim': 2048, 'dropout_rate': 0.19289272317129424, 'embed_dim': 32, 'learning_rate': 6.549463381615125e-06, 'optimizer': 'AdamW', 'weight_decay': 0.00044488207558891416, 'batch_size': 32, 'num_heads': 2, 'num_transformer_blocks': 4}. Best is trial 49 with value: 0.532532429992528.
+Hyperparameters: num_heads=2, num_transformer_blocks=4, learning_rate=0.00014822696419469476, optimizer=AdamW, weight_decay=0.00033085915094848437, batch_size=32,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 26
+Trial 61, Fold 3: Test Accuracy = 0.4767
+Trial 62, Fold 1: Test Accuracy = 0.5354
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 21
+Trial 61, Fold 4: Test Accuracy = 0.4964
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 20
+Trial 62, Fold 2: Test Accuracy = 0.5232
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 20
+Trial 61, Fold 5: Test Accuracy = 0.3333
+Trial 61: Mean Accuracy = 0.4607, Fold Accuracies = [np.float64(0.41076274294096077), np.float64(0.5860545005403737), np.float64(0.47670982275584234), np.float64(0.4964103005863965), np.float64(0.3333333333333333)]
+[I 2025-04-23 13:42:49,983] Trial 61 finished with value: 0.46065414003138133 and parameters: {'ff_dim': 2048, 'dropout_rate': 0.1253409390272827, 'embed_dim': 512, 'learning_rate': 0.0001602083486791871, 'optimizer': 'Adam', 'weight_decay': 0.0004397531417914412, 'batch_size': 32, 'num_heads': 2, 'num_transformer_blocks': 4}. Best is trial 49 with value: 0.532532429992528.
+Hyperparameters: num_heads=2, num_transformer_blocks=4, learning_rate=5.588301207937919e-07, optimizer=AdamW, weight_decay=0.0009948105193387717, batch_size=32,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 20
+Trial 62, Fold 3: Test Accuracy = 0.4596
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 13
+Trial 63, Fold 1: Test Accuracy = 0.4004
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 23
+Trial 63, Fold 2: Test Accuracy = 0.5233
+Trial 62, Fold 4: Test Accuracy = 0.5182
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 19
+Trial 62, Fold 5: Test Accuracy = 0.4815
+Trial 62: Mean Accuracy = 0.5036, Fold Accuracies = [np.float64(0.5353777044371104), np.float64(0.5231887274480717), np.float64(0.45963352932408735), np.float64(0.5182457308536429), np.float64(0.4814554473501842)]
+[I 2025-04-23 13:47:32,276] Trial 62 finished with value: 0.5035802278826192 and parameters: {'ff_dim': 2048, 'dropout_rate': 0.12163147008638478, 'embed_dim': 256, 'learning_rate': 0.00014822696419469476, 'optimizer': 'AdamW', 'weight_decay': 0.00033085915094848437, 'batch_size': 32, 'num_heads': 2, 'num_transformer_blocks': 4}. Best is trial 49 with value: 0.532532429992528.
+Hyperparameters: num_heads=2, num_transformer_blocks=4, learning_rate=6.774067501450027e-05, optimizer=AdamW, weight_decay=0.0009321206727785573, batch_size=32,factor=1
+Trial 63, Fold 3: Test Accuracy = 0.4160
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 23
+Trial 64, Fold 1: Test Accuracy = 0.5087
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 21
+Trial 63, Fold 4: Test Accuracy = 0.5032
+Trial 64, Fold 2: Test Accuracy = 0.5651
+Trial 63, Fold 5: Test Accuracy = 0.4621
+Trial 63: Mean Accuracy = 0.4610, Fold Accuracies = [np.float64(0.4003518941637753), np.float64(0.5233085773964955), np.float64(0.41602049020721327), np.float64(0.503215149920686), np.float64(0.46214013203486887)]
+[I 2025-04-23 13:51:43,146] Trial 63 finished with value: 0.4610072487446078 and parameters: {'ff_dim': 2048, 'dropout_rate': 0.14394445711297874, 'embed_dim': 256, 'learning_rate': 5.588301207937919e-07, 'optimizer': 'AdamW', 'weight_decay': 0.0009948105193387717, 'batch_size': 32, 'num_heads': 2, 'num_transformer_blocks': 4}. Best is trial 49 with value: 0.532532429992528.
+Hyperparameters: num_heads=2, num_transformer_blocks=4, learning_rate=8.18759527696858e-05, optimizer=AdamW, weight_decay=0.0005504465945118995, batch_size=32,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 22
+Trial 65, Fold 1: Test Accuracy = 0.4446
+Trial 64, Fold 3: Test Accuracy = 0.4912
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 24
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 20
+Trial 65, Fold 2: Test Accuracy = 0.5753
+Trial 64, Fold 4: Test Accuracy = 0.5221
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 24
+Trial 65, Fold 3: Test Accuracy = 0.5116
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 25
+Trial 64, Fold 5: Test Accuracy = 0.4900
+Trial 64: Mean Accuracy = 0.5154, Fold Accuracies = [np.float64(0.5087374122027587), np.float64(0.5651036946788301), np.float64(0.49119052932858803), np.float64(0.5220910474425478), np.float64(0.4900092643250538)]
+[I 2025-04-23 13:57:07,609] Trial 64 finished with value: 0.5154263895955558 and parameters: {'ff_dim': 64, 'dropout_rate': 0.14370293835011544, 'embed_dim': 256, 'learning_rate': 6.774067501450027e-05, 'optimizer': 'AdamW', 'weight_decay': 0.0009321206727785573, 'batch_size': 32, 'num_heads': 2, 'num_transformer_blocks': 4}. Best is trial 49 with value: 0.532532429992528.
+Hyperparameters: num_heads=2, num_transformer_blocks=4, learning_rate=1.4506702888419731e-05, optimizer=AdamW, weight_decay=0.0005823485164852788, batch_size=32,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 21
+Trial 65, Fold 4: Test Accuracy = 0.4993
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 26
+Trial 66, Fold 1: Test Accuracy = 0.5278
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 22
+Trial 65, Fold 5: Test Accuracy = 0.5519
+Trial 65: Mean Accuracy = 0.5165, Fold Accuracies = [np.float64(0.44456080223406963), np.float64(0.575269823209439), np.float64(0.5116020543156222), np.float64(0.4992815556735178), np.float64(0.551854105117263)]
+[I 2025-04-23 14:00:22,355] Trial 65 finished with value: 0.5165136681099823 and parameters: {'ff_dim': 64, 'dropout_rate': 0.15398271751569925, 'embed_dim': 256, 'learning_rate': 8.18759527696858e-05, 'optimizer': 'AdamW', 'weight_decay': 0.0005504465945118995, 'batch_size': 32, 'num_heads': 2, 'num_transformer_blocks': 4}. Best is trial 49 with value: 0.532532429992528.
+Hyperparameters: num_heads=2, num_transformer_blocks=4, learning_rate=3.296987679957724e-05, optimizer=AdamW, weight_decay=0.0005645167640848443, batch_size=32,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 26
+Trial 66, Fold 2: Test Accuracy = 0.5146
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 26
+Trial 67, Fold 1: Test Accuracy = 0.5048
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 21
+Trial 66, Fold 3: Test Accuracy = 0.4831
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 19
+Trial 67, Fold 2: Test Accuracy = 0.5596
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 23
+Trial 66, Fold 4: Test Accuracy = 0.5196
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 22
+Trial 67, Fold 3: Test Accuracy = 0.4880
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 19
+Trial 66, Fold 5: Test Accuracy = 0.5068
+Trial 66: Mean Accuracy = 0.5104, Fold Accuracies = [np.float64(0.5278123325153028), np.float64(0.5146418318554171), np.float64(0.4830507047645371), np.float64(0.5195628141132499), np.float64(0.5067819236240289)]
+[I 2025-04-23 14:06:44,933] Trial 66 finished with value: 0.5103699213745072 and parameters: {'ff_dim': 64, 'dropout_rate': 0.15517323951841316, 'embed_dim': 256, 'learning_rate': 1.4506702888419731e-05, 'optimizer': 'AdamW', 'weight_decay': 0.0005823485164852788, 'batch_size': 32, 'num_heads': 2, 'num_transformer_blocks': 4}. Best is trial 49 with value: 0.532532429992528.
+Hyperparameters: num_heads=2, num_transformer_blocks=4, learning_rate=2.6718426817519378e-05, optimizer=AdamW, weight_decay=0.00028781494466060837, batch_size=32,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 24
+Trial 67, Fold 4: Test Accuracy = 0.4185
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 28
+Trial 68, Fold 1: Test Accuracy = 0.5001
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 10
+Trial 67, Fold 5: Test Accuracy = 0.4454
+Trial 67: Mean Accuracy = 0.4833, Fold Accuracies = [np.float64(0.5047946461312797), np.float64(0.5596428303719069), np.float64(0.4880262171719458), np.float64(0.41845938218832357), np.float64(0.44538556370135324)]
+[I 2025-04-23 14:09:36,557] Trial 67 finished with value: 0.4832617279129618 and parameters: {'ff_dim': 64, 'dropout_rate': 0.18329189706393392, 'embed_dim': 1024, 'learning_rate': 3.296987679957724e-05, 'optimizer': 'AdamW', 'weight_decay': 0.0005645167640848443, 'batch_size': 32, 'num_heads': 2, 'num_transformer_blocks': 4}. Best is trial 49 with value: 0.532532429992528.
+Hyperparameters: num_heads=16, num_transformer_blocks=8, learning_rate=0.0005824536435413073, optimizer=Adam, weight_decay=0.00028266055994269774, batch_size=32,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 13
+Trial 69, Fold 1: Test Accuracy = 0.3333
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 19
+Trial 68, Fold 2: Test Accuracy = 0.5834
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 13
+Trial 69, Fold 2: Test Accuracy = 0.3333
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 16
+Trial 68, Fold 3: Test Accuracy = 0.4323
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 25
+Trial 69, Fold 3: Test Accuracy = 0.3678
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 25
+Trial 68, Fold 4: Test Accuracy = 0.5254
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 15
+Trial 69, Fold 4: Test Accuracy = 0.3333
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 10
+Trial 69, Fold 5: Test Accuracy = 0.3333
+Trial 69: Mean Accuracy = 0.3402, Fold Accuracies = [np.float64(0.3333333333333333), np.float64(0.3333333333333333), np.float64(0.3678154218751944), np.float64(0.3333333333333333), np.float64(0.3333333333333333)]
+[I 2025-04-23 14:16:33,074] Trial 69 finished with value: 0.3402297510417055 and parameters: {'ff_dim': 512, 'dropout_rate': 0.16366288026217837, 'embed_dim': 256, 'learning_rate': 0.0005824536435413073, 'optimizer': 'Adam', 'weight_decay': 0.00028266055994269774, 'batch_size': 32, 'num_heads': 16, 'num_transformer_blocks': 8}. Best is trial 49 with value: 0.532532429992528.
+Hyperparameters: num_heads=2, num_transformer_blocks=4, learning_rate=0.00012629178391633105, optimizer=AdamW, weight_decay=0.00015794716482435108, batch_size=32,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 24
+Trial 68, Fold 5: Test Accuracy = 0.5101
+Trial 68: Mean Accuracy = 0.5102, Fold Accuracies = [np.float64(0.5000782770584751), np.float64(0.5834405270153251), np.float64(0.432274459066313), np.float64(0.5253806028180557), np.float64(0.5100692271218586)]
+[I 2025-04-23 14:16:54,324] Trial 68 finished with value: 0.5102486186160056 and parameters: {'ff_dim': 64, 'dropout_rate': 0.20418441885360075, 'embed_dim': 1024, 'learning_rate': 2.6718426817519378e-05, 'optimizer': 'AdamW', 'weight_decay': 0.00028781494466060837, 'batch_size': 32, 'num_heads': 2, 'num_transformer_blocks': 4}. Best is trial 49 with value: 0.532532429992528.
+Hyperparameters: num_heads=2, num_transformer_blocks=1, learning_rate=0.00012147399917568301, optimizer=AdamW, weight_decay=0.00014676515588118956, batch_size=32,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 15
+Trial 70, Fold 1: Test Accuracy = 0.5122
+Trial 71, Fold 1: Test Accuracy = 0.4944
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 27
+Trial 70, Fold 2: Test Accuracy = 0.5411
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 27
+Trial 71, Fold 2: Test Accuracy = 0.5056
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 27
+Trial 70, Fold 3: Test Accuracy = 0.4781
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 10
+Trial 70, Fold 4: Test Accuracy = 0.5117
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 23
+Trial 71, Fold 3: Test Accuracy = 0.4644
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 15
+Trial 71, Fold 4: Test Accuracy = 0.4823
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 20
+Trial 70, Fold 5: Test Accuracy = 0.5106
+Trial 70: Mean Accuracy = 0.5108, Fold Accuracies = [np.float64(0.5122323770838623), np.float64(0.5410979038425824), np.float64(0.4781414315664514), np.float64(0.5117229819921337), np.float64(0.5105652697231645)]
+[I 2025-04-23 14:24:12,508] Trial 70 finished with value: 0.5107519928416389 and parameters: {'ff_dim': 256, 'dropout_rate': 0.19987676032720608, 'embed_dim': 256, 'learning_rate': 0.00012629178391633105, 'optimizer': 'AdamW', 'weight_decay': 0.00015794716482435108, 'batch_size': 32, 'num_heads': 2, 'num_transformer_blocks': 4}. Best is trial 49 with value: 0.532532429992528.
+Hyperparameters: num_heads=2, num_transformer_blocks=4, learning_rate=6.651243311623869e-05, optimizer=AdamW, weight_decay=0.0005758983656646324, batch_size=32,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 15
+Trial 71, Fold 5: Test Accuracy = 0.5027
+Trial 71: Mean Accuracy = 0.4899, Fold Accuracies = [np.float64(0.49442893007249444), np.float64(0.5056335768930418), np.float64(0.4643981723061332), np.float64(0.4822802487761419), np.float64(0.5027467629572893)]
+[I 2025-04-23 14:25:08,617] Trial 71 finished with value: 0.4898975382010201 and parameters: {'ff_dim': 256, 'dropout_rate': 0.12022093935379985, 'embed_dim': 256, 'learning_rate': 0.00012147399917568301, 'optimizer': 'AdamW', 'weight_decay': 0.00014676515588118956, 'batch_size': 32, 'num_heads': 2, 'num_transformer_blocks': 1}. Best is trial 49 with value: 0.532532429992528.
+Hyperparameters: num_heads=2, num_transformer_blocks=4, learning_rate=5.9639203441279376e-05, optimizer=AdamW, weight_decay=0.0007250865757694028, batch_size=32,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 23
+Trial 72, Fold 1: Test Accuracy = 0.5035
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 21
+Trial 73, Fold 1: Test Accuracy = 0.5355
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 26
+Trial 72, Fold 2: Test Accuracy = 0.5757
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 28
+Trial 73, Fold 2: Test Accuracy = 0.5830
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 23
+Trial 72, Fold 3: Test Accuracy = 0.4626
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 11
+Trial 73, Fold 3: Test Accuracy = 0.4566
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 23
+Trial 72, Fold 4: Test Accuracy = 0.5181
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 29
+Trial 73, Fold 4: Test Accuracy = 0.4953
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 22
+Trial 72, Fold 5: Test Accuracy = 0.5479
+Trial 72: Mean Accuracy = 0.5216, Fold Accuracies = [np.float64(0.5035464443880285), np.float64(0.5757111143555904), np.float64(0.46257556154408835), np.float64(0.5181432899666912), np.float64(0.5478673815515921)]
+[I 2025-04-23 14:33:10,094] Trial 72 finished with value: 0.5215687583611982 and parameters: {'ff_dim': 64, 'dropout_rate': 0.14721312685926044, 'embed_dim': 256, 'learning_rate': 6.651243311623869e-05, 'optimizer': 'AdamW', 'weight_decay': 0.0005758983656646324, 'batch_size': 32, 'num_heads': 2, 'num_transformer_blocks': 4}. Best is trial 49 with value: 0.532532429992528.
+Hyperparameters: num_heads=2, num_transformer_blocks=4, learning_rate=0.0002201495632861018, optimizer=AdamW, weight_decay=0.0005572679513245397, batch_size=32,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 20
+Trial 73, Fold 5: Test Accuracy = 0.5149
+Trial 73: Mean Accuracy = 0.5171, Fold Accuracies = [np.float64(0.5355229753744605), np.float64(0.5830472038181927), np.float64(0.4565861285776652), np.float64(0.49527336195469623), np.float64(0.5148729620308568)]
+[I 2025-04-23 14:33:35,368] Trial 73 finished with value: 0.5170605263511743 and parameters: {'ff_dim': 64, 'dropout_rate': 0.14964349691024567, 'embed_dim': 256, 'learning_rate': 5.9639203441279376e-05, 'optimizer': 'AdamW', 'weight_decay': 0.0007250865757694028, 'batch_size': 32, 'num_heads': 2, 'num_transformer_blocks': 4}. Best is trial 49 with value: 0.532532429992528.
+Hyperparameters: num_heads=2, num_transformer_blocks=4, learning_rate=0.00022799998691568334, optimizer=AdamW, weight_decay=0.0007857327588024335, batch_size=16,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 20
+Trial 75, Fold 1: Test Accuracy = 0.4776
+Trial 74, Fold 1: Test Accuracy = 0.4798
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 20
+Trial 75, Fold 2: Test Accuracy = 0.4841
+Trial 74, Fold 2: Test Accuracy = 0.5324
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 22
+Trial 75, Fold 3: Test Accuracy = 0.5126
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 20
+Trial 74, Fold 3: Test Accuracy = 0.4511
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 17
+Trial 75, Fold 4: Test Accuracy = 0.4872
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 20
+Trial 74, Fold 4: Test Accuracy = 0.4835
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 15
+Trial 75, Fold 5: Test Accuracy = 0.4904
+Trial 75: Mean Accuracy = 0.4904, Fold Accuracies = [np.float64(0.47764308482130263), np.float64(0.4840706552505745), np.float64(0.5125796253804716), np.float64(0.48720788825872213), np.float64(0.49041222599117335)]
+[I 2025-04-23 14:41:37,535] Trial 75 finished with value: 0.4903826959404488 and parameters: {'ff_dim': 64, 'dropout_rate': 0.17559164083925288, 'embed_dim': 256, 'learning_rate': 0.00022799998691568334, 'optimizer': 'AdamW', 'weight_decay': 0.0007857327588024335, 'batch_size': 16, 'num_heads': 2, 'num_transformer_blocks': 4}. Best is trial 49 with value: 0.532532429992528.
+Hyperparameters: num_heads=2, num_transformer_blocks=4, learning_rate=1.2795091618414846e-05, optimizer=AdamW, weight_decay=6.302300236797727e-05, batch_size=32,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 26
+Trial 74, Fold 5: Test Accuracy = 0.4885
+Trial 74: Mean Accuracy = 0.4871, Fold Accuracies = [np.float64(0.4798277904713548), np.float64(0.5324108803055628), np.float64(0.4511454061837558), np.float64(0.48352098641261326), np.float64(0.48853309990152094)]
+[I 2025-04-23 14:42:30,500] Trial 74 finished with value: 0.48708763265496147 and parameters: {'ff_dim': 64, 'dropout_rate': 0.15108803942087573, 'embed_dim': 256, 'learning_rate': 0.0002201495632861018, 'optimizer': 'AdamW', 'weight_decay': 0.0005572679513245397, 'batch_size': 32, 'num_heads': 2, 'num_transformer_blocks': 4}. Best is trial 49 with value: 0.532532429992528.
+Hyperparameters: num_heads=2, num_transformer_blocks=32, learning_rate=1.4553612306940976e-05, optimizer=AdamW, weight_decay=6.645169071553924e-05, batch_size=32,factor=1
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 14
+Trial 76, Fold 1: Test Accuracy = 0.4883
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 22
+Trial 76, Fold 2: Test Accuracy = 0.5356
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 16
+Trial 77, Fold 1: Test Accuracy = 0.3333
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 20
+Trial 76, Fold 3: Test Accuracy = 0.4642
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 26
+Trial 76, Fold 4: Test Accuracy = 0.5240
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 10
+Trial 77, Fold 2: Test Accuracy = 0.3333
+Divergence detected. Stopping training after 10 epochs.
+Early stopping at epoch 16
+Trial 76, Fold 5: Test Accuracy = 0.5231
+Trial 76: Mean Accuracy = 0.5070, Fold Accuracies = [np.float64(0.4883014583509633), np.float64(0.5356068323141193), np.float64(0.46417793090630965), np.float64(0.52403276789068), np.float64(0.5230742969690337)]
+[I 2025-04-23 16:28:00,533] Trial 76 finished with value: 0.5070386572862212 and parameters: {'ff_dim': 2048, 'dropout_rate': 0.14073650227565318, 'embed_dim': 256, 'learning_rate': 1.2795091618414846e-05, 'optimizer': 'AdamW', 'weight_decay': 6.302300236797727e-05, 'batch_size': 32, 'num_heads': 2, 'num_transformer_blocks': 4}. Best is trial 49 with value: 0.532532429992528.
