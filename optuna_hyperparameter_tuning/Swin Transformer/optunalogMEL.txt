@@ -1,0 +1,2108 @@
+Trial 82 hyperparameters:
+embed_dim: 128
+depths: [2, 2, 6, 2]
+num_heads: [4, 8, 16, 32]
+window_size: 14
+mlp_ratio: 2.5295742393507976
+drop_rate: 0.17096020199717704
+attn_drop_rate: 0.16336374502145412
+drop_path_rate: 0.12060508681590712
+learning_rate: 3.074589162672984e-05
+weight_decay: 4.299572554033588e-06
+batch_size: 32
+optimizer: Adam
+label_smoothing: 0.16751814781318303
+factor: 1
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 19
+Trial 82, Fold 1: Test Accuracy = 0.4558
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 24
+Trial 82, Fold 2: Test Accuracy = 0.4871
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 22
+Trial 82, Fold 3: Test Accuracy = 0.5783
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 11
+Trial 82, Fold 4: Test Accuracy = 0.5233
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 21
+Trial 82, Fold 5: Test Accuracy = 0.4110
+Trial 82 completed: Mean Accuracy = 0.4911
+[I 2025-04-24 09:18:43,705] Trial 82 finished with value: 0.491077945519003 and parameters: {'embed_dim': 128, 'depths': [2, 2, 6, 2], 'num_heads': [4, 8, 16, 32], 'window_size': 14, 'mlp_ratio': 2.5295742393507976, 'drop_rate': 0.17096020199717704, 'attn_drop_rate': 0.16336374502145412, 'drop_path_rate': 0.12060508681590712, 'learning_rate': 3.074589162672984e-05, 'weight_decay': 4.299572554033588e-06, 'batch_size': 32, 'optimizer': 'Adam', 'label_smoothing': 0.16751814781318303, 'factor': 1}. Best is trial 68 with value: 0.5026770677464627.
+C:\Users\hp\anaconda3\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+warnings.warn(message)
+C:\Users\hp\anaconda3\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+warnings.warn(message)
+C:\Users\hp\anaconda3\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+warnings.warn(message)
+C:\Users\hp\anaconda3\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+warnings.warn(message)
+Trial 83 hyperparameters:
+embed_dim: 128
+depths: [2, 2, 6, 2]
+num_heads: [4, 8, 16, 32]
+window_size: 14
+mlp_ratio: 2.7845684286102053
+drop_rate: 0.18390250943137598
+attn_drop_rate: 0.1597529671911986
+drop_path_rate: 0.11814319269928188
+learning_rate: 1.5528556714854725e-05
+weight_decay: 4.3111858223680095e-06
+batch_size: 32
+optimizer: Adam
+label_smoothing: 0.16614838185754638
+factor: 1
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 14
+Trial 83, Fold 1: Test Accuracy = 0.4060
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 22
+Trial 83, Fold 2: Test Accuracy = 0.5029
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 13
+Trial 83, Fold 3: Test Accuracy = 0.4682
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 14
+Trial 83, Fold 4: Test Accuracy = 0.4884
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 18
+Trial 83, Fold 5: Test Accuracy = 0.4641
+Trial 83 completed: Mean Accuracy = 0.4659
+[I 2025-04-24 09:49:34,667] Trial 83 finished with value: 0.46592817175287615 and parameters: {'embed_dim': 128, 'depths': [2, 2, 6, 2], 'num_heads': [4, 8, 16, 32], 'window_size': 14, 'mlp_ratio': 2.7845684286102053, 'drop_rate': 0.18390250943137598, 'attn_drop_rate': 0.1597529671911986, 'drop_path_rate': 0.11814319269928188, 'learning_rate': 1.5528556714854725e-05, 'weight_decay': 4.3111858223680095e-06, 'batch_size': 32, 'optimizer': 'Adam', 'label_smoothing': 0.16614838185754638, 'factor': 1}. Best is trial 68 with value: 0.5026770677464627.
+C:\Users\hp\anaconda3\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+warnings.warn(message)
+C:\Users\hp\anaconda3\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+warnings.warn(message)
+C:\Users\hp\anaconda3\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+warnings.warn(message)
+C:\Users\hp\anaconda3\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+warnings.warn(message)
+Trial 84 hyperparameters:
+embed_dim: 128
+depths: [2, 2, 6, 2]
+num_heads: [4, 8, 16, 32]
+window_size: 14
+mlp_ratio: 2.5497066983155587
+drop_rate: 0.230662358019812
+attn_drop_rate: 0.12936191151170887
+drop_path_rate: 0.45698080190110074
+learning_rate: 4.020031923199224e-05
+weight_decay: 6.2315324309237865e-06
+batch_size: 32
+optimizer: Adam
+label_smoothing: 0.18152935159538072
+factor: 4
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 10
+Trial 84, Fold 1: Test Accuracy = 0.3350
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 29
+Trial 84, Fold 2: Test Accuracy = 0.4214
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 15
+Trial 84, Fold 3: Test Accuracy = 0.3608
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 14
+Trial 84, Fold 4: Test Accuracy = 0.3288
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 14
+Trial 84, Fold 5: Test Accuracy = 0.3506
+Trial 84 completed: Mean Accuracy = 0.3593
+[I 2025-04-24 10:06:22,882] Trial 84 finished with value: 0.3593478734687987 and parameters: {'embed_dim': 128, 'depths': [2, 2, 6, 2], 'num_heads': [4, 8, 16, 32], 'window_size': 14, 'mlp_ratio': 2.5497066983155587, 'drop_rate': 0.230662358019812, 'attn_drop_rate': 0.12936191151170887, 'drop_path_rate': 0.45698080190110074, 'learning_rate': 4.020031923199224e-05, 'weight_decay': 6.2315324309237865e-06, 'batch_size': 32, 'optimizer': 'Adam', 'label_smoothing': 0.18152935159538072, 'factor': 4}. Best is trial 68 with value: 0.5026770677464627.
+C:\Users\hp\anaconda3\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+warnings.warn(message)
+C:\Users\hp\anaconda3\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+warnings.warn(message)
+C:\Users\hp\anaconda3\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+warnings.warn(message)
+C:\Users\hp\anaconda3\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+warnings.warn(message)
+Trial 85 hyperparameters:
+embed_dim: 128
+depths: [2, 2, 6, 2]
+num_heads: [4, 8, 16, 32]
+window_size: 14
+mlp_ratio: 2.839676016103781
+drop_rate: 0.16825904346174214
+attn_drop_rate: 0.04637801355635862
+drop_path_rate: 0.06873246778267449
+learning_rate: 8.39777798007741e-05
+weight_decay: 3.3745042596860386e-06
+batch_size: 32
+optimizer: Adam
+label_smoothing: 0.047208159608426906
+factor: 1
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 34
+Trial 85, Fold 1: Test Accuracy = 0.4302
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 27
+Trial 85, Fold 2: Test Accuracy = 0.5306
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 13
+Trial 85, Fold 3: Test Accuracy = 0.3396
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 14
+Trial 85, Fold 4: Test Accuracy = 0.4565
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 20
+Trial 85, Fold 5: Test Accuracy = 0.4653
+Trial 85 completed: Mean Accuracy = 0.4444
+[I 2025-04-24 10:46:46,419] Trial 85 finished with value: 0.44442975182143296 and parameters: {'embed_dim': 128, 'depths': [2, 2, 6, 2], 'num_heads': [4, 8, 16, 32], 'window_size': 14, 'mlp_ratio': 2.839676016103781, 'drop_rate': 0.16825904346174214, 'attn_drop_rate': 0.04637801355635862, 'drop_path_rate': 0.06873246778267449, 'learning_rate': 8.39777798007741e-05, 'weight_decay': 3.3745042596860386e-06, 'batch_size': 32, 'optimizer': 'Adam', 'label_smoothing': 0.047208159608426906, 'factor': 1}. Best is trial 68 with value: 0.5026770677464627.
+C:\Users\hp\anaconda3\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+warnings.warn(message)
+C:\Users\hp\anaconda3\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+warnings.warn(message)
+C:\Users\hp\anaconda3\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+warnings.warn(message)
+C:\Users\hp\anaconda3\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+warnings.warn(message)
+Trial 86 hyperparameters:
+embed_dim: 128
+depths: [2, 2, 6, 2]
+num_heads: [4, 8, 16, 32]
+window_size: 14
+mlp_ratio: 2.526024468263342
+drop_rate: 0.09210251790762389
+attn_drop_rate: 0.09760825151098636
+drop_path_rate: 0.13603828611618893
+learning_rate: 1.1175869469554431e-05
+weight_decay: 1.2450998390442961e-06
+batch_size: 64
+optimizer: Adam
+label_smoothing: 0.07292458202832336
+factor: 1
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 18
+Trial 86, Fold 1: Test Accuracy = 0.4289
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 30
+Trial 86, Fold 2: Test Accuracy = 0.4944
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 13
+Trial 86, Fold 3: Test Accuracy = 0.4329
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 15
+Trial 86, Fold 4: Test Accuracy = 0.4441
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 25
+Trial 86, Fold 5: Test Accuracy = 0.4328
+Trial 86 completed: Mean Accuracy = 0.4466
+[I 2025-04-24 11:26:55,704] Trial 86 finished with value: 0.4466253569946783 and parameters: {'embed_dim': 128, 'depths': [2, 2, 6, 2], 'num_heads': [4, 8, 16, 32], 'window_size': 14, 'mlp_ratio': 2.526024468263342, 'drop_rate': 0.09210251790762389, 'attn_drop_rate': 0.09760825151098636, 'drop_path_rate': 0.13603828611618893, 'learning_rate': 1.1175869469554431e-05, 'weight_decay': 1.2450998390442961e-06, 'batch_size': 64, 'optimizer': 'Adam', 'label_smoothing': 0.07292458202832336, 'factor': 1}. Best is trial 68 with value: 0.5026770677464627.
+C:\Users\hp\anaconda3\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+warnings.warn(message)
+C:\Users\hp\anaconda3\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+warnings.warn(message)
+C:\Users\hp\anaconda3\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+warnings.warn(message)
+C:\Users\hp\anaconda3\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+warnings.warn(message)
+Trial 87 hyperparameters:
+embed_dim: 128
+depths: [2, 2, 6, 2]
+num_heads: [4, 8, 16, 32]
+window_size: 14
+mlp_ratio: 2.6301770924613446
+drop_rate: 0.19930338842820022
+attn_drop_rate: 0.07026047340764231
+drop_path_rate: 0.11554347493439429
+learning_rate: 2.9833434421070755e-05
+weight_decay: 4.9862178624236894e-05
+batch_size: 32
+optimizer: SGD
+label_smoothing: 0.06163143409634517
+factor: 1
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 10
+Trial 87, Fold 1: Test Accuracy = 0.3368
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 37
+Trial 87, Fold 2: Test Accuracy = 0.3355
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 24
+Trial 87, Fold 3: Test Accuracy = 0.3740
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 29
+Trial 87, Fold 4: Test Accuracy = 0.3499
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 11
+Trial 87, Fold 5: Test Accuracy = 0.3290
+Trial 87 completed: Mean Accuracy = 0.3450
+[I 2025-04-24 12:07:23,550] Trial 87 finished with value: 0.3450476410128371 and parameters: {'embed_dim': 128, 'depths': [2, 2, 6, 2], 'num_heads': [4, 8, 16, 32], 'window_size': 14, 'mlp_ratio': 2.6301770924613446, 'drop_rate': 0.19930338842820022, 'attn_drop_rate': 0.07026047340764231, 'drop_path_rate': 0.11554347493439429, 'learning_rate': 2.9833434421070755e-05, 'weight_decay': 4.9862178624236894e-05, 'batch_size': 32, 'optimizer': 'SGD', 'label_smoothing': 0.06163143409634517, 'factor': 1}. Best is trial 68 with value: 0.5026770677464627.
+C:\Users\hp\anaconda3\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+warnings.warn(message)
+C:\Users\hp\anaconda3\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+warnings.warn(message)
+C:\Users\hp\anaconda3\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+warnings.warn(message)
+C:\Users\hp\anaconda3\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+warnings.warn(message)
+Trial 88 hyperparameters:
+embed_dim: 128
+depths: [2, 2, 6, 2]
+num_heads: [4, 8, 16, 32]
+window_size: 14
+mlp_ratio: 2.9960128148938
+drop_rate: 0.1603592149136427
+attn_drop_rate: 0.27340491846591397
+drop_path_rate: 0.04458330992445373
+learning_rate: 4.56009251550066e-05
+weight_decay: 1.9937908639020903e-05
+batch_size: 32
+optimizer: Adam
+label_smoothing: 0.028032832454084618
+factor: 1
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 26
+Trial 88, Fold 1: Test Accuracy = 0.4868
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 19
+Trial 88, Fold 2: Test Accuracy = 0.4653
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 29
+Trial 88, Fold 3: Test Accuracy = 0.4955
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 15
+Trial 88, Fold 4: Test Accuracy = 0.4948
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 21
+Trial 88, Fold 5: Test Accuracy = 0.4556
+Trial 88 completed: Mean Accuracy = 0.4796
+[I 2025-04-24 12:48:38,248] Trial 88 finished with value: 0.4796120851129991 and parameters: {'embed_dim': 128, 'depths': [2, 2, 6, 2], 'num_heads': [4, 8, 16, 32], 'window_size': 14, 'mlp_ratio': 2.9960128148938, 'drop_rate': 0.1603592149136427, 'attn_drop_rate': 0.27340491846591397, 'drop_path_rate': 0.04458330992445373, 'learning_rate': 4.56009251550066e-05, 'weight_decay': 1.9937908639020903e-05, 'batch_size': 32, 'optimizer': 'Adam', 'label_smoothing': 0.028032832454084618, 'factor': 1}. Best is trial 68 with value: 0.5026770677464627.
+C:\Users\hp\anaconda3\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+warnings.warn(message)
+C:\Users\hp\anaconda3\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+warnings.warn(message)
+C:\Users\hp\anaconda3\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+warnings.warn(message)
+C:\Users\hp\anaconda3\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+warnings.warn(message)
+Trial 89 hyperparameters:
+embed_dim: 128
+depths: [2, 2, 6, 2]
+num_heads: [4, 8, 16, 32]
+window_size: 14
+mlp_ratio: 3.2009578714553975
+drop_rate: 0.13033059279925654
+attn_drop_rate: 0.2867477342881787
+drop_path_rate: 0.08762960474458875
+learning_rate: 0.00020345130859270792
+weight_decay: 4.216778324042579e-06
+batch_size: 32
+optimizer: Adam
+label_smoothing: 0.020564917010912745
+factor: 1
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 15
+Trial 89, Fold 1: Test Accuracy = 0.3333
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 13
+Trial 89, Fold 2: Test Accuracy = 0.3333
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 14
+Trial 89, Fold 3: Test Accuracy = 0.3333
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 12
+Trial 89, Fold 4: Test Accuracy = 0.3333
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 22
+Trial 89, Fold 5: Test Accuracy = 0.3369
+Trial 89 completed: Mean Accuracy = 0.3341
+[I 2025-04-24 13:18:37,756] Trial 89 finished with value: 0.3340553407506773 and parameters: {'embed_dim': 128, 'depths': [2, 2, 6, 2], 'num_heads': [4, 8, 16, 32], 'window_size': 14, 'mlp_ratio': 3.2009578714553975, 'drop_rate': 0.13033059279925654, 'attn_drop_rate': 0.2867477342881787, 'drop_path_rate': 0.08762960474458875, 'learning_rate': 0.00020345130859270792, 'weight_decay': 4.216778324042579e-06, 'batch_size': 32, 'optimizer': 'Adam', 'label_smoothing': 0.020564917010912745, 'factor': 1}. Best is trial 68 with value: 0.5026770677464627.
+C:\Users\hp\anaconda3\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+warnings.warn(message)
+C:\Users\hp\anaconda3\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+warnings.warn(message)
+C:\Users\hp\anaconda3\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+warnings.warn(message)
+C:\Users\hp\anaconda3\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+warnings.warn(message)
+Trial 90 hyperparameters:
+embed_dim: 128
+depths: [2, 2, 6, 2]
+num_heads: [4, 8, 16, 32]
+window_size: 14
+mlp_ratio: 2.270129000932869
+drop_rate: 0.11079899334882438
+attn_drop_rate: 0.013391786367072691
+drop_path_rate: 0.1765128691774826
+learning_rate: 1.3467801799031635e-05
+weight_decay: 1.663791986144299e-06
+batch_size: 32
+optimizer: Adam
+label_smoothing: 0.05524616456514948
+factor: 2
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 25
+Trial 90, Fold 1: Test Accuracy = 0.4698
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 27
+Trial 90, Fold 2: Test Accuracy = 0.4264
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 11
+Trial 90, Fold 3: Test Accuracy = 0.3863
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 12
+Trial 90, Fold 4: Test Accuracy = 0.4331
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 36
+Trial 90, Fold 5: Test Accuracy = 0.3963
+Trial 90 completed: Mean Accuracy = 0.4224
+[I 2025-04-24 13:47:04,282] Trial 90 finished with value: 0.42238294944193155 and parameters: {'embed_dim': 128, 'depths': [2, 2, 6, 2], 'num_heads': [4, 8, 16, 32], 'window_size': 14, 'mlp_ratio': 2.270129000932869, 'drop_rate': 0.11079899334882438, 'attn_drop_rate': 0.013391786367072691, 'drop_path_rate': 0.1765128691774826, 'learning_rate': 1.3467801799031635e-05, 'weight_decay': 1.663791986144299e-06, 'batch_size': 32, 'optimizer': 'Adam', 'label_smoothing': 0.05524616456514948, 'factor': 2}. Best is trial 68 with value: 0.5026770677464627.
+C:\Users\hp\anaconda3\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+warnings.warn(message)
+C:\Users\hp\anaconda3\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+warnings.warn(message)
+C:\Users\hp\anaconda3\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+warnings.warn(message)
+C:\Users\hp\anaconda3\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+warnings.warn(message)
+Trial 91 hyperparameters:
+embed_dim: 128
+depths: [2, 2, 6, 2]
+num_heads: [4, 8, 16, 32]
+window_size: 14
+mlp_ratio: 2.6916032950372144
+drop_rate: 0.13991044944893521
+attn_drop_rate: 0.14406693252941613
+drop_path_rate: 0.13836347767851692
+learning_rate: 3.3019565308722566e-05
+weight_decay: 2.4638182060806145e-06
+batch_size: 32
+optimizer: Adam
+label_smoothing: 0.14880632115537173
+factor: 1
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 17
+Trial 91, Fold 1: Test Accuracy = 0.4445
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 23
+Trial 91, Fold 2: Test Accuracy = 0.5115
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 10
+Trial 91, Fold 3: Test Accuracy = 0.5265
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 20
+Trial 91, Fold 4: Test Accuracy = 0.4954
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 15
+Trial 91, Fold 5: Test Accuracy = 0.4170
+Trial 91 completed: Mean Accuracy = 0.4790
+[I 2025-04-24 14:19:24,768] Trial 91 finished with value: 0.47899295094891076 and parameters: {'embed_dim': 128, 'depths': [2, 2, 6, 2], 'num_heads': [4, 8, 16, 32], 'window_size': 14, 'mlp_ratio': 2.6916032950372144, 'drop_rate': 0.13991044944893521, 'attn_drop_rate': 0.14406693252941613, 'drop_path_rate': 0.13836347767851692, 'learning_rate': 3.3019565308722566e-05, 'weight_decay': 2.4638182060806145e-06, 'batch_size': 32, 'optimizer': 'Adam', 'label_smoothing': 0.14880632115537173, 'factor': 1}. Best is trial 68 with value: 0.5026770677464627.
+C:\Users\hp\anaconda3\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+warnings.warn(message)
+C:\Users\hp\anaconda3\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+warnings.warn(message)
+C:\Users\hp\anaconda3\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+warnings.warn(message)
+C:\Users\hp\anaconda3\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+warnings.warn(message)
+Trial 92 hyperparameters:
+embed_dim: 128
+depths: [2, 2, 6, 2]
+num_heads: [4, 8, 16, 32]
+window_size: 14
+mlp_ratio: 2.9055885103396504
+drop_rate: 0.14401143271308386
+attn_drop_rate: 0.19966166836989574
+drop_path_rate: 0.15956433237565276
+learning_rate: 2.8367555667212324e-05
+weight_decay: 2.3740116124105863e-06
+batch_size: 32
+optimizer: Adam
+label_smoothing: 0.13416561189493603
+factor: 1
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 23
+Trial 92, Fold 1: Test Accuracy = 0.4344
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 23
+Trial 92, Fold 2: Test Accuracy = 0.5140
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 16
+Trial 92, Fold 3: Test Accuracy = 0.5468
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 11
+Trial 92, Fold 4: Test Accuracy = 0.4300
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 18
+Trial 92, Fold 5: Test Accuracy = 0.4363
+Trial 92 completed: Mean Accuracy = 0.4723
+[I 2025-04-24 14:54:10,644] Trial 92 finished with value: 0.4722949362426613 and parameters: {'embed_dim': 128, 'depths': [2, 2, 6, 2], 'num_heads': [4, 8, 16, 32], 'window_size': 14, 'mlp_ratio': 2.9055885103396504, 'drop_rate': 0.14401143271308386, 'attn_drop_rate': 0.19966166836989574, 'drop_path_rate': 0.15956433237565276, 'learning_rate': 2.8367555667212324e-05, 'weight_decay': 2.3740116124105863e-06, 'batch_size': 32, 'optimizer': 'Adam', 'label_smoothing': 0.13416561189493603, 'factor': 1}. Best is trial 68 with value: 0.5026770677464627.
+C:\Users\hp\anaconda3\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+warnings.warn(message)
+C:\Users\hp\anaconda3\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+warnings.warn(message)
+C:\Users\hp\anaconda3\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+warnings.warn(message)
+C:\Users\hp\anaconda3\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+warnings.warn(message)
+Trial 93 hyperparameters:
+embed_dim: 128
+depths: [2, 2, 6, 2]
+num_heads: [4, 8, 16, 32]
+window_size: 14
+mlp_ratio: 2.967366872463397
+drop_rate: 0.1567330797097972
+attn_drop_rate: 0.2502543411466608
+drop_path_rate: 0.10948593006467039
+learning_rate: 2.3030271341068793e-05
+weight_decay: 3.1151035823189673e-06
+batch_size: 32
+optimizer: Adam
+label_smoothing: 0.15733114318057237
+factor: 1
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 25
+Trial 93, Fold 1: Test Accuracy = 0.4365
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 21
+Trial 93, Fold 2: Test Accuracy = 0.4863
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 30
+Trial 93, Fold 3: Test Accuracy = 0.5370
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 12
+Trial 93, Fold 4: Test Accuracy = 0.5014
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 19
+Trial 93, Fold 5: Test Accuracy = 0.4140
+Trial 93 completed: Mean Accuracy = 0.4751
+[I 2025-04-24 15:34:27,926] Trial 93 finished with value: 0.47505086944148883 and parameters: {'embed_dim': 128, 'depths': [2, 2, 6, 2], 'num_heads': [4, 8, 16, 32], 'window_size': 14, 'mlp_ratio': 2.967366872463397, 'drop_rate': 0.1567330797097972, 'attn_drop_rate': 0.2502543411466608, 'drop_path_rate': 0.10948593006467039, 'learning_rate': 2.3030271341068793e-05, 'weight_decay': 3.1151035823189673e-06, 'batch_size': 32, 'optimizer': 'Adam', 'label_smoothing': 0.15733114318057237, 'factor': 1}. Best is trial 68 with value: 0.5026770677464627.
+C:\Users\hp\anaconda3\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+warnings.warn(message)
+C:\Users\hp\anaconda3\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+warnings.warn(message)
+C:\Users\hp\anaconda3\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+warnings.warn(message)
+C:\Users\hp\anaconda3\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+warnings.warn(message)
+Trial 94 hyperparameters:
+embed_dim: 128
+depths: [2, 2, 6, 2]
+num_heads: [4, 8, 16, 32]
+window_size: 14
+mlp_ratio: 3.035231010350054
+drop_rate: 0.12548484343876518
+attn_drop_rate: 0.18647270526706786
+drop_path_rate: 0.057497129710725785
+learning_rate: 1.5832500313530592e-05
+weight_decay: 4.991130846443306e-06
+batch_size: 32
+optimizer: Adam
+label_smoothing: 0.12297164553758053
+factor: 1
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 18
+Trial 94, Fold 1: Test Accuracy = 0.4130
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 21
+Trial 94, Fold 2: Test Accuracy = 0.5011
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 17
+Trial 94, Fold 3: Test Accuracy = 0.5049
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 14
+Trial 94, Fold 4: Test Accuracy = 0.4676
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 18
+Trial 94, Fold 5: Test Accuracy = 0.3901
+Trial 94 completed: Mean Accuracy = 0.4553
+[I 2025-04-24 16:08:36,267] Trial 94 finished with value: 0.45534692929642917 and parameters: {'embed_dim': 128, 'depths': [2, 2, 6, 2], 'num_heads': [4, 8, 16, 32], 'window_size': 14, 'mlp_ratio': 3.035231010350054, 'drop_rate': 0.12548484343876518, 'attn_drop_rate': 0.18647270526706786, 'drop_path_rate': 0.057497129710725785, 'learning_rate': 1.5832500313530592e-05, 'weight_decay': 4.991130846443306e-06, 'batch_size': 32, 'optimizer': 'Adam', 'label_smoothing': 0.12297164553758053, 'factor': 1}. Best is trial 68 with value: 0.5026770677464627.
+C:\Users\hp\anaconda3\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+warnings.warn(message)
+C:\Users\hp\anaconda3\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+warnings.warn(message)
+C:\Users\hp\anaconda3\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+warnings.warn(message)
+C:\Users\hp\anaconda3\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+warnings.warn(message)
+Trial 95 hyperparameters:
+embed_dim: 128
+depths: [2, 2, 6, 2]
+num_heads: [4, 8, 16, 32]
+window_size: 14
+mlp_ratio: 2.7504941924226416
+drop_rate: 0.10288532537307024
+attn_drop_rate: 0.21081892031423854
+drop_path_rate: 0.12328514259448209
+learning_rate: 1.8797320403361638e-05
+weight_decay: 2.9619175146497812e-05
+batch_size: 32
+optimizer: AdamW
+label_smoothing: 0.17690453353468974
+factor: 1
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 16
+Trial 95, Fold 1: Test Accuracy = 0.4687
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 17
+Trial 95, Fold 2: Test Accuracy = 0.5021
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 17
+Trial 95, Fold 3: Test Accuracy = 0.5076
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 19
+Trial 95, Fold 4: Test Accuracy = 0.4431
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 21
+Trial 95, Fold 5: Test Accuracy = 0.4510
+Trial 95 completed: Mean Accuracy = 0.4745
+[I 2025-04-24 16:42:32,722] Trial 95 finished with value: 0.47447842629775144 and parameters: {'embed_dim': 128, 'depths': [2, 2, 6, 2], 'num_heads': [4, 8, 16, 32], 'window_size': 14, 'mlp_ratio': 2.7504941924226416, 'drop_rate': 0.10288532537307024, 'attn_drop_rate': 0.21081892031423854, 'drop_path_rate': 0.12328514259448209, 'learning_rate': 1.8797320403361638e-05, 'weight_decay': 2.9619175146497812e-05, 'batch_size': 32, 'optimizer': 'AdamW', 'label_smoothing': 0.17690453353468974, 'factor': 1}. Best is trial 68 with value: 0.5026770677464627.
+C:\Users\hp\anaconda3\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+warnings.warn(message)
+C:\Users\hp\anaconda3\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+warnings.warn(message)
+C:\Users\hp\anaconda3\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+warnings.warn(message)
+C:\Users\hp\anaconda3\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+warnings.warn(message)
+Trial 96 hyperparameters:
+embed_dim: 96
+depths: [2, 2, 6, 2]
+num_heads: [3, 6, 12, 24]
+window_size: 7
+mlp_ratio: 2.8534150928609883
+drop_rate: 0.06756362111794201
+attn_drop_rate: 0.15453755326524343
+drop_path_rate: 0.07861599401288757
+learning_rate: 3.7192940633480766e-05
+weight_decay: 5.950842749679602e-05
+batch_size: 32
+optimizer: SGD
+label_smoothing: 0.16803916078058984
+factor: 1
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 10
+Trial 96, Fold 1: Test Accuracy = 0.3853
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 35
+Trial 96, Fold 2: Test Accuracy = 0.4533
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 20
+Trial 96, Fold 3: Test Accuracy = 0.3666
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 10
+Trial 96, Fold 4: Test Accuracy = 0.3699
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 19
+Trial 96, Fold 5: Test Accuracy = 0.3710
+Trial 96 completed: Mean Accuracy = 0.3892
+[I 2025-04-24 17:04:02,849] Trial 96 finished with value: 0.38920756369221193 and parameters: {'embed_dim': 96, 'depths': [2, 2, 6, 2], 'num_heads': [3, 6, 12, 24], 'window_size': 7, 'mlp_ratio': 2.8534150928609883, 'drop_rate': 0.06756362111794201, 'attn_drop_rate': 0.15453755326524343, 'drop_path_rate': 0.07861599401288757, 'learning_rate': 3.7192940633480766e-05, 'weight_decay': 5.950842749679602e-05, 'batch_size': 32, 'optimizer': 'SGD', 'label_smoothing': 0.16803916078058984, 'factor': 1}. Best is trial 68 with value: 0.5026770677464627.
+C:\Users\hp\anaconda3\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+warnings.warn(message)
+C:\Users\hp\anaconda3\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+warnings.warn(message)
+C:\Users\hp\anaconda3\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+warnings.warn(message)
+C:\Users\hp\anaconda3\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+warnings.warn(message)
+Trial 97 hyperparameters:
+embed_dim: 128
+depths: [2, 2, 6, 2]
+num_heads: [4, 8, 16, 32]
+window_size: 7
+mlp_ratio: 3.21715291032504
+drop_rate: 0.1774267542594385
+attn_drop_rate: 0.16801173200519892
+drop_path_rate: 0.101724377719208
+learning_rate: 5.331959770549367e-05
+weight_decay: 8.182103303900524e-05
+batch_size: 32
+optimizer: AdamW
+label_smoothing: 0.14052735862593774
+factor: 1
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 20
+Trial 97, Fold 1: Test Accuracy = 0.4043
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 21
+Trial 97, Fold 2: Test Accuracy = 0.4845
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 19
+Trial 97, Fold 3: Test Accuracy = 0.4773
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 10
+Trial 97, Fold 4: Test Accuracy = 0.4563
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 15
+Trial 97, Fold 5: Test Accuracy = 0.4431
+Trial 97 completed: Mean Accuracy = 0.4531
+[I 2025-04-24 17:30:58,567] Trial 97 finished with value: 0.4530960118226348 and parameters: {'embed_dim': 128, 'depths': [2, 2, 6, 2], 'num_heads': [4, 8, 16, 32], 'window_size': 7, 'mlp_ratio': 3.21715291032504, 'drop_rate': 0.1774267542594385, 'attn_drop_rate': 0.16801173200519892, 'drop_path_rate': 0.101724377719208, 'learning_rate': 5.331959770549367e-05, 'weight_decay': 8.182103303900524e-05, 'batch_size': 32, 'optimizer': 'AdamW', 'label_smoothing': 0.14052735862593774, 'factor': 1}. Best is trial 68 with value: 0.5026770677464627.
+C:\Users\hp\anaconda3\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+warnings.warn(message)
+C:\Users\hp\anaconda3\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+warnings.warn(message)
+C:\Users\hp\anaconda3\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+warnings.warn(message)
+C:\Users\hp\anaconda3\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+warnings.warn(message)
+Trial 98 hyperparameters:
+embed_dim: 128
+depths: [2, 2, 6, 2]
+num_heads: [4, 8, 16, 32]
+window_size: 14
+mlp_ratio: 2.598706792347881
+drop_rate: 0.08487130043800116
+attn_drop_rate: 0.23266124016956455
+drop_path_rate: 0.1430105462837396
+learning_rate: 3.1597956858222135e-05
+weight_decay: 1.9685120032826764e-06
+batch_size: 64
+optimizer: Adam
+label_smoothing: 0.06503992636630954
+factor: 1
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 26
+Trial 98, Fold 1: Test Accuracy = 0.4551
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 25
+Trial 98, Fold 2: Test Accuracy = 0.4946
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 28
+Trial 98, Fold 3: Test Accuracy = 0.4835
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 12
+Trial 98, Fold 4: Test Accuracy = 0.4237
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 23
+Trial 98, Fold 5: Test Accuracy = 0.4430
+Trial 98 completed: Mean Accuracy = 0.4600
+[I 2025-04-24 18:25:56,682] Trial 98 finished with value: 0.45997436956713533 and parameters: {'embed_dim': 128, 'depths': [2, 2, 6, 2], 'num_heads': [4, 8, 16, 32], 'window_size': 14, 'mlp_ratio': 2.598706792347881, 'drop_rate': 0.08487130043800116, 'attn_drop_rate': 0.23266124016956455, 'drop_path_rate': 0.1430105462837396, 'learning_rate': 3.1597956858222135e-05, 'weight_decay': 1.9685120032826764e-06, 'batch_size': 64, 'optimizer': 'Adam', 'label_smoothing': 0.06503992636630954, 'factor': 1}. Best is trial 68 with value: 0.5026770677464627.
+C:\Users\hp\anaconda3\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+warnings.warn(message)
+C:\Users\hp\anaconda3\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+warnings.warn(message)
+C:\Users\hp\anaconda3\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+warnings.warn(message)
+C:\Users\hp\anaconda3\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+warnings.warn(message)
+Trial 99 hyperparameters:
+embed_dim: 96
+depths: [2, 2, 6, 2]
+num_heads: [3, 6, 12, 24]
+window_size: 7
+mlp_ratio: 2.780919073741688
+drop_rate: 0.1973260652401285
+attn_drop_rate: 0.18829742729844418
+drop_path_rate: 0.399702146494261
+learning_rate: 2.4464245888134677e-05
+weight_decay: 1.3417416605016543e-06
+batch_size: 32
+optimizer: AdamW
+label_smoothing: 0.040367137652043486
+factor: 1
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 28
+Trial 99, Fold 1: Test Accuracy = 0.4581
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 30
+Trial 99, Fold 2: Test Accuracy = 0.4966
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 24
+Trial 99, Fold 3: Test Accuracy = 0.5288
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 13
+Trial 99, Fold 4: Test Accuracy = 0.4494
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 30
+Trial 99, Fold 5: Test Accuracy = 0.4568
+Trial 99 completed: Mean Accuracy = 0.4780
+[I 2025-04-24 18:54:08,290] Trial 99 finished with value: 0.4779517925236389 and parameters: {'embed_dim': 96, 'depths': [2, 2, 6, 2], 'num_heads': [3, 6, 12, 24], 'window_size': 7, 'mlp_ratio': 2.780919073741688, 'drop_rate': 0.1973260652401285, 'attn_drop_rate': 0.18829742729844418, 'drop_path_rate': 0.399702146494261, 'learning_rate': 2.4464245888134677e-05, 'weight_decay': 1.3417416605016543e-06, 'batch_size': 32, 'optimizer': 'AdamW', 'label_smoothing': 0.040367137652043486, 'factor': 1}. Best is trial 68 with value: 0.5026770677464627.
+Best hyperparameters: {'embed_dim': 128, 'depths': [2, 2, 6, 2], 'num_heads': [4, 8, 16, 32], 'window_size': 14, 'mlp_ratio': 2.8859252729165528, 'drop_rate': 0.14376422440199177, 'attn_drop_rate': 0.16147072703456217, 'drop_path_rate': 0.07894141037454817, 'learning_rate': 3.0176840296221454e-05, 'weight_decay': 1.4789889052203777e-06, 'batch_size': 32, 'optimizer': 'Adam', 'label_smoothing': 0.12926376177953994, 'factor': 1}
+Best value: 0.5026770677464627

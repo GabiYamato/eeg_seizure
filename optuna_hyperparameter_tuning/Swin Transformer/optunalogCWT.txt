@@ -1,0 +1,2958 @@
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\tqdm\auto.py:21: TqdmWarning: IProgress not found. Please update jupyter and ipywidgets. See https://ipywidgets.readthedocs.io/en/stable/user_install.html
+  from .autonotebook import tqdm as notebook_tqdm
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\torch\functional.py:539: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\TensorShape.cpp:4312.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+torch.Size([1, 3])
+====================================================================================================
+Layer (type:depth-idx)                             Output Shape              Param #
+====================================================================================================
+SwinTransformer                                    [1, 3]                    --
+├─PatchEmbed: 1-1                                  [1, 3136, 96]             --
+│    └─Conv2d: 2-1                                 [1, 96, 56, 56]           4,704
+│    └─LayerNorm: 2-2                              [1, 3136, 96]             192
+├─Dropout: 1-2                                     [1, 3136, 96]             --
+├─ModuleList: 1-3                                  --                        --
+│    └─BasicLayer: 2-3                             [1, 784, 192]             --
+│    │    └─ModuleList: 3-1                        --                        224,694
+│    │    └─PatchMerging: 3-2                      [1, 784, 192]             74,496
+│    └─BasicLayer: 2-4                             [1, 196, 384]             --
+│    │    └─ModuleList: 3-3                        --                        891,756
+│    │    └─PatchMerging: 3-4                      [1, 196, 384]             296,448
+│    └─BasicLayer: 2-5                             [1, 49, 768]              --
+│    │    └─ModuleList: 3-5                        --                        10,658,952
+│    │    └─PatchMerging: 3-6                      [1, 49, 768]              1,182,720
+│    └─BasicLayer: 2-6                             [1, 49, 768]              --
+│    │    └─ModuleList: 3-7                        --                        14,183,856
+├─LayerNorm: 1-4                                   [1, 49, 768]              1,536
+├─AdaptiveAvgPool1d: 1-5                           [1, 768, 1]               --
+├─Linear: 1-6                                      [1, 3]                    2,307
+====================================================================================================
+Total params: 27,521,661
+Trainable params: 27,521,661
+Non-trainable params: 0
+Total mult-adds (Units.MEGABYTES): 62.03
+====================================================================================================
+Input size (MB): 0.60
+Forward/backward pass size (MB): 137.28
+Params size (MB): 109.99
+Estimated Total Size (MB): 247.88
+====================================================================================================
+[I 2025-06-05 15:09:45,272] A new study created in memory with name: no-name-af1b186c-e616-40dd-997a-b4787f762bd9
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+  warnings.warn(message)
+Trial 0 hyperparameters:
+embed_dim: 128
+depths: [2, 2, 18, 2]
+num_heads: [3, 6, 12, 24]
+window_size: 7
+mlp_ratio: 2.5156573737491286
+drop_rate: 0.010042719572262104
+attn_drop_rate: 0.09347501839949418
+drop_path_rate: 0.04226957061855535
+learning_rate: 0.0001340753387763386
+weight_decay: 5.398090821616318e-06
+batch_size: 16
+optimizer: Adam
+label_smoothing: 0.2
+factor: 1
+Trial 1 hyperparameters:
+embed_dim: 128
+depths: [2, 2, 6, 2]
+num_heads: [3, 6, 12, 24]
+window_size: 7
+mlp_ratio: 2.3670579821756395
+drop_rate: 0.40342928270498907
+attn_drop_rate: 0.4444342636420845
+drop_path_rate: 0.2520016706276389
+learning_rate: 7.580251752121877e-05
+weight_decay: 2.7596404079456254e-06
+batch_size: 16
+optimizer: Adam
+label_smoothing: 0.2
+factor: 1
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 17
+EarlyStopping counter: 7 out of 10
+Trial 1: Test Accuracy = 0.3833
+[I 2025-06-05 15:18:16,852] Trial 1 finished with value: 0.3832800059691535 and parameters: {'embed_dim': 128, 'depths': [2, 2, 6, 2], 'num_heads': [3, 6, 12, 24], 'window_size': 7, 'mlp_ratio': 2.3670579821756395, 'drop_rate': 0.40342928270498907, 'attn_drop_rate': 0.4444342636420845, 'drop_path_rate': 0.2520016706276389, 'learning_rate': 7.580251752121877e-05, 'weight_decay': 2.7596404079456254e-06}. Best is trial 1 with value: 0.3832800059691535.
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+  warnings.warn(message)
+Trial 2 hyperparameters:
+embed_dim: 96
+depths: [2, 2, 18, 2]
+num_heads: [3, 6, 12, 24]
+window_size: 14
+mlp_ratio: 2.047654354956415
+drop_rate: 0.03256644460108571
+attn_drop_rate: 0.09033575360014423
+drop_path_rate: 0.23866933189957834
+learning_rate: 7.040862978670885e-05
+weight_decay: 0.0001763202916647278
+batch_size: 16
+optimizer: Adam
+label_smoothing: 0.2
+factor: 1
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 27
+Trial 0: Test Accuracy = 0.3925
+[I 2025-06-05 15:29:33,517] Trial 0 finished with value: 0.3925139060794658 and parameters: {'embed_dim': 128, 'depths': [2, 2, 18, 2], 'num_heads': [3, 6, 12, 24], 'window_size': 7, 'mlp_ratio': 2.5156573737491286, 'drop_rate': 0.010042719572262104, 'attn_drop_rate': 0.09347501839949418, 'drop_path_rate': 0.04226957061855535, 'learning_rate': 0.0001340753387763386, 'weight_decay': 5.398090821616318e-06}. Best is trial 0 with value: 0.3925139060794658.
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+  warnings.warn(message)
+Trial 3 hyperparameters:
+embed_dim: 96
+depths: [2, 2, 6, 2]
+num_heads: [3, 6, 12, 24]
+window_size: 7
+mlp_ratio: 2.2708879547369163
+drop_rate: 0.3742610804286547
+attn_drop_rate: 0.3986098112779992
+drop_path_rate: 0.3826163673342998
+learning_rate: 1.5180719211901538e-05
+weight_decay: 0.0009106951665242401
+batch_size: 16
+optimizer: Adam
+label_smoothing: 0.2
+factor: 1
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 13
+EarlyStopping counter: 2 out of 10
+[I 2025-06-05 15:30:39,518] Trial 2 finished with value: 0.4104886659234485 and parameters: {'embed_dim': 96, 'depths': [2, 2, 18, 2], 'num_heads': [3, 6, 12, 24], 'window_size': 14, 'mlp_ratio': 2.047654354956415, 'drop_rate': 0.03256644460108571, 'attn_drop_rate': 0.09033575360014423, 'drop_path_rate': 0.23866933189957834, 'learning_rate': 7.040862978670885e-05, 'weight_decay': 0.0001763202916647278}. Best is trial 2 with value: 0.4104886659234485.
+Trial 2: Test Accuracy = 0.4105
+Trial 4 hyperparameters:
+embed_dim: 128
+depths: [2, 2, 18, 2]
+num_heads: [4, 8, 16, 32]
+window_size: 14
+mlp_ratio: 2.9443053552165397
+drop_rate: 0.44743097081543626
+attn_drop_rate: 0.36713746038071654
+drop_path_rate: 0.29374596874247405
+learning_rate: 7.973936076447017e-05
+weight_decay: 0.0007596531553132425
+batch_size: 16
+optimizer: Adam
+label_smoothing: 0.2
+factor: 1
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+  warnings.warn(message)
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 11
+Trial 3: Test Accuracy = 0.3387
+[I 2025-06-05 15:36:36,050] Trial 3 finished with value: 0.33867521367521364 and parameters: {'embed_dim': 96, 'depths': [2, 2, 6, 2], 'num_heads': [3, 6, 12, 24], 'window_size': 7, 'mlp_ratio': 2.2708879547369163, 'drop_rate': 0.3742610804286547, 'attn_drop_rate': 0.3986098112779992, 'drop_path_rate': 0.3826163673342998, 'learning_rate': 1.5180719211901538e-05, 'weight_decay': 0.0009106951665242401}. Best is trial 2 with value: 0.4104886659234485.
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+  warnings.warn(message)
+Trial 5 hyperparameters:
+embed_dim: 128
+depths: [2, 2, 6, 2]
+num_heads: [3, 6, 12, 24]
+window_size: 7
+mlp_ratio: 2.5103229644819596
+drop_rate: 0.4033981133292982
+attn_drop_rate: 0.2406659932683315
+drop_path_rate: 0.057524747011528765
+learning_rate: 0.0006562958417743841
+weight_decay: 1.0403312904710142e-05
+batch_size: 16
+optimizer: Adam
+label_smoothing: 0.2
+factor: 1
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 11
+Trial 5: Test Accuracy = 0.3333
+[I 2025-06-05 15:58:57,168] Trial 5 finished with value: 0.3333333333333333 and parameters: {'embed_dim': 128, 'depths': [2, 2, 6, 2], 'num_heads': [3, 6, 12, 24], 'window_size': 7, 'mlp_ratio': 2.5103229644819596, 'drop_rate': 0.4033981133292982, 'attn_drop_rate': 0.2406659932683315, 'drop_path_rate': 0.057524747011528765, 'learning_rate': 0.0006562958417743841, 'weight_decay': 1.0403312904710142e-05}. Best is trial 2 with value: 0.4104886659234485.
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+  warnings.warn(message)
+Trial 6 hyperparameters:
+embed_dim: 128
+depths: [2, 2, 18, 2]
+num_heads: [3, 6, 12, 24]
+window_size: 7
+mlp_ratio: 2.531168744779977
+drop_rate: 0.46060412854786204
+attn_drop_rate: 0.39416461854043183
+drop_path_rate: 0.10300910813073733
+learning_rate: 0.0004913133132647819
+weight_decay: 2.0339691584532745e-06
+batch_size: 16
+optimizer: Adam
+label_smoothing: 0.2
+factor: 1
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 15
+Trial 4: Test Accuracy = 0.4813
+[I 2025-06-05 16:07:42,426] Trial 4 finished with value: 0.48134200616227324 and parameters: {'embed_dim': 128, 'depths': [2, 2, 18, 2], 'num_heads': [4, 8, 16, 32], 'window_size': 14, 'mlp_ratio': 2.9443053552165397, 'drop_rate': 0.44743097081543626, 'attn_drop_rate': 0.36713746038071654, 'drop_path_rate': 0.29374596874247405, 'learning_rate': 7.973936076447017e-05, 'weight_decay': 0.0007596531553132425}. Best is trial 4 with value: 0.48134200616227324.
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+  warnings.warn(message)
+Trial 7 hyperparameters:
+embed_dim: 96
+depths: [2, 2, 18, 2]
+num_heads: [4, 8, 16, 32]
+window_size: 14
+mlp_ratio: 2.571887808317523
+drop_rate: 0.3306498941372074
+attn_drop_rate: 0.18974438521696946
+drop_path_rate: 0.09850596623410618
+learning_rate: 0.0007467223978160597
+weight_decay: 7.316277097010863e-06
+batch_size: 16
+optimizer: Adam
+label_smoothing: 0.2
+factor: 1
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 24
+Trial 6: Test Accuracy = 0.3333
+[I 2025-06-05 17:14:43,054] Trial 6 finished with value: 0.3333333333333333 and parameters: {'embed_dim': 128, 'depths': [2, 2, 18, 2], 'num_heads': [3, 6, 12, 24], 'window_size': 7, 'mlp_ratio': 2.531168744779977, 'drop_rate': 0.46060412854786204, 'attn_drop_rate': 0.39416461854043183, 'drop_path_rate': 0.10300910813073733, 'learning_rate': 0.0004913133132647819, 'weight_decay': 2.0339691584532745e-06}. Best is trial 4 with value: 0.48134200616227324.
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+  warnings.warn(message)
+Trial 8 hyperparameters:
+embed_dim: 128
+depths: [2, 2, 18, 2]
+num_heads: [4, 8, 16, 32]
+window_size: 7
+mlp_ratio: 2.5928875730936936
+drop_rate: 0.02456776842225722
+attn_drop_rate: 0.4324541906971781
+drop_path_rate: 0.0300410263493458
+learning_rate: 7.063758130635339e-05
+weight_decay: 0.0003520134167608912
+batch_size: 16
+optimizer: Adam
+label_smoothing: 0.2
+factor: 1
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 20
+Trial 7: Test Accuracy = 0.3333
+[I 2025-06-05 17:16:29,093] Trial 7 finished with value: 0.3333333333333333 and parameters: {'embed_dim': 96, 'depths': [2, 2, 18, 2], 'num_heads': [4, 8, 16, 32], 'window_size': 14, 'mlp_ratio': 2.571887808317523, 'drop_rate': 0.3306498941372074, 'attn_drop_rate': 0.18974438521696946, 'drop_path_rate': 0.09850596623410618, 'learning_rate': 0.0007467223978160597, 'weight_decay': 7.316277097010863e-06}. Best is trial 4 with value: 0.48134200616227324.
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+  warnings.warn(message)
+Trial 9 hyperparameters:
+embed_dim: 96
+depths: [2, 2, 6, 2]
+num_heads: [4, 8, 16, 32]
+window_size: 14
+mlp_ratio: 2.495428271122276
+drop_rate: 0.1430930207492891
+attn_drop_rate: 0.35599393780956073
+drop_path_rate: 0.3441485618691948
+learning_rate: 1.2357308071339291e-05
+weight_decay: 2.0261355612952046e-06
+batch_size: 16
+optimizer: Adam
+label_smoothing: 0.2
+factor: 1
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 11
+Trial 9: Test Accuracy = 0.4092
+[I 2025-06-05 17:26:22,799] Trial 9 finished with value: 0.4091587736315569 and parameters: {'embed_dim': 96, 'depths': [2, 2, 6, 2], 'num_heads': [4, 8, 16, 32], 'window_size': 14, 'mlp_ratio': 2.495428271122276, 'drop_rate': 0.1430930207492891, 'attn_drop_rate': 0.35599393780956073, 'drop_path_rate': 0.3441485618691948, 'learning_rate': 1.2357308071339291e-05, 'weight_decay': 2.0261355612952046e-06}. Best is trial 4 with value: 0.48134200616227324.
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+  warnings.warn(message)
+Trial 10 hyperparameters:
+embed_dim: 128
+depths: [2, 2, 6, 2]
+num_heads: [4, 8, 16, 32]
+window_size: 14
+mlp_ratio: 2.75075043205378
+drop_rate: 0.11928988596346862
+attn_drop_rate: 0.1620266066605019
+drop_path_rate: 0.06475489771339399
+learning_rate: 0.0005114489988404874
+weight_decay: 2.953725579366914e-06
+batch_size: 16
+optimizer: Adam
+label_smoothing: 0.2
+factor: 1
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 15
+EarlyStopping counter: 2 out of 10
+Trial 8: Test Accuracy = 0.3933
+[I 2025-06-05 17:31:55,523] Trial 8 finished with value: 0.39329333415262896 and parameters: {'embed_dim': 128, 'depths': [2, 2, 18, 2], 'num_heads': [4, 8, 16, 32], 'window_size': 7, 'mlp_ratio': 2.5928875730936936, 'drop_rate': 0.02456776842225722, 'attn_drop_rate': 0.4324541906971781, 'drop_path_rate': 0.0300410263493458, 'learning_rate': 7.063758130635339e-05, 'weight_decay': 0.0003520134167608912}. Best is trial 4 with value: 0.48134200616227324.
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+  warnings.warn(message)
+Trial 11 hyperparameters:
+embed_dim: 128
+depths: [2, 2, 18, 2]
+num_heads: [4, 8, 16, 32]
+window_size: 14
+mlp_ratio: 3.6279376766868485
+drop_rate: 0.25149980761075263
+attn_drop_rate: 0.3002054471549851
+drop_path_rate: 0.4378157407967099
+learning_rate: 0.00022097234629144842
+weight_decay: 5.411492344178781e-05
+batch_size: 16
+optimizer: Adam
+label_smoothing: 0.2
+factor: 1
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 18
+Trial 10: Test Accuracy = 0.3333
+[I 2025-06-05 18:56:04,554] Trial 10 finished with value: 0.3333333333333333 and parameters: {'embed_dim': 128, 'depths': [2, 2, 6, 2], 'num_heads': [4, 8, 16, 32], 'window_size': 14, 'mlp_ratio': 2.75075043205378, 'drop_rate': 0.11928988596346862, 'attn_drop_rate': 0.1620266066605019, 'drop_path_rate': 0.06475489771339399, 'learning_rate': 0.0005114489988404874, 'weight_decay': 2.953725579366914e-06}. Best is trial 4 with value: 0.48134200616227324.
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+  warnings.warn(message)
+Trial 12 hyperparameters:
+embed_dim: 96
+depths: [2, 2, 18, 2]
+num_heads: [4, 8, 16, 32]
+window_size: 14
+mlp_ratio: 3.4684441366073884
+drop_rate: 0.2371288719467745
+attn_drop_rate: 0.020900460953763897
+drop_path_rate: 0.2304984000242884
+learning_rate: 3.7140957714296526e-05
+weight_decay: 0.00013481434317666027
+batch_size: 16
+optimizer: Adam
+label_smoothing: 0.2
+factor: 1
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 20
+Trial 11: Test Accuracy = 0.3333
+[I 2025-06-05 19:32:12,568] Trial 11 finished with value: 0.3333333333333333 and parameters: {'embed_dim': 128, 'depths': [2, 2, 18, 2], 'num_heads': [4, 8, 16, 32], 'window_size': 14, 'mlp_ratio': 3.6279376766868485, 'drop_rate': 0.25149980761075263, 'attn_drop_rate': 0.3002054471549851, 'drop_path_rate': 0.4378157407967099, 'learning_rate': 0.00022097234629144842, 'weight_decay': 5.411492344178781e-05}. Best is trial 4 with value: 0.48134200616227324.
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+  warnings.warn(message)
+Trial 13 hyperparameters:
+embed_dim: 96
+depths: [2, 2, 18, 2]
+num_heads: [4, 8, 16, 32]
+window_size: 14
+mlp_ratio: 2.0092477530540047
+drop_rate: 0.24414217009273748
+attn_drop_rate: 0.006797229503312463
+drop_path_rate: 0.22009579293838863
+learning_rate: 3.479008394948572e-05
+weight_decay: 0.00012927746589361922
+batch_size: 16
+optimizer: Adam
+label_smoothing: 0.2
+factor: 1
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 11
+Trial 12: Test Accuracy = 0.3418
+[I 2025-06-05 19:47:56,225] Trial 12 finished with value: 0.34178780537048253 and parameters: {'embed_dim': 96, 'depths': [2, 2, 18, 2], 'num_heads': [4, 8, 16, 32], 'window_size': 14, 'mlp_ratio': 3.4684441366073884, 'drop_rate': 0.2371288719467745, 'attn_drop_rate': 0.020900460953763897, 'drop_path_rate': 0.2304984000242884, 'learning_rate': 3.7140957714296526e-05, 'weight_decay': 0.00013481434317666027}. Best is trial 4 with value: 0.48134200616227324.
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+  warnings.warn(message)
+Trial 14 hyperparameters:
+embed_dim: 96
+depths: [2, 2, 18, 2]
+num_heads: [3, 6, 12, 24]
+window_size: 14
+mlp_ratio: 2.031993868378338
+drop_rate: 0.4924526407647004
+attn_drop_rate: 0.49284971369240776
+drop_path_rate: 0.22116885428397978
+learning_rate: 3.909672126156076e-05
+weight_decay: 0.000944402159746502
+batch_size: 16
+optimizer: Adam
+label_smoothing: 0.2
+factor: 1
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 10
+Trial 13: Test Accuracy = 0.4656
+[I 2025-06-05 19:59:05,945] Trial 13 finished with value: 0.4656042158609772 and parameters: {'embed_dim': 96, 'depths': [2, 2, 18, 2], 'num_heads': [4, 8, 16, 32], 'window_size': 14, 'mlp_ratio': 2.0092477530540047, 'drop_rate': 0.24414217009273748, 'attn_drop_rate': 0.006797229503312463, 'drop_path_rate': 0.22009579293838863, 'learning_rate': 3.479008394948572e-05, 'weight_decay': 0.00012927746589361922}. Best is trial 4 with value: 0.48134200616227324.
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+  warnings.warn(message)
+Trial 15 hyperparameters:
+embed_dim: 96
+depths: [2, 2, 18, 2]
+num_heads: [4, 8, 16, 32]
+window_size: 14
+mlp_ratio: 3.1666081222689586
+drop_rate: 0.2648875737075289
+attn_drop_rate: 0.4973540712764486
+drop_path_rate: 0.1749537158109743
+learning_rate: 3.3083402954755556e-05
+weight_decay: 0.0008442710030805027
+batch_size: 16
+optimizer: Adam
+label_smoothing: 0.2
+factor: 1
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 11
+Trial 15: Test Accuracy = 0.4820
+[I 2025-06-05 20:47:21,091] Trial 15 finished with value: 0.4820482828442431 and parameters: {'embed_dim': 96, 'depths': [2, 2, 18, 2], 'num_heads': [4, 8, 16, 32], 'window_size': 14, 'mlp_ratio': 3.1666081222689586, 'drop_rate': 0.2648875737075289, 'attn_drop_rate': 0.4973540712764486, 'drop_path_rate': 0.1749537158109743, 'learning_rate': 3.3083402954755556e-05, 'weight_decay': 0.0008442710030805027}. Best is trial 15 with value: 0.4820482828442431.
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+  warnings.warn(message)
+Trial 16 hyperparameters:
+embed_dim: 96
+depths: [2, 2, 18, 2]
+num_heads: [4, 8, 16, 32]
+window_size: 14
+mlp_ratio: 3.159507662130653
+drop_rate: 0.47409414235740177
+attn_drop_rate: 0.4973162838582622
+drop_path_rate: 0.16647362544245708
+learning_rate: 2.823534614196385e-05
+weight_decay: 0.0009901536817007934
+batch_size: 16
+optimizer: Adam
+label_smoothing: 0.2
+factor: 1
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 18
+Trial 14: Test Accuracy = 0.4298
+[I 2025-06-05 20:52:11,300] Trial 14 finished with value: 0.429770275371097 and parameters: {'embed_dim': 96, 'depths': [2, 2, 18, 2], 'num_heads': [3, 6, 12, 24], 'window_size': 14, 'mlp_ratio': 2.031993868378338, 'drop_rate': 0.4924526407647004, 'attn_drop_rate': 0.49284971369240776, 'drop_path_rate': 0.22116885428397978, 'learning_rate': 3.909672126156076e-05, 'weight_decay': 0.000944402159746502}. Best is trial 15 with value: 0.4820482828442431.
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+  warnings.warn(message)
+Trial 17 hyperparameters:
+embed_dim: 128
+depths: [2, 2, 18, 2]
+num_heads: [4, 8, 16, 32]
+window_size: 14
+mlp_ratio: 3.135119930068568
+drop_rate: 0.299628568440645
+attn_drop_rate: 0.3236910569925595
+drop_path_rate: 0.3205068657907183
+learning_rate: 2.1900880200392353e-05
+weight_decay: 3.035008013523068e-05
+batch_size: 16
+optimizer: Adam
+label_smoothing: 0.2
+factor: 1
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 10
+Trial 16: Test Accuracy = 0.3301
+[I 2025-06-05 21:39:48,603] Trial 16 finished with value: 0.3301282051282051 and parameters: {'embed_dim': 96, 'depths': [2, 2, 18, 2], 'num_heads': [4, 8, 16, 32], 'window_size': 14, 'mlp_ratio': 3.159507662130653, 'drop_rate': 0.47409414235740177, 'attn_drop_rate': 0.4973162838582622, 'drop_path_rate': 0.16647362544245708, 'learning_rate': 2.823534614196385e-05, 'weight_decay': 0.0009901536817007934}. Best is trial 15 with value: 0.4820482828442431.
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+  warnings.warn(message)
+Trial 18 hyperparameters:
+embed_dim: 128
+depths: [2, 2, 18, 2]
+num_heads: [4, 8, 16, 32]
+window_size: 14
+mlp_ratio: 3.9764702744500706
+drop_rate: 0.3119411071015366
+attn_drop_rate: 0.3159342845665168
+drop_path_rate: 0.30514408695265416
+learning_rate: 0.00016289899494405536
+weight_decay: 0.0003512235652478757
+batch_size: 16
+optimizer: Adam
+label_smoothing: 0.2
+factor: 1
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 13
+Trial 17: Test Accuracy = 0.4456
+[I 2025-06-05 22:19:18,887] Trial 17 finished with value: 0.4456020652100762 and parameters: {'embed_dim': 128, 'depths': [2, 2, 18, 2], 'num_heads': [4, 8, 16, 32], 'window_size': 14, 'mlp_ratio': 3.135119930068568, 'drop_rate': 0.299628568440645, 'attn_drop_rate': 0.3236910569925595, 'drop_path_rate': 0.3205068657907183, 'learning_rate': 2.1900880200392353e-05, 'weight_decay': 3.035008013523068e-05}. Best is trial 15 with value: 0.4820482828442431.
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+  warnings.warn(message)
+Trial 19 hyperparameters:
+embed_dim: 128
+depths: [2, 2, 18, 2]
+num_heads: [4, 8, 16, 32]
+window_size: 14
+mlp_ratio: 3.8790886799196183
+drop_rate: 0.17910703471824452
+attn_drop_rate: 0.2751987726672221
+drop_path_rate: 0.4920331347624503
+learning_rate: 0.00018564879158951037
+weight_decay: 0.000377107909382274
+batch_size: 16
+optimizer: Adam
+label_smoothing: 0.2
+factor: 1
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 16
+Trial 18: Test Accuracy = 0.3333
+[I 2025-06-06 00:02:21,113] Trial 18 finished with value: 0.3333333333333333 and parameters: {'embed_dim': 128, 'depths': [2, 2, 18, 2], 'num_heads': [4, 8, 16, 32], 'window_size': 14, 'mlp_ratio': 3.9764702744500706, 'drop_rate': 0.3119411071015366, 'attn_drop_rate': 0.3159342845665168, 'drop_path_rate': 0.30514408695265416, 'learning_rate': 0.00016289899494405536, 'weight_decay': 0.0003512235652478757}. Best is trial 15 with value: 0.4820482828442431.
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+  warnings.warn(message)
+Trial 20 hyperparameters:
+embed_dim: 96
+depths: [2, 2, 18, 2]
+num_heads: [4, 8, 16, 32]
+window_size: 14
+mlp_ratio: 2.9232011059817338
+drop_rate: 0.17964058262660224
+attn_drop_rate: 0.44113338120561474
+drop_path_rate: 0.4846836954827452
+learning_rate: 0.0002755252257936606
+weight_decay: 0.0003848493592806436
+batch_size: 16
+optimizer: Adam
+label_smoothing: 0.2
+factor: 1
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 12
+Trial 19: Test Accuracy = 0.3333
+[I 2025-06-06 00:31:06,700] Trial 19 finished with value: 0.3333333333333333 and parameters: {'embed_dim': 128, 'depths': [2, 2, 18, 2], 'num_heads': [4, 8, 16, 32], 'window_size': 14, 'mlp_ratio': 3.8790886799196183, 'drop_rate': 0.17910703471824452, 'attn_drop_rate': 0.2751987726672221, 'drop_path_rate': 0.4920331347624503, 'learning_rate': 0.00018564879158951037, 'weight_decay': 0.000377107909382274}. Best is trial 15 with value: 0.4820482828442431.
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+  warnings.warn(message)
+Trial 21 hyperparameters:
+embed_dim: 96
+depths: [2, 2, 18, 2]
+num_heads: [4, 8, 16, 32]
+window_size: 14
+mlp_ratio: 2.887475800974801
+drop_rate: 0.0759243425540454
+attn_drop_rate: 0.4471046244173818
+drop_path_rate: 0.13644710296618207
+learning_rate: 0.0002838918893938932
+weight_decay: 4.175769947055794e-05
+batch_size: 16
+optimizer: Adam
+label_smoothing: 0.2
+factor: 1
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 17
+Trial 20: Test Accuracy = 0.3333
+[I 2025-06-06 01:38:33,438] Trial 20 finished with value: 0.3333333333333333 and parameters: {'embed_dim': 96, 'depths': [2, 2, 18, 2], 'num_heads': [4, 8, 16, 32], 'window_size': 14, 'mlp_ratio': 2.9232011059817338, 'drop_rate': 0.17964058262660224, 'attn_drop_rate': 0.44113338120561474, 'drop_path_rate': 0.4846836954827452, 'learning_rate': 0.0002755252257936606, 'weight_decay': 0.0003848493592806436}. Best is trial 15 with value: 0.4820482828442431.
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+  warnings.warn(message)
+Trial 22 hyperparameters:
+embed_dim: 96
+depths: [2, 2, 18, 2]
+num_heads: [4, 8, 16, 32]
+window_size: 14
+mlp_ratio: 3.5359795773202114
+drop_rate: 0.2500380925397451
+attn_drop_rate: 0.21391101115978756
+drop_path_rate: 0.16368374627674567
+learning_rate: 4.51441835760216e-05
+weight_decay: 8.026781934882278e-05
+batch_size: 16
+optimizer: Adam
+label_smoothing: 0.2
+factor: 1
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 27
+Trial 21: Test Accuracy = 0.3333
+[I 2025-06-06 02:58:42,611] Trial 21 finished with value: 0.3333333333333333 and parameters: {'embed_dim': 96, 'depths': [2, 2, 18, 2], 'num_heads': [4, 8, 16, 32], 'window_size': 14, 'mlp_ratio': 2.887475800974801, 'drop_rate': 0.0759243425540454, 'attn_drop_rate': 0.4471046244173818, 'drop_path_rate': 0.13644710296618207, 'learning_rate': 0.0002838918893938932, 'weight_decay': 4.175769947055794e-05}. Best is trial 15 with value: 0.4820482828442431.
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+  warnings.warn(message)
+Trial 23 hyperparameters:
+embed_dim: 96
+depths: [2, 2, 18, 2]
+num_heads: [4, 8, 16, 32]
+window_size: 14
+mlp_ratio: 3.2592317681066465
+drop_rate: 0.2327361730852334
+attn_drop_rate: 0.2221926821370973
+drop_path_rate: 0.18920014414668895
+learning_rate: 4.6340153658376015e-05
+weight_decay: 0.00012060190815150866
+batch_size: 16
+optimizer: Adam
+label_smoothing: 0.2
+factor: 1
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 18
+Trial 22: Test Accuracy = 0.4789
+[I 2025-06-06 02:59:19,424] Trial 22 finished with value: 0.4788669288412528 and parameters: {'embed_dim': 96, 'depths': [2, 2, 18, 2], 'num_heads': [4, 8, 16, 32], 'window_size': 14, 'mlp_ratio': 3.5359795773202114, 'drop_rate': 0.2500380925397451, 'attn_drop_rate': 0.21391101115978756, 'drop_path_rate': 0.16368374627674567, 'learning_rate': 4.51441835760216e-05, 'weight_decay': 8.026781934882278e-05}. Best is trial 15 with value: 0.4820482828442431.
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+  warnings.warn(message)
+Trial 24 hyperparameters:
+embed_dim: 96
+depths: [2, 2, 18, 2]
+num_heads: [4, 8, 16, 32]
+window_size: 14
+mlp_ratio: 3.3710244295657392
+drop_rate: 0.2791227661868496
+attn_drop_rate: 0.22931427602811624
+drop_path_rate: 0.17082796037776857
+learning_rate: 4.9796591130288045e-05
+weight_decay: 1.8944797194893144e-05
+batch_size: 16
+optimizer: Adam
+label_smoothing: 0.2
+factor: 1
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 19
+Trial 24: Test Accuracy = 0.4682
+[I 2025-06-06 04:19:51,114] Trial 24 finished with value: 0.46816780636534144 and parameters: {'embed_dim': 96, 'depths': [2, 2, 18, 2], 'num_heads': [4, 8, 16, 32], 'window_size': 14, 'mlp_ratio': 3.3710244295657392, 'drop_rate': 0.2791227661868496, 'attn_drop_rate': 0.22931427602811624, 'drop_path_rate': 0.17082796037776857, 'learning_rate': 4.9796591130288045e-05, 'weight_decay': 1.8944797194893144e-05}. Best is trial 15 with value: 0.4820482828442431.
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+  warnings.warn(message)
+Trial 25 hyperparameters:
+embed_dim: 96
+depths: [2, 2, 18, 2]
+num_heads: [4, 8, 16, 32]
+window_size: 14
+mlp_ratio: 3.2899390211957162
+drop_rate: 0.35351280071171953
+attn_drop_rate: 0.1772108144375365
+drop_path_rate: 0.2871006825221962
+learning_rate: 9.885535419283374e-05
+weight_decay: 8.408228486682319e-05
+batch_size: 16
+optimizer: Adam
+label_smoothing: 0.2
+factor: 1
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 18
+Trial 23: Test Accuracy = 0.4350
+[I 2025-06-06 04:21:58,336] Trial 23 finished with value: 0.43504741673177144 and parameters: {'embed_dim': 96, 'depths': [2, 2, 18, 2], 'num_heads': [4, 8, 16, 32], 'window_size': 14, 'mlp_ratio': 3.2592317681066465, 'drop_rate': 0.2327361730852334, 'attn_drop_rate': 0.2221926821370973, 'drop_path_rate': 0.18920014414668895, 'learning_rate': 4.6340153658376015e-05, 'weight_decay': 0.00012060190815150866}. Best is trial 15 with value: 0.4820482828442431.
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+  warnings.warn(message)
+Trial 26 hyperparameters:
+embed_dim: 96
+depths: [2, 2, 18, 2]
+num_heads: [4, 8, 16, 32]
+window_size: 14
+mlp_ratio: 3.6167487244363765
+drop_rate: 0.3485293919421918
+attn_drop_rate: 0.3594121191369041
+drop_path_rate: 0.2887583071580749
+learning_rate: 0.00010913665124275641
+weight_decay: 0.0005594353440501611
+batch_size: 16
+optimizer: Adam
+label_smoothing: 0.2
+factor: 1
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 12
+Trial 26: Test Accuracy = 0.3344
+[I 2025-06-06 05:43:01,816] Trial 26 finished with value: 0.3344017094017094 and parameters: {'embed_dim': 96, 'depths': [2, 2, 18, 2], 'num_heads': [4, 8, 16, 32], 'window_size': 14, 'mlp_ratio': 3.6167487244363765, 'drop_rate': 0.3485293919421918, 'attn_drop_rate': 0.3594121191369041, 'drop_path_rate': 0.2887583071580749, 'learning_rate': 0.00010913665124275641, 'weight_decay': 0.0005594353440501611}. Best is trial 15 with value: 0.4820482828442431.
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+  warnings.warn(message)
+Trial 27 hyperparameters:
+embed_dim: 96
+depths: [2, 2, 6, 2]
+num_heads: [4, 8, 16, 32]
+window_size: 14
+mlp_ratio: 3.056854645431187
+drop_rate: 0.42540298187447645
+attn_drop_rate: 0.16070816343733893
+drop_path_rate: 0.12806863819916905
+learning_rate: 2.0766489653717323e-05
+weight_decay: 6.502305147630444e-05
+batch_size: 16
+optimizer: Adam
+label_smoothing: 0.2
+factor: 1
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 19
+Trial 25: Test Accuracy = 0.3333
+[I 2025-06-06 05:45:46,775] Trial 25 finished with value: 0.3333333333333333 and parameters: {'embed_dim': 96, 'depths': [2, 2, 18, 2], 'num_heads': [4, 8, 16, 32], 'window_size': 14, 'mlp_ratio': 3.2899390211957162, 'drop_rate': 0.35351280071171953, 'attn_drop_rate': 0.1772108144375365, 'drop_path_rate': 0.2871006825221962, 'learning_rate': 9.885535419283374e-05, 'weight_decay': 8.408228486682319e-05}. Best is trial 15 with value: 0.4820482828442431.
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+  warnings.warn(message)
+Trial 28 hyperparameters:
+embed_dim: 96
+depths: [2, 2, 6, 2]
+num_heads: [4, 8, 16, 32]
+window_size: 14
+mlp_ratio: 3.0590130999101732
+drop_rate: 0.19704594991716617
+attn_drop_rate: 0.12190106376345936
+drop_path_rate: 0.3772261182992298
+learning_rate: 2.0525203797289212e-05
+weight_decay: 0.0002339620950622654
+batch_size: 16
+optimizer: Adam
+label_smoothing: 0.2
+factor: 1
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 22
+Trial 27: Test Accuracy = 0.4527
+[I 2025-06-06 05:52:21,990] Trial 27 finished with value: 0.4526523962932727 and parameters: {'embed_dim': 96, 'depths': [2, 2, 6, 2], 'num_heads': [4, 8, 16, 32], 'window_size': 14, 'mlp_ratio': 3.056854645431187, 'drop_rate': 0.42540298187447645, 'attn_drop_rate': 0.16070816343733893, 'drop_path_rate': 0.12806863819916905, 'learning_rate': 2.0766489653717323e-05, 'weight_decay': 6.502305147630444e-05}. Best is trial 15 with value: 0.4820482828442431.
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+  warnings.warn(message)
+Trial 29 hyperparameters:
+embed_dim: 128
+depths: [2, 2, 18, 2]
+num_heads: [4, 8, 16, 32]
+window_size: 14
+mlp_ratio: 3.6139907845646544
+drop_rate: 0.17224905392977075
+attn_drop_rate: 0.2765589385771212
+drop_path_rate: 0.3680951633952263
+learning_rate: 5.5550978718643695e-05
+weight_decay: 0.00023064327913327462
+batch_size: 16
+optimizer: Adam
+label_smoothing: 0.2
+factor: 1
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 24
+Trial 28: Test Accuracy = 0.4567
+[I 2025-06-06 06:06:07,630] Trial 28 finished with value: 0.45669876549712224 and parameters: {'embed_dim': 96, 'depths': [2, 2, 6, 2], 'num_heads': [4, 8, 16, 32], 'window_size': 14, 'mlp_ratio': 3.0590130999101732, 'drop_rate': 0.19704594991716617, 'attn_drop_rate': 0.12190106376345936, 'drop_path_rate': 0.3772261182992298, 'learning_rate': 2.0525203797289212e-05, 'weight_decay': 0.0002339620950622654}. Best is trial 15 with value: 0.4820482828442431.
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+  warnings.warn(message)
+Trial 30 hyperparameters:
+embed_dim: 128
+depths: [2, 2, 18, 2]
+num_heads: [4, 8, 16, 32]
+window_size: 7
+mlp_ratio: 3.6338331369479078
+drop_rate: 0.27369278582073997
+attn_drop_rate: 0.26462683395993314
+drop_path_rate: 0.2653808911251619
+learning_rate: 5.871496471893323e-05
+weight_decay: 0.0005500857641531731
+batch_size: 16
+optimizer: Adam
+label_smoothing: 0.2
+factor: 1
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 15
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 18
+Trial 30: Test Accuracy = 0.4565
+[I 2025-06-06 07:09:54,267] Trial 30 finished with value: 0.45653710092258537 and parameters: {'embed_dim': 128, 'depths': [2, 2, 18, 2], 'num_heads': [4, 8, 16, 32], 'window_size': 7, 'mlp_ratio': 3.6338331369479078, 'drop_rate': 0.27369278582073997, 'attn_drop_rate': 0.26462683395993314, 'drop_path_rate': 0.2653808911251619, 'learning_rate': 5.871496471893323e-05, 'weight_decay': 0.0005500857641531731}. Best is trial 15 with value: 0.4820482828442431.
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+  warnings.warn(message)
+Trial 31 hyperparameters:
+embed_dim: 128
+depths: [2, 2, 18, 2]
+num_heads: [4, 8, 16, 32]
+window_size: 14
+mlp_ratio: 3.466941376964426
+drop_rate: 0.13096386510695857
+attn_drop_rate: 0.36330324288253624
+drop_path_rate: 0.17852212036747836
+learning_rate: 1.0153877420887956e-05
+weight_decay: 2.0270320538031936e-05
+batch_size: 16
+optimizer: Adam
+label_smoothing: 0.2
+factor: 1
+[I 2025-06-06 07:10:02,293] Trial 29 finished with value: 0.4237371143824413 and parameters: {'embed_dim': 128, 'depths': [2, 2, 18, 2], 'num_heads': [4, 8, 16, 32], 'window_size': 14, 'mlp_ratio': 3.6139907845646544, 'drop_rate': 0.17224905392977075, 'attn_drop_rate': 0.2765589385771212, 'drop_path_rate': 0.3680951633952263, 'learning_rate': 5.5550978718643695e-05, 'weight_decay': 0.00023064327913327462}. Best is trial 15 with value: 0.4820482828442431.
+Trial 29: Test Accuracy = 0.4237
+Trial 32 hyperparameters:
+embed_dim: 96
+depths: [2, 2, 18, 2]
+num_heads: [4, 8, 16, 32]
+window_size: 14
+mlp_ratio: 3.3656523988731375
+drop_rate: 0.2865363402976496
+attn_drop_rate: 0.22065901305436594
+drop_path_rate: 0.17081444048637193
+learning_rate: 0.0001079120950722674
+weight_decay: 2.0877103193790668e-05
+batch_size: 16
+optimizer: Adam
+label_smoothing: 0.2
+factor: 1
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+  warnings.warn(message)
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 21
+Trial 32: Test Accuracy = 0.3767
+[I 2025-06-06 10:39:19,399] Trial 32 finished with value: 0.37670771922740426 and parameters: {'embed_dim': 96, 'depths': [2, 2, 18, 2], 'num_heads': [4, 8, 16, 32], 'window_size': 14, 'mlp_ratio': 3.3656523988731375, 'drop_rate': 0.2865363402976496, 'attn_drop_rate': 0.22065901305436594, 'drop_path_rate': 0.17081444048637193, 'learning_rate': 0.0001079120950722674, 'weight_decay': 2.0877103193790668e-05}. Best is trial 15 with value: 0.4820482828442431.
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+  warnings.warn(message)
+Trial 33 hyperparameters:
+embed_dim: 96
+depths: [2, 2, 18, 2]
+num_heads: [4, 8, 16, 32]
+window_size: 14
+mlp_ratio: 3.4743437814152234
+drop_rate: 0.2196553774120712
+attn_drop_rate: 0.11422186698873736
+drop_path_rate: 0.1957961691453823
+learning_rate: 2.979913486005799e-05
+weight_decay: 1.7617692096276903e-05
+batch_size: 16
+optimizer: Adam
+label_smoothing: 0.2
+factor: 1
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 29
+Trial 31: Test Accuracy = 0.4241
+[I 2025-06-06 10:47:19,312] Trial 31 finished with value: 0.4240988480118915 and parameters: {'embed_dim': 128, 'depths': [2, 2, 18, 2], 'num_heads': [4, 8, 16, 32], 'window_size': 14, 'mlp_ratio': 3.466941376964426, 'drop_rate': 0.13096386510695857, 'attn_drop_rate': 0.36330324288253624, 'drop_path_rate': 0.17852212036747836, 'learning_rate': 1.0153877420887956e-05, 'weight_decay': 2.0270320538031936e-05}. Best is trial 15 with value: 0.4820482828442431.
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+  warnings.warn(message)
+Trial 34 hyperparameters:
+embed_dim: 96
+depths: [2, 2, 18, 2]
+num_heads: [4, 8, 16, 32]
+window_size: 14
+mlp_ratio: 2.763299708549249
+drop_rate: 0.2701997549863068
+attn_drop_rate: 0.08694582495225558
+drop_path_rate: 0.15465937873133864
+learning_rate: 8.203941617463355e-05
+weight_decay: 2.1372003301091955e-05
+batch_size: 16
+optimizer: Adam
+label_smoothing: 0.2
+factor: 1
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 10
+Trial 33: Test Accuracy = 0.4965
+[I 2025-06-06 11:18:29,363] Trial 33 finished with value: 0.4964517917701759 and parameters: {'embed_dim': 96, 'depths': [2, 2, 18, 2], 'num_heads': [4, 8, 16, 32], 'window_size': 14, 'mlp_ratio': 3.4743437814152234, 'drop_rate': 0.2196553774120712, 'attn_drop_rate': 0.11422186698873736, 'drop_path_rate': 0.1957961691453823, 'learning_rate': 2.979913486005799e-05, 'weight_decay': 1.7617692096276903e-05}. Best is trial 33 with value: 0.4964517917701759.
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+  warnings.warn(message)
+Trial 35 hyperparameters:
+embed_dim: 96
+depths: [2, 2, 18, 2]
+num_heads: [3, 6, 12, 24]
+window_size: 7
+mlp_ratio: 3.7769519132922493
+drop_rate: 0.1984519652418958
+attn_drop_rate: 0.05870537587566105
+drop_path_rate: 0.2552739917649969
+learning_rate: 2.8978023404587194e-05
+weight_decay: 9.696677140914609e-06
+batch_size: 16
+optimizer: Adam
+label_smoothing: 0.2
+factor: 1
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 14
+Trial 34: Test Accuracy = 0.4065
+[I 2025-06-06 11:23:10,213] Trial 34 finished with value: 0.40647740938737176 and parameters: {'embed_dim': 96, 'depths': [2, 2, 18, 2], 'num_heads': [4, 8, 16, 32], 'window_size': 14, 'mlp_ratio': 2.763299708549249, 'drop_rate': 0.2701997549863068, 'attn_drop_rate': 0.08694582495225558, 'drop_path_rate': 0.15465937873133864, 'learning_rate': 8.203941617463355e-05, 'weight_decay': 2.1372003301091955e-05}. Best is trial 33 with value: 0.4964517917701759.
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+  warnings.warn(message)
+Trial 36 hyperparameters:
+embed_dim: 96
+depths: [2, 2, 18, 2]
+num_heads: [3, 6, 12, 24]
+window_size: 7
+mlp_ratio: 3.823242615755673
+drop_rate: 0.20610211052651228
+attn_drop_rate: 0.05771515665078652
+drop_path_rate: 0.20652976178906407
+learning_rate: 3.058678611374337e-05
+weight_decay: 9.107072542406726e-06
+batch_size: 16
+optimizer: Adam
+label_smoothing: 0.2
+factor: 1
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 13
+EarlyStopping counter: 2 out of 10
+Trial 36: Test Accuracy = 0.4405
+[I 2025-06-06 11:33:33,239] Trial 36 finished with value: 0.44052865047387474 and parameters: {'embed_dim': 96, 'depths': [2, 2, 18, 2], 'num_heads': [3, 6, 12, 24], 'window_size': 7, 'mlp_ratio': 3.823242615755673, 'drop_rate': 0.20610211052651228, 'attn_drop_rate': 0.05771515665078652, 'drop_path_rate': 0.20652976178906407, 'learning_rate': 3.058678611374337e-05, 'weight_decay': 9.107072542406726e-06}. Best is trial 33 with value: 0.4964517917701759.
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+  warnings.warn(message)
+Trial 37 hyperparameters:
+embed_dim: 96
+depths: [2, 2, 18, 2]
+num_heads: [3, 6, 12, 24]
+window_size: 7
+mlp_ratio: 3.4830735181019135
+drop_rate: 0.3935693968359046
+attn_drop_rate: 0.12741827406212047
+drop_path_rate: 0.25567062809234403
+learning_rate: 2.6826862080917066e-05
+weight_decay: 1.2500164098246314e-05
+batch_size: 16
+optimizer: Adam
+label_smoothing: 0.2
+factor: 1
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 27
+[I 2025-06-06 11:36:54,461] Trial 35 finished with value: 0.48475195826274226 and parameters: {'embed_dim': 96, 'depths': [2, 2, 18, 2], 'num_heads': [3, 6, 12, 24], 'window_size': 7, 'mlp_ratio': 3.7769519132922493, 'drop_rate': 0.1984519652418958, 'attn_drop_rate': 0.05870537587566105, 'drop_path_rate': 0.2552739917649969, 'learning_rate': 2.8978023404587194e-05, 'weight_decay': 9.696677140914609e-06}. Best is trial 33 with value: 0.4964517917701759.
+Trial 35: Test Accuracy = 0.4848
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+  warnings.warn(message)
+Trial 38 hyperparameters:
+embed_dim: 96
+depths: [2, 2, 6, 2]
+num_heads: [3, 6, 12, 24]
+window_size: 7
+mlp_ratio: 3.7573555436397434
+drop_rate: 0.0766765765459328
+attn_drop_rate: 0.13200024764406446
+drop_path_rate: 0.25738094056048166
+learning_rate: 1.5215297058454508e-05
+weight_decay: 3.986239210455366e-06
+batch_size: 16
+optimizer: Adam
+label_smoothing: 0.2
+factor: 1
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 15
+EarlyStopping counter: 3 out of 10
+Trial 37: Test Accuracy = 0.4257
+[I 2025-06-06 11:39:53,904] Trial 37 finished with value: 0.42573451311897054 and parameters: {'embed_dim': 96, 'depths': [2, 2, 18, 2], 'num_heads': [3, 6, 12, 24], 'window_size': 7, 'mlp_ratio': 3.4830735181019135, 'drop_rate': 0.3935693968359046, 'attn_drop_rate': 0.12741827406212047, 'drop_path_rate': 0.25567062809234403, 'learning_rate': 2.6826862080917066e-05, 'weight_decay': 1.2500164098246314e-05}. Best is trial 33 with value: 0.4964517917701759.
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+  warnings.warn(message)
+Trial 39 hyperparameters:
+embed_dim: 96
+depths: [2, 2, 6, 2]
+num_heads: [3, 6, 12, 24]
+window_size: 7
+mlp_ratio: 3.812190363602618
+drop_rate: 0.09113747191568122
+attn_drop_rate: 0.04579128154693679
+drop_path_rate: 0.26538380327039324
+learning_rate: 1.666142446373482e-05
+weight_decay: 3.688309681092251e-06
+batch_size: 16
+optimizer: Adam
+label_smoothing: 0.2
+factor: 1
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 13
+EarlyStopping counter: 8 out of 10
+[I 2025-06-06 11:43:30,009] Trial 39 finished with value: 0.46956353490930686 and parameters: {'embed_dim': 96, 'depths': [2, 2, 6, 2], 'num_heads': [3, 6, 12, 24], 'window_size': 7, 'mlp_ratio': 3.812190363602618, 'drop_rate': 0.09113747191568122, 'attn_drop_rate': 0.04579128154693679, 'drop_path_rate': 0.26538380327039324, 'learning_rate': 1.666142446373482e-05, 'weight_decay': 3.688309681092251e-06}. Best is trial 33 with value: 0.4964517917701759.
+Trial 39: Test Accuracy = 0.4696
+Trial 40 hyperparameters:
+embed_dim: 128
+depths: [2, 2, 18, 2]
+num_heads: [3, 6, 12, 24]
+window_size: 7
+mlp_ratio: 2.1858247178330688
+drop_rate: 0.4486943294491103
+attn_drop_rate: 0.4066990746682906
+drop_path_rate: 0.33637619344846215
+learning_rate: 1.393885395586014e-05
+weight_decay: 6.49408306604845e-06
+batch_size: 16
+optimizer: Adam
+label_smoothing: 0.2
+factor: 1
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+  warnings.warn(message)
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 25
+[I 2025-06-06 11:44:13,623] Trial 38 finished with value: 0.45845769069836173 and parameters: {'embed_dim': 96, 'depths': [2, 2, 6, 2], 'num_heads': [3, 6, 12, 24], 'window_size': 7, 'mlp_ratio': 3.7573555436397434, 'drop_rate': 0.0766765765459328, 'attn_drop_rate': 0.13200024764406446, 'drop_path_rate': 0.25738094056048166, 'learning_rate': 1.5215297058454508e-05, 'weight_decay': 3.986239210455366e-06}. Best is trial 33 with value: 0.4964517917701759.
+Trial 38: Test Accuracy = 0.4585
+Trial 41 hyperparameters:
+embed_dim: 128
+depths: [2, 2, 18, 2]
+num_heads: [3, 6, 12, 24]
+window_size: 7
+mlp_ratio: 3.2074380233282973
+drop_rate: 0.2152764103744412
+attn_drop_rate: 0.40518870093885034
+drop_path_rate: 0.09362777260162758
+learning_rate: 2.372712702068746e-05
+weight_decay: 7.45422822215696e-06
+batch_size: 16
+optimizer: Adam
+label_smoothing: 0.2
+factor: 1
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+  warnings.warn(message)
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 15
+Trial 41: Test Accuracy = 0.4657
+[I 2025-06-06 12:24:34,633] Trial 41 finished with value: 0.4656909002595411 and parameters: {'embed_dim': 128, 'depths': [2, 2, 18, 2], 'num_heads': [3, 6, 12, 24], 'window_size': 7, 'mlp_ratio': 3.2074380233282973, 'drop_rate': 0.2152764103744412, 'attn_drop_rate': 0.40518870093885034, 'drop_path_rate': 0.09362777260162758, 'learning_rate': 2.372712702068746e-05, 'weight_decay': 7.45422822215696e-06}. Best is trial 33 with value: 0.4964517917701759.
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+  warnings.warn(message)
+Trial 42 hyperparameters:
+embed_dim: 96
+depths: [2, 2, 18, 2]
+num_heads: [3, 6, 12, 24]
+window_size: 7
+mlp_ratio: 3.732590110898346
+drop_rate: 0.16491985329342343
+attn_drop_rate: 0.08226440114149125
+drop_path_rate: 0.19986575331565595
+learning_rate: 4.214469799501074e-05
+weight_decay: 1.180426274664902e-06
+batch_size: 16
+optimizer: Adam
+label_smoothing: 0.2
+factor: 1
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 24
+EarlyStopping counter: 1 out of 10
+Trial 40: Test Accuracy = 0.3937
+[I 2025-06-06 12:27:05,480] Trial 40 finished with value: 0.3936627486781544 and parameters: {'embed_dim': 128, 'depths': [2, 2, 18, 2], 'num_heads': [3, 6, 12, 24], 'window_size': 7, 'mlp_ratio': 2.1858247178330688, 'drop_rate': 0.4486943294491103, 'attn_drop_rate': 0.4066990746682906, 'drop_path_rate': 0.33637619344846215, 'learning_rate': 1.393885395586014e-05, 'weight_decay': 6.49408306604845e-06}. Best is trial 33 with value: 0.4964517917701759.
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+  warnings.warn(message)
+Trial 43 hyperparameters:
+embed_dim: 96
+depths: [2, 2, 18, 2]
+num_heads: [3, 6, 12, 24]
+window_size: 7
+mlp_ratio: 3.7088471310738376
+drop_rate: 0.15789311817822288
+attn_drop_rate: 0.09233384437020509
+drop_path_rate: 0.1927188222818362
+learning_rate: 4.279097604418069e-05
+weight_decay: 1.1777814368881703e-05
+batch_size: 16
+optimizer: Adam
+label_smoothing: 0.2
+factor: 1
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 13
+EarlyStopping counter: 9 out of 10
+[I 2025-06-06 12:35:25,366] Trial 43 finished with value: 0.46117563063814354 and parameters: {'embed_dim': 96, 'depths': [2, 2, 18, 2], 'num_heads': [3, 6, 12, 24], 'window_size': 7, 'mlp_ratio': 3.7088471310738376, 'drop_rate': 0.15789311817822288, 'attn_drop_rate': 0.09233384437020509, 'drop_path_rate': 0.1927188222818362, 'learning_rate': 4.279097604418069e-05, 'weight_decay': 1.1777814368881703e-05}. Best is trial 33 with value: 0.4964517917701759.
+Trial 43: Test Accuracy = 0.4612
+Trial 44 hyperparameters:
+embed_dim: 96
+depths: [2, 2, 18, 2]
+num_heads: [3, 6, 12, 24]
+window_size: 14
+mlp_ratio: 3.542446456605934
+drop_rate: 0.3190406603148672
+attn_drop_rate: 0.06637264610213983
+drop_path_rate: 0.12587122917008267
+learning_rate: 6.386953719857624e-05
+weight_decay: 1.6046551552599037e-06
+batch_size: 16
+optimizer: Adam
+label_smoothing: 0.2
+factor: 1
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+  warnings.warn(message)
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 19
+Trial 42: Test Accuracy = 0.4356
+[I 2025-06-06 12:36:06,783] Trial 42 finished with value: 0.4355836164292173 and parameters: {'embed_dim': 96, 'depths': [2, 2, 18, 2], 'num_heads': [3, 6, 12, 24], 'window_size': 7, 'mlp_ratio': 3.732590110898346, 'drop_rate': 0.16491985329342343, 'attn_drop_rate': 0.08226440114149125, 'drop_path_rate': 0.19986575331565595, 'learning_rate': 4.214469799501074e-05, 'weight_decay': 1.180426274664902e-06}. Best is trial 33 with value: 0.4964517917701759.
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+  warnings.warn(message)
+Trial 45 hyperparameters:
+embed_dim: 96
+depths: [2, 2, 18, 2]
+num_heads: [4, 8, 16, 32]
+window_size: 14
+mlp_ratio: 3.529602608972547
+drop_rate: 0.31662117378514143
+attn_drop_rate: 0.46716895087584653
+drop_path_rate: 0.13032387687852776
+learning_rate: 6.932056326645628e-05
+weight_decay: 0.0005948414989537898
+batch_size: 16
+optimizer: Adam
+label_smoothing: 0.2
+factor: 1
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 13
+EarlyStopping counter: 3 out of 10
+Trial 44: Test Accuracy = 0.4005
+[I 2025-06-06 13:20:18,330] Trial 44 finished with value: 0.40053203006814786 and parameters: {'embed_dim': 96, 'depths': [2, 2, 18, 2], 'num_heads': [3, 6, 12, 24], 'window_size': 14, 'mlp_ratio': 3.542446456605934, 'drop_rate': 0.3190406603148672, 'attn_drop_rate': 0.06637264610213983, 'drop_path_rate': 0.12587122917008267, 'learning_rate': 6.386953719857624e-05, 'weight_decay': 1.6046551552599037e-06}. Best is trial 33 with value: 0.4964517917701759.
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+  warnings.warn(message)
+Trial 46 hyperparameters:
+embed_dim: 96
+depths: [2, 2, 18, 2]
+num_heads: [4, 8, 16, 32]
+window_size: 14
+mlp_ratio: 3.344543047930329
+drop_rate: 0.21741671866315393
+attn_drop_rate: 0.47525571434116365
+drop_path_rate: 0.23330200924481367
+learning_rate: 0.000991899739663772
+weight_decay: 0.0005859278412811492
+batch_size: 16
+optimizer: Adam
+label_smoothing: 0.2
+factor: 1
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 16
+Trial 45: Test Accuracy = 0.3333
+[I 2025-06-06 13:42:05,208] Trial 45 finished with value: 0.3333333333333333 and parameters: {'embed_dim': 96, 'depths': [2, 2, 18, 2], 'num_heads': [4, 8, 16, 32], 'window_size': 14, 'mlp_ratio': 3.529602608972547, 'drop_rate': 0.31662117378514143, 'attn_drop_rate': 0.46716895087584653, 'drop_path_rate': 0.13032387687852776, 'learning_rate': 6.932056326645628e-05, 'weight_decay': 0.0005948414989537898}. Best is trial 33 with value: 0.4964517917701759.
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+  warnings.warn(message)
+Trial 47 hyperparameters:
+embed_dim: 96
+depths: [2, 2, 18, 2]
+num_heads: [4, 8, 16, 32]
+window_size: 14
+mlp_ratio: 3.3515719760197746
+drop_rate: 0.22427248718494852
+attn_drop_rate: 0.2032729175938328
+drop_path_rate: 0.2305860410055406
+learning_rate: 3.2273129621136586e-05
+weight_decay: 3.446398726294915e-05
+batch_size: 16
+optimizer: Adam
+label_smoothing: 0.2
+factor: 1
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 13
+EarlyStopping counter: 3 out of 10
+Trial 46: Test Accuracy = 0.3333
+[I 2025-06-06 14:13:58,165] Trial 46 finished with value: 0.3333333333333333 and parameters: {'embed_dim': 96, 'depths': [2, 2, 18, 2], 'num_heads': [4, 8, 16, 32], 'window_size': 14, 'mlp_ratio': 3.344543047930329, 'drop_rate': 0.21741671866315393, 'attn_drop_rate': 0.47525571434116365, 'drop_path_rate': 0.23330200924481367, 'learning_rate': 0.000991899739663772, 'weight_decay': 0.0005859278412811492}. Best is trial 33 with value: 0.4964517917701759.
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+  warnings.warn(message)
+Trial 48 hyperparameters:
+embed_dim: 96
+depths: [2, 2, 18, 2]
+num_heads: [4, 8, 16, 32]
+window_size: 14
+mlp_ratio: 2.8391401955031808
+drop_rate: 0.25604178621549745
+attn_drop_rate: 0.19356116005500965
+drop_path_rate: 0.06128569454898802
+learning_rate: 3.381807846795062e-05
+weight_decay: 3.411647140237251e-05
+batch_size: 16
+optimizer: Adam
+label_smoothing: 0.2
+factor: 1
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 17
+Trial 47: Test Accuracy = 0.4566
+[I 2025-06-06 14:56:46,056] Trial 47 finished with value: 0.45662305380723733 and parameters: {'embed_dim': 96, 'depths': [2, 2, 18, 2], 'num_heads': [4, 8, 16, 32], 'window_size': 14, 'mlp_ratio': 3.3515719760197746, 'drop_rate': 0.22427248718494852, 'attn_drop_rate': 0.2032729175938328, 'drop_path_rate': 0.2305860410055406, 'learning_rate': 3.2273129621136586e-05, 'weight_decay': 3.446398726294915e-05}. Best is trial 33 with value: 0.4964517917701759.
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+  warnings.warn(message)
+Trial 49 hyperparameters:
+embed_dim: 128
+depths: [2, 2, 6, 2]
+num_heads: [4, 8, 16, 32]
+window_size: 14
+mlp_ratio: 2.7289717929028736
+drop_rate: 0.25507221573652655
+attn_drop_rate: 0.020952162053520067
+drop_path_rate: 0.09856910389799566
+learning_rate: 8.406640337210993e-05
+weight_decay: 1.5739588434672217e-05
+batch_size: 16
+optimizer: Adam
+label_smoothing: 0.2
+factor: 1
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 20
+EarlyStopping counter: 8 out of 10
+Trial 48: Test Accuracy = 0.3865
+[I 2025-06-06 15:35:41,104] Trial 48 finished with value: 0.3865224413837902 and parameters: {'embed_dim': 96, 'depths': [2, 2, 18, 2], 'num_heads': [4, 8, 16, 32], 'window_size': 14, 'mlp_ratio': 2.8391401955031808, 'drop_rate': 0.25604178621549745, 'attn_drop_rate': 0.19356116005500965, 'drop_path_rate': 0.06128569454898802, 'learning_rate': 3.381807846795062e-05, 'weight_decay': 3.411647140237251e-05}. Best is trial 33 with value: 0.4964517917701759.
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+  warnings.warn(message)
+Trial 50 hyperparameters:
+embed_dim: 128
+depths: [2, 2, 6, 2]
+num_heads: [4, 8, 16, 32]
+window_size: 7
+mlp_ratio: 2.6562615655206674
+drop_rate: 0.38503264025743367
+attn_drop_rate: 0.024727063117447975
+drop_path_rate: 0.004573175097265958
+learning_rate: 1.7955863359066178e-05
+weight_decay: 4.921711948107983e-06
+batch_size: 16
+optimizer: Adam
+label_smoothing: 0.2
+factor: 1
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 12
+Trial 49: Test Accuracy = 0.4796
+[I 2025-06-06 15:36:25,801] Trial 49 finished with value: 0.47955930675889596 and parameters: {'embed_dim': 128, 'depths': [2, 2, 6, 2], 'num_heads': [4, 8, 16, 32], 'window_size': 14, 'mlp_ratio': 2.7289717929028736, 'drop_rate': 0.25507221573652655, 'attn_drop_rate': 0.020952162053520067, 'drop_path_rate': 0.09856910389799566, 'learning_rate': 8.406640337210993e-05, 'weight_decay': 1.5739588434672217e-05}. Best is trial 33 with value: 0.4964517917701759.
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+  warnings.warn(message)
+Trial 51 hyperparameters:
+embed_dim: 128
+depths: [2, 2, 6, 2]
+num_heads: [4, 8, 16, 32]
+window_size: 7
+mlp_ratio: 2.648515773106907
+drop_rate: 0.3789794901533834
+attn_drop_rate: 0.019246904411394268
+drop_path_rate: 0.08820915703821301
+learning_rate: 7.634543064337204e-05
+weight_decay: 4.9806671412387885e-06
+batch_size: 16
+optimizer: Adam
+label_smoothing: 0.2
+factor: 1
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 21
+Trial 50: Test Accuracy = 0.4107
+[I 2025-06-06 15:43:09,891] Trial 50 finished with value: 0.41069275830487745 and parameters: {'embed_dim': 128, 'depths': [2, 2, 6, 2], 'num_heads': [4, 8, 16, 32], 'window_size': 7, 'mlp_ratio': 2.6562615655206674, 'drop_rate': 0.38503264025743367, 'attn_drop_rate': 0.024727063117447975, 'drop_path_rate': 0.004573175097265958, 'learning_rate': 1.7955863359066178e-05, 'weight_decay': 4.921711948107983e-06}. Best is trial 33 with value: 0.4964517917701759.
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+  warnings.warn(message)
+Trial 52 hyperparameters:
+embed_dim: 128
+depths: [2, 2, 6, 2]
+num_heads: [4, 8, 16, 32]
+window_size: 14
+mlp_ratio: 2.979775461481011
+drop_rate: 0.19456450450548277
+attn_drop_rate: 0.0005752466503212567
+drop_path_rate: 0.1448433604791458
+learning_rate: 8.62796363351711e-05
+weight_decay: 1.4718416066412514e-05
+batch_size: 16
+optimizer: Adam
+label_smoothing: 0.2
+factor: 1
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 23
+Trial 51: Test Accuracy = 0.4114
+[I 2025-06-06 15:44:29,338] Trial 51 finished with value: 0.4113975719590235 and parameters: {'embed_dim': 128, 'depths': [2, 2, 6, 2], 'num_heads': [4, 8, 16, 32], 'window_size': 7, 'mlp_ratio': 2.648515773106907, 'drop_rate': 0.3789794901533834, 'attn_drop_rate': 0.019246904411394268, 'drop_path_rate': 0.08820915703821301, 'learning_rate': 7.634543064337204e-05, 'weight_decay': 4.9806671412387885e-06}. Best is trial 33 with value: 0.4964517917701759.
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+  warnings.warn(message)
+Trial 53 hyperparameters:
+embed_dim: 128
+depths: [2, 2, 6, 2]
+num_heads: [4, 8, 16, 32]
+window_size: 14
+mlp_ratio: 2.9874067156435293
+drop_rate: 0.19371878365323292
+attn_drop_rate: 0.11206864774063749
+drop_path_rate: 0.15014636179993943
+learning_rate: 9.044362963047807e-05
+weight_decay: 1.502192108278606e-05
+batch_size: 16
+optimizer: Adam
+label_smoothing: 0.2
+factor: 1
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 15
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 19
+Trial 53: Test Accuracy = 0.3713
+[I 2025-06-06 15:55:25,106] Trial 53 finished with value: 0.3713449907390339 and parameters: {'embed_dim': 128, 'depths': [2, 2, 6, 2], 'num_heads': [4, 8, 16, 32], 'window_size': 14, 'mlp_ratio': 2.9874067156435293, 'drop_rate': 0.19371878365323292, 'attn_drop_rate': 0.11206864774063749, 'drop_path_rate': 0.15014636179993943, 'learning_rate': 9.044362963047807e-05, 'weight_decay': 1.502192108278606e-05}. Best is trial 33 with value: 0.4964517917701759.
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+  warnings.warn(message)
+Trial 54 hyperparameters:
+embed_dim: 128
+depths: [2, 2, 6, 2]
+num_heads: [4, 8, 16, 32]
+window_size: 14
+mlp_ratio: 2.7272342251984054
+drop_rate: 0.25871204592747804
+attn_drop_rate: 0.04575191962146284
+drop_path_rate: 0.10961316919945124
+learning_rate: 0.00012022724045719432
+weight_decay: 1.6146254891869876e-05
+batch_size: 16
+optimizer: Adam
+label_smoothing: 0.2
+factor: 1
+[I 2025-06-06 15:55:27,558] Trial 52 finished with value: 0.421730937478969 and parameters: {'embed_dim': 128, 'depths': [2, 2, 6, 2], 'num_heads': [4, 8, 16, 32], 'window_size': 14, 'mlp_ratio': 2.979775461481011, 'drop_rate': 0.19456450450548277, 'attn_drop_rate': 0.0005752466503212567, 'drop_path_rate': 0.1448433604791458, 'learning_rate': 8.62796363351711e-05, 'weight_decay': 1.4718416066412514e-05}. Best is trial 33 with value: 0.4964517917701759.
+Trial 52: Test Accuracy = 0.4217
+Trial 55 hyperparameters:
+embed_dim: 128
+depths: [2, 2, 6, 2]
+num_heads: [4, 8, 16, 32]
+window_size: 14
+mlp_ratio: 2.4085892036715677
+drop_rate: 0.24635905001929592
+attn_drop_rate: 0.042675200438180974
+drop_path_rate: 0.2879975276432866
+learning_rate: 0.00013937422890330795
+weight_decay: 0.0007987380207172289
+batch_size: 16
+optimizer: Adam
+label_smoothing: 0.2
+factor: 1
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+  warnings.warn(message)
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 10
+Trial 55: Test Accuracy = 0.3333
+[I 2025-06-06 16:00:12,062] Trial 55 finished with value: 0.3333333333333333 and parameters: {'embed_dim': 128, 'depths': [2, 2, 6, 2], 'num_heads': [4, 8, 16, 32], 'window_size': 14, 'mlp_ratio': 2.4085892036715677, 'drop_rate': 0.24635905001929592, 'attn_drop_rate': 0.042675200438180974, 'drop_path_rate': 0.2879975276432866, 'learning_rate': 0.00013937422890330795, 'weight_decay': 0.0007987380207172289}. Best is trial 33 with value: 0.4964517917701759.
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+  warnings.warn(message)
+Trial 56 hyperparameters:
+embed_dim: 128
+depths: [2, 2, 18, 2]
+num_heads: [4, 8, 16, 32]
+window_size: 14
+mlp_ratio: 3.9743830983106045
+drop_rate: 0.34336417044828577
+attn_drop_rate: 0.14595579820228424
+drop_path_rate: 0.21518327662320316
+learning_rate: 5.402953358008067e-05
+weight_decay: 9.479623672692854e-06
+batch_size: 16
+optimizer: Adam
+label_smoothing: 0.2
+factor: 1
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 22
+Trial 54: Test Accuracy = 0.3333
+[I 2025-06-06 16:54:15,413] Trial 54 finished with value: 0.3333333333333333 and parameters: {'embed_dim': 128, 'depths': [2, 2, 6, 2], 'num_heads': [4, 8, 16, 32], 'window_size': 14, 'mlp_ratio': 2.7272342251984054, 'drop_rate': 0.25871204592747804, 'attn_drop_rate': 0.04575191962146284, 'drop_path_rate': 0.10961316919945124, 'learning_rate': 0.00012022724045719432, 'weight_decay': 1.6146254891869876e-05}. Best is trial 33 with value: 0.4964517917701759.
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+  warnings.warn(message)
+Trial 57 hyperparameters:
+embed_dim: 96
+depths: [2, 2, 18, 2]
+num_heads: [4, 8, 16, 32]
+window_size: 14
+mlp_ratio: 2.83192092274233
+drop_rate: 0.3437464150608318
+attn_drop_rate: 0.3392729360942469
+drop_path_rate: 0.07763500776699002
+learning_rate: 5.476685477857763e-05
+weight_decay: 2.8759703561433017e-05
+batch_size: 16
+optimizer: Adam
+label_smoothing: 0.2
+factor: 1
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 22
+Trial 56: Test Accuracy = 0.3726
+[I 2025-06-06 17:49:34,869] Trial 56 finished with value: 0.3725892959032295 and parameters: {'embed_dim': 128, 'depths': [2, 2, 18, 2], 'num_heads': [4, 8, 16, 32], 'window_size': 14, 'mlp_ratio': 3.9743830983106045, 'drop_rate': 0.34336417044828577, 'attn_drop_rate': 0.14595579820228424, 'drop_path_rate': 0.21518327662320316, 'learning_rate': 5.402953358008067e-05, 'weight_decay': 9.479623672692854e-06}. Best is trial 33 with value: 0.4964517917701759.
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+  warnings.warn(message)
+Trial 58 hyperparameters:
+embed_dim: 96
+depths: [2, 2, 18, 2]
+num_heads: [4, 8, 16, 32]
+window_size: 14
+mlp_ratio: 2.80607503238143
+drop_rate: 0.4998887083375034
+attn_drop_rate: 0.3367488339393794
+drop_path_rate: 0.3121904438927141
+learning_rate: 2.70495268243236e-05
+weight_decay: 2.7221120731829698e-05
+batch_size: 16
+optimizer: Adam
+label_smoothing: 0.2
+factor: 1
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 12
+EarlyStopping counter: 4 out of 10
+Trial 58: Test Accuracy = 0.3747
+[I 2025-06-06 18:46:07,031] Trial 58 finished with value: 0.37472129319955405 and parameters: {'embed_dim': 96, 'depths': [2, 2, 18, 2], 'num_heads': [4, 8, 16, 32], 'window_size': 14, 'mlp_ratio': 2.80607503238143, 'drop_rate': 0.4998887083375034, 'attn_drop_rate': 0.3367488339393794, 'drop_path_rate': 0.3121904438927141, 'learning_rate': 2.70495268243236e-05, 'weight_decay': 2.7221120731829698e-05}. Best is trial 33 with value: 0.4964517917701759.
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+  warnings.warn(message)
+Trial 59 hyperparameters:
+embed_dim: 96
+depths: [2, 2, 18, 2]
+num_heads: [3, 6, 12, 24]
+window_size: 14
+mlp_ratio: 3.159731528516945
+drop_rate: 0.2929950446669149
+attn_drop_rate: 0.383351999544023
+drop_path_rate: 0.07876715641298604
+learning_rate: 3.95999390061298e-05
+weight_decay: 5.1459665938517814e-05
+batch_size: 16
+optimizer: Adam
+label_smoothing: 0.2
+factor: 1
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 37
+Trial 57: Test Accuracy = 0.4415
+[I 2025-06-06 19:18:22,576] Trial 57 finished with value: 0.44147376644809033 and parameters: {'embed_dim': 96, 'depths': [2, 2, 18, 2], 'num_heads': [4, 8, 16, 32], 'window_size': 14, 'mlp_ratio': 2.83192092274233, 'drop_rate': 0.3437464150608318, 'attn_drop_rate': 0.3392729360942469, 'drop_path_rate': 0.07763500776699002, 'learning_rate': 5.476685477857763e-05, 'weight_decay': 2.8759703561433017e-05}. Best is trial 33 with value: 0.4964517917701759.
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+  warnings.warn(message)
+Trial 60 hyperparameters:
+embed_dim: 96
+depths: [2, 2, 18, 2]
+num_heads: [3, 6, 12, 24]
+window_size: 14
+mlp_ratio: 3.137013405247577
+drop_rate: 0.30093290603784567
+attn_drop_rate: 0.3761388504319039
+drop_path_rate: 0.4065903983467871
+learning_rate: 3.7110385234002754e-05
+weight_decay: 4.897805083879679e-05
+batch_size: 16
+optimizer: Adam
+label_smoothing: 0.2
+factor: 1
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 25
+EarlyStopping counter: 7 out of 10
+Trial 59: Test Accuracy = 0.4325
+[I 2025-06-06 20:00:45,538] Trial 59 finished with value: 0.4325449076390535 and parameters: {'embed_dim': 96, 'depths': [2, 2, 18, 2], 'num_heads': [3, 6, 12, 24], 'window_size': 14, 'mlp_ratio': 3.159731528516945, 'drop_rate': 0.2929950446669149, 'attn_drop_rate': 0.383351999544023, 'drop_path_rate': 0.07876715641298604, 'learning_rate': 3.95999390061298e-05, 'weight_decay': 5.1459665938517814e-05}. Best is trial 33 with value: 0.4964517917701759.
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+  warnings.warn(message)
+Trial 61 hyperparameters:
+embed_dim: 128
+depths: [2, 2, 18, 2]
+num_heads: [4, 8, 16, 32]
+window_size: 14
+mlp_ratio: 2.9190772196591745
+drop_rate: 0.1069303755006987
+attn_drop_rate: 0.2878544746803423
+drop_path_rate: 0.046290403143993186
+learning_rate: 3.638427807289155e-05
+weight_decay: 0.00024343243624688833
+batch_size: 16
+optimizer: Adam
+label_smoothing: 0.2
+factor: 1
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 13
+Trial 60: Test Accuracy = 0.4853
+[I 2025-06-06 20:09:33,843] Trial 60 finished with value: 0.4852665782997861 and parameters: {'embed_dim': 96, 'depths': [2, 2, 18, 2], 'num_heads': [3, 6, 12, 24], 'window_size': 14, 'mlp_ratio': 3.137013405247577, 'drop_rate': 0.30093290603784567, 'attn_drop_rate': 0.3761388504319039, 'drop_path_rate': 0.4065903983467871, 'learning_rate': 3.7110385234002754e-05, 'weight_decay': 4.897805083879679e-05}. Best is trial 33 with value: 0.4964517917701759.
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+  warnings.warn(message)
+Trial 62 hyperparameters:
+embed_dim: 96
+depths: [2, 2, 18, 2]
+num_heads: [3, 6, 12, 24]
+window_size: 14
+mlp_ratio: 3.1242309874097938
+drop_rate: 0.23416989487754894
+attn_drop_rate: 0.42878279131229
+drop_path_rate: 0.42142663278874193
+learning_rate: 2.5066096207835085e-05
+weight_decay: 6.034138596187644e-05
+batch_size: 16
+optimizer: Adam
+label_smoothing: 0.2
+factor: 1
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 24
+Trial 61: Test Accuracy = 0.4322
+[I 2025-06-06 22:02:31,879] Trial 61 finished with value: 0.43222487030258344 and parameters: {'embed_dim': 128, 'depths': [2, 2, 18, 2], 'num_heads': [4, 8, 16, 32], 'window_size': 14, 'mlp_ratio': 2.9190772196591745, 'drop_rate': 0.1069303755006987, 'attn_drop_rate': 0.2878544746803423, 'drop_path_rate': 0.046290403143993186, 'learning_rate': 3.638427807289155e-05, 'weight_decay': 0.00024343243624688833}. Best is trial 33 with value: 0.4964517917701759.
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+  warnings.warn(message)
+Trial 63 hyperparameters:
+embed_dim: 96
+depths: [2, 2, 18, 2]
+num_heads: [3, 6, 12, 24]
+window_size: 14
+mlp_ratio: 3.0657683373348217
+drop_rate: 0.24271188599760468
+attn_drop_rate: 0.24610681885141744
+drop_path_rate: 0.4260809449101193
+learning_rate: 4.5905675800834505e-05
+weight_decay: 8.355374326216226e-05
+batch_size: 16
+optimizer: Adam
+label_smoothing: 0.2
+factor: 1
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 19
+Trial 62: Test Accuracy = 0.4137
+[I 2025-06-06 22:04:11,285] Trial 62 finished with value: 0.41374097677589633 and parameters: {'embed_dim': 96, 'depths': [2, 2, 18, 2], 'num_heads': [3, 6, 12, 24], 'window_size': 14, 'mlp_ratio': 3.1242309874097938, 'drop_rate': 0.23416989487754894, 'attn_drop_rate': 0.42878279131229, 'drop_path_rate': 0.42142663278874193, 'learning_rate': 2.5066096207835085e-05, 'weight_decay': 6.034138596187644e-05}. Best is trial 33 with value: 0.4964517917701759.
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+  warnings.warn(message)
+Trial 64 hyperparameters:
+embed_dim: 96
+depths: [2, 2, 18, 2]
+num_heads: [3, 6, 12, 24]
+window_size: 14
+mlp_ratio: 3.0769707211385446
+drop_rate: 0.3057069285959832
+attn_drop_rate: 0.25940714806031423
+drop_path_rate: 0.41046288036805006
+learning_rate: 4.924125110814876e-05
+weight_decay: 9.511897151395309e-05
+batch_size: 16
+optimizer: Adam
+label_smoothing: 0.2
+factor: 1
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 10
+Trial 64: Test Accuracy = 0.4509
+[I 2025-06-06 22:17:00,878] Trial 64 finished with value: 0.45089859168941676 and parameters: {'embed_dim': 96, 'depths': [2, 2, 18, 2], 'num_heads': [3, 6, 12, 24], 'window_size': 14, 'mlp_ratio': 3.0769707211385446, 'drop_rate': 0.3057069285959832, 'attn_drop_rate': 0.25940714806031423, 'drop_path_rate': 0.41046288036805006, 'learning_rate': 4.924125110814876e-05, 'weight_decay': 9.511897151395309e-05}. Best is trial 33 with value: 0.4964517917701759.
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+  warnings.warn(message)
+Trial 65 hyperparameters:
+embed_dim: 96
+depths: [2, 2, 18, 2]
+num_heads: [3, 6, 12, 24]
+window_size: 14
+mlp_ratio: 3.2397054331975266
+drop_rate: 0.14298512608866115
+attn_drop_rate: 0.07382414880064897
+drop_path_rate: 0.11616738429230128
+learning_rate: 6.49069429200925e-05
+weight_decay: 4.407140061409697e-05
+batch_size: 16
+optimizer: Adam
+label_smoothing: 0.2
+factor: 1
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 27
+EarlyStopping counter: 8 out of 10
+Trial 63: Test Accuracy = 0.4737
+[I 2025-06-06 22:39:40,491] Trial 63 finished with value: 0.4736775691500101 and parameters: {'embed_dim': 96, 'depths': [2, 2, 18, 2], 'num_heads': [3, 6, 12, 24], 'window_size': 14, 'mlp_ratio': 3.0657683373348217, 'drop_rate': 0.24271188599760468, 'attn_drop_rate': 0.24610681885141744, 'drop_path_rate': 0.4260809449101193, 'learning_rate': 4.5905675800834505e-05, 'weight_decay': 8.355374326216226e-05}. Best is trial 33 with value: 0.4964517917701759.
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+  warnings.warn(message)
+Trial 66 hyperparameters:
+embed_dim: 96
+depths: [2, 2, 18, 2]
+num_heads: [3, 6, 12, 24]
+window_size: 14
+mlp_ratio: 3.2605558593753705
+drop_rate: 0.26430328888409843
+attn_drop_rate: 0.30026086921496103
+drop_path_rate: 0.454144201789877
+learning_rate: 1.9692192974111314e-05
+weight_decay: 0.0007728330225847595
+batch_size: 16
+optimizer: Adam
+label_smoothing: 0.2
+factor: 1
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 16
+Trial 65: Test Accuracy = 0.4465
+[I 2025-06-06 22:41:37,716] Trial 65 finished with value: 0.4464645201122435 and parameters: {'embed_dim': 96, 'depths': [2, 2, 18, 2], 'num_heads': [3, 6, 12, 24], 'window_size': 14, 'mlp_ratio': 3.2397054331975266, 'drop_rate': 0.14298512608866115, 'attn_drop_rate': 0.07382414880064897, 'drop_path_rate': 0.11616738429230128, 'learning_rate': 6.49069429200925e-05, 'weight_decay': 4.407140061409697e-05}. Best is trial 33 with value: 0.4964517917701759.
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+  warnings.warn(message)
+Trial 67 hyperparameters:
+embed_dim: 96
+depths: [2, 2, 18, 2]
+num_heads: [4, 8, 16, 32]
+window_size: 14
+mlp_ratio: 3.911227316702141
+drop_rate: 0.2670861001398517
+attn_drop_rate: 0.10147914296475948
+drop_path_rate: 0.450819699594977
+learning_rate: 2.093790057734776e-05
+weight_decay: 0.0001792990873201232
+batch_size: 16
+optimizer: Adam
+label_smoothing: 0.2
+factor: 1
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 11
+Trial 66: Test Accuracy = 0.3957
+[I 2025-06-06 23:31:30,497] Trial 66 finished with value: 0.3956707543664065 and parameters: {'embed_dim': 96, 'depths': [2, 2, 18, 2], 'num_heads': [3, 6, 12, 24], 'window_size': 14, 'mlp_ratio': 3.2605558593753705, 'drop_rate': 0.26430328888409843, 'attn_drop_rate': 0.30026086921496103, 'drop_path_rate': 0.454144201789877, 'learning_rate': 1.9692192974111314e-05, 'weight_decay': 0.0007728330225847595}. Best is trial 33 with value: 0.4964517917701759.
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+  warnings.warn(message)
+Trial 68 hyperparameters:
+embed_dim: 96
+depths: [2, 2, 18, 2]
+num_heads: [4, 8, 16, 32]
+window_size: 14
+mlp_ratio: 3.4349163476226434
+drop_rate: 0.3616991067234075
+attn_drop_rate: 0.10935335996125803
+drop_path_rate: 0.39189029264185427
+learning_rate: 0.00013818727417202564
+weight_decay: 0.0001693202931578571
+batch_size: 16
+optimizer: Adam
+label_smoothing: 0.2
+factor: 1
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 13
+Trial 67: Test Accuracy = 0.4553
+[I 2025-06-06 23:49:50,520] Trial 67 finished with value: 0.4553169357174835 and parameters: {'embed_dim': 96, 'depths': [2, 2, 18, 2], 'num_heads': [4, 8, 16, 32], 'window_size': 14, 'mlp_ratio': 3.911227316702141, 'drop_rate': 0.2670861001398517, 'attn_drop_rate': 0.10147914296475948, 'drop_path_rate': 0.450819699594977, 'learning_rate': 2.093790057734776e-05, 'weight_decay': 0.0001792990873201232}. Best is trial 33 with value: 0.4964517917701759.
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+  warnings.warn(message)
+Trial 69 hyperparameters:
+embed_dim: 96
+depths: [2, 2, 6, 2]
+num_heads: [4, 8, 16, 32]
+window_size: 14
+mlp_ratio: 3.433638266411311
+drop_rate: 0.4218958801590856
+attn_drop_rate: 0.3776183350558445
+drop_path_rate: 0.3529054156596446
+learning_rate: 3.0416073438207106e-05
+weight_decay: 0.0004545112481968264
+batch_size: 16
+optimizer: Adam
+label_smoothing: 0.2
+factor: 1
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 10
+Trial 68: Test Accuracy = 0.3333
+[I 2025-06-07 00:01:55,232] Trial 68 finished with value: 0.3333333333333333 and parameters: {'embed_dim': 96, 'depths': [2, 2, 18, 2], 'num_heads': [4, 8, 16, 32], 'window_size': 14, 'mlp_ratio': 3.4349163476226434, 'drop_rate': 0.3616991067234075, 'attn_drop_rate': 0.10935335996125803, 'drop_path_rate': 0.39189029264185427, 'learning_rate': 0.00013818727417202564, 'weight_decay': 0.0001693202931578571}. Best is trial 33 with value: 0.4964517917701759.
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+  warnings.warn(message)
+Trial 70 hyperparameters:
+embed_dim: 128
+depths: [2, 2, 6, 2]
+num_heads: [4, 8, 16, 32]
+window_size: 14
+mlp_ratio: 3.424693400653826
+drop_rate: 0.4170366677153604
+attn_drop_rate: 0.4213311234287121
+drop_path_rate: 0.35693896121334195
+learning_rate: 3.0368691994515056e-05
+weight_decay: 0.00040713435752737264
+batch_size: 16
+optimizer: Adam
+label_smoothing: 0.2
+factor: 1
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 2 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 3 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 4 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 5 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 6 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 7 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 8 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 9 out of 10
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 17
+EarlyStopping counter: 10 out of 10
+Early stopping at epoch 12
+Trial 69: Test Accuracy = 0.4499
+[I 2025-06-07 00:21:33,574] Trial 69 finished with value: 0.44992677545741566 and parameters: {'embed_dim': 96, 'depths': [2, 2, 6, 2], 'num_heads': [4, 8, 16, 32], 'window_size': 14, 'mlp_ratio': 3.433638266411311, 'drop_rate': 0.4218958801590856, 'attn_drop_rate': 0.3776183350558445, 'drop_path_rate': 0.3529054156596446, 'learning_rate': 3.0416073438207106e-05, 'weight_decay': 0.0004545112481968264}. Best is trial 33 with value: 0.4964517917701759.
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+  warnings.warn(message)
+Trial 71 hyperparameters:
+embed_dim: 128
+depths: [2, 2, 18, 2]
+num_heads: [4, 8, 16, 32]
+window_size: 14
+mlp_ratio: 3.584414276485355
+drop_rate: 0.28592894338414465
+attn_drop_rate: 0.025588131102634915
+drop_path_rate: 0.18061670021690848
+learning_rate: 3.4118146633567926e-05
+weight_decay: 0.00032365344851520905
+batch_size: 16
+optimizer: Adam
+label_smoothing: 0.2
+factor: 1
+[I 2025-06-07 00:21:40,138] Trial 70 finished with value: 0.41141768859160166 and parameters: {'embed_dim': 128, 'depths': [2, 2, 6, 2], 'num_heads': [4, 8, 16, 32], 'window_size': 14, 'mlp_ratio': 3.424693400653826, 'drop_rate': 0.4170366677153604, 'attn_drop_rate': 0.4213311234287121, 'drop_path_rate': 0.35693896121334195, 'learning_rate': 3.0368691994515056e-05, 'weight_decay': 0.00040713435752737264}. Best is trial 33 with value: 0.4964517917701759.
+Trial 70: Test Accuracy = 0.4114
+Trial 72 hyperparameters:
+embed_dim: 96
+depths: [2, 2, 18, 2]
+num_heads: [3, 6, 12, 24]
+window_size: 14
+mlp_ratio: 3.0237692010905524
+drop_rate: 0.24366988902153794
+attn_drop_rate: 0.2434018694035199
+drop_path_rate: 0.243552650057094
+learning_rate: 4.5084871415656726e-05
+weight_decay: 0.00010122739800882476
+batch_size: 16
+optimizer: Adam
+label_smoothing: 0.2
+factor: 1
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 6, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [2, 2, 18, 2] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [3, 6, 12, 24] which is of type list.
+  warnings.warn(message)
+c:\Users\Gabriel\anaconda3\envs\cudaenv\Lib\site-packages\optuna\distributions.py:515: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains [4, 8, 16, 32] which is of type list.
+  warnings.warn(message)
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
