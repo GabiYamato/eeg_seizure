@@ -3,6 +3,19 @@
 Github repo by Ryan Gabriel.  
 Credits to Noor-Al-Shawa, Dr Jac Fredo A.R. from IIT BHU school of biomedical engineering.
 
+
+#gradcam maps:
+
+| 0-0 | 0-1 |
+| --- | --- |
+| ![0-0](WhatsApp Image 2025-11-09 at 10.04.49.jpeg) | ![0-1](WhatsApp Image 2025-11-09 at 10.04.49 (1).jpeg) |
+
+| 1-0 | 1-1 |
+| --- | --- |
+| ![1-0](WhatsApp Image 2025-11-09 at 10.04.49 (2).jpeg) | ![1-1](WhatsApp Image 2025-11-09 at 10.04.49 (3).jpeg) |
+
+
+
 ## Overview
 
 This repository contains code and notebooks for EEG seizure detection using various deep learning models. The project focuses on analyzing EEG spectrograms (MEL, CWT, STFT) to classify seizure events. It includes hyperparameter optimization using Optuna, model training notebooks for different architectures (LSTM, Transformers, Vision Transformers, Swin Transformers, Transformer-CNN hybrids, EEGNet), and visualization tools for interpretability (e.g., saliency maps, Grad-CAM).
