@@ -8,11 +8,11 @@ Credits to Noor-Al-Shawa, Dr Jac Fredo A.R. from IIT BHU school of biomedical en
 
 | 0-0 | 0-1 |
 | --- | --- |
-| ![0-0](WhatsApp Image 2025-11-09 at 10.04.49.jpeg) | ![0-1](WhatsApp Image 2025-11-09 at 10.04.49 (1).jpeg) |
+| [![0-0](WhatsApp Image 2025-11-09 at 10.04.49.jpeg)](https://github.com/GabiYamato/eeg_seizure/blob/main/WhatsApp%20Image%202025-11-09%20at%2010.04.49.jpeg) | [![0-1](WhatsApp Image 2025-11-09 at 10.04.49 (1).jpeg)](https://github.com/GabiYamato/eeg_seizure/blob/main/WhatsApp%20Image%202025-11-09%20at%2010.04.49%20(1).jpeg) |
 
 | 1-0 | 1-1 |
 | --- | --- |
-| ![1-0](WhatsApp Image 2025-11-09 at 10.04.49 (2).jpeg) | ![1-1](WhatsApp Image 2025-11-09 at 10.04.49 (3).jpeg) |
+| [![1-0](WhatsApp Image 2025-11-09 at 10.04.49 (2).jpeg)](https://github.com/GabiYamato/eeg_seizure/blob/main/WhatsApp%20Image%202025-11-09%20at%2010.04.49%20(2).jpeg) | [![1-1](WhatsApp Image 2025-11-09 at 10.04.49 (3).jpeg)](https://github.com/GabiYamato/eeg_seizure/blob/main/WhatsApp%20Image%202025-11-09%20at%2010.04.49%20(3).jpeg) |
 
 
 
