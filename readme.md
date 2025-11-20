@@ -16,6 +16,13 @@ This repository contains code and notebooks for EEG seizure detection using vari
 
 The repository is structured to support both 2-class and 3-class classification tasks, with cross-validation across multiple folds. Models are trained on preprocessed EEG data stored in numpy arrays and pickle files.
 
+## Sample EEG Spectrograms
+
+<img src="images/eeg_spectrogram_1.jpeg" alt="EEG Spectrogram 1" width="400"/>
+<img src="images/eeg_spectrogram_2.jpeg" alt="EEG Spectrogram 2" width="400"/>
+<img src="images/eeg_spectrogram_3.jpeg" alt="EEG Spectrogram 3" width="400"/>
+<img src="images/eeg_spectrogram_4.jpeg" alt="EEG Spectrogram 4" width="400"/>
+
 ## Data
 The notebooks load data from external paths (e.g., D:\PYTHONIG\newwindow\numpy\ORIGINAL DATA\MEL), which include numpy arrays for EEG folds (eeg_fold_1.npy to eeg_fold_5.npy), labels, and patient IDs. Data is preprocessed into spectrograms.
 
