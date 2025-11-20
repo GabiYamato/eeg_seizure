@@ -8,11 +8,11 @@ Credits to Noor-Al-Shawa, Dr Jac Fredo A.R. from IIT BHU school of biomedical en
 
 | 0-0 | 0-1 |
 | --- | --- |
-| [![0-0](WhatsApp Image 2025-11-09 at 10.04.49.jpeg)](https://github.com/GabiYamato/eeg_seizure/blob/main/WhatsApp%20Image%202025-11-09%20at%2010.04.49.jpeg) | [![0-1](WhatsApp Image 2025-11-09 at 10.04.49 (1).jpeg)](https://github.com/GabiYamato/eeg_seizure/blob/main/WhatsApp%20Image%202025-11-09%20at%2010.04.49%20(1).jpeg) |
+| [![0-0](images/eeg_spectrogram_1.jpeg)](https://github.com/GabiYamato/eeg_seizure/blob/main/images/eeg_spectrogram_1.jpeg) | [![0-1](images/eeg_spectrogram_2.jpeg)](https://github.com/GabiYamato/eeg_seizure/blob/main/images/eeg_spectrogram_2.jpeg) |
 
 | 1-0 | 1-1 |
 | --- | --- |
-| [![1-0](WhatsApp Image 2025-11-09 at 10.04.49 (2).jpeg)](https://github.com/GabiYamato/eeg_seizure/blob/main/WhatsApp%20Image%202025-11-09%20at%2010.04.49%20(2).jpeg) | [![1-1](WhatsApp Image 2025-11-09 at 10.04.49 (3).jpeg)](https://github.com/GabiYamato/eeg_seizure/blob/main/WhatsApp%20Image%202025-11-09%20at%2010.04.49%20(3).jpeg) |
+| [![1-0](images/eeg_spectrogram_3.jpeg)](https://github.com/GabiYamato/eeg_seizure/blob/main/images/eeg_spectrogram_3.jpeg) | [![1-1](images/eeg_spectrogram_4.jpeg)](https://github.com/GabiYamato/eeg_seizure/blob/main/images/eeg_spectrogram_4.jpeg) |
 
 
 
@@ -21,6 +21,13 @@ Credits to Noor-Al-Shawa, Dr Jac Fredo A.R. from IIT BHU school of biomedical en
 This repository contains code and notebooks for EEG seizure detection using various deep learning models. The project focuses on analyzing EEG spectrograms (MEL, CWT, STFT) to classify seizure events. It includes hyperparameter optimization using Optuna, model training notebooks for different architectures (LSTM, Transformers, Vision Transformers, Swin Transformers, Transformer-CNN hybrids, EEGNet), and visualization tools for interpretability (e.g., saliency maps, Grad-CAM).
 
 The repository is structured to support both 2-class and 3-class classification tasks, with cross-validation across multiple folds. Models are trained on preprocessed EEG data stored in numpy arrays and pickle files.
+
+## Sample EEG Spectrograms
+
+<img src="images/eeg_spectrogram_1.jpeg" alt="EEG Spectrogram 1" width="400"/>
+<img src="images/eeg_spectrogram_2.jpeg" alt="EEG Spectrogram 2" width="400"/>
+<img src="images/eeg_spectrogram_3.jpeg" alt="EEG Spectrogram 3" width="400"/>
+<img src="images/eeg_spectrogram_4.jpeg" alt="EEG Spectrogram 4" width="400"/>
 
 ## Data
 The notebooks load data from external paths (e.g., D:\PYTHONIG\newwindow\numpy\ORIGINAL DATA\MEL), which include numpy arrays for EEG folds (eeg_fold_1.npy to eeg_fold_5.npy), labels, and patient IDs. Data is preprocessed into spectrograms.
