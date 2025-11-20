@@ -3,18 +3,12 @@
 Github repo by Ryan Gabriel.  
 Credits to Noor-Al-Shawa, Dr Jac Fredo A.R. from IIT BHU school of biomedical engineering.
 
+## Gradcam Maps
 
-#gradcam maps:
-
-| 0-0 | 0-1 |
-| --- | --- |
-| [![0-0](images/eeg_spectrogram_1.jpeg)](https://github.com/GabiYamato/eeg_seizure/blob/main/images/eeg_spectrogram_1.jpeg) | [![0-1](images/eeg_spectrogram_2.jpeg)](https://github.com/GabiYamato/eeg_seizure/blob/main/images/eeg_spectrogram_2.jpeg) |
-
-| 1-0 | 1-1 |
-| --- | --- |
-| [![1-0](images/eeg_spectrogram_3.jpeg)](https://github.com/GabiYamato/eeg_seizure/blob/main/images/eeg_spectrogram_3.jpeg) | [![1-1](images/eeg_spectrogram_4.jpeg)](https://github.com/GabiYamato/eeg_seizure/blob/main/images/eeg_spectrogram_4.jpeg) |
-
-
+![0-0](images/eeg_spectrogram_1.jpeg)
+![0-1](images/eeg_spectrogram_2.jpeg)
+![1-0](images/eeg_spectrogram_3.jpeg)
+![1-1](images/eeg_spectrogram_4.jpeg)
 
 ## Overview
 
